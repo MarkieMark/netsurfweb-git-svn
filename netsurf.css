@@ -22,6 +22,7 @@ div.links { display: table-cell; border-left: thin solid black; }
 .updated { margin: -4mm 5mm 1mm 5mm; text-align: right; }
 .iconinfo { clear: left; }
 .headnote { color: #777; font-style: italic; }
+.note { width: 80%; background-color: #d2ffd2; padding: 0.8em; border: 4px ridge #d2ffd2; margin-left: auto; margin-right: auto; }
 
 th { font-weight: bold; padding: 3px; text-align: left; }
 td { padding: 3px; }
@@ -51,6 +52,12 @@ td { padding: 3px; }
 .themeinstall a { color: #0b0; }
 
 .download tr { border-bottom: thin solid #bbb; }
+
+.toolbarsprites { font-size: 90%; display: table-cell; padding: 0 0 0 5mm; vertical-align: top; }
+.toolbarsprites th, .toolbarsprites td { padding: 1px 6px 1px 0; }
+.toolbarsprites th[colspan] { text-align: center; }
+.toolbarsprites + .toolbarsprites { border-left: thin solid black; }
+.toolbarsprites + p { margin-top: 5mm; }
 
 .changelog p { margin-top: 0.2em; margin-bottom: 0em; }
 .entry + .entry .meta { border-top: thin solid #bbb; padding-top: 0.2em;  }
