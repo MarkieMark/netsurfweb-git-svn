@@ -8,7 +8,7 @@
 <body>
 <p class="banner"><a href="/"><img src="netsurf.png" alt="NetSurf"></a></p>
 
-<h1>NetSurf Progress</h1>
+<h1>Development Progress</h1>
 
 <p>This page has been constructed to give users an indication as to which features have been implemented and what is being worked on. For more specific information, please refer to the <a href="http://cvs.semichrome.net/netsurf/Docs/">TODO lists</a>. Features are split up as follows:</p>
 
