@@ -20,7 +20,7 @@
 <li><a href="progress#NSF">NetSurf features</a>
 </ul>
 
-<p class="updated">Last updated 13 May 2004</p>
+<p class="updated">Last updated 2 June 2004</p>
 
 <h2 id="web">Web standards</h2>
 
@@ -91,7 +91,7 @@
 <tr class="complete"><td>Save Complete</td><td>Complete</td><td>Save pages with CSS files and images.</td></tr>
 <tr class="complete"><td>Save Location</td><td>Complete</td><td>Save the location of the current page / object in Acorn URI, Ant URL or plain text formats.</td></tr>
 <tr class="inprogress"><td>Save as Text</td><td>In progress</td><td>Some issues with spacing out of text.</td></tr>
-<tr class="inprogress"><td>Scale View</td><td>In progress</td><td>Following links at anything other than 100% causes the new page to be laid out at the wrong width.<br>Doesn't work with textual input form elements.</td></tr>
+<tr class="inprogress"><td>Scale View</td><td>In progress</td><td>Following links at anything other than 100% causes the new page to be laid out at the wrong width.<br>Doesn't work with form elements.</td></tr>
 <tr class="notstarted"><td>Search Text</td><td>Not started</td><td></td></tr>
 <tr class="notstarted"><td>Stop Fetch</td><td>Not started</td><td></td></tr>
 <tr class="notstarted"><td>Text Selection</td><td>Not started</td><td></td></tr>
