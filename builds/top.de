@@ -8,7 +8,7 @@
 
 <body>
 <p class="banner"><a href="/"><img src="/netsurf.png" alt="NetSurf"></a></p>
-<p class="languages">Deutsch · <a href="index.en">English</a></p>
+<p class="languages">Deutsch · <a href="index.en">English</a> · <a href="index.fr">Français</a></p>
 
 <h1>NetSurf Testversionen</h1>
 
@@ -35,7 +35,7 @@
 <tr><th><a href="dl/nstheme.zip"><img src="nstheme.png" alt=""><br>NSTheme</a></th>
 <td>SIZE_NSTHEME</td>
 <td>DATE_NSTHEME</td>
-<td>Zum Erstellen von Themen für NetSurf. Wird nur von Designern neuer Themen benötigt.</tr>
+<td>Zum Erstellen von Themen für NetSurf. Wird nur von Designern neuer Themen benötigt.</td></tr>
 </table>
 
 <p>Eine <a href="http://www.riscpkg.org/">RiscPkg</a> Paketversion von NetSurf ist verfügbar. Um sie zu verwenden, muß die Zeile <code>pkg http://netsurf.sourceforge.net/builds/packages</code> in die Datei <code>!RiscPkg.Resources.Sources</code> eingefügt werden. Näheres dazu steht in der RiscPkg Dokumentation.</p>
