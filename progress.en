@@ -59,7 +59,7 @@
 <tr class="complete"><td>GIF</td><td>Complete</td><td></td></tr>
 <tr class="complete"><td>JPEG</td><td>Complete</td><td></td></tr>
 <tr class="notstarted"><td>MNG</td><td>Not started</td><td></td></tr>
-<tr class="complete"><td>PNG</td><td>Complete</td><td>Doesn't cope with broken files.</td></tr>
+<tr class="complete"><td>PNG</td><td>Complete</td><td></td></tr>
 <tr class="complete"><td>Sprite</td><td>Complete</td><td></td></tr>
 </table>
 
