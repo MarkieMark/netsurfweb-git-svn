@@ -51,52 +51,52 @@ the look and feel of the program.</p>
 icons don't do anything yet.  In such situations, the following text describes
 what the icon will do, when the associated feature has been implemented.</p>
 
-<p><strong>URL Bar:</strong> The white writable icon on the toolbar is called
+<p class="iconinfo"><strong>URL Bar:</strong> The white writable icon on the toolbar is called
 the URL Bar and it shows the location of the current page.  Here, you can enter
 the address of the page you want to view next.</p>
 
-<p><strong>Status Line:</strong> This text displays information to the user.
+<p class="iconinfo"><strong>Status Line:</strong> This text displays information to the user.
 When you move the pointer over a link, this will show the URL that the link
 points to.  The status line also displays information about NetSurf's progress
 while retrieving a page.</p>
 
-<p><strong>Throbber:</strong> This NetSurf logo animates while a page is
+<p class="iconinfo"><strong>Throbber:</strong> This NetSurf logo animates while a page is
 downloading or rendering.  It indicates that NetSurf is doing something.</p>
 
-<p><strong><img src="images/back" alt="Back" class="icon"></strong>
+<p class="iconinfo"><strong><img src="images/back" alt="Back" class="icon"></strong>
 Clicking on this button makes NetSurf go back to the previous page in the
 history list. If you followed a link from one page to another, this button
 allows you to get back to the first page.  Select click to view the previous
 page in the current window.  Adjust click to view it in a new window.</p>
 
-<p><strong><img src="images/mark" alt="Bookmark" class="icon"></strong>
+<p class="iconinfo"><strong><img src="images/mark" alt="Bookmark" class="icon"></strong>
 Select clicking on this button adds the current location to the bookmarks or
 favourites.  Adjust clicking opens the bookmarks window.</p>
 
-<p><strong><img src="images/forward" alt="Forward" class="icon"></strong>
+<p class="iconinfo"><strong><img src="images/forward" alt="Forward" class="icon"></strong>
 Clicking on this button allows you to advance through the history list.  Select
 click to view the next page in the current window.  Adjust click to view it in a
 new window.</p>
 
-<p><strong><img src="images/history" alt="History" class="icon"></strong>
+<p class="iconinfo"><strong><img src="images/history" alt="History" class="icon"></strong>
 Clicking on this button opens a window containing a history tree.  Clicking on
 an item in this window will move to the relevant page in the history.</p>
 
-<p><strong><img src="images/home" alt="Home" class="icon"></strong>
+<p class="iconinfo"><strong><img src="images/home" alt="Home" class="icon"></strong>
 Clicking on this button returns to the configured home page.</p>
 
-<p><strong><img src="images/print" alt="Print" class="icon"></strong>
+<p class="iconinfo"><strong><img src="images/print" alt="Print" class="icon"></strong>
 Clicking on this button will print the current page.</p>
 
-<p><strong><img src="images/reload" alt="Reload" class="icon"></strong>
+<p class="iconinfo"><strong><img src="images/reload" alt="Reload" class="icon"></strong>
 Clicking on this button will make NetSurf fetch and redraw the current page
 again.</p>
 
-<p><strong><img src="images/save" alt="Save" class="icon"></strong>
+<p class="iconinfo"><strong><img src="images/save" alt="Save" class="icon"></strong>
 Clicking on this button will open a save dialogue box, to allow you to save the
 page for future reference.</p>
 
-<p><strong><img src="images/stop" alt="Stop" class="icon"></strong>
+<p class="iconinfo"><strong><img src="images/stop" alt="Stop" class="icon"></strong>
 Clicking on this button stops whatever process that window is doing.</p>
 
 <p>Buttons that are greyed out indicate that their function is unavailable.
