@@ -10,6 +10,8 @@
 <p class="banner"><a href="/"><img src="netsurf.png" alt="NetSurf"></a></p>
 <p class="languages"><a href="info.de">Deutsch</a> · <a href="info.en">English</a> · français</p>
 
+<p class="headnote">Remarque: La traduction française n'est pas à jour, lisez plutôt la documentation anglaise ou allemande.</p>
+
 <h1>Information Utilisateur</h1>
 
 <ul>
