@@ -10,7 +10,7 @@
 <p class="banner"><a href="/"><img src="netsurf.png" alt="NetSurf"></a></p>
 <p class="languages"><a href="guide.de">Deutsch</a> · English</p>
 
-<p class="headnote">NetSurf is progressing quickly but is still at an early stage of development. As such, the features described below are subject to change without warning.</p>
+<p class="headnote">As NetSurf is under constant development the features described below are subject to change without warning.</p>
 
 <h1>User Guide</h1>
 
@@ -36,7 +36,7 @@
 <li><a href="#Keys">Keyboard shortcuts</a></li>
 </ul>
 
-<p class="updated">Last updated 15 December 2004</p>
+<p class="updated">Last updated 4 February 2004</p>
 
 <h2 id="UsingNetSurf">Using NetSurf</h2>
 
@@ -44,7 +44,7 @@
 
 <h3>Iconbar Menu</h3>
 
-<p>The iconbar menu provides options which concern the application as a whole.</p>
+<p>The iconbar menu contains options which concern the application as a whole.</p>
 
 <table class="menu">
 <tr><th class="menutitle" colspan="2">NetSurf</th></tr>
@@ -88,8 +88,6 @@
 
 <h3>Toolbar Icons</h3>
 
-<p>As NetSurf is in development, some of these icons don't do anything or even exist yet. In such situations, the following text describes what the icon will do, when the associated feature has been implemented.</p>
-
 <p class="iconinfo"><strong><img src="images/back" alt="Back" title="Back Button" class="icon"></strong> Clicking on this button makes NetSurf go back to the previous page in the local history list. Select click to view the previous page in the current window. Adjust click to view it in a new window. Form information is not resubmitted.</p>
 
 <p class="iconinfo"><strong><img src="images/forward" class="icon" alt="Forward" title="Forward Button"></strong> Clicking on this button allows you to advance through the local history list. Select click to view the next page in the current window. Adjust click to view it in a new window. Form information is not resubmitted.</p>
@@ -112,7 +110,7 @@
 
 <p class="iconinfo"><strong><img src="images/stop" class="icon" alt="Stop" title="Stop Button"></strong> Clicking on this button stops whatever process the window is doing.</p>
 
-<p class="iconinfo"><strong><img src="images/up" class="icon" alt="Up" title="Up Button"></strong> Clicking on this button moves up the directory tree. For example, if you are looking at <em>http://www.domain.com/directory/page.html</em>, clicking on the up icon takes you to <em>http://www.domain.com/directory/</em> and a further click would result in a location of <em>http://www.domain.com/</em>.</p>
+<!-- <p class="iconinfo"><strong><img src="images/up" class="icon" alt="Up" title="Up Button"></strong> Clicking on this button moves up the directory tree. For example, if you are looking at <em>http://www.domain.com/directory/page.html</em>, clicking on the up icon takes you to <em>http://www.domain.com/directory/</em> and a further click would result in a location of <em>http://www.domain.com/</em>.</p> -->
 
 <p>Icons that are greyed out indicate that their function is unavailable. This happens when a new browser window is first opened. Since the window will be displaying its first page, there would be no previous page and the back button is grayed out. Also, as this is the first page, the forward button is also grayed out.</p>
 
@@ -121,6 +119,10 @@
 <h3 id="BrowserWindowURLBar">URL Bar</h3>
 
 <p>The white writable icon on the toolbar is called the URL Bar and it shows the location of the current page. Here, you can enter the address of the page you want to view next.</p>
+
+<h4 id="BrowserWindowURLCompletion">URL Completion</h4>
+
+<p>When typing into the URL bar, NetSurf opens a window below displaying suggestions for the full address. If the address you want is not shown, the box can be ignored. If the intended address is shown, select clicking on it will complete the address and open the page automatically. An adjust click on a URL copies it into the URL but does not load the page. The Up and Down cursor keys can be used to select an address from the list and the Return key opens the page. Escape closes the URL completion window. The function of other keys in the URL bar, such as the Left and Right cursor keys, is unaffected by this feature.</p>
 
 <h3 id="BrowserWindowStatusBar">Status Bar</h3>
 
@@ -363,7 +365,7 @@
 <p class="menuitem">This option buffers anything that NetSurf forces to be redrawn, other than redrawing a part of the window which has been obscured. Things like text areas, which are redrawn after typing, and animations are buffered. This has the effect of stopping these items from flickering.</p>
 
 <p class="menupath" id="BrowserWindowMenuDisplayRenderBufferAll">Display &gt; Render &gt; Buffer all rendering</p>
-<p class="menuitem">This option buffers everything, from the moment NetSurf starts drawing to the moment it finishes. Buffering all rendering is advantageous when pages consist of many boxes with different background colours on top of each other, as it only draws the page once, rather than building it up in layers. In addition, the display of pages which make heavy use of background images can be improved by enabling this option. Buffer all rendering is configured off by default as it slows down rendering, which makes scrolling pages much slower.</p>
+<p class="menuitem">This option is highly advantageous on complex pages because it only draws the page once, rather than building it up in layers. In use its effect is to stop the flicker caused by gradual redraw of pages, for example when resizing or scrolling a window, and present a more pleasant browsing experience. Buffer all rendering is configured off by default as it is best suited to fast hardware, such as the Iyonix.</p>
 
 <p class="menupath" id="BrowserWindowMenuDisplaySetDefault">Display &gt; Set as default</p>
 <p class="menuitem">This option makes NetSurf use the display options you have set up for the current window as the default options.</p>
@@ -454,24 +456,28 @@
 
 <h2 id="FileTypes">File Types</h2>
 
-<p>When NetSurf encounters a file type it does not recognise, it opens a <a href="#DownloadWindow">download window</a> to allow the file to be saved to disc. The file types that NetSurf understands are listed below, with their RISC OS file type and MIME type(s).</p>
+<p>When NetSurf encounters a file type it does not recognise, it opens a <a href="#DownloadWindow">download window</a> to allow the file to be saved to disc. (Note, NetSurf ignores local files of unrecognised file types.) The file types that NetSurf understands are listed below, with their RISC OS file type and MIME type(s) .</p>
 
 <table>
 <tr><th>Name</th><th>Type</th><th>MIME type(s)</th></tr>
+<tr><td>Acorn URI</td><td>&amp;f91</td><td><abbr title="Not Applicable">N/A</abbr></td></tr>
+<tr><td>ANT URL</td><td>&amp;b28</td><td><abbr title="Not Applicable">N/A</abbr></td></tr>
 <tr><td>CSS</td><td>&amp;f79</td><td>text/css</td></tr>
 <tr><td>Drawfile</td><td>&amp;aff</td><td>application/drawfile<br>application/x-drawfile<br>image/drawfile<br>image/x-drawfile</td></tr>
 <tr><td>Flash</td><td>&amp;188</td><td>application/x-shockwave-flash</td></tr>
 <tr><td>GIF</td><td>&amp;695</td><td>image/gif</td></tr>
 <tr><td>HTML</td><td>&amp;faf</td><td>text/html</td></tr>
+<tr><td>IEURL</td><td>&amp;1ba</td><td><abbr title="Not Applicable">N/A</abbr></td></tr>
 <tr><td>JNG</td><td>&amp;f78</td><td>image/jng<br>image/x-jng</td></tr>
 <tr><td>JPEG</td><td>&amp;c85</td><td>image/jpeg<br>image/pjpeg</td></tr>
 <tr><td>MNG</td><td>&amp;f83</td><td>image/mng<br>image/x-mng<br>video/mng<br>video/x-mng</td></tr>
+<tr><td>NetSurf Theme</td><td><abbr title="Not Applicable">N/A</abbr></td><td>application/x-netsurf-theme</td></tr>
 <tr><td>PNG</td><td>&amp;b60</td><td>image/png</td></tr>
 <tr><td>Sprite</td><td>&amp;ff9</td><td>image/x-riscos-sprite</td></tr>
 <tr><td>Text</td><td>&amp;fff</td><td>text/plain</td></tr>
 </table>
 
-<p>Flash files are not handled by NetSurf directly and are displayed by an <a href="info#GettingStartedAdditionalResources">external plugin</a>.</p>
+<p>Flash files are not handled by NetSurf directly but are displayed by an <a href="info#GettingStartedAdditionalResources">external plugin</a>.</p>
 
 <p>NetSurf recognises different file types by their RISC OS file type for local files and by their content-type header for files sourced from the internet. Files are not identified by their extension or content. This means that for a file to be displayed, servers must be configured to send the correct content-type header and local files must have the correct RISC OS file type set.</p>
 
@@ -513,7 +519,21 @@
 
 <h3 id="HotlistToolbar">Toolbar</h3>
 
-<p>Not written yet.</p>
+<p>The hotlist toolbar allows quick access to various commonly used features. More functions are available through the <a href="#HotlistMenus">menus</a>.</p>
+
+<h3>Toolbar Icons</h3>
+
+<p class="iconinfo"><strong><img src="images/create" alt="Create Directory" title="Create Directory Button" class="icon"></strong> Clicking on this button adds a new directory to the bottom of the hotlist. The cursor is placed at the name of the new directory. Either type Ctrl-U and rename it or press Return to accept the default name.</p>
+
+<p class="iconinfo"><strong><img src="images/delete" class="icon" alt="Delete Selection" title="Delete Selection Button"></strong> Clicking on this button deletes any selected directories or addresses from the hotlist.</p>
+
+<p class="iconinfo"><strong><img src="images/expand" class="icon" alt="Expand Addresses" title="Expand Addresses Button"></strong> Select clicking on this button expands any addresses that are being shown to display additional information about each one. Adjust clicking hides the additional information for any expanded addresses.</p>
+
+<p class="iconinfo"><strong><img src="images/launch" class="icon" alt="Launch Selection" title="Launch Selection Button"></strong> Clicking on this button launches all selected addresses in separate <a href="#BrowserWindow">browser windows</a>. If a directory is selected and addresses it contains will be launched.</p>
+
+<p class="iconinfo"><strong><img src="images/open" class="icon" alt="Open Directories" title="Open Directories Button"></strong> Select clicking on this button opens every directory in the hotlist. Adjust clicking closes any open directories.</p>
+
+<p>Icons that are greyed out indicate that their function is unavailable.</p>
 
 <h3 id="HotlistMenus">Menus</h3>
 
@@ -706,7 +726,7 @@
 </dl>
 </dd>
 <dt>Use ufont technology</dt>
-<dd>Ufont provides provides unicode font support for computers without the unicode font manager. This requires Ufont and a composite font which provides suitable glyphs.</dd>
+<dd>Ufont provides unicode font support for computers without the unicode font manager. This requires Ufont and a composite font which provides suitable glyphs.</dd>
 </dl>
 
 <h3 id="ConfigurationImages">Images</h3>

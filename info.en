@@ -26,13 +26,13 @@
 <li><a href="#JavaScript">JavaScript</a></li>
 </ul>
 
-<p class="updated">Last updated 15 December 2004</p>
+<p class="updated">Last updated 4 February 2005</p>
 
 <h2 id="GettingStarted">Getting started</h2>
 
 <h3 id="GettingStartedInstallation">Installation</h3>
 
-<p>NetSurf requires RISC OS 3 or later and builds are available from the project's <a href="http://netsurf.sourceforge.net/">website</a>. There are three builds available. For most users, the &quot;NetSurf&quot; build is recommended. The &quot;NetSurf small build&quot; lacks some features of the main build and is intended for systems with little memory. The &quot;NCNetSurf&quot; build is intended only for users of NetComputers (NCs).</p>
+<p>NetSurf requires RISC OS 3 or later and builds are available from the project's <a href="http://netsurf.sourceforge.net/">web site</a>. There are three builds available. For most users, the &quot;NetSurf&quot; build is recommended. The &quot;NetSurf small build&quot; lacks some features of the main build and is intended for systems with little memory. The &quot;NCNetSurf&quot; build is intended only for users of NetComputers (NCs).</p>
 
 <p>To install the &quot;NetSurf&quot; or Small &quot;NetSurf&quot; builds, simply drag the !NetSurf application directory out of the archive, to your desired location and run it from there. &quot;NCNetSurf&quot; installation is not yet documented.</p>
 
@@ -66,9 +66,9 @@
 
 <h2 id="Upgrading">Upgrading</h2>
 
-<p>If you are upgrading from a previous version of NetSurf, quit NetSurf and delete your old version. Drag the !NetSurf application to your required destination. NetSurf stores your choices, cookies and hotlist in <em>Choices:WWW.NetSurf</em>, so the !NetSurf application directory can be deleted without any loss of your NetSurf configuration.</p>
+<p>If you are upgrading from a previous version of NetSurf, quit NetSurf and delete your old version. Drag the !NetSurf application to your required destination. NetSurf stores your choices, cookies, hotlist and themes in <em>Choices:WWW.NetSurf</em>, so the !NetSurf application directory can be deleted without any loss of your NetSurf configuration.</p>
 
-<p>It is possible to copy the new version of NetSurf over your old version, to perform the upgrade. Please be aware that this could result in files that are no longer required being left in your copy of NetSurf although this will not cause any problems in usage.</p>
+<p>It is possible to copy the new version of NetSurf over your old version to perform the upgrade. Please be aware that this could result in files that are no longer required being left in your copy of NetSurf although this should not cause any problems in usage.</p>
 
 <h2 id="ContactDevelopers">Contacting the developers</h2>
 <p>Bug reports and questions about NetSurf can be raised in the following forums.</p>
