@@ -30,7 +30,7 @@
 <tr class="inprogress"><td>Cookies</td><td>In progress</td><td>Don't get expired.</td></tr>
 <tr class="nearlydone"><td>CSS 1</td><td>Nearly done</td><td>See the <a href="http://cvs.semichrome.net/netsurf/Docs/TODO-CSS?rev=HEAD&amp;content-type=text/vnd.viewcvs-markup">TODO list</a>.</td></tr>
 <tr class="inprogress"><td>CSS 2</td><td>In progress</td><td></td></tr>
-<tr class="nearlydone"><td>HTML 4</td><td>Nearly done</td><td>See the <a href="http://cvs.semichrome.net/netsurf/Docs/TODO-HTML?rev=HEAD&content-type=text/vnd.viewcvs-markup">TODO list</a>.</td></tr>
+<tr class="nearlydone"><td>HTML 4</td><td>Nearly done</td><td>See the <a href="http://cvs.semichrome.net/netsurf/Docs/TODO-HTML?rev=HEAD&amp;content-type=text/vnd.viewcvs-markup">TODO list</a>.</td></tr>
 <tr class="complete"><td>HTTP 1.1</td><td>Complete</td><td></td></tr>
 <tr class="inprogress"><td>HTTP Authentication</td><td>In progress</td><td></td></tr>
 <tr class="nearlydone"><td>HTTPS</td><td>Nearly done</td><td>Doesn't handle invalid certificates well.</td></tr>
