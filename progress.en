@@ -21,7 +21,7 @@
 <li><a href="#NSF">NetSurf features</a>
 </ul>
 
-<p class="updated">Last updated 4 February 2005</p>
+<p class="updated">Last updated 9 February 2005</p>
 
 <h2 id="Web">Web standards</h2>
 
@@ -85,7 +85,8 @@
 <tr class="complete"><td>Dithering</td><td>Complete</td><td>Gives improved rendering in sub true colour screen modes.<br>Both simple dithering and Error diffusion available.</td></tr>
 <tr class="inprogress"><td>Documentation</td><td>In progress</td><td></td></tr>
 <tr class="nearlydone"><td>Find Text</td><td>Nearly done</td><td>Doesn't find phrases if they are split across lines.</td></tr>
-<tr class="inprogress"><td>History Tree</td><td>In progress</td><td>Local history is implemented.<br>Global history is not yet done.</td></tr>
+<tr class="inprogress"><td>History (Global)</td><td>In progress</td><td></td></tr>
+<tr class="complete"><td>History (Local)</td><td>Complete</td><td>Local window history is not yet cloned when adjust clicking a link.</td></tr>
 <tr class="nearlydone"><td>Hotlist</td><td>Nearly done</td><td></td></tr>
 <tr class="inprogress"><td>Interactive Help</td><td>In progress</td><td></td></tr>
 <tr class="nearlydone"><td>Internal Unicode Support</td><td>Nearly done</td><td></td></tr>
@@ -99,7 +100,7 @@
 <tr class="nearlydone"><td>Scale View</td><td>Nearly done</td><td>Images don't get scaled unless embedded in HTML pages.</td></tr>
 <tr class="notstarted"><td>Text Selection</td><td>Not started</td><td></td></tr>
 <tr class="nearlydone"><td>Themes</td><td>Nearly done</td><td>Themes are available from the <a href="http://netsurf.sourceforge.net/themes/">NetSurf themes page</a>.</td></tr>
-<tr class="nearlydone"><td>URL Completion</td><td>Nearly done</td><td>When typing a URL into the URL bar, NetSurf will display suggestions for the full address.</td></tr>
+<tr class="complete"><td>URL Completion</td><td>Complete</td><td>When typing a URL into the URL bar, NetSurf will display suggestions for the full address.</td></tr>
 <tr class="complete"><td>View Source</td><td>Complete</td><td>Press F8 or <i>Page &gt; View source</i> on main menu.</td></tr>
 </table>
 
