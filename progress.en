@@ -20,7 +20,7 @@
 <li><a href="progress#NSF">NetSurf features</a>
 </ul>
 
-<p class="updated">Last updated 7 May 2004</p>
+<p class="updated">Last updated 11 May 2004</p>
 
 <h2 id="web">Web standards</h2>
 
@@ -56,7 +56,7 @@
 <table class="progress">
 <tr><th>Title</th><th>Status</th><th>Notes</th></tr>
 <tr class="complete"><td>Drawfile</td><td>Complete</td><td></td></tr>
-<tr class="nearlydone"><td>GIF</td><td>Nearly done</td><td>Issues with some animations.</td></tr>
+<tr class="complete"><td>GIF</td><td>Complete</td><td></td></tr>
 <tr class="complete"><td>JPEG</td><td>Complete</td><td></td></tr>
 <tr class="notstarted"><td>MNG</td><td>Not started</td><td></td></tr>
 <tr class="complete"><td>PNG</td><td>Complete</td><td>Doesn't cope with broken files.</td></tr>
