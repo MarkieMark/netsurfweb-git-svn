@@ -40,7 +40,7 @@
 
 <table class="progress">
 <tr><th>Title</th><th>Status</th><th>Notes</th></tr>
-<tr class="inprogress"><td>Background Images</td><td>In progress</td><td>Some redraw issues.<br>Background-attachment and background-position need more work.</td></tr>
+<tr class="inprogress"><td>Background Images</td><td>In progress</td><td>Background-attachment and background-position need more work.</td></tr>
 <tr class="nearlydone"><td>Borders / Margins / Padding</td><td>Nearly done</td><td></td></tr>
 <tr class="nearlydone"><td>BR Tag</td><td>Nearly done</td><td>Clear is not implemented.</td></tr>
 <tr class="nearlydone"><td>Forms</td><td>Nearly done</td><td>Doesn't work fully with Scale View.<br>Textarea needs much improvement.</td></tr>
