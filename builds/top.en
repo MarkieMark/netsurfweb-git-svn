@@ -8,6 +8,7 @@
 
 <body>
 <p class="banner"><a href="/"><img src="/netsurf.png" alt="NetSurf"></a></p>
+<p class="languages"><a href="index.de">Deutsch</a> · English</p>
 
 <h1>NetSurf Test Builds</h1>
 
@@ -24,15 +25,12 @@
 <tr><th><a href="dl/unetsurf.zip"><img src="unetsurf.png" alt=""><br>Small NetSurf</a></th>
 <td>SIZE_UNETSURF</td>
 <td>DATE_UNETSURF</td>
-<td>Small NetSurf browser for RISC OS. This has support for http: and file: only
-(no https:, ftp:, etc.). It is more suitable for machines with small amounts of
-RAM (8MB or less).</td></tr>
+<td>Small NetSurf browser for RISC OS. This has support for http: and file: only (no https:, ftp:, etc.). It is more suitable for machines with small amounts of RAM (8MB or less).</td></tr>
 
 <tr><th><a href="dl/ncnetsurf.zip"><img src="ncnetsurf.png" alt=""><br>NCNetSurf</a></th>
 <td>SIZE_NC</td>
 <td>DATE_NC</td>
-<td>NetSurf with a modified interface for the Network Computer (NC) running
-NCOS.</td></tr>
+<td>NetSurf with a modified interface for the Network Computer (NC) running NCOS.</td></tr>
 
 <tr><th><a href="dl/nstheme.zip"><img src="nstheme.png" alt=""><br>NSTheme</a></th>
 <td>SIZE_NSTHEME</td>
@@ -40,32 +38,22 @@ NCOS.</td></tr>
 <td>Theme packager for NetSurf. Required by theme designers only.</td></tr>
 </table>
 
-<p>A <a href="http://www.riscpkg.org/">RiscPkg</a> package of NetSurf is available.
-To use it, add the line
-<code>pkg http://netsurf.sourceforge.net/builds/packages</code>
-to <code>!RiscPkg.Resources.Sources</code>. See the RiscPkg documentation for more
-information.</p>
+<p>A <a href="http://www.riscpkg.org/">RiscPkg</a> package of NetSurf is available. To use it, add the line <code>pkg http://netsurf.sourceforge.net/builds/packages</code> to <code>!RiscPkg.Resources.Sources</code>. See the RiscPkg documentation for more information.</p>
 
-<p><a href="netsurf.log">Last build attempt log</a> (only of interest to
-developers).</p>
+<p><a href="netsurf.log">Last build attempt log</a> (only of interest to developers).</p>
 
 <h2>You will also require the following to use these builds:</h2>
 
 <ul>
-<li>WindowManager 3.80 or later. This comes with RISC OS 4 or later,
-RISC OS 3 users should install the
-<a href='http://acorn.riscos.com/riscos/releases/UniBoot/'>Universal Boot Sequence</a>.</li>
-<li><a href='http://www.riscos.info/unix/usage.html'>SharedUnixLibrary</a>.</li>
-<li><a href='http://sudden.recoil.org/others/'>AcornURI</a>.</li>
-<li><a href='http://www.tinct.net/tinct.asp'>Tinct</a>.</li>
+<li>WindowManager 3.80 or later. This comes with RISC OS 4 or later, RISC OS 3 users should install the <a href="http://acorn.riscos.com/riscos/releases/UniBoot/">Universal Boot Sequence</a>.</li>
+<li><a href="http://www.riscos.info/unix/usage.html">SharedUnixLibrary</a>.</li>
+<li><a href="http://sudden.recoil.org/others/">AcornURI</a>.</li>
+<li><a href="http://www.tinct.net/tinct.asp">Tinct</a>.</li>
 </ul>
 
-<p><strong>Optional:</strong> install
-<a href="http://moose.mine.nu:6888/iconv_latest.zip">iconv</a> to get improved character
-encoding support.</p>
+<p><strong>Optional:</strong> install <a href="http://moose.mine.nu:6888/iconv_latest.zip">iconv</a> to get improved character encoding support.</p>
 
-<!-- <p><strong>Optional:</strong> download and install the <a href="nsfonts.zip">fonts (360k)</a>
-to get improved font-family and font-variant support.</p> -->
+<!-- <p><strong>Optional:</strong> download and install the <a href="nsfonts.zip">fonts (360k)</a> to get improved font-family and font-variant support.</p> -->
 
 <h2>Recent CVS Activity</h2>
 <p>All times are in UTC.</p>
