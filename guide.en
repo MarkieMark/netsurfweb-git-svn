@@ -559,6 +559,7 @@
 <tr><td><a href="#HotlistMenuHotlistExport">Export</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td class="menusplit"><a href="#HotlistMenuHotlistExpand">Expand</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="#HotlistMenuHotlistCollapse">Collapse</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="#HotlistMenuHotlistToolbars">Toolbars</a></td><td class="menuarrow">&gt;</td></tr>
 </table>
 
 <p class="menupath" id="HotlistMenuHotlistNew">Hotlist &gt; New</p>
@@ -616,6 +617,17 @@
 
 <p class="menupath" id="HotlistMenuHotlistCollapseAddresses">Hotlist &gt; Collapse &gt; Addresses</p>
 <p class="menuitem">This option reduces all of the hotlist addresses to just their name, hiding their URLs and additional usage information.</p>
+
+<p class="menupath" id="HotlistMenuHotlistToolbars">Display &gt; Toolbars</p>
+<p class="menuitem">The Toolbars submenu allows you to control the way NetSurf's hotlist toolbar is displayed.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Toolbars</th></tr>
+<tr><td><a href="#HotlistMenuHotlistToolbarsButtons">Buttons</a></td><td class="menuarrow"></td></tr>
+</table>
+
+<p class="menupath" id="HotlistMenuHotlistToolbarsButtons">Display &gt; Toolbars &gt; Buttons</p>
+<p class="menuitem">This option toggles the display of the buttons on NetSurf's hotlist toolbar at the top of the window.</p>
 
 <h4 id="HotlistMenuSelection" class="submenu">Selection Submenu</h4>
 
