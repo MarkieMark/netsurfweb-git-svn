@@ -12,6 +12,7 @@ ul ul { margin: 0; }
 .banner img { vertical-align: middle; }
 .screenshot { text-align: center; font-size: small; }
 .links { border-left: thin solid black; }
+.thanks { margin-top: 5mm; }
 .thanks img { vertical-align: middle; }
 .footer { font-size: small; text-align: right; margin-top: 5mm; font-style: italic; }
 .icon { float: left; padding: 1mm; }
@@ -23,7 +24,7 @@ ul ul { margin: 0; }
 th { font-weight: bold; padding: 3px; text-align: left; }
 td { padding: 3px; }
 
-.progress, .screenshots  { width: 90%; border-spacing: 2px; margin-left: auto; margin-right: auto; }
+.progress, .screenshots { width: 90%; border-spacing: 2px; margin-left: auto; margin-right: auto; }
 
 .notplanned { background-color: #eee; color: #333; font-style: italic; }
 .notstarted { background-color: #f8d1d1; }
