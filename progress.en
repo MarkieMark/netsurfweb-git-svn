@@ -85,7 +85,7 @@
 <tr class="complete"><td>Dithering</td><td>Complete</td><td>Gives improved rendering in sub true colour screen modes.<br>Both simple dithering and Error diffusion available.</td></tr>
 <tr class="inprogress"><td>Documentation</td><td>In progress</td><td></td></tr>
 <tr class="nearlydone"><td>Find Text</td><td>Nearly done</td><td>Doesn't find phrases if they are split across lines.</td></tr>
-<tr class="inprogress"><td>History (Global)</td><td>In progress</td><td></td></tr>
+<tr class="nearlydone"><td>History (Global)</td><td>Nearly done</td><td></td></tr>
 <tr class="complete"><td>History (Local)</td><td>Complete</td><td>Local window history is not yet cloned when adjust clicking a link.</td></tr>
 <tr class="nearlydone"><td>Hotlist</td><td>Nearly done</td><td></td></tr>
 <tr class="inprogress"><td>Interactive Help</td><td>In progress</td><td></td></tr>
@@ -98,7 +98,7 @@
 <tr class="inprogress"><td>Save as Text</td><td>In progress</td><td>Some issues with spacing out of text.</td></tr>
 <tr class="complete"><td>Scale View</td><td>Complete</td><td>Web pages and images can be scaled up and down.</td></tr>
 <tr class="notstarted"><td>Text Selection</td><td>Not started</td><td></td></tr>
-<tr class="nearlydone"><td>Themes</td><td>Nearly done</td><td>Themes are available from the <a href="http://netsurf.sourceforge.net/themes/">NetSurf themes page</a>.</td></tr>
+<tr class="complete"><td>Themes</td><td>Complete</td><td>Themes are available from the <a href="http://netsurf.sourceforge.net/themes/">NetSurf themes page</a>.</td></tr>
 <tr class="complete"><td>Toolbar Customization</td><td>Complete</td><td>Toolbars can be customized to show the icons you want, in the order you want.</td></tr>
 <tr class="inprogress"><td>Unicode Font Support</td><td>In progress</td><td></td></tr>
 <tr class="complete"><td>URL Completion</td><td>Complete</td><td>When typing a URL into the URL bar, NetSurf will display suggestions for the full address.</td></tr>
