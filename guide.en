@@ -136,13 +136,17 @@ alt="Page, Selection, Navigate and View"></p>
 current page:</p>
 
 <p class="screenshot"><img src="images/bpmenu.en" title="Page Submenu"
-alt="Info, Save, Export and Print"></p>
+alt="Info, Save, Full save, Export and Print"></p>
 
 <p><strong>Page &gt; Info</strong>  This displays information about the current
 page.</p>
 
 <p><strong>Page &gt; Save</strong>  This opens a save dialogue box, allowing the
 source code of the current page to be saved to disc.</p>
+
+<p><strong>Page &gt; Full save</strong>  This opens a save dialogue box,
+allowing current page to be saved to disc, including any CSS files or images etc
+that the page contains.</p>
 
 <p class="screenshot"><img src="images/ssource.en" title="Save Source"
 alt=""></p>
@@ -151,12 +155,18 @@ alt=""></p>
 current page.  The options available are:</p>
 
 <p class="screenshot"><img src="images/exmenu.en" title="Export Submenu"
-alt="Draw"></p>
+alt="Draw and Text"></p>
 
 <p><strong>Page &gt; Export &gt; Draw</strong>  This opens a save dialogue box,
 allowing the current page to be saved as a drawfile.</p>
 
 <p class="screenshot"><img src="images/edraw.en" title="Export as Draw"
+alt=""></p>
+
+<p><strong>Page &gt; Export &gt; Text</strong>  This opens a save dialogue box,
+allowing the current page to be saved as a text file.</p>
+
+<p class="screenshot"><img src="images/etext.en" title="Export as Text"
 alt=""></p>
 
 <!--
@@ -206,15 +216,18 @@ functions are listed below.</p>
 <tr><td>Page Down</td><td>Scroll down by one page</td></tr>
 <tr><td>Page Up</td><td>Scroll up by one page</td></tr>
 <tr><td>Cursor Down</td><td>Scroll down one line</td></tr>
-<tr><td>Cursor Up</td><td>Scroll up one line</td></tr>
 <tr><td>Ctrl+Cursor Down</td><td>Go to bottom of page</td></tr>
+<tr><td>Cursor Up</td><td>Scroll up one line</td></tr>
 <tr><td>Ctrl+Cursor Up</td><td>Go to top of page</td></tr>
+<tr><td>Ctrl+F2</td><td>Closes the window</td></tr>
+<tr><td>F3</td><td>Save the page source</td></tr>
+<tr><td>Ctrl+F3</td><td>Full save of the web page, including images etc</td></tr>
+<tr><td>Shift+F3</td><td>Save the page as text</td></tr>
+<tr><td>Ctrl+Shift+F3</td><td>Save the page as a Drawfile</td></tr>
 <tr><td>F8</td><td>View webpage source</td></tr>
 <tr><td>F11</td><td>View box outlines.  This may be useful if you are creating
 your own webpage.  Cyan marks the content's edge, magenta marks the padding's
 edge and yellow marks the margin's edge.</td></tr>
-<tr><td>Ctrl+F2</td><td>Closes the window</td></tr>
-<tr><td>Ctrl+Shift+F3</td><td>Save the page as a Drawfile</td></tr>
 </table>
 
 

@@ -55,8 +55,10 @@ developers on the Mailing List or on IRC.</p>
 <li>Memory cache</li>
 <li>Plugin system</li>
 <li>View source (Press F8)</li>
-<li>Save source
+<li>Save source</li>
+<li>Save complete web page (including images etc)</li>
 <li>Save as Drawfile</li>
+<li>Save as Text</li>
 <li>Support for Acorn URI protocol and URI files</li>
 <li>Support for Ant URL files</li>
 <li>PNG support</li>
