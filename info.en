@@ -39,7 +39,7 @@
 
 <h2 id="Upgrading">Upgrading</h2>
 
-<p>If you are upgrading from a previous version of NetSurf, quit NetSurf and delete your old version. Drag the !NetSurf application to your required destination. NetSurf stores your choices, cookies and hotlist in <em>Choices.WWW.NetSurf</em>, so the !NetSurf application directory can be deleted without any loss of your NetSurf configuration.</p>
+<p>If you are upgrading from a previous version of NetSurf, quit NetSurf and delete your old version. Drag the !NetSurf application to your required destination. NetSurf stores your choices, cookies and hotlist in <em>Choices:WWW.NetSurf</em>, so the !NetSurf application directory can be deleted without any loss of your NetSurf configuration.</p>
 
 <p>It is possible to copy the new version of NetSurf over your old version, to perform the upgrade. Please be aware that this could result in files that are no longer required being left in your copy of NetSurf although this will not cause any problems in usage.</p>
 
@@ -64,7 +64,7 @@
 
 <ol>
 <li>check that the bug exhibits itself in the latest version <a href="http://netsurf.strcprstskrzkrk.co.uk/">available for download</a> at the time.</li>
-<li>try to find a reproducible way of triggering the bug.</li>
+<li>try to find a reproducable way of triggering the bug.</li>
 <li>check the <a href="progress">progress</a> page and the <a href="http://cvs.semichrome.net/netsurf/Docs/">TODO lists</a> to check that something has actually been implemented.</li>
 </ol>
 
