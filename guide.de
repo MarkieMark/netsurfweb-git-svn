@@ -36,7 +36,7 @@
 <li><a href="#Keys">Tastaturkürzel (Shortcuts)</a></li>
 </ul>
 
-<p class="updated">aktualisiert am 4 November 2004</p>
+<p class="updated">aktualisiert am 15. Dezember 2004</p>
 
 <h2 id="UsingNetSurf">NetSurf starten</h2>
 
@@ -495,19 +495,21 @@
 
 <h2 id="Hotlist">Die Hotlist</h2>
 
-<p>Während des Surfens im World Wide Web findet man auch Seiten, die man zu einem späteren Zeitpunkt wieder besuchen möchte. NetSurf's Hotlist bietet die Möglichkeit, Adressen (URL) solcher Web-Seiten zu speichern, damit diese Seiten später wieder aufgesucht werden können. Die Hotlist enthält Einträge und Verzeichnisse. Deren maximale Anzahl ist nicht vorgegeben. Es können beliebig viele Einträge in die Hotlist aufgenommen werden.</p>
+<p>Während des Surfens im World Wide Web findet man auch Seiten, die man zu einem späteren Zeitpunkt wieder besuchen möchte. NetSurf's Hotlist bietet die Möglichkeit die Adressen (URL) solcher Web-Seiten zu speichern, damit diese Seiten später wieder aufgesucht werden können. Die Hotlist kann durch Klicken mit der rechten Maustaste auf NetSurf's Iconbar-Symbol oder durch Anklicken des Hotlist-Schaltknopfes am oberen Rand des <a href="#BrowserWindow">Browserfensters</a> geöffnet werden. Ebenso kann sie über das Menu des Browserfensters aufgerufen werden. Die Hotlist enthält &quot;Adressen&quot; und &quot;Verzeichnisse&quot;. Deren maximale Anzahl ist nicht vorgegeben. Es können beliebig viele Einträge in die Hotlist aufgenommen werden.</p>
 
-<p>Ein Eintrag besteht aus einem Namen und einer URL Adresse. Einträge können auf jede Art von Datei verweisen. Doppelklick auf einen Eintrag lädt die zugehörige URL in NetSurf. Der Name des Eintrages ist frei wähl- und abänderbar. Für Web-Seiten wird standardmäßig der Seitentitel als Name eingetragen. Weiterhin werden mit einem Eintrag das Datum der Aufnahme in die Hotlist, der Zeitpunkt des letzten Besuches und die Gesamtzahl der Besuche gespeichert.</p>
+<p>Ein Adresseintrag besteht aus einem Namen und einer URL-Adresse. Adresseinträge können auf jede Art von Datei verweisen. Doppelklick auf einen Adresseintrag lädt die zugehörige Seite in NetSurf. Der Name des Eintrages ist frei wähl- und abänderbar. Für Web-Seiten wird standardmäßig der Seitentitel als Name eingetragen. Der einfachste Weg, einen Adresseintrag in die Hotlist aufzunehmen, ist es, den <a href="#BrowserWindowToolbar">Hotlist-Schaltknopf</a> mit der rechten Maustaste anzuklicken. Dadurch wird die Adresse der aktuellen Seite in die Hotlist eingetragen. Es können auch die Adressen lokaler Dateien (z.B. auf der Festplatte) in die Hotlist aufgenommen werden. Dazu werden die Dateien per Drag & Drop auf das Hotlist-Fenster gezogen. Zusammen mit einem Adresseintrag werden weitere Informationen gespeichert, z.B. das Datum der Aufnahme in die Hotlist, der Zeitpunkt des letzten Besuches und die Gesamtzahl der Besuche.</p>
 
-<p>Verzeichnisse werden genutzt, um zusammengehörige Einträge übersichtlicher anordnen zu können. Verzeichnisse können verschachtelt werden. Sie enthalten Einträge und/oder Unterverzeichnisse.</p>
+<p>Verzeichnisse werden genutzt, um zusammengehörige Adressen übersichtlicher anordnen zu können. Verzeichnisse können verschachtelt werden. Sie enthalten Adressen und/oder Unterverzeichnisse.</p>
 
-<p>Um die Hotlist zu öffnen, muß der Eintrag 'Hotlist zeigen' im Menu <a href="#BrowserWindowMenuUtilitiesHotlist">Hotlist</a> des Browserfensters angewählt oder mit Auswahl auf den Schaltknopf für die Hotlist am oberen Fensterrand geklickt werden. Auch ein Klick mit Spezial auf das NetSurf Symbol der IconBar öffnet die Hotlist.</p>
+<p>Die Anzeige der Hotlist funktioniert ähnlich wie ein Filerfenster unter RISC OS. Davon abweichend werden Verzeichnisse beim Öffnen nicht in einem neuen Fenster sondern als Dateibaum dargestellt. Verzeichnisse werden durch Doppelklick geöffnet. Bereits geöffnete Verzeichnisse können durch Doppelklick wieder geschlossen werden. Werden Adresseinträge doppelt angeklickt, werden sie in NetSurf geöffnet und die zugehörige Datei geladen.</p>
 
-<p>Die Anzeige der Hotlist funktioniert ähnlich wie ein Filerfenster unter RICS OS. Davon abweichend werden Verzeichnisse beim Öffnen nicht in einem neuen Fenster sondern als Dateibaum dargestellt. Verzeichnisse werden durch Doppelklick geöffnet. Bereits geöffnete Verzeichnisse können durch Doppelklick wieder geschlossen werden. Werden Einträge doppelt angeklickt, wird ihre Adresse (URL) in NetSurf geöffnet und die zugehörige Datei geladen. Die Symbole am Beginn einer Hotlistzeile öffnen und schließen Verzeichnisse oder zeigen Zusatzinformationen bei Einträgen an. Dies erfolgt durch einfaches Klicken auf das Symbol oder auch, bei selektierten Einträgen und Verzeichnissen, durch Drücken der Leertaste.</p>
+<p>Die Symbole am Beginn einer Hotlistzeile öffnen und schließen Verzeichnisse oder zeigen die Zusatzinformationen der Adresseinträge an. Dies erfolgt durch einfaches Klicken auf das Symbol oder auch, bei selektierten Adressen und Verzeichnissen, durch Drücken der Leertaste.</p>
 
-<p>Wie in Filerfenstern können durch Aufziehen von Boxen Einträge und Verzeichnisse markiert werden. Anklicken mit Spezial erlaubt das Hinzufügen weiterer Markierungen oder das Entfernen einzelner Markierungen. Selektierte Objekte können innerhalb des Hotlist Fensters per Drag & Drop verschoben werden. Beim Loslassen über einem Verzeichnis werden die markierten Objekte in dieses hinein verschoben.</p>
+<p>Wie in Filerfenstern können durch Aufziehen von Boxen Einträge und Verzeichnisse markiert werden. Anklicken mit SPEZIAL erlaubt das Hinzufügen weiterer Markierungen oder das Entfernen einzelner Markierungen. Selektierte Objekte können innerhalb des Hotlistfensters per Drag & Drop verschoben werden. Dabei werden sie in geschlossene Verzeichnisse verschoben, wenn sie auf die untere Hälfte des zugehörigen Verzeichnissymboles gezogen werden. Beim Loslassen auf der oberen Hälfte eines Eintrages werden die zu verschiebenden Objekte oberhalb des Eintrages in der Liste plaziert. Analog dazu werden bei Adresseinträgen die Objekte unterhalb dieser Adresse in die Liste geschrieben, wenn das Loslassen auf der unteren Hälfte des Symboles erfolgt.</p>
 
-<p>NetSurf's Hotlist wird als HTML Datei in <em>Choices:WWW.NetSurf</em> gespeichert. Diese Datei kann mit jedem Browser geladen und als Link-Seite verwendet werden. Es ist möglich diese Datei als Homepage in NetSurf einzustellen. Die Hotlist Datei wird automatisch beim Beenden von NetSurf gespeichert. Ein Abspeichern kann auch über das Hotlist <a href="#HotlistMenuHotlistSave">Menü</a> erfolgen.</p>
+<p>Das Umbenennen von Adressen und Verzeichnissen erfolgt am einfachsten durch Anklicken des Eintrages bei festgehaltener <em>Alt</em> Taste. Auch die URL aufgefalteter Adresseinträge kann auf diese Art editiert werden. Markierte Einträge können über die <a href="#HotlistToolbar">Symbolleiste</a>, das <a href="#HotlistMenuSelectionDelete">Menü</a> oder mit Strg+X gelöscht werden.</p>
+
+<p>NetSurf's Hotlist wird als HTML-Datei in <em>Choices:WWW.NetSurf</em> gespeichert. Diese Datei kann mit jedem Browser geladen und als Link-Seite verwendet werden. Es ist möglich diese Datei als Homepage in NetSurf einzustellen. Die Hotlistdatei wird automatisch beim Beenden von NetSurf gespeichert.</p>
 
 <h3 id="HotlistToolbar">Symbolleiste</h3>
 
@@ -538,22 +540,22 @@
 </table>
 
 <p class="menupath" id="HotlistMenuHotlistNew">Hotlist &gt; Neu</p>
-<p class="menuitem">Erlaubt das Erstellen neuer Einträge oder Verzeichnisse.</p>
+<p class="menuitem">Erlaubt das Erstellen neuer Adressen oder Verzeichnisse.</p>
 
 <table class="menu">
 <tr><th class="menutitle" colspan="2">Neu</th></tr>
 <tr><td><a href="#HotlistMenuHotlistNewDirectory">Verzeichnis</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="#HotlistMenuHotlistNewEntry">Eintrag</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="#HotlistMenuHotlistNewAddress">Adresse</a></td><td class="menuarrow">&gt;</td></tr>
 </table>
 
 <p class="menupath" id="HotlistMenuHotlistNewDirectory">Hotlist &gt; Neu &gt; Verzeichnis</p>
 <p class="menuitem">Erstellt ein neues Verzeichnis am unteren Ende der Hotlist. Der Name des Verzeichnisses kann eingetragen werden. Der Name ist aber auch später noch <a href="#HotlistMenuSelectionEdit">veränderbar</a>. Erstellte Verzeichnisse können per Drag & Drop innerhalb der Hotlist bewegt werden. Verzeichnisse können beliebig verschachtelt werden. Es gibt keine Begrenzung der zulässigen Zahl von Unterverzeichnissen. Die Funktion ist auch über die Hotlist <a href="#HotlistToolbar">Symbolleiste</a> abrufbar.</p>
 
-<p class="menupath" id="HotlistMenuHotlistNewEntry">Hotlist &gt; Neu &gt; Eintrag</p>
-<p class="menuitem">Erlaubt die Erstellung eines neuen Eintrages am Ende der Hotlist. Name und URL müssen angegeben werden. Der Eintrag kann später <a href="#HotlistMenuSelectionEdit">bearbeitet</a> und per Drag & Drop in der Hotlist bewegt werden. Die Funktion ist auch über die Hotlist <a href="#HotlistToolbar">Symbolleiste</a> abrufbar.</p>
+<p class="menupath" id="HotlistMenuHotlistNewAddress">Hotlist &gt; Neu &gt; Adresse</p>
+<p class="menuitem">Erlaubt die Erstellung einer neuen Adresse am Ende der Hotlist. Name und URL müssen angegeben werden. Die Adresse kann später <a href="#HotlistMenuSelectionEdit">bearbeitet</a> und per Drag & Drop in der Hotlist bewegt werden. Die Funktion ist auch über die Hotlist <a href="#HotlistToolbar">Symbolleiste</a> abrufbar.</p>
 
 <p class="menupath" id="HotlistMenuHotlistExport">Hotlist &gt; Exportieren</p>
-<p class="menuitem">Exportiert die Hotlist als HTML Datei. Dabei wird die Verzeichnisstruktur durch Einrückungen wiedergegeben. Einträge werden als Links dargestellt.</p>
+<p class="menuitem">Exportiert die Hotlist als HTML Datei. Dabei wird die Verzeichnisstruktur durch Einrückungen wiedergegeben. Adressen werden als Links dargestellt.</p>
 
 <p class="menupath" id="HotlistMenuHotlistExpand">Hotlist &gt; Expandieren</p>
 <p class="menuitem">Öffnet verschiedene Strukturen innerhalb der Hotlist.</p>
@@ -562,17 +564,17 @@
 <tr><th class="menutitle" colspan="2">Expandieren</th></tr>
 <tr><td><a href="#HotlistMenuHotlistExpandAll">Alles</a></td><td class="menuarrow"></td></tr>
 <tr><td><a href="#HotlistMenuHotlistExpandDirectories">Verzeichnisse</a></td><td class="menuarrow"></td></tr>
-<tr><td><a href="#HotlistMenuHotlistEdpandEntries">Einträge</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="#HotlistMenuHotlistEdpandAddresses">Adressen</a></td><td class="menuarrow"></td></tr>
 </table>
 
 <p class="menupath" id="HotlistMenuHotlistExpandAll">Hotlist &gt; Expandieren &gt; Alles</p>
-<p class="menuitem">Öffnet alle Verzeichnisse und expandiert alle Einträge. Zeigt die gesamte Verzeichnisstruktur und macht alle gespeicherten Informationen sichtbar.</p>
+<p class="menuitem">Öffnet alle Verzeichnisse und expandiert alle Adressen. Zeigt die gesamte Verzeichnisstruktur und macht alle gespeicherten Informationen sichtbar.</p>
 
 <p class="menupath" id="HotlistMenuHotlistExpandDirectories">Hotlist &gt; Expandieren &gt; Verzeichnisse</p>
 <p class="menuitem">Öffnet alle Verzeichnisse. Zeigt die gesamte Verzeichnisstruktur.</p>
 
-<p class="menupath" id="HotlistMenuHotlistExpandEntries">Hotlist &gt; Expandieren &gt; Einträge</p>
-<p class="menuitem">Expandiert die zur Zeit in der Hotlist angezeigten Einträge. Adressen und alle Zusatzinformationen werden sichtbar.</p>
+<p class="menupath" id="HotlistMenuHotlistExpandAddresses">Hotlist &gt; Expandieren &gt; Adressen</p>
+<p class="menuitem">Expandiert die zur Zeit in der Hotlist angezeigten Adressen. Die URL-Adressen und alle Zusatzinformationen werden sichtbar.</p>
 
 <p class="menupath" id="HotlistMenuHotlistCollapse">Hotlist &gt; Zusammenfalten</p>
 <p class="menuitem">Schließt expandierte Teile der Hotlist.</p>
@@ -581,17 +583,17 @@
 <tr><th class="menutitle" colspan="2">Zusammenfalten</th></tr>
 <tr><td><a href="#HotlistMenuHotlistCollapseAll">Alles</a></td><td class="menuarrow"></td></tr>
 <tr><td><a href="#HotlistMenuHotlistCollapseDirectories">Verzeichnisse</a></td><td class="menuarrow"></td></tr>
-<tr><td><a href="#HotlistMenuHotlistCollapseEntries">Einträge</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="#HotlistMenuHotlistCollapseAddresses">Adressen</a></td><td class="menuarrow"></td></tr>
 </table>
 
 <p class="menupath" id="HotlistMenuHotlistCollapseAll">Hotlist &gt; Zusammenfalten &gt; Alles</p>
-<p class="menuitem">Schließt alle Verzeichnisse und alle Einträge der Hotlist. Nur der Inhalt des Wurzelverzeichnisses der Hotlist wird jetzt noch dargestellt.</p>
+<p class="menuitem">Schließt alle Verzeichnisse und alle Adressen der Hotlist. Nur der Inhalt des Wurzelverzeichnisses der Hotlist wird jetzt noch dargestellt.</p>
 
 <p class="menupath" id="HotlistMenuHotlistCollapseDirectories">Hotlist &gt; Zusammenfalten &gt; Verzeichnisse</p>
 <p class="menuitem">Schließt alle Verzeichnisse. Die Verzeichnisstruktur wird nicht mehr dargestellt.</p>
 
-<p class="menupath" id="HotlistMenuHotlistCollapseEntries">Hotlist &gt; Zusammenfalten &gt; Einträge</p>
-<p class="menuitem">Faltet alle expandierten Einträge zusammen. Es wird nur noch der Name der Einträge angezeigt. Adressen und weitere Informationen werden verborgen.</p>
+<p class="menupath" id="HotlistMenuHotlistCollapseAddresses">Hotlist &gt; Zusammenfalten &gt; Adressen</p>
+<p class="menuitem">Faltet alle expandierten Adressen zusammen. Es wird nur noch der Name der Adresseinträge angezeigt. Die URL-Adressen und weitere Informationen werden verborgen.</p>
 
 <h4 id="HotlistMenuSelection" class="submenu">Untermenü Auswahl</h4>
 
@@ -606,21 +608,21 @@
 </table>
 
 <p class="menupath" id="HotlistMenuSelectionEdit">Auswahl &gt; Bearbeiten</p>
-<p class="menuitem">Erlaubt das Bearbeiten der Namen in der Hotlist und bei Einträgen zusätzlich das der gespeicherten Adressen. Ist nur verfügbar, wenn ein einzelner Eintrag oder ein einzelnes Verzeichnis markiert wurde.</p>
+<p class="menuitem">Erlaubt das Bearbeiten der Namen in der Hotlist und bei Adressen zusätzlich das der gespeicherten URL-Adressen. Ist nur verfügbar, wenn eine einzelne Adresse oder ein einzelnes Verzeichnis markiert wurde.</p>
 
-<p>Einträge, die der Hotlist hinzugefügt werden, erhalten zunächst eine Standarbezeichnung. Bei HTML Dateien ist dies der Seitentitel.</p>
+<p>Adressen, die der Hotlist hinzugefügt werden, erhalten zunächst eine Standardbezeichnung. Bei HTML Dateien ist dies der Seitentitel.</p>
 
 <p class="menupath" id="HotlistMenuSelectionLaunch">Auswahl &gt; Öffnen</p>
-<p class="menuitem">Öffnet alle markierten Hotlist Einträge jeweils in einem eigenen Fenster. Die Funktion ist auch über die Hotlist <a href="#HotlistToolbar">Symbolleiste</a> abrufbar.</p>
+<p class="menuitem">Öffnet alle markierten Adressen jeweils in einem eigenen Fenster. Die Funktion ist auch über die Hotlist <a href="#HotlistToolbar">Symbolleiste</a> abrufbar.</p>
 
 <p class="menupath" id="HotlistMenuSelectionDelete">Auswahl &gt; Löschen</p>
 <p class="menuitem">Löscht die markierten Einträge und Verzeichnisse aus der Hotlist. Die Funktion ist auch über die Hotlist <a href="#HotlistToolbar">Symbolleiste</a> abrufbar.</p>
 
 <p class="menupath" id="HotlistMenuSelectionResetStatistics">Auswahl &gt; Statistik zurücksetzen</p>
-<p class="menuitem">Setzt die zusätzlichen Nutzungsinformationen für alle markierten Einträge zurück. Dabei werden der Zeitpunkt des letzten Besuches und die Gesamtzahl der Besuche auf der Seite gelöscht. Die Adresse (URL) des Eintrages und das Datum des Aufnehmens in die Hotlist bleiben unverändert erhalten.</p>
+<p class="menuitem">Setzt die zusätzlichen Nutzungsinformationen für alle markierten Adressen zurück. Dabei werden der Zeitpunkt des letzten Besuches und die Gesamtzahl der Besuche auf der Seite gelöscht. Die URL-Adresse des Eintrages und das Datum des Aufnehmens in die Hotlist bleiben unverändert erhalten.</p>
 
 <p class="menupath" id="HotlistMenuSelectAll">Alles auswählen</p>
-<p class="menuitem">Selektiert alle Einträge und Verzeichnisse der Hotlist.</p>
+<p class="menuitem">Selektiert alle Adressen und Verzeichnisse der Hotlist.</p>
 
 <p class="menupath" id="HotlistMenuClearSelection">Auswahl aufheben</p>
 <p class="menuitem">Entfernt die Markierung von selektierten Einträgen und Verzeichnissen.</p>

@@ -22,7 +22,7 @@
 <li><a href="#NSF">NetSurf Features</a>
 </ul>
 
-<p class="updated">aktualisiert am 4 November 2004</p>
+<p class="updated">aktualisiert am 15. Dezember 2004</p>
 
 <h2 id="Web">Web Standards</h2>
 
@@ -62,7 +62,7 @@
 <tr class="complete"><td>JNG</td><td>komplett</td><td></td></tr>
 <tr class="complete"><td>JPEG</td><td>komplett</td><td></td></tr>
 <tr class="nearlydone"><td>MNG</td><td>fast fertig</td><td>Interactive features aren't supported.</td></tr>
-<tr class="inprogress"><td>PNG</td><td>in Entwicklung</td><td>Fetching PNGs from remote hosts can cause machine freeze on some systems.<br>Gamma correction is not correct for PNGs with alpha channels.</td></tr>
+<tr class="nearlydone"><td>PNG</td><td>fast fertig</td><td>Gamma correction is not correct for PNGs with alpha channels.</td></tr>
 <tr class="complete"><td>Sprite</td><td>komplett</td><td></td></tr>
 </table>
 
@@ -79,7 +79,7 @@
 
 <table class="progress">
 <tr><th>Titel</th><th>Status</th><th>Bemerkung / Notes</th></tr>
-<tr class="complete"><td>Advertisement Blocking</td><td>komplett</td><td></td></tr>
+<tr class="complete"><td>Werbebanner blockieren</td><td>komplett</td><td></td></tr>
 <tr class="inprogress"><td>Konfiguration</td><td>in Entwicklung</td><td></td></tr>
 <tr class="notstarted"><td>Disc Cache</td><td>noch nicht begonnen</td><td></td></tr>
 <tr class="complete"><td>Dithern</td><td>komplett</td><td>Verbessert die Darstellung in Bildschirmmodi mit wenigen Farben.<br>Sowohl einfaches Dithern als auch Error-Diffusion sind nutzbar.</td></tr>
