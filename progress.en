@@ -20,7 +20,7 @@
 <li><a href="progress#NSF">NetSurf features</a>
 </ul>
 
-<p class="updated">Last updated 11 May 2004</p>
+<p class="updated">Last updated 13 May 2004</p>
 
 <h2 id="web">Web standards</h2>
 
@@ -83,7 +83,7 @@
 <tr class="inprogress"><td>Documentation</td><td>In progress</td><td></td></tr>
 <tr class="nearlydone"><td>Drawfile Export</td><td>Nearly done</td><td>Embedded drawfiles aren't exported when saving page as Draw.</td></tr>
 <tr class="nearlydone"><td>History Tree</td><td>Nearly done</td><td></td></tr>
-<tr class="notstarted"><td>Interactive Help</td><td>Not started</td><td></td></tr>
+<tr class="inprogress"><td>Interactive Help</td><td>In progress</td><td></td></tr>
 <tr class="complete"><td>Memory Cache</td><td>Complete</td><td>Fixed at 1MB.</td></tr>
 <tr class="notstarted"><td>Printing</td><td>Not started</td><td></td></tr>
 <tr class="inprogress"><td>Proxy Support</td><td>In progress</td><td>Protocols other than HTTP are incorrectly proxied.</td></tr>
