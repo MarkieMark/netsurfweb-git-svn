@@ -219,6 +219,7 @@ functions are listed below.</p>
 <tr><td>Ctrl+Cursor Down</td><td>Go to bottom of page</td></tr>
 <tr><td>Cursor Up</td><td>Scroll up one line</td></tr>
 <tr><td>Ctrl+Cursor Up</td><td>Go to top of page</td></tr>
+<tr><td>F2</td><td>Moves the caret to URL bar and clears it to &quot;www.&quot;</td></tr>
 <tr><td>Ctrl+F2</td><td>Closes the window</td></tr>
 <tr><td>F3</td><td>Save the page source</td></tr>
 <tr><td>Ctrl+F3</td><td>Save the page as text</td></tr>

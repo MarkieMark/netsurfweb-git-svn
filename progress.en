@@ -56,7 +56,7 @@
 <table class="progress">
 <tr><th>Title</th><th>Status</th><th>Notes</th></tr>
 <tr class="complete"><td>Drawfile</td><td>Complete</td><td></td></tr>
-<tr class="nearlydone"><td>GIF</td><td>Nearly done</td><td>Animations flicker</td></tr>
+<tr class="nearlydone"><td>GIF</td><td>Nearly done</td><td>Issues with some animations.</td></tr>
 <tr class="complete"><td>JPEG</td><td>Complete</td><td></td></tr>
 <tr class="notstarted"><td>MNG</td><td>Not started</td><td></td></tr>
 <tr class="complete"><td>PNG</td><td>Complete</td><td>Doesn't cope with broken files.</td></tr>
@@ -94,7 +94,7 @@
 <tr class="notstarted"><td>Search Text</td><td>Not started</td><td></td></tr>
 <tr class="notstarted"><td>Stop Fetch</td><td>Not started</td><td></td></tr>
 <tr class="notstarted"><td>Text Selection</td><td>Not started</td><td></td></tr>
-<tr class="complete"><td>View Source</td><td>Complete</td><td>Press F8</td></tr>
+<tr class="complete"><td>View Source</td><td>Complete</td><td>Press F8 or <i>Page &gt; View source</i> on main menu.</td></tr>
 </table>
 
 <p class="breadcrumbs"><a href="/">NetSurf</a> » <a href="docs">Documentation</a> » Progress</p>
