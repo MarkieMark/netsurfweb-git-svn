@@ -40,7 +40,11 @@
 <li><a href="#HotlistToolbar">Toolbar</a></li>
 <li><a href="#HotlistMenus">Menus</a></li>
 </ul></li>
-<li><a href="#Configuration">Configuration</a></li>
+<li><a href="#Configuration">Configuration</a>
+<ul>
+<li><a href="#ConfigurationGlobal">Global choices</a></li>
+<li><a href="#ConfigurationToolbar">Toolbar customization</a></li>
+</ul></li>
 <li><a href="#Keys">Keyboard shortcuts</a></li>
 </ul>
 
@@ -92,7 +96,9 @@
 
 <h3 id="BrowserWindowToolbar">Toolbar</h3>
 
-<p>The section at the top of the window is called the toolbar. It allows quick access to various commonly used features. Many more functions are available through the <a href="#BrowserWindowMenus">menus</a>.</p>
+<p>The section at the top of the window is called the toolbar. It allows quick access to various commonly used features. Many more functions are available through the <a href="#BrowserWindowMenus">menus</a>. The toolbar can be customized to contain only the icons you want, in the order you want, in toolbar edit mode. This is covered in the <a href="#ConfigurationToolbar">toolbar customization</a> section. Available icons are listed below.</p>
+
+<p></p>
 
 <h3>Toolbar Icons</h3>
 
@@ -304,7 +310,7 @@
 
 <h4 id="BrowserWindowMenuDisplay" class="submenu">Display Submenu</h4>
 
-<p>The Display submenu contains the following options which affect the rendering of the current window.</p>
+<p>The Display submenu contains the various options which affect the rendering of the current window. Other configuration options are described in the <a href="#Configuration">configuration</a> section.</p>
 
 <table class="menu">
 <tr><th class="menutitle" colspan="2">Display</th></tr>
@@ -382,7 +388,7 @@
 
 <h4 id="BrowserWindowMenuUtilities" class="submenu">Utilities Submenu</h4>
 
-<p>The Utilities submenu contains access to some of NetSurf's extra features.</p>
+<p>The Utilities submenu allows you to access some of NetSurf's extra features.</p>
 
 <table class="menu">
 <tr><th class="menutitle" colspan="2">Utilities</th></tr>
@@ -408,7 +414,7 @@
 <p class="menuitem">This option opens the <a href="#HotlistWindow">hotlist management window</a>. The same function is available on the <a href="#BrowserWindowToolbar">toolbar</a>.</p>
 
 <p class="menupath" id="BrowserWindowMenuUtilitiesHistory">Utilities &gt; History</p>
-<p class="menuitem">The History submenu allows you to access NetSurf's history featur</p>
+<p class="menuitem">The History submenu allows you to access NetSurf's history features.</p>
 
 <table class="menu">
 <tr><th class="menutitle" colspan="2">History</th></tr>
@@ -416,7 +422,7 @@
 <tr><td><a href="#BrowserWindowMenuUtilitiesHistoryGlobal">Show global history</a></td><td class="menuarrow"></td></tr>
 </table>
 
-<p class="menupath" id="BrowserWindowMenuUtilitiesHistoryLocal">Utilities &gt; History &gt; Show loacl History</p>
+<p class="menupath" id="BrowserWindowMenuUtilitiesHistoryLocal">Utilities &gt; History &gt; Show local History</p>
 <p class="menuitem">This option opens the <a href="#HistoryLocal">local history window</a>. The same function is available on the <a href="#BrowserWindowToolbar">toolbar</a>.</p>
 
 <p class="menupath" id="BrowserWindowMenuUtilitiesHistoryGlobal">Utilities &gt; History &gt; Show global History</p>
@@ -543,7 +549,7 @@
 
 <h4 id="HistoryGlobalToolbar">Toolbar</h4>
 
-<p>The global history toolbar allows quick access to various commonly used features. More functions are available through the <a href="#HistoryGlobalMenus">menus</a>.</p>
+<p>The global history toolbar allows quick access to various commonly used features. More functions are available through the <a href="#HistoryGlobalMenus">menus</a>. The toolbar can be customized to contain only the icons you want, in the order you want, in toolbar edit mode. This is covered in the <a href="#ConfigurationToolbar">toolbar customization</a> section. Available icons are listed below.</p>
 
 <p class="iconinfo"><strong><img src="images/delete" class="icon" alt="Delete Selection" title="Delete Selection Button"></strong> Clicking on this button deletes any selected directories or addresses from the global history.</p>
 
@@ -671,7 +677,7 @@
 
 <h3 id="HotlistToolbar">Toolbar</h3>
 
-<p>The hotlist toolbar allows quick access to various commonly used features. More functions are available through the <a href="#HotlistMenus">menus</a>.</p>
+<p>The hotlist toolbar allows quick access to various commonly used features. More functions are available through the <a href="#HotlistMenus">menus</a>. The toolbar can be customized to contain only the icons you want, in the order you want, in toolbar edit mode. This is covered in the <a href="#ConfigurationToolbar">toolbar customization</a> section. Available icons are listed below.</p>
 
 <h4>Toolbar Icons</h4>
 
@@ -813,19 +819,25 @@
 
 <h2 id="Configuration">Configuring NetSurf</h2>
 
-<p>NetSurf can be tailored to suit your needs by configuring the way it looks and behaves. The configuration panel is opened from the <a href="#IconbarMenuChoices">iconbar menu</a>.</p>
+<p>NetSurf can be tailored to suit your needs by configuring the way it looks and behaves. Most of NetSurf's configuration options are available from the <a href="#ConfigurationGlobal">global choices</a> panel. Display options for browser windows are set up for an individual browser window and then saved globally in the <a href="#BrowserWindowMenuDisplay">browser window menus</a>.</p>
+
+<p>Toolbars can be customized to contain only the icons you want, in the order you want, in toolbar edit mode. This is covered in the <a href="#ConfigurationToolbar">toolbar customization</a> section.</p>
+
+<h3 id="ConfigurationGlobal">Global Choices</h3>
+
+<p>The configuration panel is opened from the <a href="#IconbarMenuChoices">iconbar menu</a>.</p>
 
 <p>The Cancel button will close the window, discarding any changes you've made. Clicking on OK will save the new settings and close the window. The configuration options have been split into the following groups.</p>
 
 <ul>
-<li><a href="#ConfigurationBrowser">Browser</a></li>
-<li><a href="#ConfigurationNetwork">Network</a></li>
-<li><a href="#ConfigurationThemes">Themes</a></li>
-<li><a href="#ConfigurationFonts">Fonts</a></li>
-<li><a href="#ConfigurationImages">Images</a></li>
+<li><a href="#ConfigurationGlobalBrowser">Browser</a></li>
+<li><a href="#ConfigurationGlobalNetwork">Network</a></li>
+<li><a href="#ConfigurationGlobalThemes">Themes</a></li>
+<li><a href="#ConfigurationGlobalFonts">Fonts</a></li>
+<li><a href="#ConfigurationGlobalImages">Images</a></li>
 </ul>
 
-<h3 id="ConfigurationBrowser">Browser</h3>
+<h4 id="ConfigurationGlobalBrowser">Browser</h4>
 
 <p>The Browser configuration section contains options that apply to general usage of the browser. The following options are available.</p>
 
@@ -844,7 +856,7 @@
 <dd>Disable this option if you wish to use plugins with NetSurf. Plugins are external applications that handle certain file types.</dd>
 </dl>
 
-<h3 id="ConfigurationNetwork">Network</h3>
+<h4 id="ConfigurationGlobalNetwork">Network</h4>
 
 <p>The Network configuration window contains the following options.</p>
 
@@ -858,7 +870,7 @@
 </dd>
 </dl>
 
-<h3 id="ConfigurationThemes">Themes</h3>
+<h4 id="ConfigurationGlobalThemes">Themes</h4>
 
 <p>NetSurf allows you to change the 'look and feel' of its interface. This is done by installing and selecting themes.</p>
 
@@ -871,7 +883,7 @@
 
 <p>Themes are selected with radio buttons. If a theme you have just installed does not appear for selection, NetSurf needs to be told to re-scan the themes directory. It is re-scanned when the choices window is opened or by adjust clicking on the Cancel button. The currently loaded theme is cached so any updates to that theme will not be loaded until NetSurf is restarted. Alternatively, it is possible to switch to another theme, re-scan themes and then switch back.</p>
 
-<h3 id="ConfigurationFonts">Fonts</h3>
+<h4 id="ConfigurationGlobalFonts">Fonts</h4>
 
 <p>The font configuration section allows you to alter the fonts NetSurf uses to display web pages.</p>
 
@@ -893,7 +905,7 @@
 <dd>Ufont provides unicode font support for computers without the unicode font manager. This requires Ufont and a composite font which provides suitable glyphs.</dd>
 </dl>
 
-<h3 id="ConfigurationImages">Images</h3>
+<h4 id="ConfigurationGlobalImages">Images</h4>
 
 <p>The Image configuration section contains options that allow the on screen rendering quality of images to be set. Foreground and background images are configured separately as it can be desirable to set higher quality but more processor intensive options for foreground images than for background images. The following options are available.</p>
 
@@ -918,6 +930,12 @@
 <dt>Allow ViewFinder optimisation</dt>
 <dd>Enable this option, if you have a ViewFinder card, to cache images and thus speed up image plotting.</dd>
 </dl>
+
+<h3 id="ConfigurationToolbar">Toolbar customization</h3>
+
+<p>Icons on NetSurf's toolbars can be switched on &amp; off and moved around. The sprites used for the icons can be changed by installing different <a href="http://netsurf.sourceforge.net/themes/">themes</a>.</p>
+
+<p>To move the icons around, enable toolbar edit mode by clicking menu over the toolbar and choosing &quot;Edit toolbar&quot;. This will open the toolbar editing panel. Icons can be dragged back and forth between the temporary panel and the toolbar. Separators for groups of icons can be created by dragging the separator sprite from the toolbar edit panel and dropping it where you want it to go. To exit toolbar edit mode, select &quot;Edit toolbar&quot; again from the toolbar menu.<p>
 
 <h2 id="Keys">Keyboard Shortcuts</h2>
 
