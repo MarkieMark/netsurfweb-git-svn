@@ -25,7 +25,7 @@
 <li><a href="info#JavaScript">JavaScript</a></li>
 </ul>
 
-<p class="updated">Last updated 5 August 2004</p>
+<p class="updated">Last updated 13 August 2004</p>
 
 <h2 id="GettingStarted">Getting started</h2>
 
@@ -79,7 +79,7 @@
 <li>if you can narrow a bug down to a minimal test-case, then that's great. Please provide it as it's likely to speed up a fix. (Don't worry if you can't.)</li>
 </ol>
 
-<p>Following the above guidelines will save the developers' time and speeds up NetSurf's development.</p>
+<p>Following the above guidelines will save the developers' time and speed up NetSurf's development.</p>
 
 <h2 id="FeatureRequests">Feature requests</h2>
 

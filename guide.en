@@ -21,7 +21,7 @@
 <li><a href="guide#BrowserWindowToolbar">Toolbar</a></li>
 <li><a href="guide#BrowserWindowStatusBar">Status bar</a></li>
 <li><a href="guide#BrowserWindowMenus">Menus</a></li>
-<li><a href="guide#BrowserWindowFileTypes">Filetypes</a></li>
+<li><a href="guide#BrowserWindowFileTypes">File types</a></li>
 </ul></li>
 <li><a href="guide#DownloadWindow">Download window</a></li>
 <li><a href="guide#HistoryWindow">History window</a></li>
@@ -34,15 +34,35 @@
 <li><a href="guide#Keys">Keyboard shortcuts</a></li>
 </ul>
 
-<p class="updated">Last updated 5 August 2004</p>
+<p class="updated">Last updated 13 August 2004</p>
 
 <h2 id="Using">Using NetSurf</h2>
 
-<p>To run <em>NetSurf</em>, simply double click on the NetSurf application. This will cause the NetSurf icon to appear on the iconbar. Select clicking on this icon will open a <a href="guide#BrowserWindow">browser window</a>. Adjust clicking on the NetSurf iconbar icon opens the <a href="guide#Hotlist">hotlist management window</a>.</p>
+<p>To run <em>NetSurf</em>, simply double click on the NetSurf application. This will cause the NetSurf icon to appear on the iconbar. Select clicking on this icon will open a <a href="guide#BrowserWindow">browser window</a>. Adjust clicking on NetSurf's iconbar icon opens the <a href="guide#Hotlist">hotlist management window</a>.</p>
 
 <h3>Iconbar Menu</h3>
 
-<p>The iconbar menu provides four options. These are Info, Choices, Help and Quit. Info provides a little information about the application, while quit will exit the program, closing all browser windows. The choices option opens a window for configuring NetSurf. This is discussed in greater detail in the <a href="#Configuration">Configuring NetSurf</a> section. Help opens the documentation contents page in a bowser window.</p>
+<p>The iconbar menu provides options which concern the application as a whole.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">NetSurf</th></tr>
+<tr><td><a href="guide#IconbarMenuInfo">Info</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#IconbarMenuHelp">Help</a></td><td></td></tr>
+<tr><td><a href="guide#IconbarMenuChoices">Choices</a></td><td></td></tr>
+<tr><td><a href="guide#IconbarMenuQuit">Quit</a></td><td></td></tr>
+</table>
+
+<p class="menupath" id="IconbarMenuInfo">NetSurf &gt; Info</p>
+<p class="menuitem">This option provides a little information about NetSurf. More information about the application can be found on the <a href="guide#BrowserWindowMenuHelpAbout">about page</a>.</p>
+
+<p class="menupath" id="IconbarMenuHelp">NetSurf &gt; Help</p>
+<p class="menuitem">This option opens the <a href="docs">documentation contents page</a> in a new window.</p>
+
+<p class="menupath" id="IconbarMenuChoices">NetSurf &gt; Choices</p>
+<p class="menuitem">This option opens NetSurf's <a href="#Configuration">configuration</a> window.</p>
+
+<p class="menupath" id="IconbarMenuQuit">NetSurf &gt; Quit</p>
+<p class="menuitem">This option will exit the program, closing all browser windows and terminating any downloads. NetSurf provides no facility for continuing unfinished or aborted downloads. When NetSurf is quitted, any changes to the <a href="guide#Hotlist">hotlist</a> are saved.</p>
 
 <h2 id="Help">Interactive Help</h2>
 
@@ -52,7 +72,7 @@
 
 <h2 id="BrowserWindow">Browser Window</h2>
 
-<p>The browser window is used to fetch and display web pages and other content available on the World Wide Web. It can also display files that are stored locally on your computer. The <a href="guide#BrowserWindowFileTypes">filetypes</a> that NetSurf can handle include HTML, CSS and various image formats.</p>
+<p>The browser window is used to fetch and display web pages and other content available on the World Wide Web. It can also display files that are stored locally on your computer. The <a href="guide#BrowserWindowFileTypes">file types</a> that NetSurf can handle include HTML, CSS and various image formats.</p>
 
 <p class="screenshot"><img src="images/bwin.en" title="Browser Window" alt=""></p>
 
@@ -247,7 +267,7 @@
 <tr><td><a href="guide#BrowserWindowMenuNavigateHome">Home page</a></td><td class="menuarrow"></td></tr>
 <tr><td><a href="guide#BrowserWindowMenuNavigateBack">Back one page</a></td><td class="menuarrow"></td></tr>
 <tr><td><a href="guide#BrowserWindowMenuNavigateForward">Forward one page</a></td><td class="menuarrow"></td></tr>
-<tr><td class="menusplit"><a href="guide#BrowserWindowMenuNavigateReload">Reload this page</a></td></tr>
+<tr><td class="menusplit"><a href="guide#BrowserWindowMenuNavigateReload">Reload this page</a></td><td></td></tr>
 <tr><td><a href="guide#BrowserWindowMenuNavigateStop">Stop loading this page</a></td><td class="menuarrow"></td></tr>
 </table>
 
@@ -276,7 +296,7 @@
 <tr><td><a href="guide#BrowserWindowMenuDisplayImages">Images</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="guide#BrowserWindowMenuDisplayToolbars">Toolbars</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="guide#BrowserWindowMenuDisplayRender">Render</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td class="menusplit"><a href="guide#BrowserWindowMenuDisplaySetDefault">Set as default</a></td></tr>
+<tr><td class="menusplit"><a href="guide#BrowserWindowMenuDisplaySetDefault">Set as default</a></td><td></td></tr>
 </table>
 
 <p class="menupath" id="BrowserWindowMenuDisplayScale">Display &gt; Scale View</p>
@@ -290,7 +310,7 @@
 <tr><td><a href="guide#BrowserWindowMenuDisplayImagesForeground">Foreground images</a></td><td class="menuarrow"></td></tr>
 <tr><td><a href="guide#BrowserWindowMenuDisplayImagesBackground">Background images</a></td><td class="menuarrow"></td></tr>
 <tr><td><a href="guide#BrowserWindowMenuDisplayImagesAnimations">Animations</a></td><td class="menuarrow"></td></tr>
-<tr><td class="menusplit"><a href="guide#BrowserWindowMenuDisplayImagesDither">Dither images</a></td></tr>
+<tr><td class="menusplit"><a href="guide#BrowserWindowMenuDisplayImagesDither">Dither images</a></td><td></td></tr>
 <tr><td><a href="guide#BrowserWindowMenuDisplayImagesSmooth">Smooth images</a></td><td class="menuarrow"></td></tr>
 </table>
 
@@ -298,7 +318,7 @@
 <p class="menuitem">This option allows you to toggle the display of foreground images. When foreground images are enabled, a tick appears to the left of the menu entry. If foreground images are disabled, any alternate text that the page provides will be shown instead.</p>
 
 <p class="menupath" id="BrowserWindowMenuDisplayImagesBackground">Display &gt; Images &gt; Background images</p>
-<p class="menuitem">This option allows you to toggle the display of background images. When background images are enabled, a tick appears to the left of the menu entry. If background images are disabled, any any background colour specified by the document will be used instead.</p>
+<p class="menuitem">This option allows you to toggle the display of background images. When background images are enabled, a tick appears to the left of the menu entry. If background images are disabled, any background colour specified by the document will be used instead.</p>
 
 <p class="menupath" id="BrowserWindowMenuDisplayImagesAnimations">Display &gt; Images &gt; Animations</p>
 <p class="menuitem">This option allows you to toggle the display of animations images. When animations are enabled, a tick appears to the left of the menu entry. If background images are disabled, the first frame of the animation will be shown as a static image.</p>
@@ -317,7 +337,7 @@
 <tr><td><a href="guide#BrowserWindowMenuDisplayToolbarsButtons">Buttons</a></td><td class="menuarrow"></td></tr>
 <tr><td><a href="guide#BrowserWindowMenuDisplayToolbarsAddress">Address bar</a></td><td class="menuarrow"></td></tr>
 <tr><td><a href="guide#BrowserWindowMenuDisplayToolbarsThrobber">Throbber</a></td><td class="menuarrow"></td></tr>
-<tr><td class="menusplit"><a href="guide#BrowserWindowMenuDisplayToolbarsStatus">Status bar</a></td></tr>
+<tr><td class="menusplit"><a href="guide#BrowserWindowMenuDisplayToolbarsStatus">Status bar</a></td><td></td></tr>
 </table>
 
 <p class="menupath" id="BrowserWindowMenuDisplayToolbarsButtons">Display &gt; Toolbars &gt; Buttons</p>
@@ -340,18 +360,18 @@
 <table class="menu">
 <tr><th class="menutitle" colspan="2">Render</th></tr>
 <tr><td><a href="guide#BrowserWindowMenuDisplayRenderBlend">Blend text to background</a></td><td class="menuarrow"></td></tr>
-<tr><td class="menusplit"><a href="guide#BrowserWindowMenuDisplayRenderBufferAnim">Buffer animations</a></td></tr>
+<tr><td class="menusplit"><a href="guide#BrowserWindowMenuDisplayRenderBufferAnim">Buffer animations</a></td><td></td></tr>
 <tr><td><a href="guide#BrowserWindowMenuDisplayRenderBufferAll">Buffer all rendering</a></td><td class="menuarrow"></td></tr>
 </table>
 
 <p class="menupath" id="BrowserWindowMenuDisplayRenderBlend">Display &gt; Render &gt; Blend text to background</p>
-<p class="menuitem">This option improves the edges of any text that is rendered over a background image.  This facility is only available on RISC OS 3.7 or later.</p>
+<p class="menuitem">This option improves the edges of any text that is rendered over a background image. This facility is only available on RISC OS 3.7 or later.</p>
 
 <p class="menupath" id="BrowserWindowMenuDisplayRenderBufferAnim">Display &gt; Render &gt; Buffer animations</p>
-<p class="menuitem">This option stops all animations from flickering.</p>
+<p class="menuitem">This option buffers anything that NetSurf forces to be redrawn, other than redrawing a part of the window which has been obscured. Things like text areas, which are redrawn after typing, and animations are buffered. This has the effect of stopping these items from flickering.</p>
 
 <p class="menupath" id="BrowserWindowMenuDisplayRenderBufferAll">Display &gt; Render &gt; Buffer all rendering</p>
-<p class="menuitem">This option can stop text areas from flickering and improve the display of pages that make heavy use of background images. With this option enabled, actions such as scrolling will become slightly slower.</p>
+<p class="menuitem">This option buffers everything, from the moment NetSurf starts drawing to the moment it finishes. Buffering all rendering is advantageous when pages consist of many boxes with different background colours on top of each other, as it only draws the page once, rather than building it up in layers. In addition, the display of pages which make heavy use of background images can be improved by enabling this option. Buffer all rendering is configured off by default as it slows down rendering, which makes scrolling pages much slower.</p>
 
 <p class="menupath" id="BrowserWindowMenuDisplaySetDefault">Display &gt; Set as default</p>
 <p class="menuitem">This option makes NetSurf use the display options you have set up for the current window as the default options.</p>
@@ -363,7 +383,7 @@
 <table class="menu">
 <tr><th class="menutitle" colspan="2">Utilities</th></tr>
 <tr><td><a href="guide#BrowserWindowMenuUtilitiesHotlist">Hotlist</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="guide#BrowserWindowMenuUtilitiesHistory">History</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuUtilitiesHistory">History</a></td><td class="menuarrow"></td><td></td></tr>
 <tr><td><a href="guide#BrowserWindowMenuUtilitiesWindow">Window</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="guide#BrowserWindowMenuUtilitiesFindText">Find text</a></td><td class="menuarrow">&gt;</td></tr>
 </table>
@@ -378,7 +398,7 @@
 </table>
 
 <p class="menupath" id="BrowserWindowMenuUtilitiesHotlistAdd">Utilities &gt; Hotlist &gt; Add to hotlist</p>
-<p class="menuitem">This option adds the current page to the bottom of your hotlist.</p>
+<p class="menuitem">This option adds the current page to the bottom of your hotlist. The same function is available on the <a href="guide#BrowserWindowToolbar">toolbar</a>.</p>
 
 <p class="menupath" id="BrowserWindowMenuUtilitiesHotlistShow">Utilities &gt; Hotlist &gt; Show hotlist</p>
 <p class="menuitem">This option opens the <a href="guide#HotlistWindow">hotlist management window</a>. The same function is available on the <a href="guide#BrowserWindowToolbar">toolbar</a>.</p>
@@ -394,7 +414,7 @@
 <tr><td><a href="guide#BrowserWindowMenuUtilitiesWindowSetdefault">Set as default position</a></td><td class="menuarrow"></td></tr>
 <tr><td><a href="guide#BrowserWindowMenuUtilitiesWindowStagger">Stagger window position</a></td><td class="menuarrow"></td></tr>
 <tr><td><a href="guide#BrowserWindowMenuUtilitiesWindowMaintainsize">Maintain window size</a></td><td class="menuarrow"></td></tr>
-<tr><td class="menusplit"><a href="guide#BrowserWindowMenuUtilitiesWindowResetdefault">Reset default position</a></td></tr>
+<tr><td class="menusplit"><a href="guide#BrowserWindowMenuUtilitiesWindowResetdefault">Reset default position</a></td><td></td></tr>
 </table>
 
 <p class="menupath" id="BrowserWindowMenuUtilitiesWindowSetdefault">Utilities &gt; Window &gt; Set as default position</p>
@@ -421,8 +441,8 @@
 <tr><td><a href="guide#BrowserWindowMenuHelpContents">Contents</a></td><td class="menuarrow"></td></tr>
 <tr><td><a href="guide#BrowserWindowMenuHelpGuide">User guide</a></td><td class="menuarrow"></td></tr>
 <tr><td><a href="guide#BrowserWindowMenuHelpInfo">User information</a></td><td class="menuarrow"></td></tr>
-<tr><td class="menusplit"><a href="guide#BrowserWindowMenuHelpAbout">About NetSurf</a></td></tr>
-<tr><td class="menusplit"><a href="guide#BrowserWindowMenuHelpInteractive">Interactive help</a></td></tr>
+<tr><td class="menusplit"><a href="guide#BrowserWindowMenuHelpAbout">About NetSurf</a></td><td></td></tr>
+<tr><td class="menusplit"><a href="guide#BrowserWindowMenuHelpInteractive">Interactive help</a></td><td></td></tr>
 </table>
 
 <p class="menupath" id="BrowserWindowMenuHelpContents">Help &gt; Contents</p>
@@ -483,7 +503,159 @@
 
 <h2 id="Hotlist">Hotlist Management Window</h2>
 
+<p>While browsing the World Wide Web, you may come across pages that you wish to return to. NetSurf's hotlist provides a convenient way of storing these addresses (URLs) so that you can return to the page without having to remember the URL or how you first came across the page. Hotlists are made up from &quot;entries&quot; and &quot;directories&quot;. There can be as many of each of these as you like.</p>
+
+<p>An entry consists of a name and a URL. Hotlist entries can point to any kind of file and double clicking on one will launch the URL in NetSurf. The name can be anything you want and, for web pages, is set to the page title by default. Entries also store other usage information, such as the date the entry was added to the hotlist, when it was last visited and how many times it has been visited in total.</p>
+
+<p>Directories are used to group related entries to allow for easy location of the entry you want. They can be nested and contain a mixture of entries and other directories.</p>
+
+<p>To open the hotlist management window, you can adjust click on NetSurf's iconbar icon or select click on the Hotlist toolbar button on a <a href="guide#BrowserWindow">browser window</a>. The area at the top of the hotlist management window is the hotlist toolbar and the main section below that is the hotlist display.</p>
+
+<p>The hotlist display works in a similar way to a filer window, although there are some important differences. Directories are not opened in new windows. Instead, the whole hotlist is displayed in one window and directories represented by branches in a tree diagram. Double clicking on a closed directory will open it, displaying its contents as a new branch. Double clicking on an open directory will close it. When entries are double clicked on, their URL is launched by NetSurf. Next to the entry and directory icons there are toggle boxes, which can be used to expand and collapse branches in the hotlist tree. Clicking on the branch toggle boxes next to directories has exactly the same effect as double clicking on a directory. Expanding an entry with the branch toggle box displays the other information it contains, such as the URL and it's usage statistics. The space bar can also be used to expand or collapse selected entries.</p>
+
+<p>As with filer windows, selections can be made by dragging selection boxes and adjust clicking can be used to add or remove items from the selection. Selections can then be dragged and dropped within the hotlist management window to move them around and you can drop a selection over a closed directory by releasing it there.</p>
+
+<p>NetSurf's hotlist is stored as an HTML file which can be found in <em>Choices:WWW.NetSurf</em>. This means the hotlist file can be loaded into a NetSurf browser window and used as a links page or set to your default home page. The hotlist file is saved when you quit NetSurf and a save can be forced from the hotlist management window <a href="guide#HotlistMenuHotlistSave">menu</a>.</p>
+
+<h3 id="HotlistToolbar">Toolbar</h3>
+
 <p>Not written yet.</p>
+
+<h3 id="HotlistMenus">Menus</h3>
+
+<p>The hotlist menu contains options which allow you to manage the content of your hotlist. The options available are:</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Hotlist</th></tr>
+<tr><td><a href="guide#HotlistMenuHotlist">Hotlist</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#HotlistMenuSelection">Selection</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#HotlistMenuSelectAll">Select all</a></td><td></td></tr>
+<tr><td><a href="guide#HotlistMenuClearSelection">Clear selection</a></td><td></td></tr>
+</table>
+
+<h4 id="HotlistMenuHotlist" class="submenu">Hotlist Submenu</h4>
+
+<p>The Hotlist submenu contains the following options which apply to the hotlist in general.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Hotlist</th></tr>
+<tr><td><a href="guide#HotlistMenuHotlistNew">New</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#HotlistMenuHotlistSave">Save</a></td><td></td></tr>
+<tr><td><a href="guide#HotlistMenuHotlistExport">Export</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td class="menusplit"><a href="guide#HotlistMenuHotlistExpand">Expand</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#HotlistMenuHotlistCollapse">Collapse</a></td><td class="menuarrow">&gt;</td></tr>
+</table>
+
+<p class="menupath" id="HotlistMenuHotlistNew">Hotlist &gt; New</p>
+<p class="menuitem">This option allows the creation of new entries or directories.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">New</th></tr>
+<tr><td><a href="guide#HotlistMenuHotlistNewDirectory">Directory</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#HotlistMenuHotlistNewEntry">Entry</a></td><td class="menuarrow">&gt;</td></tr>
+</table>
+
+<p class="menupath" id="HotlistMenuHotlistNewDirectory">Hotlist &gt; New &gt; Directory</p>
+<p class="menuitem">This option allows you to create a new directory, which is added to the bottom of the hotlist. The name of the directory can be set and once created, it can be dragged to a different location in the hotlist and <a href="guide#HotlistMenuSelectionEdit">renamed</a>. Directories can be nested and there is no limit to the number of sub directories. This option is also available on the hotlist management window <a href="guide#HotlistToolbar">toolbar</a>.</p>
+
+<p class="menupath" id="HotlistMenuHotlistNewEntry">Hotlist &gt; New &gt; Entry</p>
+<p class="menuitem">This option allows you to create a new entry. Its name and URL must be set before it is added to the bottom of the hotlist. The entry can later be moved around in the hotlist and <a href="guide#HotlistMenuSelectionEdit">edited</a>. This option is also available on the hotlist management window <a href="guide#HotlistToolbar">toolbar</a>.</p>
+
+<p class="menupath" id="HotlistMenuHotlistSave">Hotlist &gt; Save</p>
+<p class="menuitem">This option allows you to save the hotlist. The hotlist is also saved automatically when NetSurf is <a href="guide#IconbarMenuQuit">quitted</a>.</p>
+
+<p class="menupath" id="HotlistMenuHotlistExport">Hotlist &gt; Export</p>
+<p class="menuitem">This option allows you to export the hotlist as an HTML file. The directory structure is represented by nested unordered lists and entries are converted to clickable links.</p>
+
+<p class="menupath" id="HotlistMenuHotlistExpand">Hotlist &gt; Expand</p>
+<p class="menuitem">This option allows various parts of the hotlist to be shown.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Expand</th></tr>
+<tr><td><a href="guide#HotlistMenuHotlistExpandAll">All</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#HotlistMenuHotlistExpandDirectories">Directories</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#HotlistMenuHotlistEdpandEntries">Entries</a></td><td class="menuarrow"></td></tr>
+</table>
+
+<p class="menupath" id="HotlistMenuHotlistExpandAll">Hotlist &gt; Expand &gt; All</p>
+<p class="menuitem">This option opens all directories and expands all entries in the hotlist, making the entire directory structure and all entry information visible.</p>
+
+<p class="menupath" id="HotlistMenuHotlistExpandDirectories">Hotlist &gt; Expand &gt; Directories</p>
+<p class="menuitem">This option opens all of the directories in the hotlist, making the entire directory structure visible.</p>
+
+<p class="menupath" id="HotlistMenuHotlistExpandEntries">Hotlist &gt; Expand &gt; Entries</p>
+<p class="menuitem">This option expands all of the entries which are presently being displayed in the hotlist. Their URLs and additional usage information are made visible.</p>
+
+<p class="menupath" id="HotlistMenuHotlistCollapse">Hotlist &gt; Collapse</p>
+<p class="menuitem">This option allows various parts of the hotlist to be hidden.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Collapse</th></tr>
+<tr><td><a href="guide#HotlistMenuHotlistCollapseAll">All</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#HotlistMenuHotlistCollapseDirectories">Directories</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#HotlistMenuHotlistCollapseEntries">Entries</a></td><td class="menuarrow"></td></tr>
+</table>
+
+<p class="menupath" id="HotlistMenuHotlistCollapseAll">Hotlist &gt; Collapse &gt; All</p>
+<p class="menuitem">This option closes all directories and collapses all entries in the hotlist, reducing the display to the contents of the hotlist root directory.</p>
+
+<p class="menupath" id="HotlistMenuHotlistCollapseDirectories">Hotlist &gt; Collapse &gt; Directories</p>
+<p class="menuitem">This option closes all of the directories in the hotlist, hiding the directory structure.</p>
+
+<p class="menupath" id="HotlistMenuHotlistCollapseEntries">Hotlist &gt; Collapse &gt; Entries</p>
+<p class="menuitem">This option reduces all of the hotlist entries to just their name, hiding their URLs and additional usage information.</p>
+
+<h4 id="HotlistMenuSelection" class="submenu">Selection Submenu</h4>
+
+<p>The selection submenu, which is only available when a selection has been made in the hotlist management window, contains the following options.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Selection</th></tr>
+<tr><td><a href="guide#HotlistMenuSelectionSave">Save</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#HotlistMenuSelectionEdit">Edit</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#HotlistMenuSelectionLaunch">Launch</a></td><td></td></tr>
+<tr><td><a href="guide#HotlistMenuSelectionDelete">Delete</a></td><td></td></tr>
+<tr><td><a href="guide#HotlistMenuSelectionResetStatistics">Reset statistics</a></td><td></td></tr>
+</table>
+
+<p class="menupath" id="HotlistMenuSelectionSave">Selection &gt; Save</p>
+<p class="menuitem">This option allows you to save the current selection. Different options are available depending on what has been selected.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Save</th></tr>
+<tr><td><a href="guide#HotlistMenuSelectionSaveAcorn">Acorn URI</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#HotlistMenuSelectionSaveAnt">Ant URL</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#HotlistMenuSelectionSaveHTML">HTML</a></td><td class="menuarrow">&gt;</td></tr>
+</table>
+
+<p class="menupath" id="HotlistMenuSelectionSaveAcorn">Selection &gt; Save &gt; Acorn URI</p>
+<p class="menuitem">This option allows you to save the address of the selected entry in Acorn URI format. This option is only available when one entry is selected.</p>
+
+<p class="menupath" id="HotlistMenuSelectionSaveAnt">Selection &gt; Save &gt; Ant URL</p>
+<p class="menuitem">This option allows you to save the address of the selected entry in Ant URL format. This option is only available when one entry is selected.</p>
+
+<p class="menupath" id="HotlistMenuSelectionSaveHTML">Selection &gt; Save &gt; HTML</p>
+<p class="menuitem">This option allows you to save the current selection in HTML format. Any directories are represented by nested unordered lists while entries are converted to clickable links.</p>
+
+<p class="menupath" id="HotlistMenuSelectionEdit">Selection &gt; Edit</p>
+<p class="menuitem">This option allows you to edit the currently selected item and is only available when either one directory or one item is selected. The names of directories can entries can be altered. Entries' URLs can also be changed.</p>
+
+<p>Entries added to the hotlist from a NetSurf browser window have a default name set. For HTML files, this is the page title.</p>
+
+<p class="menupath" id="HotlistMenuSelectionLaunch">Selection &gt; Launch</p>
+<p class="menuitem">This option allows you to launch all of the selected entries in separate NetSurf browser windows. This option is also available on the hotlist management window <a href="guide#HotlistToolbar">toolbar</a>.</p>
+
+<p class="menupath" id="HotlistMenuSelectionDelete">Selection &gt; Delete</p>
+<p class="menuitem">This option deletes the current selection from the hotlist. This option is also available on the hotlist management window <a href="guide#HotlistToolbar">toolbar</a>.</p>
+
+<p class="menupath" id="HotlistMenuSelectionResetStatistics">Selection &gt; Reset statistics</p>
+<p class="menuitem">This option resets the usage information for all selected entries. The hotlist's last visited record and total visit counter are removed. The URL and the date the entry was added to the hotlist are left untouched.</p>
+
+<p class="menupath" id="HotlistMenuSelectAll">Select all</p>
+<p class="menuitem">This option allows you to select all the entries and directories in the hotlist.</p>
+
+<p class="menupath" id="HotlistMenuClearSelection">Clear selection</p>
+<p class="menuitem">This option allows you to deselect any selected items.</p>
 
 <h2 id="Configuration">Configuring NetSurf</h2>
 
