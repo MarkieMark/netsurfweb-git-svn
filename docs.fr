@@ -21,6 +21,7 @@
 <ul>
 <li><a href="info#GettingStartedInstallation">Installation</a></li>
 <li><a href="info#GettingStartedRequirements">Configuration logicielle nécessaire</a></li>
+<li><a href="info#GettingStartedAdditionalResources">Ressources supplémentaires</a></li>
 </ul></li>
 <li><a href="info#Upgrading">Mise à jour de NetSurf</a></li>
 <li><a href="info#ContactDevelopers">Contacter les développeurs</a></li>

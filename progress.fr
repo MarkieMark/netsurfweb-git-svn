@@ -21,7 +21,7 @@
 <li><a href="#NSF">Fonctions de NetSurf</a>
 </ul>
 
-<p class="updated">Dernière mise à jour 4 Novembre 2004</p>
+<p class="updated">Dernière mise à jour 15 Décembre 2004</p>
 
 <h2 id="Web">Standards du Web</h2>
 
@@ -61,7 +61,7 @@
 <tr class="complete"><td>JNG</td><td>Terminé</td><td></td></tr>
 <tr class="complete"><td>JPEG</td><td>Terminé</td><td></td></tr>
 <tr class="nearlydone"><td>MNG</td><td>Presque fini</td><td>Les fonctions interactives ne sont pas supportées.</td></tr>
-<tr class="inprogress"><td>PNG</td><td>En cours</td><td>La récupération de PNGs depuis un hôte distant peut geler la machine sur certains systèmes.<br>La correction Gamma n'est pas correcte pour les PNGs avec un canal alpha.</td></tr>
+<tr class="inprogress"><td>PNG</td><td>Presque fini</td><td>La correction gamma n'est pas correcte pour les PNGs avec des canaux alpha.</td></tr>
 <tr class="complete"><td>Sprite</td><td>Terminé</td><td></td></tr>
 </table>
 
