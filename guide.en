@@ -21,7 +21,6 @@
 <li><a href="guide#download">Download window</a></li>
 <li><a href="guide#history">History window</a></li>
 <li><a href="guide#keys">Keyboard shortcuts</a></li>
-<li><a href="guide#urls">URL shortcuts</a></li>
 <li><a href="guide#conf">Configuration</a></li>
 </ul>
 
@@ -367,18 +366,6 @@
 <tr><td>Ctrl+Shift+F3</td><td>Save the page as a Drawfile</td></tr>
 <tr><td>F8</td><td>View webpage source</td></tr>
 <tr><td>F11</td><td>View box outlines. This may be useful if you are creating your own webpage. Cyan marks the content's edge, magenta marks the padding's edge and yellow marks the margin's edge.</td></tr>
-</table>
-
-<h2 id="urls">URL Shortcuts</h2>
-
-<p>NetSurf also supports URL shortcuts, which allow quick access to various pages. The supported URL shortcuts are listed below. Type them into a NetSurf URL bar to see the corresponding page.</p>
-
-<table>
-<tr><th>Shortcut</th><th>Page</th></tr>
-<tr><td>about:</td><td>The NetSurf About page</td></tr>
-<tr><td>about:cookies</td><td>List of cookies stored by NetSurf</td></tr>
-<tr><td>help:</td><td>NetSurf documentation</td></tr>
-<tr><td>home:</td><td>NetSurf home page</td></tr>
 </table>
 
 <h2 id="conf">Configuring NetSurf</h2>
