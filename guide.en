@@ -59,7 +59,7 @@
 
 <p class="iconinfo"><strong><img src="images/home" class="icon" alt="Home" title="Home Button"></strong> Clicking on this button returns to the configured home page.</p>
 
-<p class="iconinfo"><strong><img src="images/hotlist" class="icon" alt="Hotlist" title="Hotlist Button"></strong> Select clicking on this button adds the current location to the hotlist. Adjust clicking opens the hotlist management window.</p>
+<p class="iconinfo"><strong><img src="images/hotlist" class="icon" alt="Hotlist" title="Hotlist Button"></strong> Select clicking on this button opens the hotlist management window. Adjust clicking adds the current location to the hotlist.</p>
 
 <p class="iconinfo"><strong><img src="images/print" class="icon" alt="Print" title="Print Button"></strong> Clicking on this button will open the print dialogue box.</p>
 
