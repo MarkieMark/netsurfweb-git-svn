@@ -35,7 +35,7 @@
 <li><a href="guide#Keys">Keyboard shortcuts</a></li>
 </ul>
 
-<p class="updated">Last updated 13 August 2004</p>
+<p class="updated">Last updated 4 November 2004</p>
 
 <h2 id="Using">Using NetSurf</h2>
 
@@ -311,8 +311,6 @@
 <tr><td><a href="guide#BrowserWindowMenuDisplayImagesForeground">Foreground images</a></td><td class="menuarrow"></td></tr>
 <tr><td><a href="guide#BrowserWindowMenuDisplayImagesBackground">Background images</a></td><td class="menuarrow"></td></tr>
 <tr><td><a href="guide#BrowserWindowMenuDisplayImagesAnimations">Animations</a></td><td class="menuarrow"></td></tr>
-<tr><td class="menusplit"><a href="guide#BrowserWindowMenuDisplayImagesDither">Dither images</a></td><td></td></tr>
-<tr><td><a href="guide#BrowserWindowMenuDisplayImagesSmooth">Smooth images</a></td><td class="menuarrow"></td></tr>
 </table>
 
 <p class="menupath" id="BrowserWindowMenuDisplayImagesForeground">Display &gt; Images &gt; Foreground images</p>
@@ -323,12 +321,6 @@
 
 <p class="menupath" id="BrowserWindowMenuDisplayImagesAnimations">Display &gt; Images &gt; Animations</p>
 <p class="menuitem">This option allows you to toggle the display of animations images. When animations are enabled, a tick appears to the left of the menu entry. If background images are disabled, the first frame of the animation will be shown as a static image.</p>
-
-<p class="menupath" id="BrowserWindowMenuDisplayImagesDither">Display &gt; Images &gt; Dither images</p>
-<p class="menuitem">This option allows you to toggle image dithering. When dithering is enabled, a tick appears to the left of the menu entry. Dithering gives an improved display in sub true colour screen modes.</p>
-
-<p class="menupath" id="BrowserWindowMenuDisplayImagesSmooth">Display &gt; Images &gt; Smooth images</p>
-<p class="menuitem">This option allows you to toggle image smoothing. When smoothing is enabled, a tick appears to the left of the menu entry. Image smoothing uses bi-linear filtering to give an improved display of scaled images.</p>
 
 <p class="menupath" id="BrowserWindowMenuDisplayToolbars">Display &gt; Toolbars</p>
 <p class="menuitem">The Toolbars submenu allows you to control the way NetSurf's toolbars are displayed. The options available here only affect the local browser window.</p>

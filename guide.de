@@ -35,7 +35,7 @@
 <li><a href="guide#Keys">Tastaturkürzel (Shortcuts)</a></li>
 </ul>
 
-<p class="updated">aktualisiert am 13 August 2004</p>
+<p class="updated">aktualisiert am 4 November 2004</p>
 
 <h2 id="Using">NetSurf starten</h2>
 
@@ -311,8 +311,6 @@
 <tr><td><a href="guide#BrowserWindowMenuDisplayImagesForeground">Vordergrundbilder</a></td><td class="menuarrow"></td></tr>
 <tr><td><a href="guide#BrowserWindowMenuDisplayImagesBackground">Hintergrundbilder</a></td><td class="menuarrow"></td></tr>
 <tr><td><a href="guide#BrowserWindowMenuDisplayImagesAnimations">Animationen</a></td><td class="menuarrow"></td></tr>
-<tr><td class="menusplit"><a href="guide#BrowserWindowMenuDisplayImagesDither">Bilder dithern</a></td><td></td></tr>
-<tr><td><a href="guide#BrowserWindowMenuDisplayImagesSmooth">Bilder weichzeichnen</a></td><td class="menuarrow"></td></tr>
 </table>
 
 <p class="menupath" id="BrowserWindowMenuDisplayImagesForeground">Anzeige &gt; Bilder &gt; Vordergrundbilder</p>
@@ -323,12 +321,6 @@
 
 <p class="menupath" id="BrowserWindowMenuDisplayImagesAnimations">Anzeige &gt; Bilder &gt; Animationen</p>
 <p class="menuitem">Läßt die Animation von Bildern zu oder schaltet sie ab. Ein Häkchen am Menüeintrag bedeutet Aktivität. Ist die Darstellung von Hintergrundbildern abgeschaltet, wird von animierten Bildern nur das erste Teilbild angezeigt.</p>
-
-<p class="menupath" id="BrowserWindowMenuDisplayImagesDither">Anzeige &gt; Bilder &gt; Bilder dithern</p>
-<p class="menuitem">Dithern verbessert die Bilddarstellung in Bildschirmmodi mit geringer Farbanzahl. Das Dithern ist aktiviert, wenn der Menüpunkt mit einem Häkchen markiert ist.</p>
-
-<p class="menupath" id="BrowserWindowMenuDisplayImagesSmooth">Anzeige &gt; Bilder &gt; Bilder weichzeichnen</p>
-<p class="menuitem">Weichzeichnen verbessert die Darstellung insbesondere von vergrößerten Bildern. Die Funktion nutzt bi-linieares Filtern. Das Weichzeichnen ist aktiviert, wenn der Menüpunkt mit einem Häkchen markiert ist.</p>
 
 <p class="menupath" id="BrowserWindowMenuDisplayToolbars">Anzeige &gt; Anzeigen und Leisten</p>
 <p class="menuitem">Erlaubt das Ab- oder Zuschalten der Informations- und Aktionsleisten im aktuellen Browserfenster.</p>
