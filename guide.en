@@ -2,7 +2,6 @@
         "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
-<META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <title>NetSurf | User Guide</title>
 <link rel="stylesheet" type="text/css" href="netsurf.css">
 </head>
@@ -359,7 +358,7 @@
 <tr><td>Ctrl+Cursor Down</td><td>Go to bottom of page</td></tr>
 <tr><td>Cursor Up</td><td>Scroll up one line</td></tr>
 <tr><td>Ctrl+Cursor Up</td><td>Go to top of page</td></tr>
-<tr><td>F1</td><td>Open the documentation contents page in a new window.</td></tr>
+<tr><td>F1</td><td>Open the documentation contents page in a new window</td></tr>
 <tr><td>F2</td><td>Move the caret to URL bar and clear it to &quot;www.&quot;</td></tr>
 <tr><td>Ctrl+F2</td><td>Close the window</td></tr>
 <tr><td>F3</td><td>Save the page source</td></tr>
