@@ -25,7 +25,7 @@
 <li><a href="guide#conf">Configuration</a></li>
 </ul>
 
-<p class="updated">Last updated 29 June 2004</p>
+<p class="updated">Last updated 11 July 2004</p>
 
 <h2 id="using">Using NetSurf</h2>
 
@@ -63,7 +63,7 @@
 
 <p class="iconinfo"><strong><img src="images/print" class="icon" alt="Print" title="Print Button"></strong> Clicking on this button will open the print dialogue box.</p>
 
-<p class="iconinfo"><strong><img src="images/reload" class="icon" alt="reload" title="Reload Button"></strong> Clicking on this button will make NetSurf fetch and redraw the current page again.</p>
+<p class="iconinfo"><strong><img src="images/reload" class="icon" alt="reload" title="Reload Button"></strong> Select clicking on this button will make NetSurf fetch and redraw the current page again. Adjust clicking forces NetSurf to fetch the current page as well as any objects it contains, such as images and style sheets.</p>
 
 <p class="iconinfo"><strong><img src="images/save" class="icon" alt="Save" title="Save Button"></strong> Clicking on this button will open a save dialogue box, to allow you to save the page for future reference.</p>
 
