@@ -106,7 +106,7 @@
 
 <h3 id="BrowserWindowMenus">Menus</h3>
 
-<p>The browser window menu contains options relating to the content of the current window. Many of these options are unavailable at present as this area of NetSurf is not complete. The following options are available:</p>
+<p>The browser window menu contains options relating to the content of the current window. Some of these options are unavailable at present as this area of NetSurf is not complete. The following options are available:</p>
 
 <table class="menu">
 <tr><th class="menutitle" colspan="2">NetSurf</th></tr>
@@ -492,17 +492,18 @@
 <tr><td>Ctrl+Cursor Down</td><td>Go to the bottom of the page</td></tr>
 <tr><td>Cursor Up</td><td>Scroll up one line</td></tr>
 <tr><td>Ctrl+Cursor Up</td><td>Go to the top of the page</td></tr>
+<tr><td>F11</td><td>Open the scale view window</td></tr>
 <tr><td>Ctrl+Q</td><td>Reduce scale of view by 10%</td></tr>
 <tr><td>Ctrl+W</td><td>Increase scale of view by 10%</td></tr>
-<tr><td>F11</td><td>View box outlines. This may be useful if you are creating your own webpage. Cyan marks the content's edge, magenta marks the padding's edge and yellow marks the margin's edge.</td></tr>
+<tr><td>Shift+F11</td><td>View box outlines. This may be useful if you are creating your own webpage. Cyan marks the content's edge, magenta marks the padding's edge and yellow marks the margin's edge.</td></tr>
 </table>
 
 <h3>Navigation</h3>
 
 <table>
 <tr><th>Shortcut</th><th>Function</th></tr>
-<tr><td>Ctrl+R</td><td>Reload the current page.</td></tr>
-<tr><td>Esc</td><td>Stop the current page loading.</td></tr>
+<tr><td>F5, Ctrl+R</td><td>Reload the current page</td></tr>
+<tr><td>Esc</td><td>Stop the current page loading</td></tr>
 </table>
 
 <h3>General</h3>
@@ -510,6 +511,7 @@
 <table>
 <tr><td>F1</td><td>Open the <a href="docs">documentation contents page</a> in a new window</td></tr>
 <tr><td>F2</td><td>Move the caret to URL bar and clear it to &quot;www.&quot;</td></tr>
+<tr><td>F4</td><td>Open the text search window</td></tr>
 <tr><td>F6</td><td>Open the hotlist management window</td></tr>
 <tr><td>Ctrl+F2</td><td>Close the window</td></tr>
 </table>
