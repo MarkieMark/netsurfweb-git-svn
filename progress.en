@@ -20,7 +20,7 @@
 <li><a href="progress#NSF">NetSurf features</a>
 </ul>
 
-<p class="updated">Last updated 30 July 2004</p>
+<p class="updated">Last updated 31 July 2004</p>
 
 <h2 id="web">Web standards</h2>
 
@@ -42,7 +42,6 @@
 <tr><th>Title</th><th>Status</th><th>Notes</th></tr>
 <tr class="nearlydone"><td>Background Images</td><td>Nearly done</td><td>Background-attachment needs more work.</td></tr>
 <tr class="nearlydone"><td>Borders / Margins / Padding</td><td>Nearly done</td><td></td></tr>
-<tr class="nearlydone"><td>BR Tag</td><td>Nearly done</td><td>Clear is not implemented.</td></tr>
 <tr class="nearlydone"><td>Forms</td><td>Nearly done</td><td>Doesn't work fully with Scale View.<br>Textarea needs much improvement.</td></tr>
 <tr class="juststarted"><td>Frames</td><td>Just started</td><td>Experimental frames implementation is far from complete.</td></tr>
 <tr class="complete"><td>Image Maps</td><td>Complete</td><td></td></tr>
@@ -77,6 +76,7 @@
 
 <table class="progress">
 <tr><th>Title</th><th>Status</th><th>Notes</th></tr>
+<tr class="complete"><td>Advertisement Blocking</td><td>Complete</td><td></td></tr>
 <tr class="inprogress"><td>Configuration</td><td>In progress</td><td></td></tr>
 <tr class="notstarted"><td>Disc Cache</td><td>Not started</td><td></td></tr>
 <tr class="complete"><td>Dithering</td><td>Complete</td><td>Gives improved rendering in sub true colour screen modes.</td></tr>
@@ -90,7 +90,7 @@
 <tr class="notstarted"><td>Printing</td><td>Not started</td><td></td></tr>
 <tr class="inprogress"><td>Proxy Support</td><td>In progress</td><td>Protocols other than HTTP are incorrectly proxied.</td></tr>
 <tr class="complete"><td>Reload</td><td>Complete</td><td>Select clicking on the reload button will reload the web page alone. Adjust clicking reloads the web page and other objects such as CSS files and images.</td></tr>
-<tr class="complete"><td>Save Complete</td><td>Complete</td><td>Save pages with CSS files and images.</td></tr>
+<tr class="nearlydone"><td>Save Complete</td><td>Nearly done</td><td>Save pages with CSS files and images. Doesn't rewrite CSS background URLs.</td></tr>
 <tr class="complete"><td>Save Location</td><td>Complete</td><td>Save the location of the current page / object in Acorn URI, Ant URL or plain text formats.</td></tr>
 <tr class="inprogress"><td>Save as Text</td><td>In progress</td><td>Some issues with spacing out of text.</td></tr>
 <tr class="nearlydone"><td>Scale View</td><td>Nearly done</td><td>Following links at anything other than 100% causes the new page to be laid out at the wrong width.</td></tr>
