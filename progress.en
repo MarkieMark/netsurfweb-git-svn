@@ -21,7 +21,7 @@
 <li><a href="#NSF">NetSurf features</a>
 </ul>
 
-<p class="updated">Last updated 9 February 2005</p>
+<p class="updated">Last updated 4 March 2005</p>
 
 <h2 id="Web">Web standards</h2>
 
@@ -89,7 +89,6 @@
 <tr class="complete"><td>History (Local)</td><td>Complete</td><td>Local window history is not yet cloned when adjust clicking a link.</td></tr>
 <tr class="nearlydone"><td>Hotlist</td><td>Nearly done</td><td></td></tr>
 <tr class="inprogress"><td>Interactive Help</td><td>In progress</td><td></td></tr>
-<tr class="nearlydone"><td>Internal Unicode Support</td><td>Nearly done</td><td></td></tr>
 <tr class="complete"><td>Memory Cache</td><td>Complete</td><td></td></tr>
 <tr class="inprogress"><td>Printing</td><td>In progress</td><td></td></tr>
 <tr class="inprogress"><td>Proxy Support</td><td>In progress</td><td>Protocols other than HTTP are incorrectly proxied.</td></tr>
@@ -100,6 +99,7 @@
 <tr class="nearlydone"><td>Scale View</td><td>Nearly done</td><td>Images don't get scaled unless embedded in HTML pages.</td></tr>
 <tr class="notstarted"><td>Text Selection</td><td>Not started</td><td></td></tr>
 <tr class="nearlydone"><td>Themes</td><td>Nearly done</td><td>Themes are available from the <a href="http://netsurf.sourceforge.net/themes/">NetSurf themes page</a>.</td></tr>
+<tr class="inprogress"><td>Unicode Font Support</td><td>In progress</td><td></td></tr>
 <tr class="complete"><td>URL Completion</td><td>Complete</td><td>When typing a URL into the URL bar, NetSurf will display suggestions for the full address.</td></tr>
 <tr class="complete"><td>View Source</td><td>Complete</td><td>Press F8 or <i>Page &gt; View source</i> on main menu.</td></tr>
 </table>
