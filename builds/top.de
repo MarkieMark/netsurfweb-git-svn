@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>NetSurf | Test-Versionen</title>
+<link rel="stylesheet" type="text/css" href="/netsurf.css">
+</head>
+
+<body>
+<p class="banner"><a href="/"><img src="/netsurf.png" alt="NetSurf"></a></p>
+<p class="languages">Deutsch · <a href="index.en">English</a></p>
+
+<h1>NetSurf Test-Versionen</h1>
+
+<p>Diese Dateien werden automatisch aus dem CVS Quellcode erzeugt.
+<strong>Sie sind als instabil anzusehen und können jederzeit zum Absturz des Computers führen.</strong></p>
+
+<table class="download">
+<tr><th><a href="dl/netsurf.zip"><img src="netsurf.png" alt=""><br>NetSurf</a></th>
+<td>SIZE_NETSURF</td>
+<td>DATE_NETSURF</td>
+<td>NetSurf Browser für RISC OS, Vollversion.
+<strong>Empfohlen für die meisten Nutzer.</strong></td></tr>
+
+<tr><th><a href="dl/unetsurf.zip"><img src="unetsurf.png" alt=""><br>Small NetSurf</a></th>
+<td>SIZE_UNETSURF</td>
+<td>DATE_UNETSURF</td>
+<td>Der 'kleine' NetSurf Browser für RISC OS. Unterstützt nur http: und file: (kein https:, ftp:, etc.). Geeignet für Maschinen mit wenig Arbeitsspeicher (8MB oder kleiner).</td></th>
+
+<tr><th><a href="dl/ncnetsurf.zip"><img src="ncnetsurf.png" alt=""><br>NCNetSurf</th>
+<td>SIZE_NC</td>
+<td>DATE_NC</td>
+<td>NetSurf mit einer modifizierten Nutzerschnittstelle für den Network Computer (NC) unter NCOS.</td></th>
+
+<tr><th><a href="dl/nstheme.zip"><img src="nstheme.png" alt=""><br>NSTheme</th>
+<td>SIZE_NSTHEME</td>
+<td>DATE_NSTHEME</td>
+<td>Zum Erstellen von Themen für NetSurf. Wird nur von Designern neuer Themen benötigt.</td>
+</table>
+
+<p>Eine <a href="http://www.riscpkg.org/">RiscPkg</a> Paketversion von NetSurf ist verfügbar. Um sie zu verwenden, muß die Zeile <code>pkg http://netsurf.sourceforge.net/builds/packages</code> in die Datei <code>!RiscPkg.Resources.Sources</code> eingefügt werden. Näheres dazu steht in der RiscPkg Dokumentation.</p>
+
+<p><a href="netsurf.log">Logfile des letzten Builderlaufes</a> (nur für Entwickler von Interesse).</p>
+
+<h2>Zusätzlich wird Folgendes benötigt:</h2>
+
+<ul>
+<li>WindowManager 3.80 (oder höher). Ist ab RISC OS 4 Betriebssystembestandteil, für Systeme mit RISC OS 3 sollte die <a href="http://acorn.riscos.com/riscos/releases/UniBoot/">Universal Boot Sequence</a> installiert werden.</li>
+<li><a href="http://www.riscos.info/unix/usage.html">SharedUnixLibrary</a>.</li>
+<li><a href="http://sudden.recoil.org/others/">AcornURI</a>.</li>
+<li><a href="http://www.tinct.net/tinct.asp">Tinct</a>.</li>
+</ul>
+
+<p><strong>Optional:</strong> install <a href="http://moose.mine.nu:6888/iconv_latest.zip">iconv</a> to get improved character encoding support.</p>
+
+<!-- <p><strong>Optional:</strong> download and install the <a href="nsfonts.zip">fonts (360k)</a> to get improved font-family and font-variant support.</p> -->
+
+<h2>Letzte CVS Aktivitäten</h2>
+<p>Alle Zeitangaben in UTC.</p>
