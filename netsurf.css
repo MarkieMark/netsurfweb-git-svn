@@ -16,8 +16,9 @@ ul ul { margin: 0; }
 .footer { font-size: small; }
 .icon { float: left; padding: 1mm; }
 .languages { margin: -4mm 5mm; text-align: right; }
+.updated { margin: -4mm 5mm; text-align: right; }
 
-th { font-weight: bold; font-size: larger; padding: 3px; text-align: left; }
+th { font-weight: bold; padding: 3px; text-align: left; }
 td { padding: 3px; }
 
 .progress   { width: 90%; border-spacing: 1px;

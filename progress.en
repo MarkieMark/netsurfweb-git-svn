@@ -15,6 +15,7 @@
 <ul>
 <li><a href="progress#web">Web standards</a>
 <li><a href="progress#CSSandHTML">Important CSS and HTML features</a>
+<li><a href="progress#Images">Image support</a>
 <li><a href="progress#ROStandards">RISC OS specific standards</a>
 <li><a href="progress#ROUI">RISC OS user interface</a>
 </ul>
@@ -23,9 +24,13 @@
 
 <table class="progress">
 <tr><th>Title</th><th>Status</th><th>Notes</th></tr>
+<tr class="inprogress"><td>Cookies</td><td>In progress</td><td>Don't get expired.</td></tr>
 <tr class="nearlydone"><td>CSS 1</td><td>Nearly done</td><td>See the <a href="http://cvs.semichrome.net/netsurf/Docs/TODO-CSS?rev=HEAD&amp;content-type=text/vnd.viewcvs-markup">TODO list</a>.</td></tr>
-<tr class="inprogress"><td>CSS 2</td><td>In progress</td><td>Hardly started; very little implemented.</td></tr>
+<tr class="inprogress"><td>CSS 2</td><td>In progress</td><td></td></tr>
 <tr class="nearlydone"><td>HTML 4</td><td>Nearly done</td><td></td></tr>
+<tr class="complete"><td>HTTP 1.1</td><td>Complete</td><td></td></tr>
+<tr class="inprogress"><td>HTTP Authentication</td><td>In progress</td><td></td></tr>
+<tr class="nearlydone"><td>HTTPS</td><td>Nearly done</td><td>Doesn't handle invalid certificates well.</td></tr>
 <tr class="notplanned"><td>JavaScript</td><td>Not planned</td><td></td></tr>
 </table>
 
@@ -35,10 +40,24 @@
 <tr><th>Title</th><th>Status</th><th>Notes</th></tr>
 <tr class="notstarted"><td>Background Images</td><td>Not started</td><td></td></tr>
 <tr class="nearlydone"><td>Borders / Margins / Padding</td><td>Nearly done</td><td></td></tr>
-<tr class="inprogress"><td>BR tag</td><td>In progress</td><td>Not properly implemented.<br>Multiple BRs don't work.</td></tr>
+<tr class="inprogress"><td>BR Tag</td><td>In progress</td><td>Not properly implemented.<br>Multiple BRs don't work.</td></tr>
+<tr class="nearlydone"><td>Forms</td><td>Nearly done</td><td>Doesn't work fully with Scale View.<br>Textarea needs much improvement.</td></tr>
 <tr class="inprogress"><td>Frames</td><td>In progress</td><td>Experimental Frames implementation is far from complete.</td></tr>
+<tr class="complete"><td>Image Maps</td><td>Complete</td><td></td></tr>
 <tr class="inprogress"><td>Lists</td><td>In progress</td><td>Lists aren't handled properly.</td></tr>
+<tr class="nearlydone"><td>Tables</td><td>Nearly done</td><td>Cellpadding, cellspacing and table borders not implemented.<br>Extra space is divided equally among columns instead of in proportion with content width.</td></tr>
 <tr class="notstarted"><td>Vertical Alignment</td><td>Not started</td><td></td></tr>
+</table>
+
+<h2 id="Images">Image support</h2>
+
+<table class="progress">
+<tr><th>Title</th><th>Status</th><th>Notes</th></tr>
+<tr class="complete"><td>Drawfile</td><td>Complete</td><td></td></tr>
+<tr class="nearlydone"><td>GIF</td><td>Nearly done</td><td>Animations flicker</td></tr>
+<tr class="complete"><td>JPEG</td><td>Complete</td><td></td></tr>
+<tr class="complete"><td>PNG</td><td>Complete</td><td>Doesn't cope with broken files.</td></tr>
+<tr class="complete"><td>Sprite</td><td>Complete</td><td></td></tr>
 </table>
 
 <h2 id="ROStandards">RISC OS specific standards</h2>
@@ -55,13 +74,26 @@
 <table class="progress">
 <tr><th>Title</th><th>Status</th><th>Notes</th></tr>
 <tr class="notstarted"><td>Bookmarks / Favourites</td><td>Not started</td><td></td></tr>
+<tr class="inprogress"><td>Configuration</td><td>In progress</td><td></td></tr>
+<tr class="notstarted"><td>Disc Cache</td><td>Not started</td><td></td></tr>
+<tr class="complete"><td>Dithering</td><td>Complete</td><td>Dithering to give improved rendering in sub true colour screen modes.</td></tr>
+<tr class="nearlydone"><td>Drawfile Export</td><td>Nearly done</td><td>Embedded drawfiles aren't exported when saving page as Draw.</td></tr>
+<tr class="nearlydone"><td>History Tree</td><td>Nearly done</td><td></td></tr>
+<tr class="notstarted"><td>Interactive Help</td><td>Not started</td><td></td></tr>
+<tr class="complete"><td>Memory Cache</td><td>Complete</td><td>Fixed at 1MB.</td></tr>
 <tr class="notstarted"><td>Printing</td><td>Not started</td><td></td></tr>
-<tr class="notstarted"><td>Reload button</td><td>Not started</td><td></td></tr>
-<tr class="notstarted"><td>Stop button</td><td>Not started</td><td></td></tr>
+<tr class="complete"><td>Proxy Support</td><td>Complete</td><td></td></tr>
+<tr class="notstarted"><td>Reload</td><td>Not started</td><td></td></tr>
+<tr class="complete"><td>Save Complete</td><td>Complete</td><td>Save pages with CSS files and images.</td></tr>
+<tr class="inprogress"><td>Save as Text</td><td>In progress</td><td>Some issues with spacing out of text.</td></tr>
+<tr class="inprogress"><td>Scale View</td><td>In progress</td><td>Following links at anything other than 100% causes the new page to be laid out at the wrong width.<br>Doesn't work with textual input form elements.</td></tr>
+<tr class="notstarted"><td>Stop Fetch</td><td>Not started</td><td></td></tr>
 <tr class="complete"><td>View Source</td><td>Complete</td><td>Press F8</td></tr>
 </table>
 
 <p class="breadcrumbs"><a href="/">NetSurf</a> » <a href="docs">Documentation</a> » Progress</p>
+
+<p class="updated">Last updated 11 April 2004</p>
 
 </body>
 </html>
