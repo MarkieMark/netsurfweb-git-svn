@@ -8,5 +8,5 @@ h2, p { margin: 5mm; }
 h2, .footer { padding-top: 5mm; border-top: thin solid black; }
 .screenshot { text-align: center; }
 .footer { font-size: 80%; }
-.footer img { float: right; }
+.footer img { float: right; border: none; }
 
