@@ -20,7 +20,7 @@
 <li><a href="progress#NSF">NetSurf features</a>
 </ul>
 
-<p class="updated">Last updated 2 July 2004</p>
+<p class="updated">Last updated 16 July 2004</p>
 
 <h2 id="web">Web standards</h2>
 
@@ -59,7 +59,7 @@
 <tr class="complete"><td>Drawfile</td><td>Complete</td><td></td></tr>
 <tr class="complete"><td>GIF</td><td>Complete</td><td></td></tr>
 <tr class="complete"><td>JPEG</td><td>Complete</td><td></td></tr>
-<tr class="notstarted"><td>MNG</td><td>Not started</td><td></td></tr>
+<tr class="juststarted"><td>MNG &amp; JNG</td><td>Just started</td><td></td></tr>
 <tr class="complete"><td>PNG</td><td>Complete</td><td></td></tr>
 <tr class="complete"><td>Sprite</td><td>Complete</td><td></td></tr>
 </table>
@@ -85,6 +85,7 @@
 <tr class="nearlydone"><td>History Tree</td><td>Nearly done</td><td></td></tr>
 <tr class="inprogress"><td>Hotlist</td><td>In progress</td><td></td></tr>
 <tr class="inprogress"><td>Interactive Help</td><td>In progress</td><td></td></tr>
+<tr class="nearlydone"><td>Internal Unicode Support</td><td>Nearly done</td><td></td></tr>
 <tr class="complete"><td>Memory Cache</td><td>Complete</td><td>Fixed at 1MB.</td></tr>
 <tr class="notstarted"><td>Printing</td><td>Not started</td><td></td></tr>
 <tr class="inprogress"><td>Proxy Support</td><td>In progress</td><td>Protocols other than HTTP are incorrectly proxied.</td></tr>
