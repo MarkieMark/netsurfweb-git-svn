@@ -365,6 +365,7 @@
 <tr><td><a href="guide#BrowserWindowMenuUtilitiesHotlist">Hotlist</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="guide#BrowserWindowMenuUtilitiesHistory">History</a></td><td class="menuarrow"></td></tr>
 <tr><td><a href="guide#BrowserWindowMenuUtilitiesWindow">Window</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuUtilitiesFindText">Find text</a></td><td class="menuarrow">&gt;</td></tr>
 </table>
 
 <p class="menupath" id="BrowserWindowMenuUtilitiesHotlist">Utilities &gt; Hotlist</p>
@@ -407,6 +408,9 @@
 
 <p class="menupath" id="BrowserWindowMenuUtilitiesWindowResetdefault">Utilities &gt; Window &gt; Reset default position</p>
 <p class="menuitem">This option removes any user defined default window position. The option is only available when a user defined default window position has been set.</p>
+
+<p class="menupath" id="BrowserWindowMenuUtilitiesFindText">Utilities &gt; Find text</p>
+<p class="menuitem">This option allows you to search the current page for a text string. The same function is available on the <a href="guide#BrowserWindowToolbar">toolbar</a>.</p>
 
 <h4 id="BrowserWindowMenuHelp" class="submenu">Help Submenu</h4>
 
