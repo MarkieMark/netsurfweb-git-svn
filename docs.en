@@ -23,8 +23,12 @@
 
 <li><strong><a href="guide">User Guide</a></strong>
 <ul><li><a href="guide#using">Using NetSurf</a></li>
-<li><a href="guide#toolbar">Toolbar description</a></li>
+<li><a href="guide#help">Interactive help</a></li>
+<li><a href="guide#toolbar">Toolbar</a></li>
+<li><a href="guide#status">Status bar</a></li>
 <li><a href="guide#menus">Menus</a></li>
+<li><a href="guide#download">Download window</a></li>
+<li><a href="guide#history">History window</a></li>
 <li><a href="guide#keys">Keyboard shortcuts</a></li>
 <li><a href="guide#urls">URL shortcuts</a></li>
 <li><a href="guide#conf">Configuration</a></li>

@@ -1,13 +1,12 @@
 html, body { margin: 0; padding: 0; }
 h1, h2, h3, .breadcrumbs { font-family: sans-serif; }
-h1, h2, h3, p, dl, table, ul, pre, address { margin: 5mm; }
+h1, h2, h3, h4, p, dl, table, ul, pre, address { margin: 5mm; }
 h2, .breadcrumbs, .thanks { padding-top: 5mm; border-top: thin solid black; }
 img { border: none; }
 div { display: table-cell; }
 dd { margin-bottom: 0.5em; }
 ul ul { margin: 0; }
-.banner { margin: 0 0 5mm 0; padding: 0; border-bottom: medium solid black;
-          background-color: #94adff; color: black; text-align: left; }
+.banner { margin: 0 0 5mm 0; padding: 0; border-bottom: medium solid black; background-color: #94adff; color: black; text-align: left; }
 .banner img { vertical-align: middle; }
 .screenshot { text-align: center; font-size: small; }
 .links { border-left: thin solid black; }
@@ -17,16 +16,25 @@ ul ul { margin: 0; }
 .languages { margin: -4mm 5mm; text-align: right; }
 .updated { margin: -4mm 5mm; text-align: right; }
 .iconinfo { clear: left; }
+.headnote { color: #777; font-style: italic; }
 
 th { font-weight: bold; padding: 3px; text-align: left; }
 td { padding: 3px; }
 
-.progress, .screenshots  { width: 90%; border-spacing: 1px;
-              margin-left: auto; margin-right: auto; }
+.progress, .screenshots  { width: 90%; border-spacing: 1px; margin-left: auto; margin-right: auto; }
 
-.notplanned  { background-color: #eee; color: #333; font-style: italic; }
-.notstarted  { background-color: #f8d1d1; }
+.notplanned { background-color: #eee; color: #333; font-style: italic; }
+.notstarted { background-color: #f8d1d1; }
 .juststarted { background-color: #f4e0cb; }
-.inprogress  { background-color: #f0f0c5; }
-.nearlydone  { background-color: #e0f4cb; }
-.complete    { background-color: #d1f8d1; }
+.inprogress { background-color: #f0f0c5; }
+.nearlydone { background-color: #e0f4cb; }
+.complete { background-color: #d1f8d1; }
+
+.submenu { border-bottom: thin solid #ddd; }
+.menupath { margin-bottom: 0; font-weight: bold; color: #555; }
+.menuitem { margin-top: 0; }
+.menu { border-spacing: 0px; margin-left: auto; margin-right: auto; border: 1px solid black; }
+.menu a { text-decoration: none; }
+.menutitle { background-color: #ccc; font-variant: small-caps; text-align: center; border-bottom: 1px solid black; font-weight: normal; }
+.menusplit { border-top: 1px dashed black; }
+.menuarrow { text-align: right; }

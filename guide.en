@@ -2,6 +2,7 @@
         "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
+<META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <title>NetSurf | User Guide</title>
 <link rel="stylesheet" type="text/css" href="netsurf.css">
 </head>
@@ -9,207 +10,346 @@
 <body>
 <p class="banner"><a href="/"><img src="netsurf.png" alt="NetSurf"></a></p>
 
+<p class="headnote">NetSurf is progressing quickly and is still at a very early stage of development. As such, the features described below are subject to change without warning.</p>
+
 <h1>User Guide</h1>
 
 <ul><li><a href="guide#using">Using NetSurf</a></li>
-<li><a href="guide#toolbar">Toolbar description</a></li>
+<li><a href="guide#help">Interactive help</a></li>
+<li><a href="guide#toolbar">Toolbar</a></li>
+<li><a href="guide#status">Status bar</a></li>
 <li><a href="guide#menus">Menus</a></li>
+<li><a href="guide#download">Download window</a></li>
+<li><a href="guide#history">History window</a></li>
 <li><a href="guide#keys">Keyboard shortcuts</a></li>
 <li><a href="guide#urls">URL shortcuts</a></li>
 <li><a href="guide#conf">Configuration</a></li>
 </ul>
 
+<p class="updated">Last updated 17 May 2004</p>
+
 <h2 id="using">Using NetSurf</h2>
 
-<p>To run <em>NetSurf</em>, simply double click on the NetSurf application.
-This will cause the NetSurf icon to appear on the iconbar.  Select clicking
-on this icon will open a browser window.  It should be noted that as NetSurf
-is at a very early stage of development, much of the following information is
-subject to change without warning.</p>
+<p>To run <em>NetSurf</em>, simply double click on the NetSurf application. This will cause the NetSurf icon to appear on the iconbar. Select clicking on this icon will open a browser window.
 
 <p class="screenshot"><img src="images/bwin.en" title="Browser Window" alt=""></p>
 
-<h3 id="toolbar">The Toolbar</h3>
+<p>The area at the top is called the <a href="guide#toolbar">toolbar</a>. At the bottom, you will see that the horizontal scroll bar does not cover the full width of the window. Next to the horizontal scroll bar, is the <a href="guide#status">status bar</a>. The main section in the middle of the window is the most important part, the content area.</p>
 
-<p>The section at the top of the window is called the toolbar.  It allows quick
-access to various functions and information.  The standard, or <em>Default</em>,
-toolbar is shown below.</p>
+<p>The content area displays web pages and other material, such as images. Web pages contain hyperlinks (often just called 'links') which can point to another part of the page, to a different page or to any other type of file. Links pointing to types of files that NetSurf doesn't recognise will open a <a href="guide#download">download window</a>. Placing the pointer over a link changes the pointer to a 'clicking hand', to indicate that you can click on that part of the page.</p>
 
-<p class="screenshot"><img src="images/toolb.en" title="Toolbar" alt=""></p>
+<h2 id="help">Interactive Help</h2>
 
-<p>There are several different variations on this toolbar available, eg this
-minimal one:</p>
+<p>While using NetSurf, you might like to know what a button or menu item does. Instant help is available throughout the software, in the form of interactive help. This offers quick help information, in bullet point format, about the item under the pointer.</p>
 
-<p class="screenshot"><img src="images/mini.en" title="Mini Toolbar" alt=""></p>
+<p>To use interactive help you must have suitable software running. The program 'Help' is shipped with all RISC OS computers and you can run it from NetSurf's <a href="guide#MenuHelpInteractive">Help &gt; Interactive help</a> menu.</p>
 
-<p>In addition to this, NetSurf supports themes, which allow users to customize
-the look and feel of the program.</p>
+<h2 id="toolbar">The Toolbar</h2>
+
+<p>The section at the top of the window is called the toolbar. It allows quick access to various commonly used features. Many more functions are available through the <a href="guide#menus">menus</a>.</p>
 
 <h3>Toolbar Icons</h3>
 
-<p>Again, it should be noted that, as NetSurf is in development, many of the
-icons don't do anything yet.  In such situations, the following text describes
-what the icon will do, when the associated feature has been implemented.</p>
+<p>As NetSurf is in development, some of these icons don't do anything or even exist yet. In such situations, the following text describes what the icon will do, when the associated feature has been implemented.</p>
 
-<p class="iconinfo"><strong>URL Bar:</strong> The white writable icon on the toolbar is called
-the URL Bar and it shows the location of the current page.  Here, you can enter
-the address of the page you want to view next.</p>
+<p class="iconinfo"><strong><img src="images/back" alt="Back" title="Back Button" class="icon"></strong> Clicking on this button makes NetSurf go back to the previous page in the local history list. Select click to view the previous page in the current window. Adjust click to view it in a new window. Form information is not resubmitted.</p>
 
-<p class="iconinfo"><strong>Status Line:</strong> This text displays information to the user.
-When you move the pointer over a link, this will show the URL that the link
-points to.  The status line also displays information about NetSurf's progress
-while retrieving a page.</p>
+<p class="iconinfo"><strong><img src="images/forward" class="icon" alt="Forward" title="Forward Button"></strong> Clicking on this button allows you to advance through the local history list. Select click to view the next page in the current window. Adjust click to view it in a new window. Form information is not resubmitted.</p>
 
-<p class="iconinfo"><strong>Throbber:</strong> This NetSurf logo animates while a page is
-downloading or rendering.  It indicates that NetSurf is doing something.</p>
+<p class="iconinfo"><strong><img src="images/history" class="icon" alt="History" title="History Button"></strong> Clicking on this button opens a window containing a history tree. Clicking on an item in this window will move to the relevant page in the history. More detailed information can be found in the <a href="guide#history">History window</a> section.</p>
 
-<p class="iconinfo"><strong><img src="images/back" alt="Back" class="icon"></strong>
-Clicking on this button makes NetSurf go back to the previous page in the
-history list. If you followed a link from one page to another, this button
-allows you to get back to the first page.  Select click to view the previous
-page in the current window.  Adjust click to view it in a new window.</p>
+<p class="iconinfo"><strong><img src="images/home" class="icon" alt="Home" title="Home Button"></strong> Clicking on this button returns to the configured home page.</p>
 
-<p class="iconinfo"><strong><img src="images/mark" alt="Bookmark" class="icon"></strong>
-Select clicking on this button adds the current location to the bookmarks or
-favourites.  Adjust clicking opens the bookmarks window.</p>
+<p class="iconinfo"><strong><img src="images/hotlist" class="icon" alt="Hotlist" title="Hotlist Button"></strong> Select clicking on this button adds the current location to the hotlist. Adjust clicking opens the bookmarks window.</p>
 
-<p class="iconinfo"><strong><img src="images/forward" alt="Forward" class="icon"></strong>
-Clicking on this button allows you to advance through the history list.  Select
-click to view the next page in the current window.  Adjust click to view it in a
-new window.</p>
+<p class="iconinfo"><strong><img src="images/print" class="icon" alt="Print" title="Print Button"></strong> Clicking on this button will open the print dialogue box.</p>
 
-<p class="iconinfo"><strong><img src="images/history" alt="History" class="icon"></strong>
-Clicking on this button opens a window containing a history tree.  Clicking on
-an item in this window will move to the relevant page in the history.</p>
+<p class="iconinfo"><strong><img src="images/reload" class="icon" alt="reload" title="Reload Button"></strong> Clicking on this button will make NetSurf fetch and redraw the current page again.</p>
 
-<p class="iconinfo"><strong><img src="images/home" alt="Home" class="icon"></strong>
-Clicking on this button returns to the configured home page.</p>
+<p class="iconinfo"><strong><img src="images/save" class="icon" alt="Save" title="Save Button"></strong> Clicking on this button will open a save dialogue box, to allow you to save the page for future reference.</p>
 
-<p class="iconinfo"><strong><img src="images/print" alt="Print" class="icon"></strong>
-Clicking on this button will print the current page.</p>
+<p class="iconinfo"><strong><img src="images/scale" class="icon" alt="Scale" title="Scale Button"></strong> Clicking on this button will open the scale view window. It allows you to scale documents, affecting both text and pictures.</p>
 
-<p class="iconinfo"><strong><img src="images/reload" alt="Reload" class="icon"></strong>
-Clicking on this button will make NetSurf fetch and redraw the current page
-again.</p>
+<p class="iconinfo"><strong><img src="images/search" class="icon" alt="Search" title="Search Button"></strong> Clicking on this button opens the text search window. It allows you to search for a string of text within a document.</p>
 
-<p class="iconinfo"><strong><img src="images/save" alt="Save" class="icon"></strong>
-Clicking on this button will open a save dialogue box, to allow you to save the
-page for future reference.</p>
+<p class="iconinfo"><strong><img src="images/stop" class="icon" alt="Stop" title="Stop Button"></strong> Clicking on this button stops whatever process the window is doing.</p>
 
-<p class="iconinfo"><strong><img src="images/stop" alt="Stop" class="icon"></strong>
-Clicking on this button stops whatever process that window is doing.</p>
+<p class="iconinfo"><strong><img src="images/up" class="icon" alt="Up" title="Up Button"></strong> Clicking on this button moves up the directory tree. For example, if you are looking at <em>http://www.domain.com/directory/page.html</em>, clicking on the up icon takes you to <em>http://www.domain.com/directory/</em> and a further click would result in a location of <em>http://www.domain.com/</em>.</p>
 
-<p>Buttons that are greyed out indicate that their function is unavailable.
-This happens when you open a new browser window.  Since the window will be
-displaying its first page, there would be no previous page and the back button
-is grayed out.  Also, as this is the first page, the forward button is also
-grayed out.</p>
+<p>Icons that are greyed out indicate that their function is unavailable. This happens when you open a new browser window. Since the window will be displaying its first page, there would be no previous page and the back button is grayed out. Also, as this is the first page, the forward button is also grayed out.</p>
 
+<p><strong>URL Bar:</strong> The white writable icon on the toolbar is called the URL Bar and it shows the location of the current page. Here, you can enter the address of the page you want to view next.</p>
+
+<p><strong>Throbber:</strong> This NetSurf logo animates while a page is downloading or rendering. It indicates that NetSurf is doing something.</p>
+
+<h2 id="status">Status Bar</h2>
+
+<p>The status bar, at the bottom of the window, displays information to the user. When you move the pointer over a link, the status bar will display the URL that the link points to. The status bar also displays information about NetSurf's progress while retrieving a page.</p>
+
+<p>Between the status bar and the horizontal scroll bar is the status bar resizer. Over this widget, the pointer changes to a double headed arrow and you can drag the status bar resizer to set the width of the status bar.</p>
 
 <h2 id="menus">Menus</h2>
 
-<p>NetSurf has two different menus, one is accessed by clicking menu over
-NetSurf's iconbar icon and the other is opened by clicking menu over a browser
-window.</p>
+<p>NetSurf has two different menus, one is accessed by clicking menu over NetSurf's iconbar icon and the other is opened by clicking menu over a browser window.</p>
 
 <h3>Iconbar Menu</h3>
 
-<p>The iconbar menu is home to four options.  These are Info, Choices, Help and
-Quit.  Info provides a little information about the application, while quit will
-exit the program, closing all browser windows.  The choices option opens a
-window for configuring NetSurf.  This is discussed in greater detail in the <a
-href="#conf">Configuring NetSurf</a> section.  Help will launch the
-documentation.</p>
-
-<p class="screenshot"><img src="images/imenu.en" title="Iconbar Menu" alt=""></p>
+<p>The iconbar menu is home to four options. These are Info, Choices, Help and Quit. Info provides a little information about the application, while quit will exit the program, closing all browser windows. The choices option opens a window for configuring NetSurf. This is discussed in greater detail in the <a href="#conf">Configuring NetSurf</a> section. Help opens the documentation contents page in a bowser window.</p>
 
 <h3>Browser Window Menu</h3>
 
-<p>The browser window menu contains options relating to the content of that
-window.  Many of these options are unavailable at present as this area of
-NetSurf is not complete.  The following options are currently available:</p>
+<p>The browser window menu contains options relating to the content of the current window. Many of these options are unavailable at present as this area of NetSurf is not complete. The following options are available:</p>
 
-<p class="screenshot"><img src="images/bmenu.en" title="Browser Menu"
-alt="Page, Selection, Navigate and View"></p>
+<table class="menu">
+<tr><th class="menutitle" colspan="2">NetSurf</th></tr>
+<tr><td><a href="guide#MenuPage">Page</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#MenuObject">Object</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#MenuNavigate">Navigate</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#MenuDisplay">Display</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#MenuHelp">Help</a></td><td class="menuarrow">&gt;</td></tr>
+</table>
 
-<p>The <em>Page</em> submenu contains the following options relevant to the
-current page:</p>
+<h4 id="MenuPage" class="submenu">Page Submenu</h4>
 
-<p class="screenshot"><img src="images/bpmenu.en" title="Page Submenu"
-alt="Info, Save, Full save, Export and Print"></p>
+<p>The Page submenu contains the following options relevant to the current page.</p>
 
-<p><strong>Page &gt; Info</strong>  This displays information about the current
-page.</p>
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Page</th></tr>
+<tr><td><a href="guide#MenuPageInfo">Info</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#MenuPageSave">Save</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#MenuPageFullSave">Full save</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#MenuPageExport">Export</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#MenuPageSaveLocation">Save location</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#MenuPagePrint">Print...</a></td><td></td></tr>
+<tr><td class="menusplit"><a href="guide#MenuPageViewSource">View source...</a></td><td class="menusplit"></td></tr>
+</table>
 
-<p><strong>Page &gt; Save</strong>  This opens a save dialogue box, allowing the
-source code of the current page to be saved to disc.</p>
+<p class="menupath" id="MenuPageInfo">Page &gt; Info</p>
+<p class="menuitem">This option displays information about the current page.</p>
 
-<p><strong>Page &gt; Full save</strong>  This opens a save dialogue box,
-allowing current page to be saved to disc, including any CSS files or images etc
-that the page contains.</p>
+<p class="menupath" id="MenuPageSave">Page &gt; Save</p>
+<p class="menuitem">This option opens a save dialogue box, allowing the source code of the current page to be saved to disc.</p>
 
-<p class="screenshot"><img src="images/ssource.en" title="Save Source"
-alt=""></p>
+<p class="menupath" id="MenuPageFullSave">Page &gt; Full save</p>
+<p class="menuitem">This option opens a save dialogue box, allowing current page to be saved to disc, including any CSS files or images etc that the page contains.</p>
 
-<p><strong>Page &gt; Export</strong>  This offers various export options for the
-current page.  The options available are:</p>
+<p class="menupath" id="MenuPageExport">Page &gt; Export</p>
+<p class="menuitem">This option offers various export options for the current page. The options available are:</p>
 
-<p class="screenshot"><img src="images/exmenu.en" title="Export Submenu"
-alt="Draw and Text"></p>
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Export as</th></tr>
+<tr><td><a href="guide#MenuPageExportDraw">Draw</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#MenuPageExportText">Text</a></td><td class="menuarrow">&gt;</td></tr>
+</table>
 
-<p><strong>Page &gt; Export &gt; Draw</strong>  This opens a save dialogue box,
-allowing the current page to be saved as a drawfile.</p>
+<p class="menupath" id="MenuPageExportDraw">Page &gt; Export &gt; Draw</p>
+<p class="menuitem">This option opens a save dialogue box, allowing the current page to be saved as a drawfile.</p>
 
-<p class="screenshot"><img src="images/edraw.en" title="Export as Draw"
-alt=""></p>
+<p class="menupath" id="MenuPageExportText">Page &gt; Export &gt; Text</p>
+<p class="menuitem">This option opens a save dialogue box, allowing the current page to be saved as a text file.</p>
 
-<p><strong>Page &gt; Export &gt; Text</strong>  This opens a save dialogue box,
-allowing the current page to be saved as a text file.</p>
+<p id="MenuPageSaveLocation" class="menupath">Page &gt; Save location</p>
+<p class="menuitem">This option allows the address of the current page to be saved in various formats. The options available are:</p>
 
-<p class="screenshot"><img src="images/etext.en" title="Export as Text"
-alt=""></p>
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Link</th></tr>
+<tr><td><a href="guide#MenuPageSaveLocationAcorn">Acorn URI</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#MenuPageSaveLocationAnt">Ant URL</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#MenuPageSaveLocationText">Text</a></td><td class="menuarrow">&gt;</td></tr>
+</table>
 
-<!--
+<p class="menupath" id="MenuPageSaveLocationAcorn">Page &gt; Save location &gt; Acorn URI</p>
+<p class="menuitem">This option opens a save dialogue box, allowing the address of the current page to be saved to disc in Acorn URI format.</p>
 
-<p>The <em>Selection</em> sub menu relates to selected text in the browser
-window.</p>
+<p class="menupath" id="MenuPageSaveLocationAnt">Page &gt; Save location &gt; Ant URL</p>
+<p class="menuitem">This option opens a save dialogue box, allowing the address of the current page to be saved to disc in Ant URL format.</p>
 
-<p><strong>Selection &gt; Clear</strong> This deselects any highlighted text in
-the browser window.</p>
+<p class="menupath" id="MenuPageSaveLocationText">Page &gt; Save location &gt; Text</p>
+<p class="menuitem">This option opens a save dialogue box, allowing the address of the current page to be saved to disc in plain text format.</p>
 
--->
+<p class="menupath" id="MenuPagePrint">Page &gt; Print...</p>
+<p class="menuitem">This option opens a print dialogue box.</p>
 
-<p>The <em>Navigate</em> submenu contains the following options, useful for
-navigating the web:</p>
+<p class="menupath" id="MenuPageViewSource">Page &gt; View source...</p>
+<p class="menuitem">This option opens the source code of the current page in a text editor window.</p>
 
-<p class="screenshot"><img src="images/bnmenu.en" title="Navigate Submenu"
-alt="Home page, Back one page and Forward one page"></p>
+<h4 id="MenuObject" class="submenu">Object Submenu</h4>
 
-<p><strong>Navigate &gt; Home page</strong> This takes you back to the NetSurf
-homepage.</p>
+<p>The Object submenu contains the following options relevant to the current object. This submenu is only available when the pointer is placed over an object such as an image.</p>
 
-<p><strong>Navigate &gt; Back one page</strong> This has the same function as
-the back button on the <a href="#toolbar">toolbar</a>.</p>
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Object</th></tr>
+<tr><td><a href="guide#MenuObjectInfo">Info</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#MenuObjectSave">Save</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#MenuObjectExport">Export</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#MenuObjectSaveLocation">Save location</a></td><td class="menuarrow">&gt;</td></tr>
+</table>
 
-<p><strong>Navigate &gt; Forward one page</strong> This has the same function as
-the forward button on the <a href="#toolbar">toolbar</a>.</p>
+<p class="menupath" id="MenuObjectInfo">Object &gt; Info</p>
+<p class="menuitem">This option displays information about the current object.</p>
 
-<p>The <em>View</em> submenu contains the following options which affect the
-rendering of the current window:</p>
+<p class="menupath" id="MenuObjectSave">Object &gt; Save</p>
+<p class="menuitem">This option opens a save dialogue box, allowing the object under the pointer to be saved in its original format.</p>
 
-<p class="screenshot"><img src="images/vimenu.en" title="Navigate Submenu"
-alt="Scale view"></p>
+<p class="menupath" id="MenuObjectExport">Object &gt; Export</p>
+<p class="menuitem">This option offers various export options for the current object. The options available are:</p>
 
-<p><strong>View &gt; Scale View</strong> This allows you to scale the current
-page affecting both text and images.</p>
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Export as</th></tr>
+<tr><td><a href="guide#MenuObjectExportSprite">Sprite</a></td><td class="menuarrow">&gt;</td></tr>
+</table>
 
-<p class="screenshot"><img src="images/scale.en" title="Scale View" alt=""></p>
+<p class="menupath" id="MenuObjectExportSprite">Object &gt; Export &gt; Sprite</p>
+<p class="menuitem">This option opens a save dialogue box, allowing the current object to be saved as a sprite.</p>
+
+<p class="menupath" id="MenuObjectSaveLocation">Object &gt; Save location</p>
+<p class="menuitem">This option allows the address of the current object to be saved in various formats. The options available are:</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Link</th></tr>
+<tr><td><a href="guide#MenuObjectSaveLocationAcorn">Acorn URI</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#MenuObjectSaveLocationAnt">Ant URL</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#MenuObjectSaveLocationText">Text</a></td><td class="menuarrow">&gt;</td></tr>
+</table>
+
+<p class="menupath" id="MenuObjectSaveLocationAcorn">Object &gt; Save location &gt; Acorn URI</p>
+<p class="menuitem">This option opens a save dialogue box, allowing the address of the current object to be saved to disc in Acorn URI format.</p>
+
+<p class="menupath" id="MenuObjectSaveLocationAnt">Object &gt; Save location &gt; Ant URL</p>
+<p class="menuitem">This option opens a save dialogue box, allowing the address of the current object to be saved to disc in Ant URL format.</p>
+
+<p class="menupath" id="ObjectSaveLocationText">Object &gt; Save location &gt; Text</p>
+<p class="menuitem">This option opens a save dialogue box, allowing the address of the current object to be saved to disc in plain text format.</p>
+
+<h4 id="MenuNavigate" class="submenu">Navigate Submenu</h4>
+
+<p>The Navigate submenu contains the following options, useful for navigating the web.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Navigate</th></tr>
+<tr><td><a href="guide#MenuNavigateHome">Home page</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#MenuNavigateBack">Back one page</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#MenuNavigateForward">Forward one page</a></td><td class="menuarrow"></td></tr>
+<tr><td class="menusplit"><a href="guide#MenuNavigateReload">Reload this page</a></td></tr>
+</table>
+
+<p class="menupath" id="MenuNavigateHome">Navigate &gt; Home page</p>
+<p class="menuitem">This option takes you back to the NetSurf home page. The same function is available on the <a href="#toolbar">toolbar</a>.</p>
+
+<p class="menupath" id="MenuNavigateBack">Navigate &gt; Back one page</p>
+<p class="menuitem">This option takes you back one page in the local history. Any form information will not be resubmitted. The same function is available on the <a href="#toolbar">toolbar</a>.</p>
+
+<p class="menupath" id="MenuNavigateForward">Navigate &gt; Forward one page</p>
+<p class="menuitem">This option takes you forward one page in the local history. Any form information will not be resubmitted. The same function is available on the <a href="#toolbar">toolbar</a>.</p>
+
+<p class="menupath" id="MenuNavigateReload">Navigate &gt; Reload this page</p>
+<p class="menuitem"> This fetches and displays the current page again. Any copy of the page that exists in the local cache will be overwritten. The same function is available on the <a href="#toolbar">toolbar</a>.</p>
+
+<h4 id="MenuDisplay" class="submenu">Display Submenu</h4>
+
+<p>The Display submenu contains the following options which affect the rendering of the current window.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Display</th></tr>
+<tr><td><a href="guide#MenuDisplayScale">Scale view</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#MenuDisplayImages">Images</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#MenuDisplayToolbars">Toolbars</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td class="menusplit"><a href="guide#MenuDisplaySetDefault">Set as default</a></td></tr>
+</table>
+
+<p class="menupath" id="MenuDisplayScale">Display &gt; Scale View</p>
+<p class="menuitem">This option allows you to scale the current page affecting both text and images. The scale is represented by a percentage, with 100% always referring to the pre-scaled state of the document. The same function is available on the <a href="#toolbar">toolbar</a>.</p>
+
+<p class="menupath" id="MenuDisplayImages">Display &gt; Images</p>
+<p class="menuitem">The Images submenu allows you to control the way images are displayed. The options available here only affect the local browser window.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Images</th></tr>
+<tr><td><a href="guide#MenuDisplayImagesForeground">Foreground images</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#MenuDisplayImagesBackground">Background images</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#MenuDisplayImagesAnimations">Animations</a></td><td class="menuarrow"></td></tr>
+<tr><td class="menusplit"><a href="guide#MenuDisplayImagesDither">Dither images</a></td></tr>
+<tr><td><a href="guide#MenuDisplayImagesSmooth">Smooth images</a></td><td class="menuarrow"></td></tr>
+</table>
+
+<p class="menupath" id="MenuDisplayImagesForeground">Display &gt; Images &gt; Foreground images</p>
+<p class="menuitem">This option allows you to toggle the display of foreground images. When foreground images are enabled, a tick appears to the left of the menu entry. If foreground images are disabled, any alternate text that the page provides will be shown instead.</p>
+
+<p class="menupath" id="MenuDisplayImagesBackground">Display &gt; Images &gt; Background images</p>
+<p class="menuitem">This option allows you to toggle the display of background images. When background images are enabled, a tick appears to the left of the menu entry. If background images are disabled, any any background colour specified by the document will be used instead.</p>
+
+<p class="menupath" id="MenuDisplayImagesAnimations">Display &gt; Images &gt; Animations</p>
+<p class="menuitem">This option allows you to toggle the display of animations images. When animations are enabled, a tick appears to the left of the menu entry. If background images are disabled, the first frame of the animation will be shown as a static image.</p>
+
+<p class="menupath" id="MenuDisplayImagesDither">Display &gt; Images &gt; Dither images</p>
+<p class="menuitem">This option allows you to toggle image dithering. When dithering is enabled, a tick appears to the left of the menu entry. Dithering gives an improved display in sub true colour screen modes.</p>
+
+<p class="menupath" id="MenuDisplayImagesSmooth">Display &gt; Images &gt; Smooth images</p>
+<p class="menuitem">This option allows you to toggle image smoothing. When smoothing is enabled, a tick appears to the left of the menu entry. Image smoothing uses bi-linear filtering to give an improved display of scaled images.</p>
+
+<p class="menupath" id="MenuDisplayToolbars">Display &gt; Toolbars</p>
+<p class="menuitem">The Toolbars submenu allows you to control the way NetSurf's toolbars are displayed. The options available here only affect the local browser window,</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Toolbars</th></tr>
+<tr><td><a href="guide#MenuDisplayToolbarsButtons">Buttons</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#MenuDisplayToolbarsAddress">Address bar</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#MenuDisplayToolbarsThrobber">Throbber</a></td><td class="menuarrow"></td></tr>
+<tr><td class="menusplit"><a href="guide#MenuDisplayToolbarsStatus">Status bar</a></td></tr>
+</table>
+
+<p class="menupath" id="MenuDisplayToolbarsButtons">Display &gt; Toolbars &gt; Buttons</p>
+<p class="menuitem">This option toggles the display of the buttons on NetSurf's toolbar at the top of the window. When the buttons are turned off, the URL bar (if enabled) stretches to fill the extra space.</p>
+
+<p class="menupath" id="MenuDisplayToolbarsAddress">Display &gt; Toolbars &gt; Address bar</p>
+<p class="menuitem">This option toggles the display of the address (URL) bar on NetSurf's toolbar at the top of the window.</p>
+
+<p class="menupath" id="MenuDisplayToolbarsThrobber">Display &gt; Toolbars &gt; Throbber</p>
+<p class="menuitem">This option toggles the display of the throbber on NetSurf's toolbar at the top of the window. When the throbber is turned off, the URL bar (if enabled) stretches to fill the extra space.</p>
+
+<p>If the buttons, URL bar and throbber are all disabled, the toolbar at the top of the window is removed, leaving more space for the main content area.</p>
+
+<p class="menupath" id="MenuDisplayToolbarsStatus">Display &gt; Toolbars &gt; Status bar</p>
+<p class="menuitem">This option toggles the display of the status bar at the bottom of the NetSurf window. When the status bar is turned off, the horizontal scroll bar stretches to the full width of the window.</p>
+
+<p class="menupath" id="MenuDisplaySetDefault">Display &gt; Set as default</p>
+<p class="menuitem">This option makes NetSurf use the display options you have set up for the current window as the default options.</p>
+
+<h4 id="MenuHelp" class="submenu">Help Submenu</h4>
+
+<p>The Help submenu contains options for fast access to help and information while you're using NetSurf.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Help</th></tr>
+<tr><td><a href="guide#MenuHelpContents">Contents</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#MenuHelpGuide">User guide</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#MenuHelpInfo">User information</a></td><td class="menuarrow"></td></tr>
+<tr><td class="menusplit"><a href="guide#MenuHelpInteractive">Interactive help</a></td></tr>
+</table>
+
+<p class="menupath" id="MenuHelpContents">Help &gt; Contents</p>
+<p class="menuitem">This option opens the <a href="docs">documentation contents page</a> in a new window.</p>
+
+<p class="menupath" id="MenuHelpGuide">Help &gt; User guide</p>
+<p class="menuitem">This option opens this page in a new window!</p>
+
+<p class="menupath" id="MenuHelpInfo">Help &gt; User information</p>
+<p class="menuitem">This option opens the <a href="info">user information page</a> in a new window.</p>
+
+<p class="menupath" id="MenuHelpInteractive">Help &gt; Interactive help</p>
+<p class="menuitem">This option loads Help, if it hasn't already been loaded, to display interactive help messages.</p>
+
+<h2 id="download">Download Window</h2>
+
+<p>Not written yet.</p>
+
+<h2 id="history">History Window</h2>
+
+<p>Not written yet.</p>
 
 <h2 id="keys">Keyboard Shortcuts</h2>
 
-<p>NetSurf supports keyboard shortcuts, which allow quick access to features and
-make NetSurf easier to use.  The supported keypresses and corresponding
-functions are listed below.</p>
+<p>NetSurf supports keyboard shortcuts, which allow quick access to features and make NetSurf easier to use. The supported keypresses and corresponding functions are listed below.</p>
 
 <table>
 <tr><th>Shortcut</th><th>Function</th></tr>
@@ -219,24 +359,20 @@ functions are listed below.</p>
 <tr><td>Ctrl+Cursor Down</td><td>Go to bottom of page</td></tr>
 <tr><td>Cursor Up</td><td>Scroll up one line</td></tr>
 <tr><td>Ctrl+Cursor Up</td><td>Go to top of page</td></tr>
-<tr><td>F2</td><td>Moves the caret to URL bar and clears it to &quot;www.&quot;</td></tr>
-<tr><td>Ctrl+F2</td><td>Closes the window</td></tr>
+<tr><td>F1</td><td>Open the documentation contents page in a new window.</td></tr>
+<tr><td>F2</td><td>Move the caret to URL bar and clear it to &quot;www.&quot;</td></tr>
+<tr><td>Ctrl+F2</td><td>Close the window</td></tr>
 <tr><td>F3</td><td>Save the page source</td></tr>
 <tr><td>Ctrl+F3</td><td>Save the page as text</td></tr>
 <tr><td>Shift+F3</td><td>Full save of the web page, including images etc</td></tr>
 <tr><td>Ctrl+Shift+F3</td><td>Save the page as a Drawfile</td></tr>
 <tr><td>F8</td><td>View webpage source</td></tr>
-<tr><td>F11</td><td>View box outlines.  This may be useful if you are creating
-your own webpage.  Cyan marks the content's edge, magenta marks the padding's
-edge and yellow marks the margin's edge.</td></tr>
+<tr><td>F11</td><td>View box outlines. This may be useful if you are creating your own webpage. Cyan marks the content's edge, magenta marks the padding's edge and yellow marks the margin's edge.</td></tr>
 </table>
-
 
 <h2 id="urls">URL Shortcuts</h2>
 
-<p>NetSurf also supports URL shortcuts, which allow quick access to various
-pages.  The supported URL shortcuts are listed below.  Type them into a NetSurf
-URL bar to see the corresponding page.</p>
+<p>NetSurf also supports URL shortcuts, which allow quick access to various pages. The supported URL shortcuts are listed below. Type them into a NetSurf URL bar to see the corresponding page.</p>
 
 <table>
 <tr><th>Shortcut</th><th>Page</th></tr>
@@ -246,50 +382,11 @@ URL bar to see the corresponding page.</p>
 <tr><td>home:</td><td>NetSurf home page</td></tr>
 </table>
 
-
 <h2 id="conf">Configuring NetSurf</h2>
 
-<p>You can change the way NetSurf looks and behaves, by configuring the program.
-The configuration panel is opened by clicking menu over the iconbar icon and
-selecting Choices.</p>
+<p>Not written yet. NetSurf's configuration system and options are due for an update soon.</p>
 
-<p class="screenshot"><img src="images/conpan.en" title="Configuration
-Panel" alt=""></p>
-
-<p>The Cancel button will close the window, discarding any changes you've made.
-Clicking on OK will save the new settings and close the window.  Clicking on one
-of the other icons will allow you to configure that aspect of NetSurf.</p>
-
-<h3>Browser</h3>
-
-<p>The browser configuration window contains some general configuration options
-that apply to the main browser window.  Many of these options aren't functional
-at the moment as NetSurf is still in development.</p>
-
-<p class="screenshot"><img src="images/conmisc.en" title="Browser Configuration"
-alt=""></p>
-
-<h3>Proxy</h3>
-
-<p>The proxy configuration window allows you to enable and set an HTTP proxy.
-You can enter the address and port number of the proxy you want to use.</p>
-
-<p class="screenshot"><img src="images/proxy.en" title="Proxy Setup
-Window" alt=""></p>
-
-<h3>Theme</h3>
-
-<p>NetSurf allows you to change the 'look and feel' of its interface.  New
-themes can be downloaded from the <a
-href="http://netsurf.sourceforge.net/themes/">NetSurf themes page</a> and you
-can select your desired theme from this window.</p>
-
-<p class="screenshot"><img src="images/conthem.en" title="Theme Selection
-Window" alt=""></p>
-
-
-<p class="breadcrumbs"><a href="/">NetSurf</a> »
-<a href="docs">Documentation</a> » User Guide</p>
+<p class="breadcrumbs"><a href="/">NetSurf</a> » <a href="docs">Documentation</a> » User Guide</p>
 
 </body>
 </html>
