@@ -1,0 +1,92 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>NetSurf | Development Information</title>
+<link rel="stylesheet" type="text/css" href="netsurf.css">
+</head>
+
+<body>
+<p class="banner"><a href="/"><img src="netsurf.png" alt="NetSurf"></a></p>
+
+<h1>Development Information</h1>
+
+<p>This page contains various information for developers or anyone interested
+in contributing to NetSurf.</p>
+
+
+<h2><abbr title="Concurrent Versions System">CVS</abbr></h2>
+
+<p>The source is kept in <abbr title="Concurrent Versions System">CVS</abbr>.
+It can be accessed read-only using the following parameters:</p>
+
+<table>
+<tr><td>Protocol</td><td>pserver</td></tr>
+<tr><td>Host</td><td><code>semichrome.net</code></td></tr>
+<tr><td>Path</td><td><code>/home/netsurf/cvs</code></td></tr>
+<tr><td>Module</td><td><code>netsurf</code></td></tr>
+<tr><td>Username</td><td><code>anonymous</code></td></tr>
+<tr><td>Password</td><td>(blank password)</td></tr>
+</table>
+
+<p>To check the source out using command-line CVS:</p>
+
+<p><code>$ <strong>cvs -d :pserver:anonymous@semichrome.net:/home/netsurf/cvs
+login</strong><br>
+Logging in to :pserver:anonymous@semichrome.net:2401/home/netsurf/cvs<br>
+CVS password: <strong>(press return)</strong><br>
+$ <strong>cvs -d :pserver:anonymous@semichrome.net:/home/netsurf/cvs checkout
+netsurf</strong></code></p>
+
+<p>There is also a <a href="http://cvs.semichrome.net/netsurf/">web
+interface</a> to the repository and a
+<a href="http://cia.navi.cx/stats/project/NetSurf/.rss">RSS feed of
+changes</a>.</p>
+
+<p>Contact <a href="mailto:james&#64;semichrome.net">James</a> to get write
+access.</p>
+
+
+<h2>Compiling</h2>
+
+<p>The recommended compiler is
+<a href="http://hard-mofo.dsvr.net/gcc/">gcc</a>, either native or
+cross-compiling from Linux or Unix using gccsdk.
+<a href="http://netsurf.strcprstskrzkrk.co.uk/developer/">Pre-compiled ports</a>
+of the libraries required are available.</p>
+
+<p>The <a href="http://netsurf.strcprstskrzkrk.co.uk/">autobuilder</a> compiles
+NetSurf every 15 minutes if changes have been checked into CVS.</p>
+
+<p>A debug version of NetSurf can be built. This is command-line only and does
+not include any of gui code, but runs natively on Linux so can be debugged and
+checked using gdb, efence, valgrind, etc.</p>
+
+
+<h2>Source Documentation</h2>
+
+<p>The source is documented using <a href="http://www.doxygen.org/">Doxygen</a>
+(<a href="http://www.ecs.soton.ac.uk/~jmb202/">RISC OS port</a>). Use
+<code>doxygen Docs/Doxyfile</code> to generate the documentation from the source
+tree, or <a href="http://netsurf.strcprstskrzkrk.co.uk/codedocs/">view the
+latest documentation</a> generated on the autobuilder.</p>
+
+
+<h2><abbr title="Internet Relay Chat">IRC</abbr></h2>
+
+<p>The main method of communication between the developers is <abbr
+title="Internet Relay Chat">IRC</abbr>. Join the <code>#netsurf-develop</code>
+channel on <a href="http://www.ircnet.com/">IRCnet</a>.</p>
+
+
+<h2>Translations</h2>
+
+<p>Translations of NetSurf to other languages are welcome. No programming
+knowledge is required, just the ability to use a template editor (for example
+<a href="http://www.realh.co.uk/wined.html">WinEd</a>) and a text editor.</p>
+
+
+<p class="breadcrumbs"><a href="/">NetSurf</a> » Development Information</p>
+
+</body>
+</html>

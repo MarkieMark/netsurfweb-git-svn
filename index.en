@@ -14,12 +14,10 @@
 HTML&nbsp;4 and CSS standards to the RISC OS platform.</p>
 
 <h2>Status</h2>
-<p><strong>NetSurf is currently under development.</strong> Test builds are 
-<a href="http://netsurf.strcprstskrzkrk.co.uk/">available for download</a>
-and the source code can be viewed through the 
-<a href="http://cvs.semichrome.net/netsurf/">CVS web interface</a>. See the 
-<a href="progress">progress</a> page to get an indication of
-NetSurf's development status.</p>
+<p><strong>NetSurf is currently under development.</strong> Test builds are
+<a href="http://netsurf.strcprstskrzkrk.co.uk/">available for download</a>.
+See the <a href="progress">progress</a> page to get an indication of NetSurf's
+development status.</p>
 
 <h2>Screenshot</h2>
 <p>This is a recent development screenshot:</p>
@@ -54,8 +52,8 @@ tracker</a></dt>
 mailing list</a></dt>
 <dd>Subscribe to the list if you plan to develop or test NetSurf</dd>
 
-<dt><a href="http://cvs.semichrome.net/netsurf/">CVS web interface</a></dt>
-<dd>Browse the source code using the web interface</dd>
+<dt><a href="develop">Development information</a></dt>
+<dd>For developers and contributors</dd>
 </dl>
 
 </div>
