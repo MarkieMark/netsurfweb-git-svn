@@ -56,7 +56,7 @@ td { padding: 3px; }
 .toolbarsprites { font-size: 90%; display: table-cell; padding: 0 0 0 5mm; vertical-align: top; }
 .toolbarsprites th, .toolbarsprites td { padding: 1px 6px 1px 0; }
 .toolbarsprites th[colspan] { text-align: center; }
-.toolbarsprites + .toolbarsprites { border-left: thin solid black; }
+.toolbarsprites + .toolbarsprites { border-left: thin solid #bbb; }
 .toolbarsprites + p { margin-top: 5mm; }
 
 .changelog p { margin-top: 0.2em; margin-bottom: 0em; }

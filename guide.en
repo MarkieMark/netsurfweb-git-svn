@@ -435,18 +435,18 @@
 <tr><th class="menutitle" colspan="2">Window</th></tr>
 <tr><td><a href="#BrowserWindowMenuUtilitiesWindowSetdefault">Set as default position</a></td><td class="menuarrow"></td></tr>
 <tr><td><a href="#BrowserWindowMenuUtilitiesWindowStagger">Stagger window position</a></td><td class="menuarrow"></td></tr>
-<tr><td><a href="#BrowserWindowMenuUtilitiesWindowMaintainsize">Maintain window size</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="#BrowserWindowMenuUtilitiesWindowCopyposition">Copy window position</a></td><td class="menuarrow"></td></tr>
 <tr><td class="menusplit"><a href="#BrowserWindowMenuUtilitiesWindowResetdefault">Reset default position</a></td><td></td></tr>
 </table>
 
 <p class="menupath" id="BrowserWindowMenuUtilitiesWindowSetdefault">Utilities &gt; Window &gt; Set as default position</p>
-<p class="menuitem">This option sets the position of the current window to be the default position for new windows.</p>
+<p class="menuitem">This option sets the position of the current window to be the default position for new browser windows. If no default position is set, NetSurf opens new windows in the centre of the screen.</p>
 
 <p class="menupath" id="BrowserWindowMenuUtilitiesWindowStagger">Utilities &gt; Window &gt; Stagger window position</p>
 <p class="menuitem">This option toggles staggered window opening positions for new windows. When turned on, this option means that new windows will open with a small offset from the position of the previously opened window. This option is only available when a user defined default window position has been set.</p>
 
-<p class="menupath" id="BrowserWindowMenuUtilitiesWindowMaintainsize">Utilities &gt; Window &gt; Maintain window size</p>
-<p class="menuitem">This option toggles the maintain window size feature. When the feature is turned off, NetSurf behaves in the same manner as other RISC OS browsers - newly opened windows all open at the same size in the default position. With this feature enabled, browser windows opened from other browser windows (eg. by adjust clicking on a link), will inherit the size of the first window and open above the first window, rather than at the default position.</p>
+<p class="menupath" id="BrowserWindowMenuUtilitiesWindowCopyposition">Utilities &gt; Window &gt; Copy window position</p>
+<p class="menuitem">This option toggles the copy window position feature. When the feature is turned off, all newly opened windows open at the default position. With this feature enabled, browser windows opened from other browser windows (by adjust clicking on a link), will inherit the size and position of the parent window, rather than use the default position.</p>
 
 <p class="menupath" id="BrowserWindowMenuUtilitiesWindowResetdefault">Utilities &gt; Window &gt; Reset default position</p>
 <p class="menuitem">This option removes any user defined default window position. The option is only available when a user defined default window position has been set.</p>
