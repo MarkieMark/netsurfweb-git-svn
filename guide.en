@@ -461,7 +461,7 @@
 <p class="menupath" id="BrowserWindowMenuHelpInteractive">Help &gt; Interactive help</p>
 <p class="menuitem">This option loads Help, if it hasn't already been loaded, to display interactive help messages.</p>
 
-<h2 id="BrowserWindowFileTypes">File Types</h3>
+<h2 id="BrowserWindowFileTypes">File Types</h2>
 
 <p>When NetSurf encounters a file type it does not recognise, it opens a <a href="guide#DownloadWindow">download window</a> to allow the file to be saved to disc. The file types that NetSurf understands are listed below, with their RISC OS file type and MIME type(s).</p>
 
