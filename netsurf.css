@@ -17,3 +17,14 @@ ul ul { margin: 0; }
 .icon { float: left; padding: 1mm; }
 .languages { margin: -4mm 5mm; text-align: right; }
 
+th { font-weight: bold; font-size: larger; padding: 3px; text-align: left; }
+td { padding: 3px; }
+
+.progress   { width: 90%; border-spacing: 1px;
+              margin-left: auto; margin-right: auto; }
+
+.notplanned { background-color: #eeeeee; color: #333; font-style: italic; }
+.notstarted { background-color: #ffcccc; }
+.inprogress { background-color: #f3e2cc; }
+.nearlydone { background-color: #e2f3cc; }
+.complete   { background-color: #ccffcc; }
