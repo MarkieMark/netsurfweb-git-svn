@@ -440,9 +440,28 @@
 <p class="menupath" id="BrowserWindowMenuHelpInteractive">Help &gt; Interactive help</p>
 <p class="menuitem">This option loads Help, if it hasn't already been loaded, to display interactive help messages.</p>
 
-<h3 id="BrowserWindowFileTypes">FileTypes</h3>
+<h3 id="BrowserWindowFileTypes">File Types</h3>
 
-<p>Not written yet.</p>
+<p>When NetSurf encounters a file type it does not recognise, it opens a <a href="guide#DownloadWindow">download window</a> to allow the file to be saved to disc. The file types that NetSurf understands are listed below, with their RISC OS file type and MIME type(s).</p>
+
+<table>
+<tr><th>Name</th><th>Type</th><th>MIME type(s)</th></tr>
+<tr><td>CSS</td><td>&amp;f79</td><td>text/css</td></tr>
+<tr><td>Drawfile</td><td>&amp;aff</td><td>application/drawfile<br>application/x-drawfile<br>image/drawfile<br>image/x-drawfile</td></tr>
+<tr><td>Flash</td><td>&amp;188</td><td>application/x-shockwave-flash</td></tr>
+<tr><td>GIF</td><td>&amp;695</td><td>image/gif</td></tr>
+<tr><td>HTML</td><td>&amp;faf</td><td>text/html</td></tr>
+<tr><td>JNG</td><td>&amp;f78</td><td>image/jng<br>image/x-jng</td></tr>
+<tr><td>JPEG</td><td>&amp;c85</td><td>image/jpeg<br>image/pjpeg</td></tr>
+<tr><td>MNG</td><td>&amp;f83</td><td>image/mng<br>image/x-mng<br>video/mng<br>video/x-mng</td></tr>
+<tr><td>PNG</td><td>&amp;b60</td><td>image/png</td></tr>
+<tr><td>Sprite</td><td>&amp;ff9</td><td>image/x-riscos-sprite</td></tr>
+<tr><td>Text</td><td>&amp;fff</td><td>text/plain</td></tr>
+</table>
+
+<p>Flash files are not handled by NetSurf directly and are displayed by an <a href="info#GettingStartedRequirements">external plugin</a>.</p>
+
+<p>NetSurf recognises different file types by their RISC OS file type for local files and by their content-type header for files sourced from the internet. Files are not identified by their extension or content. This means that for a file to be displayed, servers must be configured to send the correct content-type header and local files must have the correct RISC OS file type set.</p>
 
 <h2 id="DownloadWindow">Download Window</h2>
 
@@ -499,7 +518,7 @@
 <tr><td>F11</td><td>Open the scale view window</td></tr>
 <tr><td>Ctrl+Q</td><td>Reduce scale of view by 10%</td></tr>
 <tr><td>Ctrl+W</td><td>Increase scale of view by 10%</td></tr>
-<tr><td>Shift+F11</td><td>View box outlines. This may be useful if you are creating your own webpage. Cyan marks the content's edge, magenta marks the padding's edge and yellow marks the margin's edge.</td></tr>
+<tr><td>Shift+F11</td><td>View box outlines. This may be useful if you are creating your own web page. Cyan marks the content's edge, magenta marks the padding's edge and yellow marks the margin's edge.</td></tr>
 </table>
 
 <h3>Navigation</h3>
