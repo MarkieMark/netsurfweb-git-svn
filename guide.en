@@ -376,7 +376,7 @@
 <table class="menu">
 <tr><th class="menutitle" colspan="2">Utilities</th></tr>
 <tr><td><a href="#BrowserWindowMenuUtilitiesHotlist">Hotlist</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="#BrowserWindowMenuUtilitiesHistory">History</a></td><td class="menuarrow"></td><td></td></tr>
+<tr><td><a href="#BrowserWindowMenuUtilitiesHistory">History</a></td><td class="menuarrow"></td></tr>
 <tr><td><a href="#BrowserWindowMenuUtilitiesWindow">Window</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="#BrowserWindowMenuUtilitiesFindText">Find text</a></td><td class="menuarrow">&gt;</td></tr>
 </table>

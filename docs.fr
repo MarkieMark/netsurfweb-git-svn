@@ -10,8 +10,6 @@
 <p class="banner"><a href="/"><img src="netsurf.png" alt="NetSurf"></a></p>
 <p class="languages"><a href="docs.de">Deutsch</a> · <a href="docs.en">English</a> · français</p>
 
-<p class="headnote">Remarque: La traduction française n'est pas à jour, lisez plutôt la documentation anglaise ou allemande.</p>
-
 <h1>Documentation de NetSurf</h1>
 
 <p>La documentation est divisée de la façon suivante.</p>
@@ -19,18 +17,50 @@
 <ul>
 
 <li><strong><a href="info">Information Utilisateur</a></strong>
-<ul><li><a href="info#devel">Contacter les développeurs</a></li>
-<li><a href="info#features">Fonctionnalités &amp; Limitations</a></li>
-<li><a href="info#known">Bogues connus</a></li>
+<ul>
+ <ul><li><a href="info#GettingStarted">Premier contact</a></li>
+ <ul>
+  <li><a href="info#GettingStartedInstallation">Installation</a></li>
+  <li><a href="info#GettingStartedRequirements">Configuration logicielle nécessaire</a></li>
+ </ul>
+ <li><a href="info#Upgrading">Mise à jour de NetSurf</a></li>
+ <li><a href="info#Devel">Contacter les développeurs</a></li>
+ <li><a href="info#Bugs">Signalement des bogues</a></li>
+ <li><a href="info#FeatureRequests">Demandes de fonctionnalités nouvelles</a></li>
+ <li><a href="info#JavaScript">JavaScript</a></li>
 </ul></li>
 
 <li><strong><a href="guide">Manuel Utilisateur</a></strong>
-<ul><li><a href="guide#using">Utiliser NetSurf</a></li>
-<li><a href="guide#toolbar">Description de la boîte à outils</a></li>
-<li><a href="guide#menus">Menu</a></li>
-<li><a href="guide#keys">Raccourcis clavier</a></li>
-<li><a href="guide#urls">Raccourcis URLs</a></li>
-<li><a href="guide#conf">Configuration</a></li>
+<ul><li><a href="guide#UsingNetsurf">Utiliser NetSurf</a></li>
+<li><a href="guide#Help">Aide interactive</a></li>
+<li><a href="guide#BrowserWindow">Fenêtre de navigateur</a></li>
+
+<ul>
+ <li><a href="guide#BrowserWindowToolbar">Barre d'outils</a></li>
+ <li><a href="guide#BrowserWindowStatusBar">Barre d'état de la fenêtre</a></li>
+ <li><a href="guide#BrowserWindowMenus">Menus</a></li>
+</ul>
+<li><a href="guide#BrowserWindowFiletypes">Types de fichiers</a></li>
+<li><a href="guide#DownloadWindow">Fenêtre de téléchargement</a></li>
+<li><a href="guide#HistoryWindow">Fenêtre d'historique</a></li>
+<li><a href="guide#Hotlist">Fenêtre de gestion des favoris</a></li>
+
+<ul>
+ <li><a href="guide#HotlistToolbar">Barre d'outils</a></li>
+ <li><a href="guide#HotlistMenus">Menus</a></li>
+</ul>
+
+<li><a href="guide#Configuration">Configuration</a></li>
+<li><a href="guide#Keys">Raccourcis clavier</a></li>
+</ul>
+
+<li><strong><a href="progress">Avancement du développement</a></strong>
+<ul>
+ <li><a href="progress#Web">Standards du Web</a></li>
+ <li><a href="progress#CSSandHTML">Fonctionnalités CSS et HTML importantes</a></li>
+ <li><a href="progress#Images">Images supportées</a></li>
+ <li><a href="progress#ROstandards">Spécificités RISC OS</a></li>
+ <li><a href="progress#NSF">Fonctionnalités de NetSurf</a></li>
 </ul></li>
 
 </ul>
