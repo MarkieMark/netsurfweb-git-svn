@@ -1,6 +1,6 @@
 html, body { margin: 0; padding: 0; }
 h1, h2, h3, .breadcrumbs { font-family: sans-serif; }
-h1, h2, h3, h4, p, dl, table, ul, ol, pre, address { margin: 0 5mm 5mm 5mm; }
+h1, h2, h3, h4, h5, p, dl, table, ul, ol, pre, address { margin: 0 5mm 5mm 5mm; }
 h2, .breadcrumbs, .thanks { padding-top: 5mm; border-top: thin solid black; }
 img { border: none; }
 dl { display: block; padding-left: 0em; }

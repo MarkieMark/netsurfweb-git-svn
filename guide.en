@@ -26,7 +26,15 @@
 </ul></li>
 <li><a href="#FileTypes">File types</a></li>
 <li><a href="#DownloadWindow">Download window</a></li>
-<li><a href="#History">History</a></li>
+<li><a href="#History">History</a>
+<ul>
+<li><a href="#HistoryLocal">Local history window</a></li>
+<li><a href="#HistoryGlobal">Global history window</a>
+<ul>
+<li><a href="#HistoryGlobalToolbar">Toolbar</a></li>
+<li><a href="#HistoryGlobalMenus">Menus</a></li>
+</ul></li>
+</ul></li>
 <li><a href="#Hotlist">Hotlist management window</a>
 <ul>
 <li><a href="#HotlistToolbar">Toolbar</a></li>
@@ -36,13 +44,13 @@
 <li><a href="#Keys">Keyboard shortcuts</a></li>
 </ul>
 
-<p class="updated">Last updated 8 February 2005</p>
+<p class="updated">Last updated 20 March 2005</p>
 
 <h2 id="UsingNetSurf">Using NetSurf</h2>
 
 <p>To run <em>NetSurf</em>, simply double click on the NetSurf application. This will cause the NetSurf icon to appear on the iconbar. Select clicking on this icon will open a <a href="#BrowserWindow">browser window</a>. Adjust clicking on NetSurf's iconbar icon opens the <a href="#Hotlist">hotlist management window</a>.</p>
 
-<h3>Iconbar Menu</h3>
+<h3 id="IconbarMenu">Iconbar Menu</h3>
 
 <p>The iconbar menu contains options which concern the application as a whole.</p>
 
@@ -92,7 +100,7 @@
 
 <p class="iconinfo"><strong><img src="images/forward" class="icon" alt="Forward" title="Forward Button"></strong> Clicking on this button allows you to advance through the local history list. Select click to view the next page in the current window. Adjust click to view it in a new window. Form information is not resubmitted.</p>
 
-<p class="iconinfo"><strong><img src="images/history" class="icon" alt="History" title="History Button"></strong> Clicking on this button opens a window containing a history tree. Clicking on an item in this window will move to the relevant page in the history. More detailed information can be found in the <a href="#HistoryWindow">History window</a> section.</p>
+<p class="iconinfo"><strong><img src="images/history" class="icon" alt="History" title="History Button"></strong> Select clicking on this button opens a window containing the local history tree. Adjust clicking opens the global history window. More detailed information can be found in the <a href="#History">History</a> section.</p>
 
 <p class="iconinfo"><strong><img src="images/home" class="icon" alt="Home" title="Home Button"></strong> Clicking on this button returns to the configured home page.</p>
 
@@ -379,7 +387,7 @@
 <table class="menu">
 <tr><th class="menutitle" colspan="2">Utilities</th></tr>
 <tr><td><a href="#BrowserWindowMenuUtilitiesHotlist">Hotlist</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="#BrowserWindowMenuUtilitiesHistory">History</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="#BrowserWindowMenuUtilitiesHistory">History</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="#BrowserWindowMenuUtilitiesWindow">Window</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="#BrowserWindowMenuUtilitiesFindText">Find text</a></td><td class="menuarrow">&gt;</td></tr>
 </table>
@@ -400,7 +408,19 @@
 <p class="menuitem">This option opens the <a href="#HotlistWindow">hotlist management window</a>. The same function is available on the <a href="#BrowserWindowToolbar">toolbar</a>.</p>
 
 <p class="menupath" id="BrowserWindowMenuUtilitiesHistory">Utilities &gt; History</p>
-<p class="menuitem">This option opens the <a href="#HistoryWindow">local history window</a>. The same function is available on the <a href="#BrowserWindowToolbar">toolbar</a>.</p>
+<p class="menuitem">The History submenu allows you to access NetSurf's history featur</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">History</th></tr>
+<tr><td><a href="#BrowserWindowMenuUtilitiesHistoryLocal">Show local history</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="#BrowserWindowMenuUtilitiesHistoryGlobal">Show global history</a></td><td class="menuarrow"></td></tr>
+</table>
+
+<p class="menupath" id="BrowserWindowMenuUtilitiesHistoryLocal">Utilities &gt; History &gt; Show loacl History</p>
+<p class="menuitem">This option opens the <a href="#HistoryLocal">local history window</a>. The same function is available on the <a href="#BrowserWindowToolbar">toolbar</a>.</p>
+
+<p class="menupath" id="BrowserWindowMenuUtilitiesHistoryGlobal">Utilities &gt; History &gt; Show global History</p>
+<p class="menuitem">This option opens the <a href="#HistoryGlobal">global history window</a>. The same function is available on the <a href="#BrowserWindowToolbar">toolbar</a>.</p>
 
 <p class="menupath" id="BrowserWindowMenuUtilitiesWindow">Utilities &gt; Window</p>
 <p class="menuitem">The Window submenu allows you to control the size and positioning of new windows.</p>
@@ -499,7 +519,137 @@
 
 <h2 id="History">History</h2>
 
-<p>Not written yet.</p>
+<p>While browsing the World Wide Web, you may come across interesting pages and some time later, you may wish to return to them. NetSurf's history stores the addresses (URLs) of the web pages you visit so that you can return to a page without having to remember the URL or how you first came across it.</p>
+
+<p>NetSurf supports two distinct types of history; local and global. Local history contains only the pages that are visited in any particular window. Global history contains all the pages that have been visited in NetSurf and is remembered when NetSurf is restarted.</p>
+
+<h3 id="HistoryLocal">Local History Window</h3>
+
+<p>NetSurf's local history window provides a diagrammatical overview of the browsing history of a particular window. Each web page that is visited is represented by a thumbnail in a tree diagram. Beneath each thumbnail the page title is shown. Clicking on a thumbnail will cause the NetSurf browser window to return to that particular page.</p>
+
+<h3 id="HistoryGlobal">Global History Window</h3>
+
+<p>NetSurf's global history stores the addresses (URLs) of all the web pages you visit. To open the global history window, you can adjust click on the history toolbar button on a <a href="#BrowserWindow">browser window</a>, use the browser window <a href="#BrowserWindowMenuUtilitiesHistoryGlobal">menu option</a> or use the <a href="#IconbarMenu">iconbar menu</a>. The global history is made up from &quot;addresses&quot; and &quot;directories&quot;.</p>
+
+<p>An address consists of a name and a URL. Addresses in the global history can point to any kind of file and double clicking on one will launch the URL in NetSurf. Addresses also store the date the URL was visited. By default, addresses are listed in the order they were visited and they are grouped by date within directories.</p>
+
+<p>Directories store groups of addresses. In the default global history view, there are directories for each day up to the beginning of last week and further directories for previous weeks. The global history is expired after a maximum of four weeks.</p>
+
+<p>The global history display works in a similar way to a filer window, although there are some important differences. Directories are not opened in new windows. Instead, the whole of the history is displayed in one window and directories represented by branches in a tree diagram. Double clicking on a closed directory will open it, displaying its contents as a new branch. Double clicking on an open directory will close it. When addresses are double clicked on, their URL is launched by NetSurf.</p>
+
+<p>Next to the address and directory icons there are toggle boxes, which can be used to expand and collapse branches in the history tree. Clicking on the branch toggle boxes next to directories has exactly the same effect as double clicking on a directory. Expanding an address with the branch toggle box displays the other information it contains. (The URL and the time it was visited.) The space bar can also be used to expand or collapse selected addresses.</p>
+
+<p>As with filer windows, selections can be made by dragging selection boxes and adjust clicking can be used to add or remove items from the selection.</p>
+
+<h4 id="HistoryGlobalToolbar">Toolbar</h4>
+
+<p>The global history toolbar allows quick access to various commonly used features. More functions are available through the <a href="#HistoryGlobalMenus">menus</a>.</p>
+
+<p class="iconinfo"><strong><img src="images/delete" class="icon" alt="Delete Selection" title="Delete Selection Button"></strong> Clicking on this button deletes any selected directories or addresses from the global history.</p>
+
+<p class="iconinfo"><strong><img src="images/expand" class="icon" alt="Expand Addresses" title="Expand Addresses Button"></strong> Select clicking on this button expands any addresses that are being shown, to display additional information about each one. Adjust clicking hides the additional information for any expanded addresses.</p>
+
+<p class="iconinfo"><strong><img src="images/launch" class="icon" alt="Launch Selection" title="Launch Selection Button"></strong> Clicking on this button launches all selected addresses in separate <a href="#BrowserWindow">browser windows</a>. If a directory is selected any addresses it contains will be launched.</p>
+
+<p class="iconinfo"><strong><img src="images/open" class="icon" alt="Open Directories" title="Open Directories Button"></strong> Select clicking on this button opens every directory in the global history. Adjust clicking closes any open directories.</p>
+
+<h4 id="HistoryGlobalMenus">Menus</h4>
+
+<p>The global history menu contains options which allow you to manage the content of your global history. The options available are:</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">History</th></tr>
+<tr><td><a href="#HistoryGlobalMenuHistory">History</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="#HistoryGlobalMenuSelection">Selection</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="#HistoryGlobalMenuSelectAll">Select all</a></td><td></td></tr>
+<tr><td><a href="#HistoryGlobalMenuClearSelection">Clear selection</a></td><td></td></tr>
+</table>
+
+<h5 id="HistoryGlobalMenuHistory" class="submenu">History Submenu</h5>
+
+<p>The Hotlist submenu contains the following options which apply to the hotlist in general.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">History</th></tr>
+<tr><td><a href="#HistoryGlobalMenuHistoryExport">Export</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td class="menusplit"><a href="#HistoryGlobalMenuHistoryExpand">Expand</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="#HistoryGlobalMenuHistoryCollapse">Collapse</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="#HistoryGlobalMenuHistoryToolbars">Toolbars</a></td><td class="menuarrow">&gt;</td></tr>
+</table>
+
+<p class="menupath" id="HistoryGlobalMenuHistoryExport">Hotlist &gt; Export</p>
+<p class="menuitem">This option allows you to export the global history as an HTML file. The directory structure is represented by nested unordered lists and addresses are converted to clickable links.</p>
+
+<p class="menupath" id="HistoryGlobalMenuHistoryExpand">Hotlist &gt; Expand</p>
+<p class="menuitem">This option allows various parts of the global history to be shown.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Expand</th></tr>
+<tr><td><a href="#HistoryGlobalMenuHistoryExpandAll">All</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="#HistoryGlobalMenuHistoryExpandDirectories">Directories</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="#HistoryGlobalMenuHistoryEdpandAddresses">Addresses</a></td><td class="menuarrow"></td></tr>
+</table>
+
+<p class="menupath" id="HistoryGlobalMenuHistoryExpandAll">History &gt; Expand &gt; All</p>
+<p class="menuitem">This option opens all directories and expands all addresses in the global history, making the entire directory structure and all address information visible.</p>
+
+<p class="menupath" id="HistoryGlobalMenuHistoryExpandDirectories">History &gt; Expand &gt; Directories</p>
+<p class="menuitem">This option opens all of the directories in the global history, making the entire directory structure visible.</p>
+
+<p class="menupath" id="HistoryGlobalMenuHistoryExpandAddresses">History &gt; Expand &gt; Addresses</p>
+<p class="menuitem">This option expands all of the addresses which are presently being displayed in the global history. Their URLs and additional usage information are made visible.</p>
+
+<p class="menupath" id="HistoryGlobalMenuHistoryCollapse">History &gt; Collapse</p>
+<p class="menuitem">This option allows various parts of the global history to be hidden.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Collapse</th></tr>
+<tr><td><a href="#HistoryGlobalMenuHistoryCollapseAll">All</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="#HistoryGlobalMenuHistoryCollapseDirectories">Directories</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="#HistoryGlobalMenuHistoryCollapseAddresses">Addresses</a></td><td class="menuarrow"></td></tr>
+</table>
+
+<p class="menupath" id="HistoryGlobalMenuHistoryCollapseAll">History &gt; Collapse &gt; All</p>
+<p class="menuitem">This option closes all directories and collapses all addresses in the global history, reducing the display to the contents of the root directory.</p>
+
+<p class="menupath" id="HistoryGlobalMenuHistoryCollapseDirectories">History &gt; Collapse &gt; Directories</p>
+<p class="menuitem">This option closes all of the directories in the global history, hiding the directory structure.</p>
+
+<p class="menupath" id="HistoryGlobalMenuHistoryCollapseAddresses">History &gt; Collapse &gt; Addresses</p>
+<p class="menuitem">This option reduces all of the displayed addresses to just their name, hiding their URLs and additional usage information.</p>
+
+<p class="menupath" id="HistoryGlobalMenuHistoryToolbars">Display &gt; Toolbars</p>
+<p class="menuitem">The Toolbars submenu allows you to control the way NetSurf's global history toolbar is displayed.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Toolbars</th></tr>
+<tr><td><a href="#HistoryGlobalMenuHistoryToolbarsButtons">Buttons</a></td><td class="menuarrow"></td></tr>
+</table>
+
+<p class="menupath" id="HistoryGlobalMenuHistoryToolbarsButtons">Display &gt; Toolbars &gt; Buttons</p>
+<p class="menuitem">This option toggles the display of the buttons on NetSurf's global history toolbar at the top of the window.</p>
+
+<h5 id="HistoryGlobalMenuSelection" class="submenu">Selection Submenu</h5>
+
+<p>The selection submenu, which is only available when a selection has been made in the global history window, contains the following options.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Selection</th></tr>
+<tr><td><a href="#HistoryGlobalMenuSelectionLaunch">Launch</a></td><td></td></tr>
+<tr><td><a href="#HistoryGlobalMenuSelectionDelete">Delete</a></td><td></td></tr>
+</table>
+
+<p class="menupath" id="HistoryGlobalMenuSelectionLaunch">Selection &gt; Launch</p>
+<p class="menuitem">This option allows you to launch all of the selected addresses in separate NetSurf browser windows. This option is also available on the global history window <a href="#HistoryGlobalToolbar">toolbar</a>.</p>
+
+<p class="menupath" id="HistoryGlobalMenuSelectionDelete">Selection &gt; Delete</p>
+<p class="menuitem">This option deletes the current selection from the global history. This option is also available on the global history window <a href="#HistoryGlobalToolbar">toolbar</a>.</p>
+
+<p class="menupath" id="HistoryGlobalMenuSelectAll">Select all</p>
+<p class="menuitem">This option allows you to select all the addresses and directories in the global history window.</p>
+
+<p class="menupath" id="HistoryGlobalMenuClearSelection">Clear selection</p>
+<p class="menuitem">This option allows you to deselect any selected items.</p>
 
 <h2 id="Hotlist">Hotlist Management Window</h2>
 
@@ -523,15 +673,15 @@
 
 <p>The hotlist toolbar allows quick access to various commonly used features. More functions are available through the <a href="#HotlistMenus">menus</a>.</p>
 
-<h3>Toolbar Icons</h3>
+<h4>Toolbar Icons</h4>
 
 <p class="iconinfo"><strong><img src="images/create" alt="Create Directory" title="Create Directory Button" class="icon"></strong> Clicking on this button adds a new directory to the bottom of the hotlist. The cursor is placed at the name of the new directory. Either type Ctrl-U and rename it or press Return to accept the default name.</p>
 
 <p class="iconinfo"><strong><img src="images/delete" class="icon" alt="Delete Selection" title="Delete Selection Button"></strong> Clicking on this button deletes any selected directories or addresses from the hotlist.</p>
 
-<p class="iconinfo"><strong><img src="images/expand" class="icon" alt="Expand Addresses" title="Expand Addresses Button"></strong> Select clicking on this button expands any addresses that are being shown to display additional information about each one. Adjust clicking hides the additional information for any expanded addresses.</p>
+<p class="iconinfo"><strong><img src="images/expand" class="icon" alt="Expand Addresses" title="Expand Addresses Button"></strong> Select clicking on this button expands any addresses that are being shown, to display additional information about each one. Adjust clicking hides the additional information for any expanded addresses.</p>
 
-<p class="iconinfo"><strong><img src="images/launch" class="icon" alt="Launch Selection" title="Launch Selection Button"></strong> Clicking on this button launches all selected addresses in separate <a href="#BrowserWindow">browser windows</a>. If a directory is selected and addresses it contains will be launched.</p>
+<p class="iconinfo"><strong><img src="images/launch" class="icon" alt="Launch Selection" title="Launch Selection Button"></strong> Clicking on this button launches all selected addresses in separate <a href="#BrowserWindow">browser windows</a>. If a directory is selected any addresses it contains will be launched.</p>
 
 <p class="iconinfo"><strong><img src="images/open" class="icon" alt="Open Directories" title="Open Directories Button"></strong> Select clicking on this button opens every directory in the hotlist. Adjust clicking closes any open directories.</p>
 

@@ -92,7 +92,7 @@
 
 <p class="iconinfo"><strong><img src="images/forward" class="icon" alt="Forward" title="Forward Button"></strong> Anklicken führt vorwärts in der lokalen Liste aufgerufener Seiten. Klicken mit AUSWAHL öffnet die Seite dabei im aktuellen Fenster, SPEZIAL öffnet ein neues Fenster zur Darstellung. Die Seite wird nicht aktualisiert.</p>
 
-<p class="iconinfo"><strong><img src="images/history" class="icon" alt="History" title="History Button"></strong> Anklicken öffnet ein Fenster mit einer Darstellung bereits besuchter Seiten. Klick auf ein Symbolbild führt zur angewählten Seite. Weitere Informationen hierzu sind im <a href="#HistoryWindow">History</a> Abschnitt zu finden.</p>
+<p class="iconinfo"><strong><img src="images/history" class="icon" alt="History" title="History Button"></strong> Anklicken öffnet ein Fenster mit einer Darstellung bereits besuchter Seiten. Klick auf ein Symbolbild führt zur angewählten Seite. Weitere Informationen hierzu sind im <a href="#History">History</a> Abschnitt zu finden.</p>
 
 <p class="iconinfo"><strong><img src="images/home" class="icon" alt="Home" title="Home Button"></strong> Anklicken führt zur voreingestellten Homepage.</p>
 
