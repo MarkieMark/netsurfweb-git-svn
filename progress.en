@@ -20,7 +20,7 @@
 <li><a href="progress#NSF">NetSurf features</a>
 </ul>
 
-<p class="updated">Last updated 16 July 2004</p>
+<p class="updated">Last updated 30 July 2004</p>
 
 <h2 id="web">Web standards</h2>
 
@@ -59,7 +59,7 @@
 <tr class="complete"><td>Drawfile</td><td>Complete</td><td></td></tr>
 <tr class="complete"><td>GIF</td><td>Complete</td><td></td></tr>
 <tr class="complete"><td>JPEG</td><td>Complete</td><td></td></tr>
-<tr class="juststarted"><td>MNG &amp; JNG</td><td>Just started</td><td></td></tr>
+<tr class="juststarted"><td>MNG &amp; JNG</td><td>Nearly done</td><td></td></tr>
 <tr class="complete"><td>PNG</td><td>Complete</td><td></td></tr>
 <tr class="complete"><td>Sprite</td><td>Complete</td><td></td></tr>
 </table>
@@ -79,21 +79,21 @@
 <tr><th>Title</th><th>Status</th><th>Notes</th></tr>
 <tr class="inprogress"><td>Configuration</td><td>In progress</td><td></td></tr>
 <tr class="notstarted"><td>Disc Cache</td><td>Not started</td><td></td></tr>
-<tr class="complete"><td>Dithering</td><td>Complete</td><td>Dithering to give improved rendering in sub true colour screen modes.</td></tr>
+<tr class="complete"><td>Dithering</td><td>Complete</td><td>Gives improved rendering in sub true colour screen modes.</td></tr>
 <tr class="inprogress"><td>Documentation</td><td>In progress</td><td></td></tr>
 <tr class="nearlydone"><td>Drawfile Export</td><td>Nearly done</td><td>Embedded drawfiles aren't exported when saving page as Draw.</td></tr>
 <tr class="nearlydone"><td>History Tree</td><td>Nearly done</td><td></td></tr>
-<tr class="inprogress"><td>Hotlist</td><td>In progress</td><td></td></tr>
+<tr class="nearlydone"><td>Hotlist</td><td>Nearly done</td><td></td></tr>
 <tr class="inprogress"><td>Interactive Help</td><td>In progress</td><td></td></tr>
 <tr class="nearlydone"><td>Internal Unicode Support</td><td>Nearly done</td><td></td></tr>
-<tr class="complete"><td>Memory Cache</td><td>Complete</td><td>Fixed at 1MB.</td></tr>
+<tr class="complete"><td>Memory Cache</td><td>Complete</td><td></td></tr>
 <tr class="notstarted"><td>Printing</td><td>Not started</td><td></td></tr>
 <tr class="inprogress"><td>Proxy Support</td><td>In progress</td><td>Protocols other than HTTP are incorrectly proxied.</td></tr>
-<tr class="nearlydone"><td>Reload</td><td>Nearly done</td><td>Does not trigger reload for included images, objects or frames.</td></tr>
+<tr class="complete"><td>Reload</td><td>Complete</td><td>Select clicking on the reload button will reload the web page alone. Adjust clicking reloads the web page and other objects such as CSS files and images.</td></tr>
 <tr class="complete"><td>Save Complete</td><td>Complete</td><td>Save pages with CSS files and images.</td></tr>
 <tr class="complete"><td>Save Location</td><td>Complete</td><td>Save the location of the current page / object in Acorn URI, Ant URL or plain text formats.</td></tr>
 <tr class="inprogress"><td>Save as Text</td><td>In progress</td><td>Some issues with spacing out of text.</td></tr>
-<tr class="inprogress"><td>Scale View</td><td>In progress</td><td>Following links at anything other than 100% causes the new page to be laid out at the wrong width.<br>Doesn't work with form elements.</td></tr>
+<tr class="nearlydone"><td>Scale View</td><td>Nearly done</td><td>Following links at anything other than 100% causes the new page to be laid out at the wrong width.</td></tr>
 <tr class="notstarted"><td>Search Text</td><td>Not started</td><td></td></tr>
 <tr class="complete"><td>Stop Fetch</td><td>Complete</td><td></td></tr>
 <tr class="notstarted"><td>Text Selection</td><td>Not started</td><td></td></tr>
