@@ -17,7 +17,7 @@
 <li><a href="progress#CSSandHTML">Important CSS and HTML features</a>
 <li><a href="progress#Images">Image support</a>
 <li><a href="progress#ROStandards">RISC OS specific standards</a>
-<li><a href="progress#ROUI">RISC OS user interface</a>
+<li><a href="progress#NSF">NetSurf Features</a>
 </ul>
 
 <p class="updated">Last updated 12 April 2004</p>
@@ -72,7 +72,7 @@
 <tr class="inprogress"><td>Plugin Protocol</td><td>In progress</td><td>Incomplete implementation and various problems.</td></tr>
 </table>
 
-<h2 id="ROUI">RISC OS user interface</h2>
+<h2 id="NSF">NetSurf Features</h2>
 
 <table class="progress">
 <tr><th>Title</th><th>Status</th><th>Notes</th></tr>
@@ -85,7 +85,7 @@
 <tr class="notstarted"><td>Interactive Help</td><td>Not started</td><td></td></tr>
 <tr class="complete"><td>Memory Cache</td><td>Complete</td><td>Fixed at 1MB.</td></tr>
 <tr class="notstarted"><td>Printing</td><td>Not started</td><td></td></tr>
-<tr class="complete"><td>Proxy Support</td><td>Complete</td><td></td></tr>
+<tr class="inprogress"><td>Proxy Support</td><td>In progress</td><td>Protocols other than HTTP are incorrectly proxied.</td></tr>
 <tr class="notstarted"><td>Reload</td><td>Not started</td><td></td></tr>
 <tr class="complete"><td>Save Complete</td><td>Complete</td><td>Save pages with CSS files and images.</td></tr>
 <tr class="inprogress"><td>Save as Text</td><td>In progress</td><td>Some issues with spacing out of text.</td></tr>
