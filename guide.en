@@ -221,8 +221,8 @@ functions are listed below.</p>
 <tr><td>Ctrl+Cursor Up</td><td>Go to top of page</td></tr>
 <tr><td>Ctrl+F2</td><td>Closes the window</td></tr>
 <tr><td>F3</td><td>Save the page source</td></tr>
-<tr><td>Ctrl+F3</td><td>Full save of the web page, including images etc</td></tr>
-<tr><td>Shift+F3</td><td>Save the page as text</td></tr>
+<tr><td>Ctrl+F3</td><td>Save the page as text</td></tr>
+<tr><td>Shift+F3</td><td>Full save of the web page, including images etc</td></tr>
 <tr><td>Ctrl+Shift+F3</td><td>Save the page as a Drawfile</td></tr>
 <tr><td>F8</td><td>View webpage source</td></tr>
 <tr><td>F11</td><td>View box outlines.  This may be useful if you are creating
