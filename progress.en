@@ -20,7 +20,7 @@
 <li><a href="progress#NSF">NetSurf features</a>
 </ul>
 
-<p class="updated">Last updated 10 June 2004</p>
+<p class="updated">Last updated 12 June 2004</p>
 
 <h2 id="web">Web standards</h2>
 
@@ -28,7 +28,7 @@
 <tr><th>Title</th><th>Status</th><th>Notes</th></tr>
 <tr class="inprogress"><td>Cookies</td><td>In progress</td><td>Don't get expired.</td></tr>
 <tr class="nearlydone"><td>CSS 1</td><td>Nearly done</td><td>See the <a href="http://cvs.semichrome.net/netsurf/Docs/TODO-CSS?rev=HEAD&amp;content-type=text/vnd.viewcvs-markup">TODO list</a>.</td></tr>
-<tr class="inprogress"><td>CSS 2</td><td>In progress</td><td></td></tr>
+<tr class="inprogress"><td>CSS 2</td><td>In progress</td><td>See the <a href="http://cvs.semichrome.net/netsurf/Docs/TODO-CSS?rev=HEAD&amp;content-type=text/vnd.viewcvs-markup">TODO list</a>.</td></tr>
 <tr class="nearlydone"><td>HTML 4</td><td>Nearly done</td><td>See the <a href="http://cvs.semichrome.net/netsurf/Docs/TODO-HTML?rev=HEAD&amp;content-type=text/vnd.viewcvs-markup">TODO list</a>.</td></tr>
 <tr class="complete"><td>HTTP 1.1</td><td>Complete</td><td></td></tr>
 <tr class="inprogress"><td>HTTP Authentication</td><td>In progress</td><td></td></tr>
@@ -40,7 +40,7 @@
 
 <table class="progress">
 <tr><th>Title</th><th>Status</th><th>Notes</th></tr>
-<tr class="inprogress"><td>Background Images</td><td>In progress</td><td>Background-attachment and background-position need more work.</td></tr>
+<tr class="inprogress"><td>Background Images</td><td>In progress</td><td>Background images set with the background shorthand property aren't handled.<br>Background-attachment and background-position need more work.</td></tr>
 <tr class="nearlydone"><td>Borders / Margins / Padding</td><td>Nearly done</td><td></td></tr>
 <tr class="nearlydone"><td>BR Tag</td><td>Nearly done</td><td>Clear is not implemented.</td></tr>
 <tr class="nearlydone"><td>Forms</td><td>Nearly done</td><td>Doesn't work fully with Scale View.<br>Textarea needs much improvement.</td></tr>
