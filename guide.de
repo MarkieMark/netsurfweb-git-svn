@@ -652,7 +652,111 @@
 
 <h2 id="Configuration">NetSurf konfigurieren</h2>
 
-<p>Noch nicht geschrieben. Das Konfigurationssystem wird gerade überarbeitet. Ein Update folgt bald.</p>
+<p>NetSurf kann in Darstellung und Verhalten sehr flexibel eingestellt und so den Wünschen und persönlichen Vorlieben angepaßt werden. Das Dialogfenster zur Konfiguration wird über <a href="#IconbarMenuChoices">Einstellungen</a> im Iconbar-Menu geöffnet.</p>
+
+<p>Mit Abbruch kann der Dialog geschlossen werden, ohne die getroffenen Einstellungen zu übernehmen. Beim Anklicken von Sichern werden die Einstellungen gespeichert und das Dialogfenster geschlossen. Die Einstellungen sind in folgende Gruppen unterteilt</p>
+
+<ul>
+<li><a href="#ConfigurationBrowser">Browser</a></li>
+<li><a href="#ConfigurationNetwork">Netzwerk</a></li>
+<li><a href="#ConfigurationThemes">Themen</a></li>
+<li><a href="#ConfigurationFonts">Schriften</a></li>
+<li><a href="#ConfigurationImages">Bilder</a></li>
+</ul>
+
+<h3 id="ConfigurationBrowser">Browser</h3>
+
+<p>Hier können allgemeine Browseroptionen konfiguriert werden. Die folgende Einstellungen sind vorhanden.</p>
+
+<dl>
+<dt>Spracheinstellung</dt>
+<dd>Hiermit wird die in NetSurf verwendete Sprache gewählt. Dies betrifft Menüs, Dialog-Boxen und die Texte der interaktiven Hilfe.</dd>
+<dt>bevorzugte Sprache auf Web-Seiten</dt>
+<dd>Manche Web-Seiten unterstützen die Darstellung in verschiedenen Sprachen. Ist dies der Fall fordert NetSurf die Web-Seite in der hier voreingestellten Sprache vom Server an. Wird die hier voreingestellte Sprache vom Server nicht unterstützt, erfolgt die Anzeige der Seite in ihrem Standardsprachformat.</dd>
+<dt>Homepage</dt>
+<dd>Diese Seite wird geladen, wenn ein neues Browserfenster geöffnet oder der Schaltknopf <a href="#BrowserWindowToolbar">Homepage</a> benutzt wird. Ist in diesem Feld nichts eingetragen, wird die Standardstartseite von NetSurf verwendet.</dd>
+<dt>beim Start Browserfenster öffnen</dt>
+<dd>Legt fest, ob beim Starten von NetSurf automatisch ein neues <a href="#BrowserWindow">Browserfenster</a> geöffnet wird.</dd>
+<dt>Werbebanner unterdrücken</dt>
+<dd>Ist diese Option angewählt, versucht NetSurf die Anzeige von Werbeeinblendungen der Web-Seiten zu unterbinden.</dd>
+<dt>Plugins nicht laden</dt>
+<dd>Um Plugins zu verwenden, darf diese Option NICHT angewählt sein. Plugins sind externe Applikationen, die die Anzeige oder Nutzung verschiedener Dateitypen ermöglichen.</dd>
+</dl>
+
+<h3 id="ConfigurationNetwork">Netzwerk</h3>
+
+<p>Die Netzwerkkonfiguration von NetSurf erlaubt die folgenden Einstellungen.</p>
+
+<dl>
+<dt>HTTP Proxy-Server nutzen</dt>
+<dd>
+<p>Wenn der Internet Service Provider (ISP) einen Proxy-Server anbietet, können zu dessen Nutzung die Netzadresse und Portnummer hier eingetragen werden. Ist eine Authentifizierung erforderlich, müssen die nötigen Daten ebenfalls eingetragen werden. Informationen dazu sind direkt beim ISP abzufragen.</p>
+</dd>
+<dt>HTTP Referer senden</dt>
+<dd><p>Ist diese Option angewählt, sendet NetSurf HTTP Referenzinformationen an Web-Server. Das bedeutet, daß beim Anklicken eines Links die Adresse der Seite, die den Link enthält, an den Server der angewählten Seite übermittelt wird. Somit kann der zweite Server ermitteln, von wo aus die Seite angewählt wurde.</p>
+</dd>
+</dl>
+
+<h3 id="ConfigurationThemes">Themen</h3>
+
+<p>NetSurf erlaubt das Ändern des 'look and feel' der Benutzerschnittstelle. Ermöglicht wird dies durch die Installation und Auswahl von Themen.</p>
+
+<dl>
+<dt>Themen verwalten</dt>
+<dd>Hiermit wird das Verzeichnis <em>!NetSurf.Themes</em> in einem Filerfenster geöffnet. Um NetSurf Themen zu installieren, werden diese per Drag&Drop hier hineinkopiert. Zur Deinstallation werden sie aus diesem Verzeichnis gelöscht.</dd>
+<dt>Themen holen</dt>
+<dd>Anklicken lädt die <a href="http://netsurf.sourceforge.net/themes/">NetSurf Themen</a> Web-Seite in einem neuen <a href="#BrowserWindow">Browserfenster</a>.</dd>
+</dl>
+
+<p>Das aktuelle Thema wird durch Anklicken des zugehörigen Auswahlknopfes gewählt. Wird ein gerade neu installiertes Thema nicht im Dialogfenster angezeigt, ist ein Rescan des Themenverzeichnisses erforderlich. Ein Rescan erfolgt automatisch bei jedem Öffnen der NetSurf Einstellungen oder manuell durch Klicken mit der SPEZIAL Maustaste auf Abbruch.<br>Das jeweils gewählte Thema wird ge-cached. Änderungen an diesem Thema werden darum erst nach einem Neustart von NetSurf geladen. Alternativ ist es möglich, ein anderes Thema zu wählen, einen Rescan des Themenverzeichnisses auszulösen und dann zum eigentlichen Thema zurückzuschalten.</p>
+
+<h3 id="ConfigurationFonts">Schriften</h3>
+
+<p>Im Bereich Schriften können die Schriftarten und -größen eingestellt werde, die NetSurf zum Seitenaufbau verwendet.</p>
+
+<dl>
+<dt>Schriftarten</dt>
+<dd>
+<p>Die Schriften, die NetSurf zur Darstellung der angegebenen Schrifttypen (z.B. Sans-serif und Monospace) verwendet, können gewählt werden. Zusätzlich wird hier auch die Standardschrift für den 'normalen' Text eingestellt.</p>
+</dd>
+<dt>Schriftgröße</dt>
+<dd><p>Wenn die Textgröße auf Web-Seiten ein komfortables Lesen nicht erlaubt, kann sie hier geändert werden.</p>
+<dl>
+<dt>Standard</dt>
+<dd>Dies ist die Textgröße, die NetSurf zur Textdarstellung verwendet, wenn nicht von der Web-Seite explizit eine bestimmte Textgröße angefordert wird.</dd>
+<dt>kleinste Schrift</dt>
+<dd>Hiermit wird die kleinste Schriftgröße gewählt, die zur Darstellung zum Einsatz kommt. Es sollte die kleinste, noch gut zu erkennende Größe eingestellt werden.</dd>
+</dl>
+</dd>
+<dt>UFont Technologie nutzen</dt>
+<dd>Ufont ermöglicht die Nutzung von Unicode auf Computern ohne den Unicode Font Manager. Benötigt wird dafür Ufont und ein entsprechender Zeichensatz.</dd>
+</dl>
+
+<h3 id="ConfigurationImages">Bilder</h3>
+
+<p>Die Konfiguration der Bilddarstellung ermöglicht es, die Darstellungsqualität von Bildern einzustellen. Dabei werden Vordergrund- und Hintergrundbilder separat behandelt. Dies erlaubt es für Vordergrundbilder eine höhere Anzeigequaltität, welche aber rechenzeitintensiver ist, als für Hintergrundbilder zu wählen. Die folgenden Einstellungen sind verfügbar.</p>
+
+<dl>
+<dt>Ausgabe</dt>
+<dd>
+<p>Hier stehen vier Optionen zur Auswahl:</p>
+<dl>
+<dt>RISC OS nutzen</dt>
+<dd>Es werden die Standardroutinen von RISC OS (OS_SpriteOp) verwendet, um Bilder anzuzeigen. Nachteilig dabei sind die relativ schlechte Darstellungsqualität (insbesondere bei Bildern, die Alpha-Channels nutzen, weil hierbei die Alpha-Channels über Standard Routinen nachgebildet werden) und die niedrige Geschwindigkeit. Diese Option ist darum nicht empfehlenswert und sollte nur genutzt werden wenn Darstellungsprobleme auftreten.</dd>
+<dt>Direktausgabe</dt>
+<dd>Dies ist die schnellste Darstellungsvariante. Allerdings werden die Bilder, in Bildschirmmodi mit weniger als 16 Millionen Farben, in gleich niedriger Qualität ausgegeben wie bei Verwendung der RISC OS Standardroutinen. Immerhin werden Bilder mit Alpha-Channels genauso gut dargestellt wie andere Bilder. Auf einem langsamen Computer eignet sich dieser Modus gut zur Anzeige der Hintergrundbilder.</dd>
+<dt>Dithern</dt>
+<dd>Dies ist eine schnelle Methode, um die Darstellung von Bildern in Modi mit weniger als 16 Millionen Farben zu verbessern. Sie emuliert doppelt soviele Farben wie im aktuellen Bildschirmodus verfügbar sind (gilt nur für Modi mit weniger als 16 Millionen Farben). Erreicht wird eine ziemlich gute Verbesserung der Darstellungsqualität vieler Bilder bei einem geringen, zusätzlichen Verbrauch von Rechenzeit. Auf einem langsamen Computer eignet sich dieser Modus für die Darstellung der Vordergrundbilder.</dd>
+<dt>Error-Diffusion</dt>
+<dd>Eine weitere Methode zur Optimierung der Farbdarstellung bei weniger als 16 Millionen darstellbaren Farben. Sie ist langsamer als das Dithern, ermöglicht aber deutlich bessere Ergebnisse. Bei Nutzung eines 8bpp Bildschirmmodes (256 Farben) ist dies die Einstellung mit der besten Bilddarstellung. Leider benötigt die Routine eine ganze Menge Prozessorzeit, so daß sie sich, auch auf einer schnellen Maschine, nur für die Darstellung der Vordergrundbilder empfiehlt.</dd>
+</dl>
+<p>In einem Bildschirmmodus mit 16 Millionen Farben werden, auch wenn sie angewählt sind, weder Dithern noch Error-Diffusion verwendet, weil alle Farben direkt ausgegeben werden können. Die bestmögliche Darstellung ergibt sich bei Verwendung eines Bildschirmmodus mit 16 Millionen Farben.</p>
+</dd>
+<dt>Bi-lineares Filtern</dt>
+<dd>Ermöglicht das Glätten der Ausgabe von skalierten Bildern. Positiv beeinflußt werden Bilder, deren Pixel nicht 1:1 mit der Bildschirmpixeldarstellung korrespondieren sowie allgemein die Darstellung in Bildschirmmodi mit halbierter y-Auflösung (rectangular pixel mode). Die Routine ist sehr rechenzeitaufwändig und sollte besser nur auf schnellen Rechnern verwendet werden.</dd>
+<dt>ViewFinder Optimierung</dt>
+<dd>Diese Option sollte bei vorhandener ViewFinder Grafikkarte aktiviert werden. Sie erlaubt das Zwischenspeichern von Bildern und beschleunigt so die Bildausgabe.</dd>
+</dl>
 
 <h2 id="Keys">Tastaturkürzel (Shortcuts)</h2>
 
