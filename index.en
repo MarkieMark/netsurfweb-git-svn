@@ -16,7 +16,7 @@ HTML&nbsp;4 and CSS standards to the RISC OS platform.</p>
 
 <h2>Status</h2>
 <p><strong>NetSurf is currently under development.</strong> Test builds are
-<a href="http://netsurf.strcprstskrzkrk.co.uk/">available for download</a>.
+<a href="http://netsurf.sourceforge.net/builds/">available for download</a>.
 See the <a href="progress">progress</a> page to get an indication of NetSurf's
 development status.</p>
 
@@ -43,7 +43,7 @@ contributing.</p>
 page</a></dt>
 <dd>SourceForge provides the mailing list, bug tracker, and other services</dd>
 
-<dt><a href="http://netsurf.strcprstskrzkrk.co.uk/">Test builds</a></dt>
+<dt><a href="http://netsurf.sourceforge.net/builds/">Test builds</a></dt>
 <dd>Built automatically from the latest source</dd>
 
 <dt><a href="/themes/">Themes</a></dt>

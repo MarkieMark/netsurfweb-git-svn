@@ -90,7 +90,7 @@
 <p>Avant de signaler une bogue, veuillez s'il vous plaît:</p>
 
 <ol>
-<li>vérifier que la bogue se produit aussi avec la dernière version <a href="http://netsurf.strcprstskrzkrk.co.uk/">disponible en téléchargement</a>.</li>
+<li>vérifier que la bogue se produit aussi avec la dernière version <a href="http://netsurf.sourceforge.net/builds/">disponible en téléchargement</a>.</li>
 <li>essayer de trouver un moyen de déclenchement reproductible de la bogue.</li>
 <li>vérifier la page d'<a href="progress">avancement</a> et <a href="http://cvs.semichrome.net/netsurf/Docs/">les listes TODO</a> pour vérifier que quelque chose a bien été implémenté.</li>
 </ol>

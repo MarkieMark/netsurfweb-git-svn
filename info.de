@@ -91,7 +91,7 @@ Die Installation von &quot;NCNetSurf&quot; ist noch nicht dokumentiert.</p>
 <p>Vor dem Versenden einer Fehlermitteilung, bitte</p>
 
 <ol>
-<li>überprüfe, ob sich dieser Fehler auch in der <a href="http://netsurf.strcprstskrzkrk.co.uk/">aktuellsten</a> NetSurf Version findet.</li>
+<li>überprüfe, ob sich dieser Fehler auch in der <a href="http://netsurf.sourceforge.net/builds/">aktuellsten</a> NetSurf Version findet.</li>
 <li>versuche einen reproduzierbaren Weg zu finden, um den Fehler auszulösen.</li>
 <li>überprüfe die Seite <a href="progress">'Stand der Entwicklung'</a> und die <a href="http://cvs.semichrome.net/netsurf/Docs/">TODO Listen</a>, ob nicht bereits eine Behebung des Fehlers oder die Implementation einer vermißten Funktion erfolgt ist.</li>
 </ol>
