@@ -21,7 +21,7 @@
 <li><a href="#NSF">NetSurf features</a>
 </ul>
 
-<p class="updated">Last updated 15 December 2004</p>
+<p class="updated">Last updated 12 January 2005</p>
 
 <h2 id="Web">Web standards</h2>
 
@@ -49,7 +49,7 @@
 <tr class="juststarted"><td>Lists</td><td>Just started</td><td>Lists aren't handled properly.</td></tr>
 <tr class="notstarted"><td>Position (CSS2 attribute)</td><td>Not started</td><td></td></tr>
 <tr class="nearlydone"><td>Tables</td><td>Nearly done</td><td>Cellpadding, cellspacing and table borders not implemented.<br>Extra space is divided equally among columns instead of in proportion with content width.</td></tr>
-<tr class="notstarted"><td>Vertical Alignment</td><td>Not started</td><td></td></tr>
+<tr class="inprogress"><td>Vertical Alignment</td><td>In progress</td><td>Only implemented for tables.</td></tr>
 </table>
 
 <h2 id="Images">Image support</h2>
