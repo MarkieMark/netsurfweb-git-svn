@@ -43,13 +43,25 @@
 </ul></li>
 <li><a href="guide#FileTypes">File types</a></li>
 <li><a href="guide#DownloadWindow">Download window</a></li>
-<li><a href="guide#History">History</a></li>
+<li><a href="guide#History">History</a>
+<ul>
+<li><a href="guide#HistoryLocal">Local history window</a></li>
+<li><a href="guide#HistoryGlobal">Global history window</a>
+<ul>
+<li><a href="guide#HistoryGlobalToolbar">Toolbar</a></li>
+<li><a href="guide#HistoryGlobalMenus">Menus</a></li>
+</ul></li>
+</ul></li>
 <li><a href="guide#Hotlist">Hotlist management window</a>
 <ul>
 <li><a href="guide#HotlistToolbar">Toolbar</a></li>
 <li><a href="guide#HotlistMenus">Menus</a></li>
 </ul></li>
-<li><a href="guide#Configuration">Configuration</a></li>
+<li><a href="guide#Configuration">Configuration</a>
+<ul>
+<li><a href="guide#ConfigurationGlobal">Global choices</a></li>
+<li><a href="guide#ConfigurationToolbar">Toolbar customization</a></li>
+</ul></li>
 <li><a href="guide#Keys">Keyboard shortcuts</a></li>
 </ul></li>
 
