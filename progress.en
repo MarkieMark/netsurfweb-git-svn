@@ -10,7 +10,7 @@
 
 <h1>NetSurf Progress</h1>
 
-<p>This pages has been constructed to give users an indication as to which features have been implemented and what is being worked on. For more specific information, please refer to the <a href="http://cvs.semichrome.net/netsurf/Docs/">TODO lists</a>. Features are split up as follows:</p>
+<p>This page has been constructed to give users an indication as to which features have been implemented and what is being worked on. For more specific information, please refer to the <a href="http://cvs.semichrome.net/netsurf/Docs/">TODO lists</a>. Features are split up as follows:</p>
 
 <ul>
 <li><a href="progress#web">Web standards</a>
