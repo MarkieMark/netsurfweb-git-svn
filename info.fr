@@ -8,35 +8,34 @@
 
 <body>
 <p class="banner"><a href="/"><img src="netsurf.png" alt="NetSurf"></a></p>
-<p class="languages"><a href="info.en">English</a> · français</p>
+<p class="languages"><a href="info.de">Deutsch</a> · <a href="info.en">English</a> · français</p>
 
 <h1>Information Utilisateur</h1>
 
-<ul><li><a href="#devel">Contacter les développeurs</a></li>
+<ul>
+<li><a href="#devel">Contacter les développeurs</a></li>
 <li><a href="#features">Fonctionnalités actuelles &amp; Limitations</a></li>
 <li><a href="#known">Bogues connus</a></li>
 </ul>
 
-<h2 id="devel">Contacter les développeurs</h2> <p>Si vous voulez apporter votre
-contribution au projet NetSurf, veuillez voir <a href="dev.fr">Information
-développeur</a>.  Avant de soumettre un rapport de bogue, veuillez vérifier que
-vous utilisez bien la dernière version et que celui-ci n'a pas déjà <a
-href="#known">été découvert</a>.  Les rapports de bogues ainsi que les questions
-au sujet de NetSurf peuvent êtres relevés par les moyens suivants.</p>
+<h2 id="devel">Contacter les développeurs</h2>
 
-<h3>Liste de diffusion</h3> <p>La liste de diffusion <a
-href="http://lists.sourceforge.net/lists/listinfo/netsurf-develop">netsurf-develop</a>
-pour discuter de NetSurf.  Si vous êtes intéressé par le développement de
-NetSurf, veuillez souscrire à cette liste.</p>
+<p>Si vous voulez apporter votre contribution au projet NetSurf, veuillez voir <a href="dev.fr">Information développeur</a>.  Avant de soumettre un rapport de bogue, veuillez vérifier que vous utilisez bien la dernière version et que celui-ci n'a pas déjà <a href="#known">été découvert</a>.  Les rapports de bogues ainsi que les questions au sujet de NetSurf peuvent êtres relevés par les moyens suivants.</p>
 
-<h3>Canal IRC</h3> <p>Le canal IRC #netsurf-develop sur le réseau IRCNet est lui
-aussi dédié à NetSurf.</p>
+<h3>Liste de diffusion</h3>
 
-<h3>Traqueur de Bogue</h3> <p>Veuillez soumettre les bogues au <a
-href="http://sourceforge.net/tracker/?group_id=51719&amp;atid=464312">traqueur
-de bogue</a>.</p>
+<p>La liste de diffusion <a href="http://lists.sourceforge.net/lists/listinfo/netsurf-develop">netsurf-develop</a> pour discuter de NetSurf.  Si vous êtes intéressé par le développement de NetSurf, veuillez souscrire à cette liste.</p>
+
+<h3>Canal IRC</h3>
+
+<p>Le canal IRC #netsurf-develop sur le réseau IRCNet est lui aussi dédié à NetSurf.</p>
+
+<h3>Traqueur de Bogue</h3>
+
+<p>Veuillez soumettre les bogues au <a href="http://sourceforge.net/tracker/?group_id=51719&amp;atid=464312">traqueur de bogue</a>.</p>
 
 <h2 id="features">Fonctionnalités actuelles &amp; Limitations</h2>
+
 <p>Les fonctionnalités suivantes sont implémentées:</p>
 <ul>
 <li>HTML 4 basique, incluant les tables</li>
@@ -65,11 +64,10 @@ de bogue</a>.</p>
 <li>Amélioration de la gestion de la mémoire</li>
 </ul>
 
-<p>Pour voir ce qui reste à faire de façon plus détaillée, veuillez consulter <a
-href="http://cvs.semichrome.net/netsurf/Docs/">la liste à faire (TODO
-list)</a>.</p>
+<p>Pour voir ce qui reste à faire de façon plus détaillée, veuillez consulter <a href="http://cvs.semichrome.net/netsurf/Docs/">la liste à faire (TODO list)</a>.</p>
 
 <h2 id="known">Bogues connus</h2>
+
 <ul>
 <li>Impossibilité de recharger une page web, si elle a été mise à jour, sans
 quitter NetSurf.</li>

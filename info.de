@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>NetSurf | Allgemeine Informationen</title>
+<link rel="stylesheet" type="text/css" href="netsurf.css">
+</head>
+
+<body>
+<p class="banner"><a href="/"><img src="netsurf.png" alt="NetSurf"></a></p>
+<p class="languages">Deutsch · <a href="info.en">English</a> · <a href="info.fr">français</a></p>
+
+<h1>Allgemeine Informationen</h1>
+
+<ul>
+<li><a href="info#GettingStarted">Einfach beginnen</a>
+<ul>
+<li><a href="info#GettingStartedRequirements">Systemvoraussetzungen</a></li>
+<li><a href="info#GettingStartedInstallation">Installation</a></li>
+</ul></li>
+<li><a href="info#Upgrading">NetSurf upgraden</a></li>
+<li><a href="info#Devel">Entwickler kontaktieren</a></li>
+<li><a href="info#Bugs">Fehler und Probleme melden</a></li>
+<li><a href="info#FeatureRequests">Vorschläge für neue Features</a></li>
+<li><a href="info#JavaScript">JavaScript</a></li>
+</ul>
+
+<p class="updated">aktualisiert am 13 August 2004</p>
+
+<h2 id="GettingStarted">Einfach beginnen</h2>
+
+<h3 id="GettingStartedRequirements">Systemvoraussetzungen</h3>
+
+<p>Noch nicht geschrieben.</p>
+
+<h3 id="GettingStartedInstallation">Installation</h3>
+
+<p>Noch nicht geschrieben.</p>
+
+<h2 id="Upgrading">NetSurf upgraden</h2>
+
+<p>Um ein Upgrade von einer älteren Version vorzunehmen, beenden sie NetSurf und löschen die alte Version. Anschließend wird einfach die neue !NetSurf Applikation an den gewünschten Zielort kopiert. NetSurf speichert alle Einstellungen, Cookies und die Hotlist in <em>Choices:WWW.NetSurf</em>. Darum kann die alte !NetSurf Applikation gelöscht werden, ohne daß Konfigurationsdateien oder Hotlisteinträge verloren gehen.</p>
+
+<p>Prinzipiell ist es auch möglich die neue Version über die alte !Netsurf Applikation zu kopieren. Allerdings können dabei alte Dateien erhalten bleiben, die nicht länger benötigt werden. Diese belegen dann Platz auf dem Speichermedium, stören jedoch nicht den Betrieb von NetSurf.</p>
+
+<h2 id="Devel">Entwickler kontaktieren</h2>
+<p>Fehlerberichte und Fragen zu NetSurf können in folgenden Foren übermittelt werden.</p>
+
+<h3>Mailing-Liste</h3>
+<p>Die NetSurf <a href="http://lists.sourceforge.net/lists/listinfo/netsurf-develop">Mailing-Liste</a> dient der Diskussion über NetSurf. Bei Interesse an der Mitarbeit bei NetSurf bitte hier anmelden. ALLE Nachrichten, die in der Mailing-Liste eingehen, werden vom Entwickler-Team beachtet und gelesen. Dies gilt auch für Mails auf die keine direkte Antwort erfolgt.</p>
+
+<h3>IRC</h3>
+<p>Der #netsurf-develop IRC Kanal im IRCNet Netzwerk dient der Diskussion über die NetSurf Entwicklung.</p>
+
+<h3>Bug-Tracker</h3>
+<p>Fehlerberichte bitte über den <a href="http://sourceforge.net/tracker/?group_id=51719&amp;atid=464312">Bug-Tracker</a> mitteilen.</p>
+
+<p>Wenn Du zum NetSurf Projekt beitragen willst, kontaktiere bitte die Entwickler über die Mailing-Liste oder auf IRC.</p>
+
+<h2 id="Bugs">Fehler und Probleme melden</h2>
+<p>Die NetSurf Entwickler sind sehr an Fehlerberichten interessiert. Es sind aber einige einfache Richtlinien einzuhalten.</p>
+
+<p>Vor dem Versenden einer Fehlermitteilung, bitte</p>
+
+<ol>
+<li>überprüfe, ob sich dieser Fehler auch in der <a href="http://netsurf.strcprstskrzkrk.co.uk/">aktuellsten</a> NetSurf Version findet.</li>
+<li>versuche einen reproduzierbaren Weg zu finden, um den Fehler auszulösen.</li>
+<li>überprüfe die Seite <a href="progress">'Stand der Entwicklung'</a> und die <a href="http://cvs.semichrome.net/netsurf/Docs/">TODO Listen</a>, ob nicht bereits eine Behebung des Fehlers oder die Implementation einer vermißten Funktion erfolgt ist.</li>
+</ol>
+
+<p>Beim Versenden einer Fehlermitteilung, bitte</p>
+
+<ol>
+<li>gib die Versionsnummer des benutzten NetSurf an.</li>
+<li>teile mit, welche Hardware und welches Betriebssystem zum Einsatz kamen.</li>
+<li>erkläre klar und schlüssig die genaue Art des Problemes (z.B. ob der Computer hing, NetSurf isoliert abgestürzt ist oder eine Fehlermeldung ausgegeben hat, ob eine bestimmte Web-Seite nicht korrekt dargestellt wird; bei Darstellungsproblemen bitte auch eine Beschreibung, was falsch angezeigt wird).</li>
+<li>gib die exakte URL an, wenn eine einzelne Web-Seite zu Problemen führt.</li>
+<li>führe die genaue Reihenfolge der Schritte auf, mit denen sich der Fehler reproduzieren läßt.</li>
+<li>wenn Du einen gut funktionierenden Vorschlag zur Behebung eines Problems finden konntest, ist das prima. Sende ihn mit, soetwas beschleunigt das Bugfixing deutlich.</li>
+</ol>
+
+<p>Das Befolgen dieser Richtlinien ermöglicht eine Verringerung des Zeitaufwandes zur Auswertung der Fehlerberichte und spart so Zeit, die der weiteren NetSurf Entwicklung zugute kommt.</p>
+
+<h2 id="FeatureRequests">Vorschläge für neue Features</h2>
+
+<p>Das NetSurf Team begrüßt immer Vorschläge und innovative Ideen, die ein verbessertes Browsen ermöglichen. Bitte überprüfe vor dem Absenden die Seite <a href="progress">'Stand der Entwicklung'</a> und die <a href="http://cvs.semichrome.net/netsurf/Docs/">TODO Listen</a> daraufhin, ob das Feature nicht bereits geplant ist. Vorschläge können über die <a href="info#Devel">Mailing-Liste</a> gesendet werden. Jede hier eingehende Nachricht wird vom Entwickler Team gelesen, auch wenn keine direkte Antwort erfolgt.</p>
+
+<h2 id="JavaScript">JavaScript</h2>
+
+<p>Im Augenblick wird JavaScript von NetSurf nicht unterstützt. Auch ohne eine JavaScript Implementation ist NetSurf in der Lage die meisten Seiten des World Wide Web darzustellen. Allerdings werden einige Seiten nicht korrekt dargestellt oder sind nicht nutzbar, wenn sie diesen Standard massiv einsetzen.</p>
+
+<p>Wie auf der Seite <a href="progress">'Stand der Entwicklung'</a> nachgelesen werden kann, ist die Implementation von JavaScript zur Zeit &quot;nicht geplant&quot;. Dies liegt vor allem an der großen Menge an Arbeit, die damit verbunden wäre und der begrenzten Freizeit der NetSurf Entwickler. Sollte sich aber jemand finden, der Zeit, Können und Motivation besitzt JavaScript zu implementieren, kann dieser natürlich mit der vollen Unterstützung des gesamten derzeitigen NetSurf Entwickler-Teams rechnen.</p>
+
+<p class="breadcrumbs"><a href="/">NetSurf</a> »
+<a href="docs">Dokumentation</a> » Allgemeine Informationen</p>
+
+</body>
+</html>

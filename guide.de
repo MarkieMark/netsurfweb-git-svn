@@ -1,0 +1,719 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>NetSurf | Handbuch</title>
+<link rel="stylesheet" type="text/css" href="netsurf.css">
+</head>
+
+<body>
+<p class="banner"><a href="/"><img src="netsurf.png" alt="NetSurf"></a></p>
+<p class="languages">Deutsch · <a href="docs.en">English</a></p>
+
+<p class="headnote">Achtung ! Obwohl die NetSurf Entwicklung rasch voranschreitet, befindet sich das Gesamtprojekt noch in einer frühen Phase. Darum sind die unten beschriebenen Funktionen einem ständigen Wandel unterworfen.</p>
+
+<h1>Handbuch</h1>
+
+<ul>
+<li><a href="guide#UsingNetSurf">NetSurf starten</a></li>
+<li><a href="guide#Help">Interaktive Hilfe</a></li>
+<li><a href="guide#BrowserWindow">Das Browserfenster</a>
+<ul>
+<li><a href="guide#BrowserWindowToolbar">Anzeigen und Leisten</a></li>
+<li><a href="guide#BrowserWindowStatusBar">Statusanzeige</a></li>
+<li><a href="guide#BrowserWindowMenus">Menüs</a></li>
+</ul></li>
+<li><a href="guide#BrowserWindowFileTypes">Dateitypen</a></li>
+<li><a href="guide#DownloadWindow">Download von Dateien</a></li>
+<li><a href="guide#HistoryWindow">History window</a></li>
+<li><a href="guide#Hotlist">Die Hotlist</a>
+<ul>
+<li><a href="guide#HotlistToolbar">Symbolleiste</a></li>
+<li><a href="guide#HotlistMenus">Menüs</a></li>
+</ul></li>
+<li><a href="guide#Configuration">NetSurf konfigurieren</a></li>
+<li><a href="guide#Keys">Tastaturkürzel (Shortcuts)</a></li>
+</ul>
+
+<p class="updated">aktualisiert am 13 August 2004</p>
+
+<h2 id="Using">NetSurf starten</h2>
+
+<p><em>NetSurf</em> wird durch Doppelklick auf die !NetSurf Applikation gestartet. Es erscheint das NetSurf Symbol auf der Iconbar. Anklicken des Symboles mit Auswahl öffnet ein  <a href="guide#BrowserWindow">Browserfenster</a>.  Anklicken mit der Spezial Maustaste öffnet das <a href="guide#Hotlist">Hotlist</a> Fenster.</p>
+
+<h3>Das Iconbar Menü</h3>
+
+<p>Die Optionen im Iconbar Menü betreffen die gesamte Applikation.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">NetSurf</th></tr>
+<tr><td><a href="guide#IconbarMenuInfo">Info</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#IconbarMenuHelp">Hilfe</a></td><td></td></tr>
+<tr><td><a href="guide#IconbarMenuChoices">Einstellungen...</a></td><td></td></tr>
+<tr><td><a href="guide#IconbarMenuQuit">Beenden</a></td><td></td></tr>
+</table>
+
+<p class="menupath" id="IconbarMenuInfo">NetSurf &gt; Info</p>
+<p class="menuitem">Hier gibt es ein paar Informationen zu NetSurf. Mehr Wissenswertes findet sich bei <a href="guide#BrowserWindowMenuHelpAbout">Über NetSurf</a> im Hilfemenü eines Browserfensters.</p>
+
+<p class="menupath" id="IconbarMenuHelp">NetSurf &gt; Hilfe</p>
+<p class="menuitem">Dieser Menüpunkt öffnet die <a href="docs">NetSurf Dokumentation</a> in einem neuen Fenster.</p>
+
+<p class="menupath" id="IconbarMenuChoices">NetSurf &gt; Einstellungen...</p>
+<p class="menuitem">Hiermit wird ein Fenster mit den globalen <a href="#Configuration">Browsereinstellungen</a> geöffnet.</p>
+
+<p class="menupath" id="IconbarMenuQuit">NetSurf &gt; Beenden</p>
+<p class="menuitem">Dieser Menüpunkt beendet das Programm. Dabei werden alle Browserfenster geschlossen und laufende Downloads abgebrochen. Achtung: NetSurf hat keine Möglichkeit unterbrochene Downloads wiederaufzunehmen und fortzusetzen. Beim Beenden werden alle Änderungen der <a href="guide#Hotlist">Hotlist</a> automatisch gespeichert.</p>
+
+<h2 id="Help">Interaktive Hilfe</h2>
+
+<p>Eine ständig aktive Form der Hilfe ist durch Unterstützung der interkativen Hilfe gewährleistet. Diese zeigt kurze, hilfreiche Informationen zu den Objekten unter dem Mauszeiger an.</p>
+
+<p>Um die interkative Hilfe zu verwenden, muß eine entsprechende Software gestartet werden. Das Programm "Info" ("Help") gehört bei allen RISC OS Computern zur Standardausstattung und kann über den Menüpunkt <a href="guide#BrowserWindowMenuHelpInteractive">Hilfe &gt; Interaktive Hilfe</a> aus jedem Browserfenster heraus gestartet werden.</p>
+
+<h2 id="BrowserWindow">Das Browserfenster</h2>
+
+<p>Das Browserfenster erlaubt das Laden und Anzeigen von Web-Seiten und anderen Inhalten des World Wide Web. Ebenso können Dateien dargestellt werden, die lokal auf dem Computer gespeichert sind. Die von NetSurf unterstützten <a href="guide#BrowserWindowFileTypes">Dateitypen</a> beinhalten HTML, CSS und verschiedene Bildformate.</p>
+
+<p class="screenshot"><img src="images/bwin.de" title="Das Browserfenster" alt=""></p>
+
+<p>Am oberen Rand eines Fensters werden verschiedene <a href="guide#BrowserWindowToolbar">Anzeigen und Leisten</a> dargestellt. Am unteren Rand nimmt der horizontale Schiebebalken nicht die gesamte Fensterbreite ein. Stattdessen wird hier eine <a href="guide#BrowserWindowStatusBar">Statusanzeige</a> eingeblendet. Die Fensterfläche in der Mitte ist der wichtigste Teil, hier werden die Seiteninhalte angezeigt.</p>
+
+<p>Solche Inhalte können Web Seiten oder anderes Material, z.B. Bilder, sein. Web Seiten enthalten Hyperlinks (Verweise; meist einfach 'Links' genannt), die auf einen anderen Teil der angezeigten Seite, eine neue Web Seite oder eine Datei verweisen können. Wenn ein Link auf einen in NetSurf unbekannten Dateityp zeigt, wird nach dem Anklicken ein <a href="guide#DownloadWindow">Download Fenster</a> geöffnet. Beim Bewegen des Mauszeigers auf einen Link, ändert der Mauspfeil seine Form und wird als 'klickende Hand' dargestellt. </p>
+
+<h3 id="BrowserWindowToolbar">Anzeigen und Leisten</h3>
+
+<p>Am oberen Fensterrand sind verschiedene Knöpfe zu finden, die einen raschen Zugriff auf oft genutzte Funktionen ermöglichen. Mehr und andere Funktionen sind über die <a href="guide#BrowserWindowMenus">Menüs</a> zu erreichen. Desweiteren gibt es eine Adressleiste und die Aktivitätsanzeige. Am unteren Fensterrand wird eine Statusanzeige eingeblendet.</p>
+
+<h3>Schaltknöpfe</h3>
+
+<p>Da sich NetSurf noch in der Entwicklung befindet, funktionieren einige dieser Knöpfe momentan nicht richtig. Der folgende Abschnitt beschreibt, was über den jeweiligen Schaltknopf ausgelöst wird, wenn seine Funktion bereits implementiert ist.</p>
+
+<p class="iconinfo"><strong><img src="images/back" alt="Back" title="Back Button" class="icon"></strong> Nach Anklicken wird die zuvor dargestellte Seite wieder aufgerufen. Klick mit Auswahl stellt diese im aktuellen Fenster dar, beim Klicken mit Spezial wird ein neues Fenster verwendet. Die Seite wird dabei nicht aktualisiert.</p>
+
+<p class="iconinfo"><strong><img src="images/forward" class="icon" alt="Forward" title="Forward Button"></strong> Anklicken führt vorwärts in der lokalen Liste aufgerufener Seiten. Auswahl Klick öffnet die Seite im aktuellen Fenster, Spezial öffnet ein neues Fenster zur Darstellung. Die Seite wird nicht aktualisiert.</p>
+
+<p class="iconinfo"><strong><img src="images/history" class="icon" alt="History" title="History Button"></strong> Anklicken öffnet ein Fenster mit einer Darstellung bereits besuchter Seiten. Klick auf ein Symbolbild führt zur angewählten Seite. Weitere Informationen hierzu sind im <a href="guide#HistoryWindow">History</a> Abschnitt zu finden.</p>
+
+<p class="iconinfo"><strong><img src="images/home" class="icon" alt="Home" title="Home Button"></strong> Anklicken führt zur voreingestellten Homepage.</p>
+
+<p class="iconinfo"><strong><img src="images/hotlist" class="icon" alt="Hotlist" title="Hotlist Button"></strong> Anklicken mit Auswahl öffnet das Hotlist Fenster. Klicken mit Spezial fügt die aktuelle Seite als Bookmark in die Hotlist ein.</p>
+
+<p class="iconinfo"><strong><img src="images/print" class="icon" alt="Print" title="Print Button"></strong> Klick auf diesen Schaltknopf öffnet den 'Drucken' Dialog.</p>
+
+<p class="iconinfo"><strong><img src="images/reload" class="icon" alt="reload" title="Reload Button"></strong> Anklicken mit Auswahl lädt die aktuelle Seite erneut und zeichnet den Fensterinhalt neu. Anklicken mit Spezial aktualisiert sowohl die Seite als auch jedes eingebettete Objekt, wie Bilder oder StyleSheets.</p>
+
+<p class="iconinfo"><strong><img src="images/save" class="icon" alt="Save" title="Save Button"></strong> Anklicken öffnet ein Fenster, aus dem heraus die aktuelle Seite abgespeichert werden kann.</p>
+
+<p class="iconinfo"><strong><img src="images/scale" class="icon" alt="Scale" title="Scale Button"></strong> Anklicken öffnet den Vergrößerungsdialog. Hier kann die Skalierung eingestellt werden. Diese betrifft Text ebenso wie Bilder.</p>
+
+<p class="iconinfo"><strong><img src="images/search" class="icon" alt="Search" title="Search Button"></strong> Anklicken öffnet das Fenster Textsuche. Damit kann eine beliebige Buchstabenfolge im Text der dargestellten Web Seite gefunden werden.</p>
+
+<p class="iconinfo"><strong><img src="images/stop" class="icon" alt="Stop" title="Stop Button"></strong> Anklicken stoppt den im Browserfenster laufenden Prozess.</p>
+
+<p class="iconinfo"><strong><img src="images/up" class="icon" alt="Up" title="Up Button"></strong> Anklicken ruft die im Dateipfad übergeordnete Struktur auf. Wenn die aktuelle Seite <em>http://www.domain.com/directory/page.html</em> ist, führt einfaches Klicken nach <em>http://www.domain.com/directory/</em> und ein weiterer Klick nach <em>http://www.domain.com/</em>.</p>
+
+<p>Schaltknöpfe, die blaß dargestellt werden, haben momentan keine Funktion. So werden zum Beispiel beim ersten Öffnen eines Browserfenster die Schaltknöpfe für Vorwärts und Zurück inaktiviert, da es in diesem Fall ja keine vorherige oder folgende Seite gibt.</p>
+
+<p><strong>Adressleiste:</strong> Die lange, weiße, beschreibbare Leiste am oberen Fensterrand ist die Adressleiste. Sie zeigt die Lokalisation (URL) der aktuellen Seite. Auch erlaubt sie die Eingabe der Adresse einer Web Seite, die als nächste angezeigt werden soll.</p>
+
+<p><strong>Ladeaktivität:</strong> Das NetSurf Logo wird animiert während die Daten einer Seite laden oder die Seite aufbereitet wird. Ein animiertes Logo bedeutet : NetSurf tut etwas.</p>
+
+<h3 id="BrowserWindowStatusBar">Statusanzeige</h3>
+
+<p>Die Statusanzeige am unteren Fensterrand zeigt Informationen für den Nutzer an. Beim Bewegen des Mauszeigers auf einen Link wird hier die Adresse (URL) angezeigt, auf die der Link verweist. Beim Laden und Verarbeiten einer Seite werden hier Informationen über den gerade laufenden Prozess ausgegeben.</p>
+
+<p>Zwischen der Statusanzeige und dem horizontalen Schiebebalken befindet sich ein Begrenzer. Über diesem ändert der Mauszeiger sein Form und wird als doppelseitiger Pfeil dargestellt. Durch Klicken und Ziehen läßt sich hier die Länge der Statusanzeige verändern.</p>
+
+<h3 id="BrowserWindowMenus">Menüs</h3>
+
+<p>Das Menü im Browserfenster beinhaltet Optionen, die sich auf den aktuell angezeigten Fensterinhalt beziehen. Einige für NetSurf geplante Menüpunkte werden momentan noch nicht unterstützt. Die folgenden Menüpunkte sind aber bereits verfügbar:</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">NetSurf</th></tr>
+<tr><td><a href="guide#BrowserWindowMenuPage">Seite</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuObject">Objekt</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuNavigate">Navigieren</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuDisplay">Anzeige</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuUtilities">Werkzeuge</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuHelp">Hilfe</a></td><td class="menuarrow">&gt;</td></tr>
+</table>
+
+<h4 id="BrowserWindowMenuPage" class="submenu">Untermenü Seite</h4>
+
+<p>Das Untermenü Seite enthält die folgenden Menüpunkte, die sich auf die aktuelle Seite beziehen.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Seite</th></tr>
+<tr><td><a href="guide#BrowserWindowMenuPageInfo">Info</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuPageSave">Speichern</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuPageFullSave">Alles speichern</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuPageExport">Exportieren</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuPageSaveLocation">URL speichern</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuPagePrint">Drucken</a></td><td></td></tr>
+<tr><td class="menusplit"><a href="guide#BrowserWindowMenuPageNewwindow">Neues Fenster</a></td><td class="menusplit"></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuPageViewSource">Quellcode...</a></td><td class="menuarrow"></td></tr>
+</table>
+
+<p class="menupath" id="BrowserWindowMenuPageInfo">Seite &gt; Info</p>
+<p class="menuitem">Hier werden Informationen zur aktuellen Seite angezeigt.</p>
+
+<p class="menupath" id="BrowserWindowMenuPageSave">Seite &gt; Speichern</p>
+<p class="menuitem">Hier kann der Quelltext der aktuellen Seite abgespeichert werden.</p>
+
+<p class="menupath" id="BrowserWindowMenuPageFullSave">Seite &gt; Alles speichern</p>
+<p class="menuitem">Hier kann die aktuelle Seite komplett, inklusive zugehöriger CSS Dateien oder Bilder, abgespeichert werden.</p>
+
+<p class="menupath" id="BrowserWindowMenuPageExport">Seite &gt; Exportieren</p>
+<p class="menuitem">Dieser Menüpunkt bietet verschiedene Varianten, um die aktuelle Seite zu exportieren. Verfügbare Exportformate sind:</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Exportieren als</th></tr>
+<tr><td><a href="guide#BrowserWindowMenuPageExportDraw">Draw</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuPageExportText">Text</a></td><td class="menuarrow">&gt;</td></tr>
+</table>
+
+<p class="menupath" id="BrowserWindowMenuPageExportDraw">Seite &gt; Exportieren &gt; Draw</p>
+<p class="menuitem">Erlaubt die angezeigte Seite als Drawfile abzuspeichern.</p>
+
+<p class="menupath" id="BrowserWindowMenuPageExportText">Seite &gt; Exportieren &gt; Text</p>
+<p class="menuitem">Die angezeigte Seite kann als Textfile abgespeichert werden. </p>
+
+<p class="menupath" id="BrowserWindowMenuPageSaveLocation">Seite &gt; URL speichern </p>
+<p class="menuitem">Dieser Menüpunkt erlaubt das Abspeichern der Adresse (URL) der aktuellen Seite. Verschiedene Formate sind möglich:</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Link</th></tr>
+<tr><td><a href="guide#BrowserWindowMenuPageSaveLocationAcorn">Acorn URI</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuPageSaveLocationAnt">Ant URL</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuPageSaveLocationText">Text</a></td><td class="menuarrow">&gt;</td></tr>
+</table>
+
+<p class="menupath" id="BrowserWindowMenuPageSaveLocationAcorn">Seite &gt; URL speichern &gt; Acorn URI</p>
+<p class="menuitem">Speichern der Adresse im Acorn URI Format.</p>
+
+<p class="menupath" id="BrowserWindowMenuPageSaveLocationAnt">Seite &gt; URL speichern &gt; Ant URL</p>
+<p class="menuitem">Speichern der Adresse im Ant URL Format.</p>
+
+<p class="menupath" id="BrowserWindowMenuPageSaveLocationText">Seite &gt; URL speichern &gt; Text</p>
+<p class="menuitem">Speichern der Adresse im Text Format.</p>
+
+<p class="menupath" id="BrowserWindowMenuPagePrint">Seite &gt; Drucken</p>
+<p class="menuitem">Öffnet das 'Drucken' Dialog Fenster.</p>
+
+<p class="menupath" id="BrowserWindowMenuPageNewwindow">Seite &gt; Neues Fenster</p>
+<p class="menuitem">Anklicken öffnet die aktuelle Seite in einem neuen Browserfenster.</p>
+
+<p class="menupath" id="BrowserWindowMenuPageViewSource">Seite &gt; Quellcode...</p>
+<p class="menuitem">Lädt den Quellcode der angezeigten Seite in einen Editor. Ermöglicht das Ansehen und Nachverfolgen des Quelltextes.</p>
+
+<h4 id="BrowserWindowMenuObject" class="submenu">Untermenü Objekt</h4>
+
+<p>Dieses Untermenü ist nur verfügbar, wenn der Mauszeiger über einem Objekt plaziert ist. Die auswählbaren Optionen im Untermenü beziehen sich auf dieses Objekt. Objekte sind beispielsweise Bilder. </p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Objekt</th></tr>
+<tr><td><a href="guide#BrowserWindowMenuObjectInfo">Info</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuObjectSave">Speichern</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuObjectExport">Exportieren</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuObjectSaveLocation">URL speichern</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td class="menusplit"><a href="guide#BrowserWindowMenuObjectReload">erneut laden</a></td><td class="menusplit"></td></tr>
+</table>
+
+<p class="menupath" id="BrowserWindowMenuObjectInfo">Objekt &gt; Info</p>
+<p class="menuitem">Zeigt Informationen über das Objekt an.</p>
+
+<p class="menupath" id="BrowserWindowMenuObjectSave">Objekt &gt; Speichern</p>
+<p class="menuitem">Erlaubt das Speichern des Objektes unter dem Mauszeiger im Originalformat.</p>
+
+<p class="menupath" id="BrowserWindowMenuObjectExport">Objekt &gt; Exportieren</p>
+<p class="menuitem">Ermöglicht das Abspeichern des Objektes in vom Originalformat abweichenden Formaten. Dabei kann es, bedingt durch die Umwandlung, zu Informationsverlust oder -veränderung kommen.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Exportieren als</th></tr>
+<tr><td><a href="guide#BrowserWindowMenuObjectExportSprite">Sprite</a></td><td class="menuarrow">&gt;</td></tr>
+</table>
+
+<p class="menupath" id="BrowserWindowMenuObjectExportSprite">Objekt &gt; Export &gt; Sprite</p>
+<p class="menuitem">Speichert das aktuelle Objekt als Datei im Spriteformat.</p>
+
+<p class="menupath" id="BrowserWindowMenuObjectSaveLocation">Objekt &gt; URL speichern</p>
+<p class="menuitem">Erlaubt das Speichern der Adresse (URL) des Objektes. Verschiedene Formate sind möglich:</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Link</th></tr>
+<tr><td><a href="guide#BrowserWindowMenuObjectSaveLocationAcorn">Acorn URI</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuObjectSaveLocationAnt">Ant URL</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuObjectSaveLocationText">Text</a></td><td class="menuarrow">&gt;</td></tr>
+</table>
+
+<p class="menupath" id="BrowserWindowMenuObjectSaveLocationAcorn">Objekt &gt; URL speichern &gt; Acorn URI</p>
+<p class="menuitem">Speichern der Adresse des Objektes im Acorn URI Format.</p>
+
+<p class="menupath" id="BrowserWindowMenuObjectSaveLocationAnt">Objekt &gt; URL speichern &gt; Ant URL</p>
+<p class="menuitem">Speichern der Adresse des Objektes im Ant URL Format.</p>
+
+<p class="menupath" id="BrowserWindowMenuObjectSaveLocationText">Objekt &gt; URL speichern &gt; Text</p>
+<p class="menuitem">Speichern der Adresse des Objektes im Text Format.</p>
+
+<p class="menupath" id="BrowserWindowMenuObjectReload">Objekt &gt; erneut laden</p>
+<p class="menuitem">Lädt die aktuelle Webseite und alle enthaltenen Objekte neu.</p>
+
+<h4 id="BrowserWindowMenuNavigate" class="submenu">Untermenü Navigieren</h4>
+
+<p>Das Untermenü Navigieren unterstützt das 'Bewegen' im Web.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Navigieren</th></tr>
+<tr><td><a href="guide#BrowserWindowMenuNavigateHome">Homepage</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuNavigateBack">Eine Seite zurück</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuNavigateForward">Eine Seite vor</a></td><td class="menuarrow"></td></tr>
+<tr><td class="menusplit"><a href="guide#BrowserWindowMenuNavigateReload">Seite erneut laden</a></td><td></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuNavigateStop">Ladevorgang abbrechen</a></td><td class="menuarrow"></td></tr>
+</table>
+
+<p class="menupath" id="BrowserWindowMenuNavigateHome">Navigieren &gt; Homepage</p>
+<p class="menuitem">Dieser Menüpunkt lädt die NetSurf Homepage. Die Funktion ist auch über die Leiste mit den <a href="#BrowserWindowToolbar">Schaltknöpfen</a> abrufbar.</p>
+
+<p class="menupath" id="BrowserWindowMenuNavigateBack">Navigieren &gt; Eine Seite zurück</p>
+<p class="menuitem">Über diesen Menüpunkt wird die zuvor dargestellte Seite wieder aufgerufen. Die Seite wird dabei nicht aktualisiert. Die Funktion ist auch über die Leiste mit den <a href="#BrowserWindowToolbar">Schaltknöpfen</a> abrufbar.</p>
+
+<p class="menupath" id="BrowserWindowMenuNavigateForward">Navigieren &gt; Eine Seite vorwärts</p>
+<p class="menuitem">Diese Funktion führt vorwärts in der lokalen Liste aufgerufener Seiten. Die Seite wird erneut angezeigt jedoch nicht aktualisiert. Die Funktion ist auch über die Leiste mit den <a href="#BrowserWindowToolbar">Schaltknöpfen</a> abrufbar.</p>
+
+<p class="menupath" id="BrowserWindowMenuNavigateReload">Navigieren &gt; Seite erneut laden</p>
+<p class="menuitem">Aktualisiert die aktuelle Seite. Eine im lokalen Cachespeicher abgelegte Kopie wird dabei überschrieben und durch den aktualisierten Inhalt ersetzt. Die Funktion ist auch über die Leiste mit den <a href="#BrowserWindowToolbar">Schaltknöpfen</a> abrufbar.</p>
+
+<p class="menupath" id="BrowserWindowMenuNavigateStop">Navigieren &gt; Ladevorgang abbrechen</p>
+<p class="menuitem">Unterbricht den im Browserfenster laufenden Prozess. Ladevorgänge werden abgebrochen. Die Funktion ist auch über die Leiste mit den <a href="#BrowserWindowToolbar">Schaltknöpfen</a> abrufbar.</p>
+
+<h4 id="BrowserWindowMenuDisplay" class="submenu">Untermenü Anzeige</h4>
+
+<p>Die Optionen dieses Untermenüs beeinflussen die Form der Seitendarstellung im aktuellen Browserfenster.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Anzeige</th></tr>
+<tr><td><a href="guide#BrowserWindowMenuDisplayScale">Vergrößerung</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuDisplayImages">Bilder</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuDisplayToolbars">Anzeigen und Leisten</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuDisplayRender">Rendern</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td class="menusplit"><a href="guide#BrowserWindowMenuDisplaySetDefault">als Standardeinstellung</a></td><td></td></tr>
+</table>
+
+<p class="menupath" id="BrowserWindowMenuDisplayScale">Anzeige &gt; Vergrößerung</p>
+<p class="menuitem">Erlaubt das Einstellen einer Vergrößerung für das aktuelle Browserfenster. Die Vergrößerung beeinflußt Text und Bilder. Der Vergrößerungsfaktor ist als Prozentwert einstellbar. Dabei entsprechen 100% der Originalgröße der dargestellten Seite. Die Funktion ist auch über die Leiste mit den <a href="#BrowserWindowToolbar">Schaltknöpfen</a> abrufbar.</p>
+
+<p class="menupath" id="BrowserWindowMenuDisplayImages">Anzeige &gt; Bilder</p>
+<p class="menuitem">Hier können Einstellungen zur Anzeige von Bildern vorgenommen werden. Die Veränderungen betreffen nur das aktuelle Browserfenster.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Bilder</th></tr>
+<tr><td><a href="guide#BrowserWindowMenuDisplayImagesForeground">Vordergrundbilder</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuDisplayImagesBackground">Hintergrundbilder</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuDisplayImagesAnimations">Animationen</a></td><td class="menuarrow"></td></tr>
+<tr><td class="menusplit"><a href="guide#BrowserWindowMenuDisplayImagesDither">Bilder dithern</a></td><td></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuDisplayImagesSmooth">Bilder weichzeichnen</a></td><td class="menuarrow"></td></tr>
+</table>
+
+<p class="menupath" id="BrowserWindowMenuDisplayImagesForeground">Anzeige &gt; Bilder &gt; Vordergrundbilder</p>
+<p class="menuitem">Erlaubt das Ausblenden der Vordergrundbilder. Sind Vordergrundbilder zugelassen, wird der Menüpunkt mit einem Häkchen markiert. Bei ausgeschalteten Vordergrundbildern wird an ihrer Position ein von der Seite gelieferter Text ausgegeben.</p>
+
+<p class="menupath" id="BrowserWindowMenuDisplayImagesBackground">Anzeige &gt; Bilder &gt; Hintergrundbilder</p>
+<p class="menuitem">Erlaubt das Ausblenden der Hintergrundbilder. Sind Hintergrundbilder zugelassen, wird der Menüpunkt mit einem Häkchen markiert. Bei ausgeschalteten Hintergrundbildern wird der Hintergrund farbig so eingefärbt, wie es in der Seite definiert ist.</p>
+
+<p class="menupath" id="BrowserWindowMenuDisplayImagesAnimations">Anzeige &gt; Bilder &gt; Animationen</p>
+<p class="menuitem">Läßt die Animation von Bildern zu oder schaltet sie ab. Ein Häkchen am Menüeintrag bedeutet Aktivität. Ist die Darstellung von Hintergrundbildern abgeschaltet, wird von animierten Bildern nur das erste Teilbild angezeigt.</p>
+
+<p class="menupath" id="BrowserWindowMenuDisplayImagesDither">Anzeige &gt; Bilder &gt; Bilder dithern</p>
+<p class="menuitem">Dithern verbessert die Bilddarstellung in Bildschirmmodi mit geringer Farbanzahl. Das Dithern ist aktiviert, wenn der Menüpunkt mit einem Häkchen markiert ist.</p>
+
+<p class="menupath" id="BrowserWindowMenuDisplayImagesSmooth">Anzeige &gt; Bilder &gt; Bilder weichzeichnen</p>
+<p class="menuitem">Weichzeichnen verbessert die Darstellung insbesondere von vergrößerten Bildern. Die Funktion nutzt bi-linieares Filtern. Das Weichzeichnen ist aktiviert, wenn der Menüpunkt mit einem Häkchen markiert ist.</p>
+
+<p class="menupath" id="BrowserWindowMenuDisplayToolbars">Anzeige &gt; Anzeigen und Leisten</p>
+<p class="menuitem">Erlaubt das Ab- oder Zuschalten der Informations- und Aktionsleisten im aktuellen Browserfenster.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Anzeigen und Leisten</th></tr>
+<tr><td><a href="guide#BrowserWindowMenuDisplayToolbarsButtons">Knopfgrafiken</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuDisplayToolbarsAddress">Adressleiste</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuDisplayToolbarsThrobber">Ladeaktivität</a></td><td class="menuarrow"></td></tr>
+<tr><td class="menusplit"><a href="guide#BrowserWindowMenuDisplayToolbarsStatus">Statusanzeige</a></td><td></td></tr>
+</table>
+
+<p class="menupath" id="BrowserWindowMenuDisplayToolbarsButtons">Anzeige &gt; Anzeigen und Leisten &gt; Knopfgrafiken</p>
+<p class="menuitem">Schaltet die Leiste mit den Knopfgrafiken am oberen Fensterrand an oder aus. Sind die Knopfgrafiken abgeschaltet, wird die benachbarte Adressleiste dem freigewordenen Platz entsprechend vergrößert.</p>
+
+<p class="menupath" id="BrowserWindowMenuDisplayToolbarsAddress">Anzeige &gt; Anzeigen und Leisten &gt; Adressleiste</p>
+<p class="menuitem">Schaltet die Adressleiste am oberen Fensterrand an oder aus.</p>
+
+<p class="menupath" id="BrowserWindowMenuDisplayToolbarsThrobber">Anzeige &gt; Anzeigen und Leisten &gt; Ladeaktivität</p>
+<p class="menuitem">Schaltet das Symbol zur Anzeige der Lade- und Prozessaktivität am oberen Fensterrand an oder aus. Die benachbarte Adressleiste wird in ihrer Größe dem nutzbaren Platz angepaßt.</p>
+
+<p>Sind alle drei Elemente deaktiviert, steht der freigewordene Platz der Anzeige von Seiteninhalten zur Verfügung.</p>
+
+<p class="menupath" id="BrowserWindowMenuDisplayToolbarsStatus">Anzeige &gt; Anzeigen und Leisten &gt; Statusanzeige</p>
+<p class="menuitem">Erlaubt das Ab- oder Zuschalten der Statusanzeige am unteren Fensterrand. Bei abgeschalteter Statusanzeige, nimmt der horizontale Schiebebalken die gesamte Fensterbreite ein.</p>
+
+<p class="menupath" id="BrowserWindowMenuDisplayRender">Anzeige &gt; Rendern</p>
+<p class="menuitem">Das Render Menü bietet Optionen, die eine Kontrolle über die Art, wie NetSurf den Fensterinhalt aufbaut, ermöglichen.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Rendern</th></tr>
+<tr><td><a href="guide#BrowserWindowMenuDisplayRenderBlend">Text/Hintergrund Übergang weich</a></td><td class="menuarrow"></td></tr>
+<tr><td class="menusplit"><a href="guide#BrowserWindowMenuDisplayRenderBufferAnim">Animationen zwischenspeichern</a></td><td></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuDisplayRenderBufferAll">Alles zwischenspeichern</a></td><td class="menuarrow"></td></tr>
+</table>
+
+<p class="menupath" id="BrowserWindowMenuDisplayRenderBlend">Anzeige &gt; Rendern &gt; Text/Hintergrund Übergang weich</p>
+<p class="menuitem">Diese Funktion verbessert die Darstellung geglätteter Zeichen vor farbigem Hintergrund oder über Bildern. Es wird mindestens RISC OS 3.7 benötigt.</p>
+
+<p class="menupath" id="BrowserWindowMenuDisplayRenderBufferAnim">Anzeige &gt; Rendern &gt; Animationen zwischenspeichern</p>
+<p class="menuitem">Erlaubt das Zwischenspeichern aller Objekte, die von NetSurf regelmäßig nachgezeichnet werden müssen. Dies sind zum Beispiel Textbereiche, die nach Texteingaben nachgezeichnet werden, aber auch animierte Bilder. Durch das Puffern dieser Objekte wird Flackern vermieden.</p>
+
+<p class="menupath" id="BrowserWindowMenuDisplayRenderBufferAll">Anzeige &gt; Rendern &gt; Alles zwischenspeichern</p>
+<p class="menuitem">Diese Funktion puffert alles, was von NetSurf auf der aktuellen Seite dargestellt wird. Vorteilhaft ist dies bei Web-Seiten, deren Inhalt aus vielen sich überlappenden Bereichen mit unterschiedlichen Hintergrundfarben besteht. Die Seite wird dann nur einmal aufgebaut und nicht bei jeder Verschiebung in mehreren sich überlappenden Schichten neu gezeichnet. Auch die Anzeige von Web-Seiten, die massiv Hintergrundbilder einsetzen, wird beschleunigt. Standardmäßig ist die Option ausgeschaltet, da sie den Aufbau von und damit das Scrollen in 'normalen' Web-Seiten verlangsamt.</p>
+
+<p class="menupath" id="BrowserWindowMenuDisplaySetDefault">Anzeige &gt; als Standardeinstellung</p>
+<p class="menuitem">Beim Anklicken werden die im Menü Anzeige getroffenen Einstellungen als globale, für alle nachfolgend geöffnete Fenster geltende Standardwerte übernommen.</p>
+
+<h4 id="BrowserWindowMenuUtilities" class="submenu">Untermenü Werkzeuge</h4>
+
+<p>Hier sind nützliche Sonderfunktionen zu finden, die den Umgang mit Web-Seiten und dem World Wide Web  erleichtern.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Werkzeuge</th></tr>
+<tr><td><a href="guide#BrowserWindowMenuUtilitiesHotlist">Hotlist</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuUtilitiesHistory">History</a></td><td class="menuarrow"></td><td></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuUtilitiesWindow">Fenster</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuUtilitiesFindText">Text suchen</a></td><td class="menuarrow">&gt;</td></tr>
+</table>
+
+<p class="menupath" id="BrowserWindowMenuUtilitiesHotlist">Werkzeuge &gt; Hotlist</p>
+<p class="menuitem">Das Menü ermöglicht den Zugriff auf die Hotlist.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Hotlist</th></tr>
+<tr><td><a href="guide#BrowserWindowMenuUtilitiesHotlistAdd">Eintrag hinzufügen</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuUtilitiesHotlistShow">Hotlist zeigen</a></td><td class="menuarrow"></td></tr>
+</table>
+
+<p class="menupath" id="BrowserWindowMenuUtilitiesHotlistAdd">Werkzeuge &gt; Hotlist &gt; Eintrag hinzufügen</p>
+<p class="menuitem">Die Adresse der aktuellen Seite wird am Ende der Hotlist eingetragen. Diese Funktion ist auch über den <a href="guide#BrowserWindowToolbar">Schaltknopf</a> 'Hotlist' verfügbar.</p>
+
+<p class="menupath" id="BrowserWindowMenuUtilitiesHotlistShow">Werkzeuge &gt; Hotlist &gt; Hotlist zeigen</p>
+<p class="menuitem">Anklicken öffnet das <a href="guide#HotlistWindow">Hotlist</a> Fenster. Diese Funktion ist auch über den <a href="guide#BrowserWindowToolbar">Schaltknopf</a> 'Hotlist' verfügbar.</p>
+
+<p class="menupath" id="BrowserWindowMenuUtilitiesHistory">Werkzeuge &gt; History</p>
+<p class="menuitem">Dies öffnet das lokale <a href="guide#HistoryWindow">History</a> Fenster. Diese Funktion ist auch über die Leiste mit den <a href="guide#BrowserWindowToolbar">Schaltknöpfen</a> verfügbar.</p>
+
+<p class="menupath" id="BrowserWindowMenuUtilitiesWindow">Werkzeuge &gt; Fenster</p>
+<p class="menuitem">Dieses Menü gewährt Kontrolle über Größe und Anordnung zu öffnender Fenster.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Fenster</th></tr>
+<tr><td><a href="guide#BrowserWindowMenuUtilitiesWindowSetdefault">aktuelle Fensterposition speichern</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuUtilitiesWindowStagger">neue Fenster versetzen</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuUtilitiesWindowMaintainsize">Fenstergröße beibehalten</a></td><td class="menuarrow"></td></tr>
+<tr><td class="menusplit"><a href="guide#BrowserWindowMenuUtilitiesWindowResetdefault">Fensterposition zurücksetzen</a></td><td></td></tr>
+</table>
+
+<p class="menupath" id="BrowserWindowMenuUtilitiesWindowSetdefault">Werkzeuge &gt; Fenster &gt; aktuelle Fensterposition speichern</p>
+<p class="menuitem">Die Position des aktuellen Fensters wird als Standardposition für alle neu zu öffnenden Fenster festgelegt.</p>
+
+<p class="menupath" id="BrowserWindowMenuUtilitiesWindowStagger">Werkzeuge &gt; Fenster &gt; neue Fenster versetzen</p>
+<p class="menuitem">Ist diese Funktion aktiviert, werden neu zu öffnende Fenster untereinander leicht versetzt angeordnet. Dies vereinfacht den Zugriff auf die zuerst geöffneten, wenn mehrere neue Fenster aufgerufen werden. Die Funktion ist nur verfügbar, wenn bereits eine Standardposition vom Nutzer festgelegt wurde.</p>
+
+<p class="menupath" id="BrowserWindowMenuUtilitiesWindowMaintainsize">Werkzeuge &gt; Fenster &gt; Fenstergröße beibehalten</p>
+<p class="menuitem">Ist diese Funktion aktiviert, werden neue Fenster, die aus anderen Browserfenstern heraus aufgerufen wurden (z.B. durch Anklicken eines Links mit Spezial), in gleicher Größe und an der Position des Ursprungsfensters geöffnet. Ist die Funktion inaktiv, verhält sich NetSurf hier wie alle anderen RISC OS Browser - neue Fenster werden dann an der Standardposition in Standardgröße geöffnet.</p>
+
+<p class="menupath" id="BrowserWindowMenuUtilitiesWindowResetdefault">Werkzeuge &gt; Fenster &gt; Fensterposition zurücksetzen</p>
+<p class="menuitem">Diese Option löscht alle vom Nutzer festgelegten Positions- und Größenvorgaben für Fenster. Sie ist nur anwählbar, wenn solche Vorgaben vorhanden sind.</p>
+
+<p class="menupath" id="BrowserWindowMenuUtilitiesFindText">Werkzeuge &gt; Text suchen</p>
+<p class="menuitem">Dies erlaubt das Durchsuchen der aktuellen Web-Seite nach einer beliebigen Buchstabenfolge. Diese Funktion ist auch über einen <a href="guide#BrowserWindowToolbar">Schaltknopf</a> abrufbar.</p>
+
+<h4 id="BrowserWindowMenuHelp" class="submenu">Untermenü Hilfe</h4>
+
+<p>Das Menü ermöglicht den schnellen Zugriff auf Programminformationen, Dokumentation und interaktive Hile - auch während des Surfens.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Hilfe</th></tr>
+<tr><td><a href="guide#BrowserWindowMenuHelpContents">Inhalt</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuHelpGuide">Handbuch</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuHelpInfo">Nutzerinformation</a></td><td class="menuarrow"></td></tr>
+<tr><td class="menusplit"><a href="guide#BrowserWindowMenuHelpAbout">Über NetSurf</a></td><td></td></tr>
+<tr><td class="menusplit"><a href="guide#BrowserWindowMenuHelpInteractive">interaktive Hilfe</a></td><td></td></tr>
+</table>
+
+<p class="menupath" id="BrowserWindowMenuHelpContents">Hilfe &gt; Inhalt</p>
+<p class="menuitem">Öffnet die Seite <a href="docs">'NetSurf Dokumentation'</a> in einem neuen Fenster.</p>
+
+<p class="menupath" id="BrowserWindowMenuHelpGuide">Hilfe &gt; Handbuch</p>
+<p class="menuitem">Öffnet DIESE Seite in einem neuen Fenster.</p>
+
+<p class="menupath" id="BrowserWindowMenuHelpInfo">Hilfe &gt; Nutzerinformation</p>
+<p class="menuitem">Öffnet eine Seite mit <a href="info">allgemeinen Informationen</a> zu NetSurf in einem neuen Fenster.</p>
+
+<p class="menupath" id="BrowserWindowMenuHelpAbout">Hilfe &gt; Über NetSurf</p>
+<p class="menuitem">Öffnet eine Seite mit Angaben zur Versionsnummer und einer Liste von Leuten, die an der NetSurf Entwicklung beteiligt waren. In NetSurf verwendete Software (Libraries) wird aufgelistet, mit Dank an die Autoren für Entwicklung und Nutzungsfreigabe.</p>
+
+<p class="menupath" id="BrowserWindowMenuHelpInteractive">Hilfe &gt; interactive Hilfe</p>
+<p class="menuitem">Wenn nicht bereits geladen, kann von hier aus die interaktive Hilfe gestartet werden.</p>
+
+<h2 id="BrowserWindowFileTypes">Dateitypen</h2>
+
+<p>Wenn NetSurf eine Datei mit vom Programm nicht erkanntem Dateityp findet, wird ein <a href="guide#DownloadWindow">Downloadfenster</a> geöffnet. Die von NetSurf erkannten Dateitypen werden nachfolgend zusammen mit ihrer zugehörigen RISC OS Typnummer und dem jeweilgen MIME Eintrag aufgelistet.</p>
+
+<table>
+<tr><th>Name</th><th>RISC OS Typ</th><th>MIME(s)</th></tr>
+<tr><td>CSS</td><td>&amp;f79</td><td>text/css</td></tr>
+<tr><td>Drawfile</td><td>&amp;aff</td><td>application/drawfile<br>application/x-drawfile<br>image/drawfile<br>image/x-drawfile</td></tr>
+<tr><td>Flash</td><td>&amp;188</td><td>application/x-shockwave-flash</td></tr>
+<tr><td>GIF</td><td>&amp;695</td><td>image/gif</td></tr>
+<tr><td>HTML</td><td>&amp;faf</td><td>text/html</td></tr>
+<tr><td>JNG</td><td>&amp;f78</td><td>image/jng<br>image/x-jng</td></tr>
+<tr><td>JPEG</td><td>&amp;c85</td><td>image/jpeg<br>image/pjpeg</td></tr>
+<tr><td>MNG</td><td>&amp;f83</td><td>image/mng<br>image/x-mng<br>video/mng<br>video/x-mng</td></tr>
+<tr><td>PNG</td><td>&amp;b60</td><td>image/png</td></tr>
+<tr><td>Sprite</td><td>&amp;ff9</td><td>image/x-riscos-sprite</td></tr>
+<tr><td>Text</td><td>&amp;fff</td><td>text/plain</td></tr>
+</table>
+
+<p>Flash Dateien werden nicht von NetSurf selbst verarbeitet sondern erfordern ein <a href="info#GettingStartedRequirements">externes Plugin</a> zur Darstellung.</p>
+
+<p>NetSurf ermittelt den Typ einer Datei anhand ihrer RISC OS Typnummer bei lokalen Dateien und anhand des Dateikopfes (Header) bei aus dem Internet geladenen Dateien. Dateitypen werden NICHT über Namenserweiterungen (etwa '.txt') oder über den Dateiinhalt erkannt. Dies bedeutet, daß zur korrekten Darstellung der Server so konfiguriert sein muß, daß der richtige Header gesendet wird. Bei lokalen Dateien muß der richtige RISC OS Dateityp gesetzt sein.</p>
+
+<h2 id="DownloadWindow">Download von Dateien</h2>
+
+<p>Immer dann, wenn ein Link benutzt wird, der auf eine für NetSurf unbekannte oder nicht darstellbare Datei verweist, wird ein Downloadfenster geöffnet. Dieses erlaubt das Speichern einer Kopie der Datei auf ein lokales Speichermedium. Downloadfenster haben folgendes Aussehen</p>
+
+<p class="screenshot"><img src="images/dwnld.de" title="Download von Dateien" alt=""></p>
+
+<p>Sobald das Fenster geöffnet wird, beginnt NetSurf mit dem Download der Datei. Diese wird zunächst im temporären Verzeichnis (!Temp bzw. !Scrap) abgelegt. Zu einem beliebigen Zeitpunkt, während des Downloads oder nach dessen Abschluß, kann das im Downloadfenster dargestellte Dateisymbol in ein gewünschtes Zielverzeichnis gezogen werden. Mit dem Fallenlassen wird die im temporären Verzeichnis angelegte Datei ins Zielverzeichnis bewegt. Auch bei einem vorzeitigem Abbruch des Herunterladens bleibt die, dann natürlich unvollständige, Datei erhalten.</p>
+
+<p>Das Feld mit der Bezeichnung 'Quelle' zeigt die Adresse der herunterzuladenen Datei.</p>
+
+<p>Vor dem Ziehen des Dateisymboles in das Zielverzeichnis kann der Name der zu speichernden Datei im Feld 'Zielort' festgelegt werden. Danach wird hier der lokale Dateipfad angezeigt unter dem die Datei abgelegt wurde. Anklicken des Feldes 'Zielort' öffnet das angezeigte Verzeichnis.</p>
+
+<p>Im unteren Teil des Fensters werden Informationen über den Fortschritt des Downloads ausgegeben. Links werden die Größe des bereits heruntergeladenen Dateiteiles sowie die Gesamtgröße des Downloads angezeigt. In der Mitte ist die Geschwindigkeit der Verbindung dargestellt. Rechts findet sich eine Abschätzung der noch benötigten Zeit bis zum Ende des Downloads. Ein beiger Balken stellt den Fortschritt visuell dar.</p>
+
+<h2 id="HistoryWindow">History Window</h2>
+
+<p>Noch nicht geschrieben.</p>
+
+<h2 id="Hotlist">Die Hotlist</h2>
+
+<p>Während des Surfens im World Wide Web findet man auch Seiten, die man zu einem späteren Zeitpunkt wieder besuchen möchte. NetSurf's Hotlist bietet die Möglichkeit, Adressen (URL) solcher Web-Seiten zu speichern, damit diese Seiten später wieder aufgesucht werden können. Die Hotlist enthält Einträge und Verzeichnisse. Deren maximale Anzahl ist nicht vorgegeben. Es können beliebig viele Einträge in die Hotlist aufgenommen werden.</p>
+
+<p>Ein Eintrag besteht aus einem Namen und einer URL Adresse. Einträge können auf jede Art von Datei verweisen. Doppelklick auf einen Eintrag lädt die zugehörige URL in NetSurf. Der Name des Eintrages ist frei wähl- und abänderbar. Für Web-Seiten wird standardmäßig der Seitentitel als Name eingetragen. Weiterhin werden mit einem Eintrag das Datum der Aufnahme in die Hotlist, der Zeitpunkt des letzten Besuches und die Gesamtzahl der Besuche gespeichert.</p>
+
+<p>Verzeichnisse werden genutzt, um zusammengehörige Einträge übersichtlicher anordnen zu können. Verzeichnisse können verschachtelt werden. Sie enthalten Einträge und/oder Unterverzeichnisse.</p>
+
+<p>Um die Hotlist zu öffnen, muß der Eintrag 'Hotlist zeigen' im Menu <a href="guide#BrowserWindowMenuUtilitiesHotlist">Hotlist</a> des Browserfensters angewählt oder mit Auswahl auf den Schaltknopf für die Hotlist am oberen Fensterrand geklickt werden. Auch ein Klick mit Spezial auf das NetSurf Symbol der IconBar öffnet die Hotlist.</p>
+
+<p>Die Anzeige der Hotlist funktioniert ähnlich wie ein Filerfenster unter RICS OS. Davon abweichend werden Verzeichnisse beim Öffnen nicht in einem neuen Fenster sondern als Dateibaum dargestellt. Verzeichnisse werden durch Doppelklick geöffnet. Bereits geöffnete Verzeichnisse können durch Doppelklick wieder geschlossen werden. Werden Einträge doppelt angeklickt, wird ihre Adresse (URL) in NetSurf geöffnet und die zugehörige Datei geladen. Die Symbole am Beginn einer Hotlistzeile öffnen und schließen Verzeichnisse oder zeigen Zusatzinformationen bei Einträgen an. Dies erfolgt durch einfaches Klicken auf das Symbol oder auch, bei selektierten Einträgen und Verzeichnissen, durch Drücken der Leertaste.</p>
+
+<p>Wie in Filerfenstern können durch Aufziehen von Boxen Einträge und Verzeichnisse markiert werden. Anklicken mit Spezial erlaubt das Hinzufügen weiterer Markierungen oder das Entfernen einzelner Markierungen. Selektierte Objekte können innerhalb des Hotlist Fensters per Drag & Drop verschoben werden. Beim Loslassen über einem Verzeichnis werden die markierten Objekte in dieses hinein verschoben.</p>
+
+<p>NetSurf's Hotlist wird als HTML Datei in <em>Choices:WWW.NetSurf</em> gespeichert. Diese Datei kann mit jedem Browser geladen und als Link-Seite verwendet werden. Es ist möglich diese Datei als Homepage in NetSurf einzustellen. Die Hotlist Datei wird automatisch beim Beenden von NetSurf gespeichert. Ein Abspeichern kann auch über das Hotlist <a href="guide#HotlistMenuHotlistSave">Menü</a> erfolgen.</p>
+
+<h3 id="HotlistToolbar">Symbolleiste</h3>
+
+<p>Noch nicht geschrieben.</p>
+
+<h3 id="HotlistMenus">Menüs</h3>
+
+<p>Das Hotlist Menü erlaubt die Verwaltung der Einträge und Verzeichnisse in der Hotlist. Diese Optionen sind verfügbar:</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Hotlist</th></tr>
+<tr><td><a href="guide#HotlistMenuHotlist">Hotlist</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#HotlistMenuSelection">Auswahl</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#HotlistMenuSelectAll">Alles auswählen</a></td><td></td></tr>
+<tr><td><a href="guide#HotlistMenuClearSelection">Auswahl aufheben</a></td><td></td></tr>
+</table>
+
+<h4 id="HotlistMenuHotlist" class="submenu">Untermenü Hotlist</h4>
+
+<p>Die hierunter erreichbaren Menüpunkte beziehen sich auf die gesamte Hotlist.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Hotlist</th></tr>
+<tr><td><a href="guide#HotlistMenuHotlistNew">Neu</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#HotlistMenuHotlistSave">Speichern</a></td><td></td></tr>
+<tr><td><a href="guide#HotlistMenuHotlistExport">Exportieren</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td class="menusplit"><a href="guide#HotlistMenuHotlistExpand">Expandieren</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#HotlistMenuHotlistCollapse">Zusammenfalten</a></td><td class="menuarrow">&gt;</td></tr>
+</table>
+
+<p class="menupath" id="HotlistMenuHotlistNew">Hotlist &gt; Neu</p>
+<p class="menuitem">Erlaubt das Erstellen neuer Einträge oder Verzeichnisse.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Neu</th></tr>
+<tr><td><a href="guide#HotlistMenuHotlistNewDirectory">Verzeichnis</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#HotlistMenuHotlistNewEntry">Eintrag</a></td><td class="menuarrow">&gt;</td></tr>
+</table>
+
+<p class="menupath" id="HotlistMenuHotlistNewDirectory">Hotlist &gt; Neu &gt; Verzeichnis</p>
+<p class="menuitem">Erstellt ein neues Verzeichnis am unteren Ende der Hotlist. Der Name des Verzeichnisses kann eingetragen werden. Der Name ist aber auch später noch <a href="guide#HotlistMenuSelectionEdit">veränderbar</a>. Erstellte Verzeichnisse können per Drag & Drop innerhalb der Hotlist bewegt werden. Verzeichnisse können beliebig verschachtelt werden. Es gibt keine Begrenzung der zulässigen Zahl von Unterverzeichnissen. Die Funktion ist auch über die Hotlist <a href="guide#HotlistToolbar">Symbolleiste</a> abrufbar.</p>
+
+<p class="menupath" id="HotlistMenuHotlistNewEntry">Hotlist &gt; Neu &gt; Eintrag</p>
+<p class="menuitem">Erlaubt die Erstellung eines neuen Eintrages am Ende der Hotlist. Name und URL müssen angegeben werden. Der Eintrag kann später <a href="guide#HotlistMenuSelectionEdit">bearbeitet</a> und per Drag & Drop in der Hotlist bewegt werden. Die Funktion ist auch über die Hotlist <a href="guide#HotlistToolbar">Symbolleiste</a> abrufbar.</p>
+
+<p class="menupath" id="HotlistMenuHotlistSave">Hotlist &gt; Speichern</p>
+<p class="menuitem">Erlaubt das manuelle Speichern der Hotlist. Die Hotlist wird als HTML Datei in <em>Choices:WWW.NetSurf</em> abgelegt. Automatisch wird sie immer beim  <a href="guide#IconbarMenuQuit">Beenden</a> von NetSurf gespeichert.</p>
+
+<p class="menupath" id="HotlistMenuHotlistExport">Hotlist &gt; Exportieren</p>
+<p class="menuitem">Exportiert die Hotlist als HTML Datei. Dabei wird die Verzeichnisstruktur durch Einrückungen wiedergegeben. Einträge werden als Links dargestellt.</p>
+
+<p class="menupath" id="HotlistMenuHotlistExpand">Hotlist &gt; Expandieren</p>
+<p class="menuitem">Öffnet verschiedene Strukturen innerhalb der Hotlist.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Expandieren</th></tr>
+<tr><td><a href="guide#HotlistMenuHotlistExpandAll">Alles</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#HotlistMenuHotlistExpandDirectories">Verzeichnisse</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#HotlistMenuHotlistEdpandEntries">Einträge</a></td><td class="menuarrow"></td></tr>
+</table>
+
+<p class="menupath" id="HotlistMenuHotlistExpandAll">Hotlist &gt; Expandieren &gt; Alles</p>
+<p class="menuitem">Öffnet alle Verzeichnisse und expandiert alle Einträge. Zeigt die gesamte Verzeichnisstruktur und macht alle gespeicherten Informationen sichtbar.</p>
+
+<p class="menupath" id="HotlistMenuHotlistExpandDirectories">Hotlist &gt; Expandieren &gt; Verzeichnisse</p>
+<p class="menuitem">Öffnet alle Verzeichnisse. Zeigt die gesamte Verzeichnisstruktur.</p>
+
+<p class="menupath" id="HotlistMenuHotlistExpandEntries">Hotlist &gt; Expandieren &gt; Einträge</p>
+<p class="menuitem">Expandiert die zur Zeit in der Hotlist angezeigten Einträge. Adressen und alle Zusatzinformationen werden sichtbar.</p>
+
+<p class="menupath" id="HotlistMenuHotlistCollapse">Hotlist &gt; Zusammenfalten</p>
+<p class="menuitem">Schließt expandierte Teile der Hotlist.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Zusammenfalten</th></tr>
+<tr><td><a href="guide#HotlistMenuHotlistCollapseAll">Alles</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#HotlistMenuHotlistCollapseDirectories">Verzeichnisse</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#HotlistMenuHotlistCollapseEntries">Einträge</a></td><td class="menuarrow"></td></tr>
+</table>
+
+<p class="menupath" id="HotlistMenuHotlistCollapseAll">Hotlist &gt; Zusammenfalten &gt; Alles</p>
+<p class="menuitem">Schließt alle Verzeichnisse und alle Einträge der Hotlist. Nur der Inhalt des Wurzelverzeichnisses der Hotlist wird jetzt noch dargestellt.</p>
+
+<p class="menupath" id="HotlistMenuHotlistCollapseDirectories">Hotlist &gt; Zusammenfalten &gt; Verzeichnisse</p>
+<p class="menuitem">Schließt alle Verzeichnisse. Die Verzeichnisstruktur wird nicht mehr dargestellt.</p>
+
+<p class="menupath" id="HotlistMenuHotlistCollapseEntries">Hotlist &gt; Zusammenfalten &gt; Einträge</p>
+<p class="menuitem">Faltet alle expandierten Einträge zusammen. Es wird nur noch der Name der Einträge angezeigt. Adressen und weitere Informationen werden verborgen.</p>
+
+<h4 id="HotlistMenuSelection" class="submenu">Untermenü Auswahl</h4>
+
+<p>Das Untermenü ist nur verfügbar, wenn eine Auswahl getroffen wurde. Es enthält diese Optionen:</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Auswahl</th></tr>
+<tr><td><a href="guide#HotlistMenuSelectionSave">Speichern</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#HotlistMenuSelectionEdit">Bearbeiten</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#HotlistMenuSelectionLaunch">Öffnen</a></td><td></td></tr>
+<tr><td><a href="guide#HotlistMenuSelectionDelete">Löschen</a></td><td></td></tr>
+<tr><td><a href="guide#HotlistMenuSelectionResetStatistics">Statistik zurücksetzen</a></td><td></td></tr>
+</table>
+
+<p class="menupath" id="HotlistMenuSelectionSave">Auswahl &gt; Speichern</p>
+<p class="menuitem">Erlaubt das Abspeichern von Daten der selektierten Einträge und Verzeichnisse. Verschiedene Optionen sind verfügbar, in Abhängigkeit davon, was selektiert wurde.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Speichern</th></tr>
+<tr><td><a href="guide#HotlistMenuSelectionSaveAcorn">Acorn URI</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#HotlistMenuSelectionSaveAnt">Ant URL</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#HotlistMenuSelectionSaveHTML">HTML</a></td><td class="menuarrow">&gt;</td></tr>
+</table>
+
+<p class="menupath" id="HotlistMenuSelectionSaveAcorn">Auswahl &gt; Speichern &gt; Acorn URI</p>
+<p class="menuitem">Speichert die Adresse des markierten Eintrages im Acorn URI Format. Ist nur verfügbar, wenn ein einzelner Eintrag markiert wurde.</p>
+
+<p class="menupath" id="HotlistMenuSelectionSaveAnt">Auswahl &gt; Speichern &gt; Ant URL</p>
+<p class="menuitem">Speichert die Adresse des markierten Eintrages im Ant URL Format. Ist nur verfügbar, wenn ein einzelner Eintrag markiert wurde.</p>
+
+<p class="menupath" id="HotlistMenuSelectionSaveHTML">Auswahl &gt; Speichern &gt; HTML</p>
+<p class="menuitem">Speichert die markierten Einträge und Verzeichnisse im HTML Format. Unterverzeichnisse werden eingerückt dargestellt, Einträge werden als anklickbare Links angezeigt.</p>
+
+<p class="menupath" id="HotlistMenuSelectionEdit">Auswahl &gt; Bearbeiten</p>
+<p class="menuitem">Erlaubt das Bearbeiten der Namen in der Hotlist und bei Einträgen zusätzlich das der gespeicherten Adressen. Ist nur verfügbar, wenn ein einzelner Eintrag oder ein einzelnes Verzeichnis markiert wurde.</p>
+
+<p>Einträge, die der Hotlist hinzugefügt werden, erhalten zunächst eine Standarbezeichnung. Bei HTML Dateien ist dies der Seitentitel.</p>
+
+<p class="menupath" id="HotlistMenuSelectionLaunch">Auswahl &gt; Öffnen</p>
+<p class="menuitem">Öffnet alle markierten Hotlist Einträge jeweils in einem eigenen Fenster. Die Funktion ist auch über die Hotlist <a href="guide#HotlistToolbar">Symbolleiste</a> abrufbar.</p>
+
+<p class="menupath" id="HotlistMenuSelectionDelete">Auswahl &gt; Löschen</p>
+<p class="menuitem">Löscht die markierten Einträge und Verzeichnisse aus der Hotlist. Die Funktion ist auch über die Hotlist <a href="guide#HotlistToolbar">Symbolleiste</a> abrufbar.</p>
+
+<p class="menupath" id="HotlistMenuSelectionResetStatistics">Auswahl &gt; Statistik zurücksetzen</p>
+<p class="menuitem">Setzt die zusätzlichen Nutzungsinformationen für alle markierten Einträge zurück. Dabei werden der Zeitpunkt des letzten Besuches und die Gesamtzahl der Besuche auf der Seite gelöscht. Die Adresse (URL) des Eintrages und das Datum des Aufnehmens in die Hotlist bleiben unverändert erhalten.</p>
+
+<p class="menupath" id="HotlistMenuSelectAll">Alles auswählen</p>
+<p class="menuitem">Selektiert alle Einträge und Verzeichnisse der Hotlist.</p>
+
+<p class="menupath" id="HotlistMenuClearSelection">Auswahl aufheben</p>
+<p class="menuitem">Entfernt die Markierung von selektierten Einträgen und Verzeichnissen.</p>
+
+<h2 id="Configuration">NetSurf konfigurieren</h2>
+
+<p>Noch nicht geschrieben. Das Konfigurationssystem wird gerade überarbeitet. Ein Update folgt bald.</p>
+
+<h2 id="Keys">Tastaturkürzel (Shortcuts)</h2>
+
+<p>NetSurf unterstützt Shortcuts. Diese erlauben das schnelle Aufrufen von Programmfunktionen und vereinfachen die Handhabung des Programmes. Die erkannten Tastenkürzel und ihre zugeordneten Funktionen sind hier aufgeführt.</p>
+
+<h3>Seiteninhalt</h3>
+
+<table>
+<tr><th>Tastenkürzel</th><th>Funktion</th></tr>
+<tr><td>Strg+N</td><td>öffnet die aktuelle Seite in einem neuen Fenster</td></tr>
+<tr><td>F3</td><td>speichert den Quelltext der Seite</td></tr>
+<tr><td>Strg+F3</td><td>speichert die Seite als Text</td></tr>
+<tr><td>Umschalten+F3</td><td>speichert den kompletten Inhalt der Seite (mit Bildern etc.)</td></tr>
+<tr><td>Strg+Umschalten+F3</td><td>speichert die Seite als Drawdatei</td></tr>
+<tr><td>F8</td><td>zeigt den Quelltext in einem Editor an</td></tr>
+</table>
+
+<h3>Anzeige</h3>
+
+<table>
+<tr><th>Tastenkürzel</th><th>Funktion</th></tr>
+<tr><td>Bild runter</td><td>eine Seite nach unten scrollen</td></tr>
+<tr><td>Bild hoch</td><td>eine Seite nach oben scrollen</td></tr>
+<tr><td>Cursor runter</td><td>eine Zeile nach unten scrollen</td></tr>
+<tr><td>Strg+Cursor runter   </td><td>ans Ende der Web-Seite springen</td></tr>
+<tr><td>Cursor hoch</td><td>eine Zeile nach oben scrollen</td></tr>
+<tr><td>Strg+Cursor hoch</td><td>an den Beginn der Web-Seite springen</td></tr>
+<tr><td>F11</td><td>öffnet das Fenster Vergrößerung</td></tr>
+<tr><td>Strg+Q</td><td>Vergrößerung um 10% verringern</td></tr>
+<tr><td>Strg+W</td><td>Vergrößerung um 10% erhöhen</td></tr>
+<tr><td>Umschalten+F11</td><td>Zeigt die Box-Grenzen. Das ist u.U. beim Erstellen eigener Web-Seiten hilfreich. Die Farben zeigen die Grenzen für: Cyan - Inhalt , Magenta - Platzhalter , Gelb - Ränder.</td></tr>
+</table>
+
+<h3>Navigation</h3>
+
+<table>
+<tr><th>Tastenkürzel</th><th>Funktion</th></tr>
+<tr><td>F5, Strg+R</td><td>aktuelle Seite erneut laden</td></tr>
+<tr><td>Esc</td><td>Ladevorgang abbrechen</td></tr>
+</table>
+
+<h3>Verschiedenes</h3>
+
+<table>
+<tr><th>Tastenkürzel</th><th>Funktion</th></tr>
+<tr><td>F1</td><td>öffnet die NetSurf <a href="docs">Dokumentation</a> in einem neuen Fenster</td></tr>
+<tr><td>F2</td><td>setzt den Cursor in die Adressleiste und schreibt dort &quot;www.&quot;</td></tr>
+<tr><td>F4</td><td>öffnet das Fenster 'Text suchen'</td></tr>
+<tr><td>F6</td><td>öffnet die Hotlist</td></tr>
+<tr><td>Strg+F2</td><td>schließt das aktuelle Fenster</td></tr>
+</table>
+
+<p class="breadcrumbs"><a href="/">NetSurf</a> » <a href="docs">Dokumentation</a> » Handbuch</p>
+
+</body>
+</html>

@@ -8,7 +8,7 @@
 
 <body>
 <p class="banner"><a href="/"><img src="netsurf.png" alt="NetSurf"></a></p>
-<p class="languages">English · <a href="info.fr">français</a></p>
+<p class="languages"><a href="info.de">Deutsch</a> · English · <a href="info.fr">français</a></p>
 
 <h1>User Information</h1>
 
@@ -31,7 +31,18 @@
 
 <h3 id="GettingStartedRequirements">Requirements</h3>
 
-<p>Not written yet.</p>
+<p>In order to run, NetSurf requires the following to be present on your system.</p>
+
+<dl>
+<dt><a href="http://sudden.recoil.org/others/">Acorn URI</a></dt>
+<dd></dd>
+<dt><a href="http://www.chocky.org/unix/usage.html">SharedUnixLibrary</a></dt>
+<dd>This is a support module for programs compiled using UnixLib.</dd>
+<dt><a href="http://www.tinct.net/">Tinct</a></dt>
+<dd>Tinct is used for image plotting. It provides support for plotting sprites with alpha channels.</dd>
+<dt>Universal Boot Sequence</dt>
+<dd></dd>
+</dl>
 
 <h3 id="GettingStartedInstallation">Installation</h3>
 

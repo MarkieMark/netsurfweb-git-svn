@@ -8,6 +8,7 @@
 
 <body>
 <p class="banner"><a href="/"><img src="netsurf.png" alt="NetSurf"></a></p>
+<p class="languages"><a href="docs.de">Deutsch</a> · English</p>
 
 <p class="headnote">NetSurf is progressing quickly but is still at an early stage of development. As such, the features described below are subject to change without warning.</p>
 
