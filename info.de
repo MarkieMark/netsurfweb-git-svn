@@ -46,7 +46,7 @@ Die Installation von &quot;NCNetSurf&quot; ist noch nicht dokumentiert.</p>
 <dd>Das Acorn URI Modul kontrolliert und steuert die Übermittlung von URIs (zum Beispiel URL-Adressen) zwischen Applikationen.</dd>
 <dt><a href="http://www.chocky.org/unix/usage.html">SharedUnixLibrary</a></dt>
 <dd>Dies ist ein Zusatzmodul für Programme, die unter Verwendung der UnixLib Library kompiliert wurden.</dd>
-<dt><a href="http://www.tinct.net/">Tinct</a></dt>
+<dt><a href="http://www.tinct.net/tinct.asp">Tinct</a></dt>
 <dd>Tinct wird zur Bilddarstellung benötigt. Es unterstützt die Ausgabe von Sprites mit Alpha-Channels.</dd>
 <dt>Window Manager 3.80 oder höher</dt>
 <dd>NetSurf nutzt Funktionen des Nested Wimp, welches Teil des Window Managers ist. Bei RISC OS 4 oder höher ist dies ein Systembestandteil. Auf Systemen mit RISC OS 3 sollte die <a href="http://acorn.riscos.com/riscos/releases/UniBoot/">Universal Boot Sequence</a> installiert werden.</dd>
