@@ -363,13 +363,14 @@
 <tr><td>Ctrl+Cursor Up</td><td>Go to top of page</td></tr>
 <tr><td>Ctrl+Q</td><td>Reduce scale of view by 10%</td></tr>
 <tr><td>Ctrl+W</td><td>Increase scale of view by 10%</td></tr>
+<tr><td>Esc</td><td>Stop current page loading.</td></tr>
 <tr><td>F1</td><td>Open the documentation contents page in a new window</td></tr>
-<tr><td>F2</td><td>Move the caret to URL bar and clear it to &quot;www.&quot;</td></tr>
+<tr><td>F2</td><td>Move caret to URL bar and clear it to &quot;www.&quot;</td></tr>
 <tr><td>Ctrl+F2</td><td>Close the window</td></tr>
-<tr><td>F3</td><td>Save the page source</td></tr>
-<tr><td>Ctrl+F3</td><td>Save the page as text</td></tr>
+<tr><td>F3</td><td>Save page source</td></tr>
+<tr><td>Ctrl+F3</td><td>Save page as text</td></tr>
 <tr><td>Shift+F3</td><td>Full save of the web page, including images etc</td></tr>
-<tr><td>Ctrl+Shift+F3</td><td>Save the page as a Drawfile</td></tr>
+<tr><td>Ctrl+Shift+F3</td><td>Save page as Drawfile</td></tr>
 <tr><td>F8</td><td>View webpage source</td></tr>
 <tr><td>F11</td><td>View box outlines. This may be useful if you are creating your own webpage. Cyan marks the content's edge, magenta marks the padding's edge and yellow marks the margin's edge.</td></tr>
 </table>
