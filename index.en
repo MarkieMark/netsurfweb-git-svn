@@ -19,9 +19,10 @@ HTML&nbsp;4 and CSS standards to the RISC OS platform.</p>
 See the <a href="progress">progress</a> page to get an indication of NetSurf's
 development status.</p>
 
-<h2>Screenshot</h2>
+<h2>Screenshots</h2>
 <p>This is a recent development screenshot:</p>
-<p class="screenshot"><img src="sm_ss.png" alt=""></p>
+<p class="screenshot"><a href="screenshots/"><img src="screenshots/w3cs.png" alt=""></a></p>
+<p>More screenshots are available on the <a href="screenshots/">screenshots page</a>.</p>
 
 <h2>Mailing List</h2>
 <p>Development is discussed on the

@@ -7,8 +7,7 @@ div { display: table-cell; }
 dd { margin-bottom: 0.5em; }
 ul ul { margin: 0; }
 .banner { margin: 0 0 5mm 0; padding: 0; border-bottom: medium solid black;
-	background-color: #94adff; color: black;
-	text-align: left; }
+          background-color: #94adff; color: black; text-align: left; }
 .banner img { vertical-align: middle; }
 .screenshot { text-align: center; font-size: small; }
 .links { border-left: thin solid black; }
@@ -22,7 +21,7 @@ ul ul { margin: 0; }
 th { font-weight: bold; padding: 3px; text-align: left; }
 td { padding: 3px; }
 
-.progress   { width: 90%; border-spacing: 1px;
+.progress, .screenshots  { width: 90%; border-spacing: 1px;
               margin-left: auto; margin-right: auto; }
 
 .notplanned  { background-color: #eee; color: #333; font-style: italic; }

@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>NetSurf | Screenshots</title>
+<link rel="stylesheet" type="text/css" href="/netsurf.css">
+</head>
+
+<body>
+<p class="banner"><a href="/"><img src="/netsurf.png" alt="NetSurf"></a></p>
+
+<h1>Screenshots</h1>
+
+<table class="screenshots">
+<tr>
+<td class="screenshot"><a href="w3c.png"><img src="w3cs.png" alt=""></a></td>
+<td><p><a href="http://www.w3c.org/">World Wide Web Consortium</a></p><p>NetSurf supports most CSS1 and partial CSS2.</p></td>
+</tr>
+<tr>
+<td class="screenshot"><a href="w3c140.png"><img src="w3c140s.png" alt=""></a></td>
+<td><p><a href="http://www.w3c.org/">World Wide Web Consortium</a></p><p>This screenshot shows the <em>Scale View</em> feature in action.  The page has been scaled to 140 percent, affecting both text and images.</p></td>
+</tr>
+<tr>
+<td class="screenshot"><a href="bbcnews.png"><img src="bbcnewss.png" alt=""></a></td>
+<td><p><a href="http://news.bbc.co.uk/">BBC News</a></p><p></p></td>
+</tr>
+<tr>
+<td class="screenshot"><a href="slashdot.png"><img src="slashdots.png" alt=""></a></td>
+<td><p><a href="http://developers.slashdot.org/">Slashdot: Developers</a></p><p></p></td>
+</tr>
+<tr>
+<td class="screenshot"><a href="netsurf.png"><img src="netsurfs.png" alt=""></a></td>
+<td><p><a href="http://netsurf.sourceforge.net/">NetSurf home page</a></p><p>NetSurf's toolbar is configurable.  Here, all the buttons and throbber animation have been turned off, leaving just the URL bar.</p></td>
+</tr>
+<tr>
+<td class="screenshot"><a href="cube-europe.png"><img src="cube-europes.png" alt=""></a></td>
+<td><p><a href="http://www.cube-europe.com/">GameCube Europe</a></p><p>Here, the toolbar has been switched off completly, giving more screen space to the page.  Also, the status bar, at the bottom of the window, is being resized.</p></td>
+</tr>
+<tr>
+<td class="screenshot"><a href="amazon.png"><img src="amazons.png" alt=""></a></td>
+<td><p><a href="http://www.amazon.co.uk/">Amazon.co.uk</a></p><p>Supporting HTTPS, NetSurf allows you to purchase from many online retailers.</p></td>
+</tr>
+<tr>
+<td class="screenshot"><a href="drobe.png"><img src="drobes.png" alt=""></a></td>
+<td><p><a href="http://www.drobe.co.uk/">Drobe Launchpad</a></p><p></p></td>
+</tr>
+<tr>
+<td class="screenshot"><a href="history.png"><img src="historys.png" alt=""></a></td>
+<td><p></p><p>NetSurf's history tree.  Clicking on the history icon on the toolbar opens this window.  The current page is shown with a red border and clicking on a thumbnail will take you back to that page.</p></td>
+</tr>
+</table>
+
+<p class="breadcrumbs"><a href="/">NetSurf</a> » Screenshots</p>
+
+</body>
+</html>
+
