@@ -8,7 +8,7 @@
 
 <body>
 <p class="banner"><a href="/"><img src="netsurf.png" alt="NetSurf"></a></p>
-<p class="languages"><a href="info.de">Deutsch</a> · <a href="info.en">English</a> · français</p>
+<p class="languages"><a href="info.de">Deutsch</a> · <a href="info.en">English</a> · Français</p>
 
 <h1>Guide utilisateur</h1>
 
