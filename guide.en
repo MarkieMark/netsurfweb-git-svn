@@ -171,7 +171,7 @@
 <p class="menupath" id="MenuPagePrint">Page &gt; Print...</p>
 <p class="menuitem">This option opens a print dialogue box.</p>
 
-<p class="menupath" id="MenuPagePrint">Page &gt; New window</p>
+<p class="menupath" id="MenuPageNewwindow">Page &gt; New window</p>
 <p class="menuitem">This option opens the current page in a new window.</p>
 
 <p class="menupath" id="MenuPageViewSource">Page &gt; View source...</p>
@@ -250,7 +250,7 @@
 <p class="menupath" id="MenuNavigateReload">Navigate &gt; Reload this page</p>
 <p class="menuitem"> This fetches and displays the current page again. Any copy of the page that exists in the local cache will be overwritten. The same function is available on the <a href="#toolbar">toolbar</a>.</p>
 
-<p class="menupath" id="MenuNavigateReload">Navigate &gt; Stop loading this page</p>
+<p class="menupath" id="MenuNavigateStop">Navigate &gt; Stop loading this page</p>
 <p class="menuitem"> This stops the current page from continuing to load. The same function is available on the <a href="#toolbar">toolbar</a>.</p>
 
 <h4 id="MenuDisplay" class="submenu">Display Submenu</h4>
@@ -262,7 +262,6 @@
 <tr><td><a href="guide#MenuDisplayScale">Scale view</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="guide#MenuDisplayImages">Images</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="guide#MenuDisplayToolbars">Toolbars</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="guide#MenuDisplayWindow">Window</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td class="menusplit"><a href="guide#MenuDisplaySetDefault">Set as default</a></td></tr>
 </table>
 
