@@ -703,7 +703,7 @@
 
 <dl>
 <dt>Themen verwalten</dt>
-<dd>Hiermit wird das Verzeichnis <em>!NetSurf.Themes</em> in einem Filerfenster geöffnet. Um NetSurf Themen zu installieren, werden diese per Drag&Drop hier hineinkopiert. Zur Deinstallation werden sie aus diesem Verzeichnis gelöscht.</dd>
+<dd>Hiermit wird das Verzeichnis <em>!NetSurf.Themes</em> in einem Filerfenster geöffnet. Um NetSurf Themen zu installieren, werden diese per Drag&amp;Drop hier hineinkopiert. Zur Deinstallation werden sie aus diesem Verzeichnis gelöscht.</dd>
 <dt>Themen holen</dt>
 <dd>Anklicken lädt die <a href="http://netsurf.sourceforge.net/themes/">NetSurf Themen</a> Web-Seite in einem neuen <a href="#BrowserWindow">Browserfenster</a>.</dd>
 </dl>
