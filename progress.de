@@ -15,11 +15,11 @@
 <p>Die Funktionen sind in folgende Gruppen unterteilt:</p>
 
 <ul>
-<li><a href="progress#Web">Web Standards</a>
-<li><a href="progress#CSSandHTML">Wichtige CSS und HTML Funktionen</a>
-<li><a href="progress#Images">Bildausgabe</a>
-<li><a href="progress#ROStandards">RISC OS spezifische Funktionen</a>
-<li><a href="progress#NSF">NetSurf Features</a>
+<li><a href="#Web">Web Standards</a>
+<li><a href="#CSSandHTML">Wichtige CSS und HTML Funktionen</a>
+<li><a href="#Images">Bildausgabe</a>
+<li><a href="#ROStandards">RISC OS spezifische Funktionen</a>
+<li><a href="#NSF">NetSurf Features</a>
 </ul>
 
 <p class="updated">aktualisiert am 13 August 2004</p>

@@ -13,16 +13,16 @@
 <h1>Allgemeine Informationen</h1>
 
 <ul>
-<li><a href="info#GettingStarted">Einfach beginnen</a>
+<li><a href="#GettingStarted">Einfach beginnen</a>
 <ul>
-<li><a href="info#GettingStartedInstallation">Installation</a></li>
-<li><a href="info#GettingStartedRequirements">Systemvoraussetzungen</a></li>
+<li><a href="#GettingStartedInstallation">Installation</a></li>
+<li><a href="#GettingStartedRequirements">Systemvoraussetzungen</a></li>
 </ul></li>
-<li><a href="info#Upgrading">NetSurf upgraden</a></li>
-<li><a href="info#Devel">Entwickler kontaktieren</a></li>
-<li><a href="info#Bugs">Fehler und Probleme melden</a></li>
-<li><a href="info#FeatureRequests">Vorschläge für neue Features</a></li>
-<li><a href="info#JavaScript">JavaScript</a></li>
+<li><a href="#Upgrading">NetSurf upgraden</a></li>
+<li><a href="#Devel">Entwickler kontaktieren</a></li>
+<li><a href="#Bugs">Fehler und Probleme melden</a></li>
+<li><a href="#FeatureRequests">Vorschläge für neue Features</a></li>
+<li><a href="#JavaScript">JavaScript</a></li>
 </ul>
 
 <p class="updated">aktualisiert am 13 August 2004</p>
@@ -99,7 +99,7 @@ Die Installation von &quot;NCNetSurf&quot; ist noch nicht dokumentiert.</p>
 
 <h2 id="FeatureRequests">Vorschläge für neue Features</h2>
 
-<p>Das NetSurf Team begrüßt immer Vorschläge und innovative Ideen, die ein verbessertes Browsen ermöglichen. Bitte überprüfe vor dem Absenden die Seite <a href="progress">'Stand der Entwicklung'</a> und die <a href="http://cvs.semichrome.net/netsurf/Docs/">TODO Listen</a> daraufhin, ob das Feature nicht bereits geplant ist. Vorschläge können über die <a href="info#Devel">Mailing-Liste</a> gesendet werden. Jede hier eingehende Nachricht wird vom Entwickler Team gelesen, auch wenn keine direkte Antwort erfolgt.</p>
+<p>Das NetSurf Team begrüßt immer Vorschläge und innovative Ideen, die ein verbessertes Browsen ermöglichen. Bitte überprüfe vor dem Absenden die Seite <a href="progress">'Stand der Entwicklung'</a> und die <a href="http://cvs.semichrome.net/netsurf/Docs/">TODO Listen</a> daraufhin, ob das Feature nicht bereits geplant ist. Vorschläge können über die <a href="#Devel">Mailing-Liste</a> gesendet werden. Jede hier eingehende Nachricht wird vom Entwickler Team gelesen, auch wenn keine direkte Antwort erfolgt.</p>
 
 <h2 id="JavaScript">JavaScript</h2>
 

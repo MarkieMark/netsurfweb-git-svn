@@ -14,11 +14,11 @@
 <p>This page has been constructed to give users an indication as to which features have been implemented and what is being worked on. For more specific information, please refer to the <a href="http://cvs.semichrome.net/netsurf/Docs/">TODO lists</a>. Features are split up as follows:</p>
 
 <ul>
-<li><a href="progress#Web">Web standards</a>
-<li><a href="progress#CSSandHTML">Important CSS and HTML features</a>
-<li><a href="progress#Images">Image support</a>
-<li><a href="progress#ROStandards">RISC OS specific standards</a>
-<li><a href="progress#NSF">NetSurf features</a>
+<li><a href="#Web">Web standards</a>
+<li><a href="#CSSandHTML">Important CSS and HTML features</a>
+<li><a href="#Images">Image support</a>
+<li><a href="#ROStandards">RISC OS specific standards</a>
+<li><a href="#NSF">NetSurf features</a>
 </ul>
 
 <p class="updated">Last updated 4 November 2004</p>

@@ -13,16 +13,16 @@
 <h1>User Information</h1>
 
 <ul>
-<li><a href="info#GettingStarted">Getting started</a>
+<li><a href="#GettingStarted">Getting started</a>
 <ul>
-<li><a href="info#GettingStartedInstallation">Installation</a></li>
-<li><a href="info#GettingStartedRequirements">Requirements</a></li>
+<li><a href="#GettingStartedInstallation">Installation</a></li>
+<li><a href="#GettingStartedRequirements">Requirements</a></li>
 </ul></li>
-<li><a href="info#Upgrading">Upgrading NetSurf</a></li>
-<li><a href="info#Devel">Contacting the developers</a></li>
-<li><a href="info#Bugs">Reporting bugs</a></li>
-<li><a href="info#FeatureRequests">Feature requests</a></li>
-<li><a href="info#JavaScript">JavaScript</a></li>
+<li><a href="#Upgrading">Upgrading NetSurf</a></li>
+<li><a href="#Devel">Contacting the developers</a></li>
+<li><a href="#Bugs">Reporting bugs</a></li>
+<li><a href="#FeatureRequests">Feature requests</a></li>
+<li><a href="#JavaScript">JavaScript</a></li>
 </ul>
 
 <p class="updated">Last updated 13 August 2004</p>
@@ -98,7 +98,7 @@
 
 <h2 id="FeatureRequests">Feature requests</h2>
 
-<p>The NetSurf team welcome feature requests and innovative ideas for improving the browsing experience. Before making suggestions, please look at the <a href="progress">progress</a> page and <a href="http://cvs.semichrome.net/netsurf/Docs/">TODO lists</a> to check that the feature isn't already planned. Suggestions can be made on the <a href="info#Devel">mailing list</a>. Please note that all such posts to the mailing list are read and retained by the NetSurf developers, even if you don't get a reply.</p>
+<p>The NetSurf team welcome feature requests and innovative ideas for improving the browsing experience. Before making suggestions, please look at the <a href="progress">progress</a> page and <a href="http://cvs.semichrome.net/netsurf/Docs/">TODO lists</a> to check that the feature isn't already planned. Suggestions can be made on the <a href="#Devel">mailing list</a>. Please note that all such posts to the mailing list are read and retained by the NetSurf developers, even if you don't get a reply.</p>
 
 <h2 id="JavaScript">JavaScript</h2>
 
