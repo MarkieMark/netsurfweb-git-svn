@@ -1,0 +1,18 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>NetSurf | Themes</title>
+<link rel="stylesheet" type="text/css" href="../netsurf.css">
+</head>
+
+<body>
+<h1 class="banner"><img src="../netsurf.png" alt="NetSurf"></h1>
+
+<div>
+<p>There are currently now themes available for NetSurf</p>
+
+
+</body>
+</html>
+
