@@ -10,7 +10,7 @@
 <h1 class="banner"><img src="netsurf.png" alt="NetSurf"></h1>
 <p class="languages"><a href="index.de">Deutsch</a> · English · <a href="index.fr">français</a></p>
 
-<div>
+<div class="main">
 <p>NetSurf is an open-source web browser for RISC OS. Its aim is to bring the
 HTML&nbsp;4 and CSS standards to the RISC OS platform.</p>
 

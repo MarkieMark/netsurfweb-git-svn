@@ -3,34 +3,7 @@
 <html>
 <head>
 <title>NetSurf | Test Builds</title>
-<style type="text/css">
-html, body { margin: 0; padding: 0; }
-h1, h2, h3, .breadcrumbs { font-family: sans-serif; }
-h1, h2, h3, p, dl, table, ul, pre, address { margin: 5mm; }
-h2, .breadcrumbs, .thanks { padding-top: 5mm; border-top: thin solid black; }
-img { border: none; }
-dd { margin-bottom: 0.5em; }
-ul ul { margin: 0; }
-.banner { margin: 0 0 5mm 0; padding: 0; border-bottom: medium solid black;
-	background-color: #94adff; color: black;
-	text-align: left; }
-.banner img { vertical-align: middle; }
-.screenshot { text-align: center; font-size: small; }
-.links { border-left: thin solid black; }
-.thanks img { vertical-align: middle; }
-.footer { font-size: small; }
-.icon { float: left; padding: 1mm; }
-.languages { margin: -4mm 5mm; text-align: right; }
-th { font-weight: bold; padding: 3px; text-align: left; }
-td { padding: 3px; }
-tr { border-bottom: thin solid #bbb; }
-
-.changelog p { margin-top: 0.2em; margin-bottom: 0.2em; }
-.msg { border-bottom: thin solid #bbb; padding-left: 5em; }
-.date { font-weight: normal; }
-.author { color: #005; }
-.files, .files a { color: #888; }
-</style>
+<link rel="stylesheet" type="text/css" href="/netsurf.css">
 </head>
 
 <body>
@@ -41,7 +14,7 @@ tr { border-bottom: thin solid #bbb; }
 <p>These archives are built automatically from CVS.
 <strong>They are likely to be unstable and may crash your machine.</strong></p>
 
-<table>
+<table class="download">
 <tr><th><a href="dl/netsurf.zip"><img src="netsurf.png" alt=""><br>NetSurf</a></th>
 <td>SIZE_NETSURF</td>
 <td>DATE_NETSURF</td>

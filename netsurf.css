@@ -3,15 +3,15 @@ h1, h2, h3, .breadcrumbs { font-family: sans-serif; }
 h1, h2, h3, h4, p, dl, table, ul, ol, pre, address { margin: 0 5mm 5mm 5mm; }
 h2, .breadcrumbs, .thanks { padding-top: 5mm; border-top: thin solid black; }
 img { border: none; }
-div { display: table-cell; }
 dl { display: block; padding-left: 0em; }
 dd { display: block; padding-left: 1.5em; }
 dd dl, dd p { margin: 3mm 0; }
 ul ul { margin: 0; }
 .banner { margin: 0 0 5mm 0; padding: 0; border-bottom: medium solid black; background-color: #94adff; color: black; text-align: left; }
 .banner img { vertical-align: middle; }
+div.main { display: table-cell; }
+div.links { display: table-cell; border-left: thin solid black; }
 .screenshot { text-align: center; font-size: small; }
-.links { border-left: thin solid black; }
 .thanks { margin-top: 5mm; }
 .thanks img { vertical-align: middle; }
 .footer { font-size: small; text-align: right; margin-top: 5mm; font-style: italic; }
@@ -47,3 +47,11 @@ td { padding: 3px; }
 .themeauthor { padding: 2px; float: left; background-color: #fff; }
 .themeinstall { padding: 2px; text-align: right; white-space: nowrap; font-weight: bold; }
 .themeinstall a { color: #0b0; }
+
+.download tr { border-bottom: thin solid #bbb; }
+
+.changelog p { margin-top: 0.2em; margin-bottom: 0.2em; }
+.msg { border-bottom: thin solid #bbb; padding-left: 5em; }
+.date { font-weight: normal; }
+.author { color: #005; }
+.files, .files a { color: #888; }
