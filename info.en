@@ -12,46 +12,60 @@
 
 <h1>User Information</h1>
 
-<ul><li><a href="#devel">Contacting the developers</a></li>
-<li><a href="#bugs">Reporting bugs</a></li>
+<ul>
+<li><a href="info#GettingStarted">Getting started</a>
+<ul>
+<li><a href="info#GettingStartedRequirements">Requirements</a></li>
+<li><a href="info#GettingStartedInstallation">Installation</a></li>
+</ul></li>
+<li><a href="info#Upgrading">Upgrading NetSurf</a></li>
+<li><a href="info#Devel">Contacting the developers</a></li>
+<li><a href="info#Bugs">Reporting bugs</a></li>
+<li><a href="info#FeatureRequests">Feature requests</a></li>
+<li><a href="info#JavaScript">JavaScript</a></li>
 </ul>
 
-<p class="updated">Last updated 29 June 2004</p>
+<p class="updated">Last updated 5 August 2004</p>
 
-<h2 id="devel">Contacting the developers</h2>
-<p>Bug reports and questions about NetSurf can be raised in the
-following forums.</p>
+<h2 id="GettingStarted">Getting started</h2>
+
+<h3 id="GettingStartedRequirements">Requirements</h3>
+
+<p>Not written yet.</p>
+
+<h3 id="GettingStartedInstallation">Installation</h3>
+
+<p>Not written yet.</p>
+
+<h2 id="Upgrading">Upgrading</h2>
+
+<p>If you are upgrading from a previous version of NetSurf, quit NetSurf and delete your old version. Drag the !NetSurf application to your required destination. NetSurf stores your choices, cookies and hotlist in <em>Choices.WWW.NetSurf</em>, so the !NetSurf application directory can be deleted without any loss of your NetSurf configuration.</p>
+
+<p>It is possible to copy the new version of NetSurf over your old version, to perform the upgrade. Please be aware that this could result in files that are no longer required being left in your copy of NetSurf although this will not cause any problems in usage.</p>
+
+<h2 id="Devel">Contacting the developers</h2>
+<p>Bug reports and questions about NetSurf can be raised in the following forums.</p>
 
 <h3>Mailing list</h3>
-<p>The <a href="http://lists.sourceforge.net/lists/listinfo/netsurf-develop">netsurf-develop</a>
-mailing list is for discussion of NetSurf. If you are interested in NetSurf's
-development, please subscribe to this list.</p>
+<p>The <a href="http://lists.sourceforge.net/lists/listinfo/netsurf-develop">netsurf-develop</a> mailing list is for discussion of NetSurf. If you are interested in NetSurf's development, please subscribe to this list. Please note that all posts to the mailing list are read and noted by the development team, even if we don't reply.</p>
 
 <h3>IRC channel</h3>
-<p>The #netsurf-develop IRC channel on the IRCNet network is also for
-discussion of NetSurf.</p>
+<p>The #netsurf-develop IRC channel on the IRCNet network is used for discussion of NetSurf development.</p>
 
 <h3>Bug tracker</h3>
-<p>Please submit any bugs to the
-<a href="http://sourceforge.net/tracker/?group_id=51719&amp;atid=464312">bug
-tracker</a>.</p>
+<p>Please submit any bugs to the <a href="http://sourceforge.net/tracker/?group_id=51719&amp;atid=464312">bug tracker</a>.</p>
 
-<p>If you want to contribute to the NetSurf project, please contact the
-developers on the Mailing List or on IRC.</p>
+<p>If you want to contribute to the NetSurf project, please contact the developers on the Mailing List or on IRC.</p>
 
-<h2 id="bugs">Reporting bugs</h2>
+<h2 id="Bugs">Reporting bugs</h2>
 <p>The NetSurf developers are very much open to bug reports. Please follow these simple guidelines.</p>
 
 <p>Before submitting a bug report, please:</p>
 
 <ol>
-<li>check that the bug exhibits itself in the latest version 
-<a href="http://netsurf.strcprstskrzkrk.co.uk/">available for download</a> at
-the time.</li>
+<li>check that the bug exhibits itself in the latest version <a href="http://netsurf.strcprstskrzkrk.co.uk/">available for download</a> at the time.</li>
 <li>try to find a reproducible way of triggering the bug.</li>
-<li>check the <a href="progress">progress</a> page and the
-<a href="http://cvs.semichrome.net/netsurf/Docs/">TODO lists</a> to check
-that something has actually been implemented.</li>
+<li>check the <a href="progress">progress</a> page and the <a href="http://cvs.semichrome.net/netsurf/Docs/">TODO lists</a> to check that something has actually been implemented.</li>
 </ol>
 
 <p>When reporting bugs, please:</p>
@@ -62,14 +76,23 @@ that something has actually been implemented.</li>
 <li>explain clearly and concisely the precise nature of the problem. (eg. does the computer hang, does NetSurf crash or report an error or is there a layout problem on a particular site? If it is a layout problem, please explain what is wrong.)</li>
 <li>if a specific site is failing, give the full URL.</li>
 <li>list the exact steps required to reproduce the bug.</li>
-<li>if you can narrow a bug down to a minimal test-case, then that's great.
-Please provide it as it's likely to speed up a fix. (Don't worry if you
-can't.)</li>
+<li>if you can narrow a bug down to a minimal test-case, then that's great. Please provide it as it's likely to speed up a fix. (Don't worry if you can't.)</li>
 </ol>
+
+<p>Following the above guidelines will save the developers' time and speeds up NetSurf's development.</p>
+
+<h2 id="FeatureRequests">Feature requests</h2>
+
+<p>The NetSurf team welcome feature requests and innovative ideas for improving the browsing experience. Before making suggestions, please look at the <a href="progress">progress</a> page and <a href="http://cvs.semichrome.net/netsurf/Docs/">TODO lists</a> to check that the feature isn't already planned. Suggestions can be made on the <a href="info#Devel">mailing list</a>. Please note that all such posts to the mailing list are read and retained by the NetSurf developers, even if you don't get a reply.</p>
+
+<h2 id="JavaScript">JavaScript</h2>
+
+<p>At present, NetSurf has no support for JavaScript. Without a JavaScript implementation, NetSurf is able to provide access to most of sites on the World Wide Web. Some sites, however, will not display correctly or be unworkable due to heavy reliance on this standard.</p>
+
+<p>As indicated on the <a href="progress">progress</a> page JavaScript is currently &quot;not planned&quot;. This is largely because of the huge amount of work that implementing JavaScript would involve and limitations on the developers' spare time. Needless to say, if someone steps forward with the time and motivation to implement JavaScript, they will receive the full support of NetSurf's current developers.</p>
 
 <p class="breadcrumbs"><a href="/">NetSurf</a> » 
 <a href="docs">Documentation</a> » User Information</p>
 
 </body>
 </html>
-

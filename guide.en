@@ -13,39 +13,56 @@
 
 <h1>User Guide</h1>
 
-<ul><li><a href="guide#using">Using NetSurf</a></li>
-<li><a href="guide#help">Interactive help</a></li>
-<li><a href="guide#toolbar">Toolbar</a></li>
-<li><a href="guide#status">Status bar</a></li>
-<li><a href="guide#menus">Menus</a></li>
-<li><a href="guide#download">Download window</a></li>
-<li><a href="guide#history">History window</a></li>
-<li><a href="guide#hotlist">Hotlist management window</a></li>
-<li><a href="guide#keys">Keyboard shortcuts</a></li>
-<li><a href="guide#conf">Configuration</a></li>
+<ul>
+<li><a href="guide#UsingNetSurf">Using NetSurf</a></li>
+<li><a href="guide#Help">Interactive help</a></li>
+<li><a href="guide#BrowserWindow">Browser window</a>
+<ul>
+<li><a href="guide#BrowserWindowToolbar">Toolbar</a></li>
+<li><a href="guide#BrowserWindowStatusBar">Status bar</a></li>
+<li><a href="guide#BrowserWindowMenus">Menus</a></li>
+<li><a href="guide#BrowserWindowFileTypes">Filetypes</a></li>
+</ul></li>
+<li><a href="guide#DownloadWindow">Download window</a></li>
+<li><a href="guide#HistoryWindow">History window</a></li>
+<li><a href="guide#Hotlist">Hotlist management window</a>
+<ul>
+<li><a href="guide#HotlistToolbar">Toolbar</a></li>
+<li><a href="guide#HotlistMenus">Menus</a></li>
+</ul></li>
+<li><a href="guide#Configuration">Configuration</a></li>
+<li><a href="guide#Keys">Keyboard shortcuts</a></li>
 </ul>
 
-<p class="updated">Last updated 30 July 2004</p>
+<p class="updated">Last updated 5 August 2004</p>
 
-<h2 id="using">Using NetSurf</h2>
+<h2 id="Using">Using NetSurf</h2>
 
-<p>To run <em>NetSurf</em>, simply double click on the NetSurf application. This will cause the NetSurf icon to appear on the iconbar. Select clicking on this icon will open a browser window.
+<p>To run <em>NetSurf</em>, simply double click on the NetSurf application. This will cause the NetSurf icon to appear on the iconbar. Select clicking on this icon will open a <a href="guide#BrowserWindow">browser window</a>. Adjust clicking on the NetSurf iconbar icon opens the <a href="guide#Hotlist">hotlist management window</a>.</p>
 
-<p class="screenshot"><img src="images/bwin.en" title="Browser Window" alt=""></p>
+<h3>Iconbar Menu</h3>
 
-<p>The area at the top is called the <a href="guide#toolbar">toolbar</a>. At the bottom, it can be seen that the horizontal scroll bar does not cover the full width of the window. Next to the horizontal scroll bar, is the <a href="guide#status">status bar</a>. The main section in the middle of the window is the most important part, the content area.</p>
+<p>The iconbar menu provides four options. These are Info, Choices, Help and Quit. Info provides a little information about the application, while quit will exit the program, closing all browser windows. The choices option opens a window for configuring NetSurf. This is discussed in greater detail in the <a href="#Configuration">Configuring NetSurf</a> section. Help opens the documentation contents page in a bowser window.</p>
 
-<p>The content area displays web pages and other material, such as images. Web pages contain hyperlinks (often just called 'links') which can point to another part of the page, to a different page or to any other type of file. Links pointing to types of files that NetSurf doesn't recognise will open a <a href="guide#download">download window</a>. Placing the pointer over a link changes the pointer to a 'clicking hand', to indicate that the item can be clicked on.</p>
-
-<h2 id="help">Interactive Help</h2>
+<h2 id="Help">Interactive Help</h2>
 
 <p>Instant on-line help is available throughout the software, in the form of interactive help. This offers quick help information, in bullet point format, about the item under the pointer.</p>
 
-<p>To use interactive help suitable software must be running. The program 'Help' is shipped with all RISC OS computers and it can be run from NetSurf's <a href="guide#MenuHelpInteractive">Help &gt; Interactive help</a> menu item.</p>
+<p>To use interactive help, suitable software must be running. The program 'Help' is shipped with all RISC OS computers and it can be run from NetSurf's <a href="guide#BrowserWindowMenuHelpInteractive">Help &gt; Interactive help</a> menu item.</p>
 
-<h2 id="toolbar">The Toolbar</h2>
+<h2 id="BrowserWindow">Browser Window</h2>
 
-<p>The section at the top of the window is called the toolbar. It allows quick access to various commonly used features. Many more functions are available through the <a href="guide#menus">menus</a>.</p>
+<p>The browser window is used to fetch and display web pages and other content available on the World Wide Web. It can also display files that are stored locally on your computer. The <a href="guide#BrowserWindowFileTypes">filetypes</a> that NetSurf can handle include HTML, CSS and various image formats.</p>
+
+<p class="screenshot"><img src="images/bwin.en" title="Browser Window" alt=""></p>
+
+<p>The area at the top of the browser window is called the <a href="guide#BrowserWindowToolbar">toolbar</a>. At the bottom, it can be seen that the horizontal scroll bar does not cover the full width of the window. Next to the horizontal scroll bar, is the <a href="guide#BrowserWindowStatusBar">status bar</a>. The main section in the middle of the window is the most important part, the content area.</p>
+
+<p>The content area displays web pages and other material, such as images. Web pages contain hyperlinks (often just called 'links') which can point to another part of the page, to a different page or to any other type of file. Links pointing to types of files that NetSurf doesn't recognise will open a <a href="guide#DownloadWindow">download window</a>. Placing the pointer over a link changes the pointer to a 'clicking hand', to indicate that the item can be clicked on.</p>
+
+<h3 id="BrowserWindowToolbar">Toolbar</h3>
+
+<p>The section at the top of the window is called the toolbar. It allows quick access to various commonly used features. Many more functions are available through the <a href="guide#BrowserWindowMenus">menus</a>.</p>
 
 <h3>Toolbar Icons</h3>
 
@@ -55,7 +72,7 @@
 
 <p class="iconinfo"><strong><img src="images/forward" class="icon" alt="Forward" title="Forward Button"></strong> Clicking on this button allows you to advance through the local history list. Select click to view the next page in the current window. Adjust click to view it in a new window. Form information is not resubmitted.</p>
 
-<p class="iconinfo"><strong><img src="images/history" class="icon" alt="History" title="History Button"></strong> Clicking on this button opens a window containing a history tree. Clicking on an item in this window will move to the relevant page in the history. More detailed information can be found in the <a href="guide#history">History window</a> section.</p>
+<p class="iconinfo"><strong><img src="images/history" class="icon" alt="History" title="History Button"></strong> Clicking on this button opens a window containing a history tree. Clicking on an item in this window will move to the relevant page in the history. More detailed information can be found in the <a href="guide#HistoryWindow">History window</a> section.</p>
 
 <p class="iconinfo"><strong><img src="images/home" class="icon" alt="Home" title="Home Button"></strong> Clicking on this button returns to the configured home page.</p>
 
@@ -81,356 +98,354 @@
 
 <p><strong>Throbber:</strong> This NetSurf logo animates while a page is downloading or rendering. It indicates that NetSurf is doing something.</p>
 
-<h2 id="status">Status Bar</h2>
+<h3 id="BrowserWindowStatusBar">Status Bar</h3>
 
 <p>The status bar, at the bottom of the window, displays information to the user. When you move the pointer over a link, the status bar will display the URL that the link points to. The status bar also displays information about NetSurf's progress while retrieving a page.</p>
 
 <p>Between the status bar and the horizontal scroll bar is the status bar resizer. Over this widget, the pointer changes to a double headed arrow and you can drag the status bar resizer to set the width of the status bar.</p>
 
-<h2 id="menus">Menus</h2>
-
-<p>NetSurf has two different menus, one is accessed by clicking menu over NetSurf's iconbar icon and the other is opened by clicking menu over a browser window.</p>
-
-<h3>Iconbar Menu</h3>
-
-<p>The iconbar menu is home to four options. These are Info, Choices, Help and Quit. Info provides a little information about the application, while quit will exit the program, closing all browser windows. The choices option opens a window for configuring NetSurf. This is discussed in greater detail in the <a href="#conf">Configuring NetSurf</a> section. Help opens the documentation contents page in a bowser window.</p>
-
-<h3>Browser Window Menu</h3>
+<h3 id="BrowserWindowMenus">Menus</h3>
 
 <p>The browser window menu contains options relating to the content of the current window. Many of these options are unavailable at present as this area of NetSurf is not complete. The following options are available:</p>
 
 <table class="menu">
 <tr><th class="menutitle" colspan="2">NetSurf</th></tr>
-<tr><td><a href="guide#MenuPage">Page</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="guide#MenuObject">Object</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="guide#MenuNavigate">Navigate</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="guide#MenuDisplay">Display</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="guide#MenuUtilities">Utilities</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="guide#MenuHelp">Help</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuPage">Page</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuObject">Object</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuNavigate">Navigate</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuDisplay">Display</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuUtilities">Utilities</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuHelp">Help</a></td><td class="menuarrow">&gt;</td></tr>
 </table>
 
-<h4 id="MenuPage" class="submenu">Page Submenu</h4>
+<h4 id="BrowserWindowMenuPage" class="submenu">Page Submenu</h4>
 
 <p>The Page submenu contains the following options relevant to the current page.</p>
 
 <table class="menu">
 <tr><th class="menutitle" colspan="2">Page</th></tr>
-<tr><td><a href="guide#MenuPageInfo">Info</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="guide#MenuPageSave">Save</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="guide#MenuPageFullSave">Full save</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="guide#MenuPageExport">Export</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="guide#MenuPageSaveLocation">Save location</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="guide#MenuPagePrint">Print...</a></td><td></td></tr>
-<tr><td class="menusplit"><a href="guide#MenuPageNewwindow">New window</a></td><td class="menusplit"></td></tr>
-<tr><td><a href="guide#MenuPageViewSource">View source...</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuPageInfo">Info</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuPageSave">Save</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuPageFullSave">Full save</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuPageExport">Export</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuPageSaveLocation">Save location</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuPagePrint">Print...</a></td><td></td></tr>
+<tr><td class="menusplit"><a href="guide#BrowserWindowMenuPageNewwindow">New window</a></td><td class="menusplit"></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuPageViewSource">View source...</a></td><td class="menuarrow"></td></tr>
 </table>
 
-<p class="menupath" id="MenuPageInfo">Page &gt; Info</p>
+<p class="menupath" id="BrowserWindowMenuPageInfo">Page &gt; Info</p>
 <p class="menuitem">This option displays information about the current page.</p>
 
-<p class="menupath" id="MenuPageSave">Page &gt; Save</p>
+<p class="menupath" id="BrowserWindowMenuPageSave">Page &gt; Save</p>
 <p class="menuitem">This option opens a save dialogue box, allowing the source code of the current page to be saved to disc.</p>
 
-<p class="menupath" id="MenuPageFullSave">Page &gt; Full save</p>
+<p class="menupath" id="BrowserWindowMenuPageFullSave">Page &gt; Full save</p>
 <p class="menuitem">This option opens a save dialogue box, allowing current page to be saved to disc, including any CSS files or images etc that the page contains.</p>
 
-<p class="menupath" id="MenuPageExport">Page &gt; Export</p>
+<p class="menupath" id="BrowserWindowMenuPageExport">Page &gt; Export</p>
 <p class="menuitem">This option offers various export options for the current page. The options available are:</p>
 
 <table class="menu">
 <tr><th class="menutitle" colspan="2">Export as</th></tr>
-<tr><td><a href="guide#MenuPageExportDraw">Draw</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="guide#MenuPageExportText">Text</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuPageExportDraw">Draw</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuPageExportText">Text</a></td><td class="menuarrow">&gt;</td></tr>
 </table>
 
-<p class="menupath" id="MenuPageExportDraw">Page &gt; Export &gt; Draw</p>
+<p class="menupath" id="BrowserWindowMenuPageExportDraw">Page &gt; Export &gt; Draw</p>
 <p class="menuitem">This option opens a save dialogue box, allowing the current page to be saved as a drawfile.</p>
 
-<p class="menupath" id="MenuPageExportText">Page &gt; Export &gt; Text</p>
+<p class="menupath" id="BrowserWindowMenuPageExportText">Page &gt; Export &gt; Text</p>
 <p class="menuitem">This option opens a save dialogue box, allowing the current page to be saved as a text file.</p>
 
-<p id="MenuPageSaveLocation" class="menupath">Page &gt; Save location</p>
+<p class="menupath" id="BrowserWindowMenuPageSaveLocation">Page &gt; Save location</p>
 <p class="menuitem">This option allows the address of the current page to be saved in various formats. The options available are:</p>
 
 <table class="menu">
 <tr><th class="menutitle" colspan="2">Link</th></tr>
-<tr><td><a href="guide#MenuPageSaveLocationAcorn">Acorn URI</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="guide#MenuPageSaveLocationAnt">Ant URL</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="guide#MenuPageSaveLocationText">Text</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuPageSaveLocationAcorn">Acorn URI</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuPageSaveLocationAnt">Ant URL</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuPageSaveLocationText">Text</a></td><td class="menuarrow">&gt;</td></tr>
 </table>
 
-<p class="menupath" id="MenuPageSaveLocationAcorn">Page &gt; Save location &gt; Acorn URI</p>
+<p class="menupath" id="BrowserWindowMenuPageSaveLocationAcorn">Page &gt; Save location &gt; Acorn URI</p>
 <p class="menuitem">This option opens a save dialogue box, allowing the address of the current page to be saved to disc in Acorn URI format.</p>
 
-<p class="menupath" id="MenuPageSaveLocationAnt">Page &gt; Save location &gt; Ant URL</p>
+<p class="menupath" id="BrowserWindowMenuPageSaveLocationAnt">Page &gt; Save location &gt; Ant URL</p>
 <p class="menuitem">This option opens a save dialogue box, allowing the address of the current page to be saved to disc in Ant URL format.</p>
 
-<p class="menupath" id="MenuPageSaveLocationText">Page &gt; Save location &gt; Text</p>
+<p class="menupath" id="BrowserWindowMenuPageSaveLocationText">Page &gt; Save location &gt; Text</p>
 <p class="menuitem">This option opens a save dialogue box, allowing the address of the current page to be saved to disc in plain text format.</p>
 
-<p class="menupath" id="MenuPagePrint">Page &gt; Print...</p>
+<p class="menupath" id="BrowserWindowMenuPagePrint">Page &gt; Print...</p>
 <p class="menuitem">This option opens a print dialogue box.</p>
 
-<p class="menupath" id="MenuPageNewwindow">Page &gt; New window</p>
+<p class="menupath" id="BrowserWindowMenuPageNewwindow">Page &gt; New window</p>
 <p class="menuitem">This option opens the current page in a new window.</p>
 
-<p class="menupath" id="MenuPageViewSource">Page &gt; View source...</p>
+<p class="menupath" id="BrowserWindowMenuPageViewSource">Page &gt; View source...</p>
 <p class="menuitem">This option opens the source code of the current page in a text editor window.</p>
 
-<h4 id="MenuObject" class="submenu">Object Submenu</h4>
+<h4 id="BrowserWindowMenuObject" class="submenu">Object Submenu</h4>
 
 <p>The Object submenu contains the following options relevant to the current object. This submenu is only available when the pointer is placed over an object such as an image.</p>
 
 <table class="menu">
 <tr><th class="menutitle" colspan="2">Object</th></tr>
-<tr><td><a href="guide#MenuObjectInfo">Info</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="guide#MenuObjectSave">Save</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="guide#MenuObjectExport">Export</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="guide#MenuObjectSaveLocation">Save location</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td class="menusplit"><a href="guide#MenuObjectReload">Reload</a></td><td class="menusplit"></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuObjectInfo">Info</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuObjectSave">Save</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuObjectExport">Export</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuObjectSaveLocation">Save location</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td class="menusplit"><a href="guide#BrowserWindowMenuObjectReload">Reload</a></td><td class="menusplit"></td></tr>
 </table>
 
-<p class="menupath" id="MenuObjectInfo">Object &gt; Info</p>
+<p class="menupath" id="BrowserWindowMenuObjectInfo">Object &gt; Info</p>
 <p class="menuitem">This option displays information about the current object.</p>
 
-<p class="menupath" id="MenuObjectSave">Object &gt; Save</p>
+<p class="menupath" id="BrowserWindowMenuObjectSave">Object &gt; Save</p>
 <p class="menuitem">This option opens a save dialogue box, allowing the object under the pointer to be saved in its original format.</p>
 
-<p class="menupath" id="MenuObjectExport">Object &gt; Export</p>
+<p class="menupath" id="BrowserWindowMenuObjectExport">Object &gt; Export</p>
 <p class="menuitem">This option offers various export options for the current object. The options available are:</p>
 
 <table class="menu">
 <tr><th class="menutitle" colspan="2">Export as</th></tr>
-<tr><td><a href="guide#MenuObjectExportSprite">Sprite</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuObjectExportSprite">Sprite</a></td><td class="menuarrow">&gt;</td></tr>
 </table>
 
-<p class="menupath" id="MenuObjectExportSprite">Object &gt; Export &gt; Sprite</p>
+<p class="menupath" id="BrowserWindowMenuObjectExportSprite">Object &gt; Export &gt; Sprite</p>
 <p class="menuitem">This option opens a save dialogue box, allowing the current object to be saved as a sprite.</p>
 
-<p class="menupath" id="MenuObjectSaveLocation">Object &gt; Save location</p>
+<p class="menupath" id="BrowserWindowMenuObjectSaveLocation">Object &gt; Save location</p>
 <p class="menuitem">This option allows the address of the current object to be saved in various formats. The options available are:</p>
 
 <table class="menu">
 <tr><th class="menutitle" colspan="2">Link</th></tr>
-<tr><td><a href="guide#MenuObjectSaveLocationAcorn">Acorn URI</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="guide#MenuObjectSaveLocationAnt">Ant URL</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="guide#MenuObjectSaveLocationText">Text</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuObjectSaveLocationAcorn">Acorn URI</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuObjectSaveLocationAnt">Ant URL</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuObjectSaveLocationText">Text</a></td><td class="menuarrow">&gt;</td></tr>
 </table>
 
-<p class="menupath" id="MenuObjectSaveLocationAcorn">Object &gt; Save location &gt; Acorn URI</p>
+<p class="menupath" id="BrowserWindowMenuObjectSaveLocationAcorn">Object &gt; Save location &gt; Acorn URI</p>
 <p class="menuitem">This option opens a save dialogue box, allowing the address of the current object to be saved to disc in Acorn URI format.</p>
 
-<p class="menupath" id="MenuObjectSaveLocationAnt">Object &gt; Save location &gt; Ant URL</p>
+<p class="menupath" id="BrowserWindowMenuObjectSaveLocationAnt">Object &gt; Save location &gt; Ant URL</p>
 <p class="menuitem">This option opens a save dialogue box, allowing the address of the current object to be saved to disc in Ant URL format.</p>
 
-<p class="menupath" id="MenuObjectSaveLocationText">Object &gt; Save location &gt; Text</p>
+<p class="menupath" id="BrowserWindowMenuObjectSaveLocationText">Object &gt; Save location &gt; Text</p>
 <p class="menuitem">This option opens a save dialogue box, allowing the address of the current object to be saved to disc in plain text format.</p>
 
-<p class="menupath" id="MenuObjectReload">Object &gt; Reload</p>
+<p class="menupath" id="BrowserWindowMenuObjectReload">Object &gt; Reload</p>
 <p class="menuitem">This option reloads the current page and any objects that the page contains.</p>
 
-<h4 id="MenuNavigate" class="submenu">Navigate Submenu</h4>
+<h4 id="BrowserWindowMenuNavigate" class="submenu">Navigate Submenu</h4>
 
 <p>The Navigate submenu contains the following options, useful for navigating the web.</p>
 
 <table class="menu">
 <tr><th class="menutitle" colspan="2">Navigate</th></tr>
-<tr><td><a href="guide#MenuNavigateHome">Home page</a></td><td class="menuarrow"></td></tr>
-<tr><td><a href="guide#MenuNavigateBack">Back one page</a></td><td class="menuarrow"></td></tr>
-<tr><td><a href="guide#MenuNavigateForward">Forward one page</a></td><td class="menuarrow"></td></tr>
-<tr><td class="menusplit"><a href="guide#MenuNavigateReload">Reload this page</a></td></tr>
-<tr><td><a href="guide#MenuNavigateStop">Stop loading this page</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuNavigateHome">Home page</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuNavigateBack">Back one page</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuNavigateForward">Forward one page</a></td><td class="menuarrow"></td></tr>
+<tr><td class="menusplit"><a href="guide#BrowserWindowMenuNavigateReload">Reload this page</a></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuNavigateStop">Stop loading this page</a></td><td class="menuarrow"></td></tr>
 </table>
 
-<p class="menupath" id="MenuNavigateHome">Navigate &gt; Home page</p>
-<p class="menuitem">This option takes you back to the NetSurf home page. The same function is available on the <a href="#toolbar">toolbar</a>.</p>
+<p class="menupath" id="BrowserWindowMenuNavigateHome">Navigate &gt; Home page</p>
+<p class="menuitem">This option takes you back to the NetSurf home page. The same function is available on the <a href="#BrowserWindowToolbar">toolbar</a>.</p>
 
-<p class="menupath" id="MenuNavigateBack">Navigate &gt; Back one page</p>
-<p class="menuitem">This option takes you back one page in the local history. Any form information will not be resubmitted. The same function is available on the <a href="#toolbar">toolbar</a>.</p>
+<p class="menupath" id="BrowserWindowMenuNavigateBack">Navigate &gt; Back one page</p>
+<p class="menuitem">This option takes you back one page in the local history. Any form information will not be resubmitted. The same function is available on the <a href="#BrowserWindowToolbar">toolbar</a>.</p>
 
-<p class="menupath" id="MenuNavigateForward">Navigate &gt; Forward one page</p>
-<p class="menuitem">This option takes you forward one page in the local history. Any form information will not be resubmitted. The same function is available on the <a href="#toolbar">toolbar</a>.</p>
+<p class="menupath" id="BrowserWindowMenuNavigateForward">Navigate &gt; Forward one page</p>
+<p class="menuitem">This option takes you forward one page in the local history. Any form information will not be resubmitted. The same function is available on the <a href="#BrowserWindowToolbar">toolbar</a>.</p>
 
-<p class="menupath" id="MenuNavigateReload">Navigate &gt; Reload this page</p>
-<p class="menuitem"> This fetches and displays the current page again. Any copy of the page that exists in the local cache will be overwritten. The same function is available on the <a href="#toolbar">toolbar</a>.</p>
+<p class="menupath" id="BrowserWindowMenuNavigateReload">Navigate &gt; Reload this page</p>
+<p class="menuitem"> This fetches and displays the current page again. Any copy of the page that exists in the local cache will be overwritten. The same function is available on the <a href="#BrowserWindowToolbar">toolbar</a>.</p>
 
-<p class="menupath" id="MenuNavigateStop">Navigate &gt; Stop loading this page</p>
-<p class="menuitem"> This stops the current page from continuing to load. The same function is available on the <a href="#toolbar">toolbar</a>.</p>
+<p class="menupath" id="BrowserWindowMenuNavigateStop">Navigate &gt; Stop loading this page</p>
+<p class="menuitem"> This stops the current page from continuing to load. The same function is available on the <a href="#BrowserWindowToolbar">toolbar</a>.</p>
 
-<h4 id="MenuDisplay" class="submenu">Display Submenu</h4>
+<h4 id="BrowserWindowMenuDisplay" class="submenu">Display Submenu</h4>
 
 <p>The Display submenu contains the following options which affect the rendering of the current window.</p>
 
 <table class="menu">
 <tr><th class="menutitle" colspan="2">Display</th></tr>
-<tr><td><a href="guide#MenuDisplayScale">Scale view</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="guide#MenuDisplayImages">Images</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="guide#MenuDisplayToolbars">Toolbars</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="guide#MenuDisplayRender">Render</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td class="menusplit"><a href="guide#MenuDisplaySetDefault">Set as default</a></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuDisplayScale">Scale view</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuDisplayImages">Images</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuDisplayToolbars">Toolbars</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuDisplayRender">Render</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td class="menusplit"><a href="guide#BrowserWindowMenuDisplaySetDefault">Set as default</a></td></tr>
 </table>
 
-<p class="menupath" id="MenuDisplayScale">Display &gt; Scale View</p>
-<p class="menuitem">This option allows you to scale the current page affecting both text and images. The scale is represented by a percentage, with 100% always referring to the pre-scaled state of the document. The same function is available on the <a href="#toolbar">toolbar</a>.</p>
+<p class="menupath" id="BrowserWindowMenuDisplayScale">Display &gt; Scale View</p>
+<p class="menuitem">This option allows you to scale the current page affecting both text and images. The scale is represented by a percentage, with 100% always referring to the pre-scaled state of the document. The same function is available on the <a href="#BrowserWindowToolbar">toolbar</a>.</p>
 
-<p class="menupath" id="MenuDisplayImages">Display &gt; Images</p>
+<p class="menupath" id="BrowserWindowMenuDisplayImages">Display &gt; Images</p>
 <p class="menuitem">The Images submenu allows you to control the way images are displayed. The options available here only affect the local browser window.</p>
 
 <table class="menu">
 <tr><th class="menutitle" colspan="2">Images</th></tr>
-<tr><td><a href="guide#MenuDisplayImagesForeground">Foreground images</a></td><td class="menuarrow"></td></tr>
-<tr><td><a href="guide#MenuDisplayImagesBackground">Background images</a></td><td class="menuarrow"></td></tr>
-<tr><td><a href="guide#MenuDisplayImagesAnimations">Animations</a></td><td class="menuarrow"></td></tr>
-<tr><td class="menusplit"><a href="guide#MenuDisplayImagesDither">Dither images</a></td></tr>
-<tr><td><a href="guide#MenuDisplayImagesSmooth">Smooth images</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuDisplayImagesForeground">Foreground images</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuDisplayImagesBackground">Background images</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuDisplayImagesAnimations">Animations</a></td><td class="menuarrow"></td></tr>
+<tr><td class="menusplit"><a href="guide#BrowserWindowMenuDisplayImagesDither">Dither images</a></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuDisplayImagesSmooth">Smooth images</a></td><td class="menuarrow"></td></tr>
 </table>
 
-<p class="menupath" id="MenuDisplayImagesForeground">Display &gt; Images &gt; Foreground images</p>
+<p class="menupath" id="BrowserWindowMenuDisplayImagesForeground">Display &gt; Images &gt; Foreground images</p>
 <p class="menuitem">This option allows you to toggle the display of foreground images. When foreground images are enabled, a tick appears to the left of the menu entry. If foreground images are disabled, any alternate text that the page provides will be shown instead.</p>
 
-<p class="menupath" id="MenuDisplayImagesBackground">Display &gt; Images &gt; Background images</p>
+<p class="menupath" id="BrowserWindowMenuDisplayImagesBackground">Display &gt; Images &gt; Background images</p>
 <p class="menuitem">This option allows you to toggle the display of background images. When background images are enabled, a tick appears to the left of the menu entry. If background images are disabled, any any background colour specified by the document will be used instead.</p>
 
-<p class="menupath" id="MenuDisplayImagesAnimations">Display &gt; Images &gt; Animations</p>
+<p class="menupath" id="BrowserWindowMenuDisplayImagesAnimations">Display &gt; Images &gt; Animations</p>
 <p class="menuitem">This option allows you to toggle the display of animations images. When animations are enabled, a tick appears to the left of the menu entry. If background images are disabled, the first frame of the animation will be shown as a static image.</p>
 
-<p class="menupath" id="MenuDisplayImagesDither">Display &gt; Images &gt; Dither images</p>
+<p class="menupath" id="BrowserWindowMenuDisplayImagesDither">Display &gt; Images &gt; Dither images</p>
 <p class="menuitem">This option allows you to toggle image dithering. When dithering is enabled, a tick appears to the left of the menu entry. Dithering gives an improved display in sub true colour screen modes.</p>
 
-<p class="menupath" id="MenuDisplayImagesSmooth">Display &gt; Images &gt; Smooth images</p>
+<p class="menupath" id="BrowserWindowMenuDisplayImagesSmooth">Display &gt; Images &gt; Smooth images</p>
 <p class="menuitem">This option allows you to toggle image smoothing. When smoothing is enabled, a tick appears to the left of the menu entry. Image smoothing uses bi-linear filtering to give an improved display of scaled images.</p>
 
-<p class="menupath" id="MenuDisplayToolbars">Display &gt; Toolbars</p>
+<p class="menupath" id="BrowserWindowMenuDisplayToolbars">Display &gt; Toolbars</p>
 <p class="menuitem">The Toolbars submenu allows you to control the way NetSurf's toolbars are displayed. The options available here only affect the local browser window.</p>
 
 <table class="menu">
 <tr><th class="menutitle" colspan="2">Toolbars</th></tr>
-<tr><td><a href="guide#MenuDisplayToolbarsButtons">Buttons</a></td><td class="menuarrow"></td></tr>
-<tr><td><a href="guide#MenuDisplayToolbarsAddress">Address bar</a></td><td class="menuarrow"></td></tr>
-<tr><td><a href="guide#MenuDisplayToolbarsThrobber">Throbber</a></td><td class="menuarrow"></td></tr>
-<tr><td class="menusplit"><a href="guide#MenuDisplayToolbarsStatus">Status bar</a></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuDisplayToolbarsButtons">Buttons</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuDisplayToolbarsAddress">Address bar</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuDisplayToolbarsThrobber">Throbber</a></td><td class="menuarrow"></td></tr>
+<tr><td class="menusplit"><a href="guide#BrowserWindowMenuDisplayToolbarsStatus">Status bar</a></td></tr>
 </table>
 
-<p class="menupath" id="MenuDisplayToolbarsButtons">Display &gt; Toolbars &gt; Buttons</p>
+<p class="menupath" id="BrowserWindowMenuDisplayToolbarsButtons">Display &gt; Toolbars &gt; Buttons</p>
 <p class="menuitem">This option toggles the display of the buttons on NetSurf's toolbar at the top of the window. When the buttons are turned off, the URL bar (if enabled) stretches to fill the extra space.</p>
 
-<p class="menupath" id="MenuDisplayToolbarsAddress">Display &gt; Toolbars &gt; Address bar</p>
+<p class="menupath" id="BrowserWindowMenuDisplayToolbarsAddress">Display &gt; Toolbars &gt; Address bar</p>
 <p class="menuitem">This option toggles the display of the address (URL) bar on NetSurf's toolbar at the top of the window.</p>
 
-<p class="menupath" id="MenuDisplayToolbarsThrobber">Display &gt; Toolbars &gt; Throbber</p>
+<p class="menupath" id="BrowserWindowMenuDisplayToolbarsThrobber">Display &gt; Toolbars &gt; Throbber</p>
 <p class="menuitem">This option toggles the display of the throbber on NetSurf's toolbar at the top of the window. When the throbber is turned off, the URL bar (if enabled) stretches to fill the extra space.</p>
 
 <p>If the buttons, URL bar and throbber are all disabled, the toolbar at the top of the window is removed, leaving more space for the main content area.</p>
 
-<p class="menupath" id="MenuDisplayToolbarsStatus">Display &gt; Toolbars &gt; Status bar</p>
+<p class="menupath" id="BrowserWindowMenuDisplayToolbarsStatus">Display &gt; Toolbars &gt; Status bar</p>
 <p class="menuitem">This option toggles the display of the status bar at the bottom of the NetSurf window. When the status bar is turned off, the horizontal scroll bar stretches to the full width of the window.</p>
 
-<p class="menupath" id="MenuDisplayRender">Display &gt; Render</p>
+<p class="menupath" id="BrowserWindowMenuDisplayRender">Display &gt; Render</p>
 <p class="menuitem">The Render submenu allows you to control the way NetSurf draws content to the screen.</p>
 
 <table class="menu">
 <tr><th class="menutitle" colspan="2">Render</th></tr>
-<tr><td><a href="guide#MenuDisplayRenderBlend">Blend text to background</a></td><td class="menuarrow"></td></tr>
-<tr><td class="menusplit"><a href="guide#MenuDisplayRenderBufferAnim">Buffer animations</a></td></tr>
-<tr><td><a href="guide#MenuDisplayRenderBufferAll">Buffer all rendering</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuDisplayRenderBlend">Blend text to background</a></td><td class="menuarrow"></td></tr>
+<tr><td class="menusplit"><a href="guide#BrowserWindowMenuDisplayRenderBufferAnim">Buffer animations</a></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuDisplayRenderBufferAll">Buffer all rendering</a></td><td class="menuarrow"></td></tr>
 </table>
 
-<p class="menupath" id="MenuDisplayRenderBlend">Display &gt; Render &gt; Blend text to background</p>
+<p class="menupath" id="BrowserWindowMenuDisplayRenderBlend">Display &gt; Render &gt; Blend text to background</p>
 <p class="menuitem">This option improves the edges of any text that is rendered over a background image.  This facility is only available on RISC OS 3.7 or later.</p>
 
-<p class="menupath" id="MenuDisplayRenderBufferAnim">Display &gt; Render &gt; Buffer animations</p>
+<p class="menupath" id="BrowserWindowMenuDisplayRenderBufferAnim">Display &gt; Render &gt; Buffer animations</p>
 <p class="menuitem">This option stops all animations from flickering.</p>
 
-<p class="menupath" id="MenuDisplayRenderBufferAll">Display &gt; Render &gt; Buffer all rendering</p>
+<p class="menupath" id="BrowserWindowMenuDisplayRenderBufferAll">Display &gt; Render &gt; Buffer all rendering</p>
 <p class="menuitem">This option can stop text areas from flickering and improve the display of pages that make heavy use of background images. With this option enabled, actions such as scrolling will become slightly slower.</p>
 
-<p class="menupath" id="MenuDisplaySetDefault">Display &gt; Set as default</p>
+<p class="menupath" id="BrowserWindowMenuDisplaySetDefault">Display &gt; Set as default</p>
 <p class="menuitem">This option makes NetSurf use the display options you have set up for the current window as the default options.</p>
 
-<h4 id="MenuUtilities" class="submenu">Utilities Submenu</h4>
+<h4 id="BrowserWindowMenuUtilities" class="submenu">Utilities Submenu</h4>
 
 <p>The Utilities submenu contains access to some of NetSurf's extra features.</p>
 
 <table class="menu">
 <tr><th class="menutitle" colspan="2">Utilities</th></tr>
-<tr><td><a href="guide#MenuUtilitiesHotlist">Hotlist</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="guide#MenuUtilitiesHistory">History</a></td><td class="menuarrow"></td></tr>
-<tr><td><a href="guide#MenuUtilitiesWindow">Window</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuUtilitiesHotlist">Hotlist</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#BrowserWindowMenuUtilitiesHistory">History</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuUtilitiesWindow">Window</a></td><td class="menuarrow">&gt;</td></tr>
 </table>
 
-<p class="menupath" id="MenuUtilitiesHotlist">Utilities &gt; Hotlist</p>
+<p class="menupath" id="BrowserWindowMenuUtilitiesHotlist">Utilities &gt; Hotlist</p>
 <p class="menuitem">The Hotlist submenu allows you to manage the hotlist.</p>
 
 <table class="menu">
 <tr><th class="menutitle" colspan="2">Hotlist</th></tr>
-<tr><td><a href="guide#MenuUtilitiesHotlistAdd">Add to hotlist</a></td><td class="menuarrow"></td></tr>
-<tr><td><a href="guide#MenuUtilitiesHotlistShow">Show hotlist</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuUtilitiesHotlistAdd">Add to hotlist</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuUtilitiesHotlistShow">Show hotlist</a></td><td class="menuarrow"></td></tr>
 </table>
 
-<p class="menupath" id="MenuUtilitiesHotlistAdd">Utilities &gt; Hotlist &gt; Add to hotlist</p>
+<p class="menupath" id="BrowserWindowMenuUtilitiesHotlistAdd">Utilities &gt; Hotlist &gt; Add to hotlist</p>
 <p class="menuitem">This option adds the current page to the bottom of your hotlist.</p>
 
-<p class="menupath" id="MenuUtilitiesHotlistShow">Utilities &gt; Hotlist &gt; Show hotlist</p>
-<p class="menuitem">This option opens the <a href="#hotlist">hotlist management window</a>. The same function is available on the <a href="#toolbar">toolbar</a>.</p>
+<p class="menupath" id="BrowserWindowMenuUtilitiesHotlistShow">Utilities &gt; Hotlist &gt; Show hotlist</p>
+<p class="menuitem">This option opens the <a href="HotlistWindow">hotlist management window</a>. The same function is available on the <a href="#BrowserWindowToolbar">toolbar</a>.</p>
 
-<p class="menupath" id="MenuUtilitiesHistory">Utilities &gt; History</p>
-<p class="menuitem">This option opens the <a href="#history">local history window</a>. The same function is available on the <a href="#toolbar">toolbar</a>.</p>
+<p class="menupath" id="BrowserWindowMenuUtilitiesHistory">Utilities &gt; History</p>
+<p class="menuitem">This option opens the <a href="#HistoryWindow">local history window</a>. The same function is available on the <a href="#BrowserWindowToolbar">toolbar</a>.</p>
 
-<p class="menupath" id="MenuUtilitiesWindow">Utilities &gt; Window</p>
+<p class="menupath" id="BrowserWindowMenuUtilitiesWindow">Utilities &gt; Window</p>
 <p class="menuitem">The Window submenu allows you to control the size and positioning of new windows.</p>
 
 <table class="menu">
 <tr><th class="menutitle" colspan="2">Window</th></tr>
-<tr><td><a href="guide#MenuUtilitiesWindowSetdefault">Set as default position</a></td><td class="menuarrow"></td></tr>
-<tr><td><a href="guide#MenuUtilitiesWindowStagger">Stagger window position</a></td><td class="menuarrow"></td></tr>
-<tr><td><a href="guide#MenuUtilitiesWindowMaintainsize">Maintain window size</a></td><td class="menuarrow"></td></tr>
-<tr><td class="menusplit"><a href="guide#MenuUtilitiesWindowResetdefault">Reset default position</a></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuUtilitiesWindowSetdefault">Set as default position</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuUtilitiesWindowStagger">Stagger window position</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuUtilitiesWindowMaintainsize">Maintain window size</a></td><td class="menuarrow"></td></tr>
+<tr><td class="menusplit"><a href="guide#BrowserWindowMenuUtilitiesWindowResetdefault">Reset default position</a></td></tr>
 </table>
 
-<p class="menupath" id="MenuUtilitiesWindowSetdefault">Utilities &gt; Window &gt; Set as default position</p>
+<p class="menupath" id="BrowserWindowMenuUtilitiesWindowSetdefault">Utilities &gt; Window &gt; Set as default position</p>
 <p class="menuitem">This option sets the position of the current window to be the default position for new windows.</p>
 
-<p class="menupath" id="MenuUtilitiesWindowStagger">Utilities &gt; Window &gt; Stagger window position</p>
+<p class="menupath" id="BrowserWindowMenuUtilitiesWindowStagger">Utilities &gt; Window &gt; Stagger window position</p>
 <p class="menuitem">This option toggles staggered window opening positions for new windows. When turned on, this option means that new windows will open with a small offset from the position of the previously opened window. This option is only available when a user defined default window position has been set.</p>
 
-<p class="menupath" id="MenuUtilitiesWindowMaintainsize">Utilities &gt; Window &gt; Maintain window size</p>
+<p class="menupath" id="BrowserWindowMenuUtilitiesWindowMaintainsize">Utilities &gt; Window &gt; Maintain window size</p>
 <p class="menuitem">This option toggles the maintain window size feature. When the feature is turned off, NetSurf behaves in the same manner as other RISC OS browsers - newly opened windows all open at the same size in the default position. With this feature enabled, browser windows opened from other browser windows (eg. by adjust clicking on a link), will inherit the size of the first window and open above the first window, rather than at the default position.</p>
 
-<p class="menupath" id="MenuUtilitiesWindowResetdefault">Utilities &gt; Window &gt; Reset default position</p>
+<p class="menupath" id="BrowserWindowMenuUtilitiesWindowResetdefault">Utilities &gt; Window &gt; Reset default position</p>
 <p class="menuitem">This option removes any user defined default window position. The option is only available when a user defined default window position has been set.</p>
 
-<h4 id="MenuHelp" class="submenu">Help Submenu</h4>
+<h4 id="BrowserWindowMenuHelp" class="submenu">Help Submenu</h4>
 
 <p>The Help submenu contains options for fast access to help and information while you're using NetSurf.</p>
 
 <table class="menu">
 <tr><th class="menutitle" colspan="2">Help</th></tr>
-<tr><td><a href="guide#MenuHelpContents">Contents</a></td><td class="menuarrow"></td></tr>
-<tr><td><a href="guide#MenuHelpGuide">User guide</a></td><td class="menuarrow"></td></tr>
-<tr><td><a href="guide#MenuHelpInfo">User information</a></td><td class="menuarrow"></td></tr>
-<tr><td class="menusplit"><a href="guide#MenuHelpAbout">About NetSurf</a></td></tr>
-<tr><td class="menusplit"><a href="guide#MenuHelpInteractive">Interactive help</a></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuHelpContents">Contents</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuHelpGuide">User guide</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#BrowserWindowMenuHelpInfo">User information</a></td><td class="menuarrow"></td></tr>
+<tr><td class="menusplit"><a href="guide#BrowserWindowMenuHelpAbout">About NetSurf</a></td></tr>
+<tr><td class="menusplit"><a href="guide#BrowserWindowMenuHelpInteractive">Interactive help</a></td></tr>
 </table>
 
-<p class="menupath" id="MenuHelpContents">Help &gt; Contents</p>
+<p class="menupath" id="BrowserWindowMenuHelpContents">Help &gt; Contents</p>
 <p class="menuitem">This option opens the <a href="docs">documentation contents page</a> in a new window.</p>
 
-<p class="menupath" id="MenuHelpGuide">Help &gt; User guide</p>
+<p class="menupath" id="BrowserWindowMenuHelpGuide">Help &gt; User guide</p>
 <p class="menuitem">This option opens this page in a new window!</p>
 
-<p class="menupath" id="MenuHelpInfo">Help &gt; User information</p>
+<p class="menupath" id="BrowserWindowMenuHelpInfo">Help &gt; User information</p>
 <p class="menuitem">This option opens the <a href="info">user information page</a> in a new window.</p>
 
-<p class="menupath" id="MenuHelpAbout">Help &gt; About NetSurf</p>
-<p class="menuitem">This opens NetSurf's about page in a new window.</p>
+<p class="menupath" id="BrowserWindowMenuHelpAbout">Help &gt; About NetSurf</p>
+<p class="menuitem">This opens NetSurf's about page in a new window. The about page contains a list of people who have contributed to the NetSurf project and a credits for the libraries NetSurf uses.</p>
 
-<p class="menupath" id="MenuHelpInteractive">Help &gt; Interactive help</p>
+<p class="menupath" id="BrowserWindowMenuHelpInteractive">Help &gt; Interactive help</p>
 <p class="menuitem">This option loads Help, if it hasn't already been loaded, to display interactive help messages.</p>
 
-<h2 id="download">Download Window</h2>
+<h3 id="BrowserWindowFileTypes">FileTypes</h3>
+
+<p>Not written yet.</p>
+
+<h2 id="DownloadWindow">Download Window</h2>
 
 <p>Whenever you follow a link to a file that NetSurf doesn't know how to handle, NetSurf opens the download window. This allows you to save a local copy of the file. The download window is shown below.</p>
+
 <p class="screenshot"><img src="images/dwnld.en" title="Download Window" alt=""></p>
+
 <p>As soon as the download window opens, NetSurf starts downloading the file to your Scrap directory. At any time, either as the file downloads or after it has finished, it is possible drag the file icon at the top of the window to the directory where you wish to keep the file. This action causes the file to be moved to your desired location from Scrap and if the download is incomplete, the remainder of the file will also go to the new location.</p>
 
 <p>The Source field indicates the location of the file being downloaded.</p>
@@ -439,15 +454,19 @@
 
 <p>The bottom part of the download window displays information about the download's progress. On the left, the amount already downloaded and the total size are displayed. In the middle, the download speed is indicated and that the right, and estimated time remaining is shown. A beige progress bar indicates the download's progress visually.</p>
 
-<h2 id="history">History Window</h2>
+<h2 id="HistoryWindow">History Window</h2>
 
 <p>Not written yet.</p>
 
-<h2 id="hotlist">Hotlist Management Window</h2>
+<h2 id="Hotlist">Hotlist Management Window</h2>
 
 <p>Not written yet.</p>
 
-<h2 id="keys">Keyboard Shortcuts</h2>
+<h2 id="Configuration">Configuring NetSurf</h2>
+
+<p>Not written yet. NetSurf's configuration system and options are due for an update soon.</p>
+
+<h2 id="Keys">Keyboard Shortcuts</h2>
 
 <p>NetSurf supports keyboard shortcuts, which allow quick access to features and make NetSurf easier to use. The supported keypresses and corresponding functions are listed below.</p>
 
@@ -494,10 +513,6 @@
 <tr><td>F6</td><td>Open the hotlist management window</td></tr>
 <tr><td>Ctrl+F2</td><td>Close the window</td></tr>
 </table>
-
-<h2 id="conf">Configuring NetSurf</h2>
-
-<p>Not written yet. NetSurf's configuration system and options are due for an update soon.</p>
 
 <p class="breadcrumbs"><a href="/">NetSurf</a> » <a href="docs">Documentation</a> » User Guide</p>
 

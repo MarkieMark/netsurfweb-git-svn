@@ -13,16 +13,16 @@
 <p>This page has been constructed to give users an indication as to which features have been implemented and what is being worked on. For more specific information, please refer to the <a href="http://cvs.semichrome.net/netsurf/Docs/">TODO lists</a>. Features are split up as follows:</p>
 
 <ul>
-<li><a href="progress#web">Web standards</a>
+<li><a href="progress#Web">Web standards</a>
 <li><a href="progress#CSSandHTML">Important CSS and HTML features</a>
 <li><a href="progress#Images">Image support</a>
 <li><a href="progress#ROStandards">RISC OS specific standards</a>
 <li><a href="progress#NSF">NetSurf features</a>
 </ul>
 
-<p class="updated">Last updated 31 July 2004</p>
+<p class="updated">Last updated 7 July 2004</p>
 
-<h2 id="web">Web standards</h2>
+<h2 id="Web">Web standards</h2>
 
 <table class="progress">
 <tr><th>Title</th><th>Status</th><th>Notes</th></tr>
@@ -33,7 +33,7 @@
 <tr class="complete"><td>HTTP 1.1</td><td>Complete</td><td></td></tr>
 <tr class="inprogress"><td>HTTP Authentication</td><td>In progress</td><td></td></tr>
 <tr class="nearlydone"><td>HTTPS</td><td>Nearly done</td><td>Doesn't handle invalid certificates well.</td></tr>
-<tr class="notplanned"><td>JavaScript</td><td>Not planned</td><td></td></tr>
+<tr class="notplanned"><td>JavaScript</td><td>Not planned</td><td>Details on the <a href="info#JavaScript">User Information</a> page.</td></tr>
 </table>
 
 <h2 id="CSSandHTML">Important CSS and HTML features</h2>
