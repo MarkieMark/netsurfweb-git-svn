@@ -24,7 +24,7 @@
 <li><a href="guide#conf">Configuration</a></li>
 </ul>
 
-<p class="updated">Last updated 11 June 2004</p>
+<p class="updated">Last updated 22 June 2004</p>
 
 <h2 id="using">Using NetSurf</h2>
 
@@ -362,6 +362,7 @@
 <tr><td>Cursor Up</td><td>Scroll up one line</td></tr>
 <tr><td>Ctrl+Cursor Up</td><td>Go to top of page</td></tr>
 <tr><td>Ctrl+Q</td><td>Reduce scale of view by 10%</td></tr>
+<tr><td>Ctrl+R</td><td>Reload the current page.</td></tr>
 <tr><td>Ctrl+W</td><td>Increase scale of view by 10%</td></tr>
 <tr><td>Esc</td><td>Stop current page loading.</td></tr>
 <tr><td>F1</td><td>Open the documentation contents page in a new window</td></tr>
