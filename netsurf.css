@@ -41,3 +41,9 @@ td { padding: 3px; }
 .menutitle { background-color: #ccc; font-variant: small-caps; text-align: center; border-bottom: 1px solid black; font-weight: normal; }
 .menusplit { border-top: 1px dashed black; }
 .menuarrow { text-align: right; }
+
+.themename { padding-top: 5mm; margin-bottom: 3mm; border-top: thin solid #ddd; }
+.themeimage { padding-bottom: 3mm; margin-bottom: 0; }
+.themeauthor { padding: 2px; float: left; background-color: #fff; }
+.themeinstall { padding: 2px; text-align: right; white-space: nowrap; font-weight: bold; }
+.themeinstall a { color: #0b0; }

@@ -5,4 +5,5 @@ DirectoryIndex index
 AddType text/html .de
 AddType text/html .en
 AddType text/html .fr
+AddType application/x-netsurf-theme .theme
 ErrorDocument 406 /406.php

@@ -3,15 +3,31 @@
 <html>
 <head>
 <title>NetSurf | Themes</title>
-<link rel="stylesheet" type="text/css" href="../netsurf.css">
+<link rel="stylesheet" type="text/css" href="/netsurf.css">
 </head>
 
 <body>
-<h1 class="banner"><img src="../netsurf.png" alt="NetSurf"></h1>
+<p class="banner"><a href="/"><img src="/netsurf.png" alt="NetSurf"></a></p>
 
-<div>
-<p>There are currently no themes available for NetSurf.</p>
-</div>
+<h1>Themes</h1>
+
+<p>NetSurf allows you to change the look and feel of its interface by installing themes. If you have designed a theme which you would like to make available here, contact <a href="mailto:tlsa@users.sourceforge.net">tlsa@users.sourceforge.net</a>.</p>
+
+<p>Use an <em>install theme</em> link from below and NetSurf will ask for confirmation before the theme is installed. To revert to a theme you have used previously, open the theme section of NetSurf's <a href="/guide.en#Configuration">Choices</a> and select it from there.</p>
+
+<h2 class="themename">IYONIX Theme</h3>
+
+<p class="themeimage"><img src="IYONIXi.png" alt=""></p>
+<p class="themeauthor">Author: Richard G. Hallas</p>
+<p class="themeinstall"><a href="Iyonix">Install theme...</a></p>
+
+<h2 class="themename">RISC OS 5 Theme</h3>
+
+<p class="themeimage"><img src="RO5i.png" alt=""></p>
+<p class="themeauthor">Author: Richard G. Hallas</p>
+<p class="themeinstall"><a href="RO5">Install theme...</a></p>
+
+<p class="breadcrumbs"><a href="/">NetSurf</a> » Themes</p>
 
 </body>
 </html>
