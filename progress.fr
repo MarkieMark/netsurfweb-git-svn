@@ -7,7 +7,7 @@
 </head>
 <body>
 <p class="banner"><a href="/"><img src="netsurf.png" alt="NetSurf"></a></p>
-<p class="languages"><a href="progress.de">Deutsch</a> · <a href="progress.en">English</a> · français</p>
+<p class="languages"><a href="progress.de">Deutsch</a> · <a href="progress.en">English</a> · Français</p>
 
 <h1>État d'avancement</h1>
 
@@ -21,7 +21,7 @@
 <li><a href="#NSF">Fonctions de NetSurf</a>
 </ul>
 
-<p class="updated">Dernière mise à jour 15 Décembre 2004</p>
+<p class="updated">Dernière mise à jour 12 Janvier 2005</p>
 
 <h2 id="Web">Standards du Web</h2>
 
@@ -49,7 +49,7 @@
 <tr class="juststarted"><td>Listes</td><td>Vient de démarrer</td><td>Les listes ne sont pas gérées correctement.</td></tr>
 <tr class="notstarted"><td>Position (attribut CSS2)</td><td>Pas commencé</td><td></td></tr>
 <tr class="nearlydone"><td>Tableaux</td><td>Presque fini</td><td>"Cellpadding", "cellspacing" et "table borders" non implémenté.<br>L'espace restant est divisé équitablement entre les colonnes au lieu d'être en proportion avec le contenu.</td></tr>
-<tr class="notstarted"><td>Alignement Vertical</td><td>Non commencé</td><td></td></tr>
+<tr class="inprogress"><td>Alignement Vertical</td><td>En cours</td><td>Implémenté seulement pour les tableaux</td></tr>
 </table>
 
 <h2 id="Images">Images supportées</h2>
@@ -61,7 +61,7 @@
 <tr class="complete"><td>JNG</td><td>Terminé</td><td></td></tr>
 <tr class="complete"><td>JPEG</td><td>Terminé</td><td></td></tr>
 <tr class="nearlydone"><td>MNG</td><td>Presque fini</td><td>Les fonctions interactives ne sont pas supportées.</td></tr>
-<tr class="inprogress"><td>PNG</td><td>Presque fini</td><td>La correction gamma n'est pas correcte pour les PNGs avec des canaux alpha.</td></tr>
+<tr class="nearlydone"><td>PNG</td><td>Presque fini</td><td>La correction gamma n'est pas correcte pour les PNGs avec des canaux alpha.</td></tr>
 <tr class="complete"><td>Sprite</td><td>Terminé</td><td></td></tr>
 </table>
 
