@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>NetSurf | Versions Test</title>
+<link rel="stylesheet" type="text/css" href="/netsurf.css">
+</head>
+
+<body>
+<p class="banner"><a href="/"><img src="/netsurf.png" alt="NetSurf"></a></p>
+<p class="languages"><a href="index.de">Deutsch</a> · <a href="index.en">English</a> · Français</p>
+
+<h1>Versions Test de NetSurf</h1>
+
+<p>Ces archives sont créees automatiquement depuis CVS.
+<strong>Elles ont des chances d'être instables et peuvent planter votre machine.</strong></p>
+
+<table class="download">
+<tr><th><a href="dl/netsurf.zip"><img src="netsurf.png" alt=""><br>NetSurf</a></th>
+<td>SIZE_NETSURF</td>
+<td>DATE_NETSURF</td>
+<td>Le navigateur NetSurf pour RISC OS, version complète.
+<strong>Recommandé pour la plupart des utilisateurs.</strong></td></tr>
+
+<tr><th><a href="dl/unetsurf.zip"><img src="unetsurf.png" alt=""><br>Petit NetSurf</a></th>
+<td>SIZE_UNETSURF</td>
+<td>DATE_UNETSURF</td>
+<td>Le navigateur Petit Netsurf pour RISC OS. Il ne supporte que les protocoles http: et file: (pas de https:, ftp:, etc). Cette version est plus appropriée pour les machines ayant peu de RAM (8MO ou moins).</td></tr>
+
+<tr><th><a href="dl/ncnetsurf.zip"><img src="ncnetsurf.png" alt=""><br>NCNetSurf</a></th>
+<td>SIZE_NC</td>
+<td>DATE_NC</td>
+<td>NetSurf avec une interface modifiée pour le Network Computer (NC) faisant tourner NCOS.</td></tr>
+
+<tr><th><a href="dl/nstheme.zip"><img src="nstheme.png" alt=""><br>NSTheme</a></th>
+<td>SIZE_NSTHEME</td>
+<td>DATE_NSTHEME</td>
+<td>Le constructeur de Thèmes pour NetSurf. Nécessaire seulement pour les créateurs de thèmes.</td></tr>
+</table>
+
+<p>Un package <a href="http://www.riscpkg.org/">RiscPkg</a> de NetSurf est disponible. Pour s'en servir, ajouter la ligne <code>pkg http://netsurf.sourceforge.net/builds/packages</code> à <code>!RiscPkg.Resources.Sources</code>. Voir la documentation RiscPkg pour plus d'information.</p>
+
+<p><a href="netsurf.log">Fichier journal de la dernière compilation</a> (n'a d'intérêt que pour les développeurs).</p>
+
+<h2>Vous aurez également besoin des choses suivantes pour les versions test:</h2>
+
+<ul>
+<li>WindowManager 3.80 ou plus. Il est fourni avec RISC OS 4 ou plus, les utilisateurs de RISC OS 3 doivent installer la <a href="http://acorn.riscos.com/riscos/releases/UniBoot/">Séquence de Boot Universelle</a>.</li>
+<li><a href="http://www.riscos.info/unix/usage.html">SharedUnixLibrary</a>.</li>
+<li><a href="http://sudden.recoil.org/others/">AcornURI</a>.</li>
+<li><a href="http://www.tinct.net/tinct.asp">Tinct</a>.</li>
+</ul>
+
+<p><strong>En option:</strong> installez <a href="http://moose.mine.nu:6888/iconv_latest.zip">iconv</a> pour obtenir un support amélioré sur l'encodage des caractères.</p>
+
+<!-- <p><strong>Optional:</strong> download and install the <a href="nsfonts.zip">fonts (360k)</a> to get improved font-family and font-variant support.</p> -->
+
+<h2>Activité CVS récente</h2>
+<p>Toutes les dates sont en UTC.</p>

@@ -8,7 +8,7 @@
 
 <body>
 <p class="banner"><a href="/"><img src="/netsurf.png" alt="NetSurf"></a></p>
-<p class="languages"><a href="index.de">Deutsch</a> · English</p>
+<p class="languages"><a href="index.de">Deutsch</a> · English · <a href="index.fr">Français</a></p>
 
 <h1>NetSurf Test Builds</h1>
 

@@ -8,7 +8,7 @@
 
 <body>
 <h1 class="banner"><img src="netsurf.png" alt="NetSurf"></h1>
-<p class="languages"><a href="index.de">Deutsch</a> · <a href="index.en">English</a> · français</p>
+<p class="languages"><a href="index.de">Deutsch</a> · <a href="index.en">English</a> · Français</p>
 
 <div class="main">
 <p>NetSurf est un navigateur web open source pour RISC OS. Son but est d'apporter les standards HTML 4 et CSS à la plateforme RISC OS.</p>
@@ -40,11 +40,14 @@ Voir la page <a href="progress">Avancement</a> pour avoir une idée de l'état de 
 <dt><a href="http://netsurf.sourceforge.net/builds/">Versions Test</a></dt>
 <dd>Versions générées automatiquement à partir du dernier code source</dd>
 
+<dt><a href="/themes/">Themes</a></dt> 
+<dd>Installer des thèmes pour changer le "look and feel" de l'interface de NetSurf.</dd> 
+
 <dt><a href="http://sourceforge.net/tracker/?atid=464312&amp;group_id=51719">Traqueur de bogues</a></dt>
 <dd>Veuillez soumettre les bogues au traqueur ou les rapporter sur la liste de diffusion</dd>
 
 <dt><a href="http://lists.sourceforge.net/lists/listinfo/netsurf-develop">Liste de diffusion de développement</a></dt>
-<dd>Abonnez-vous à cette liste si vous comptew développer ou tester NetSurf</dd>
+<dd>Abonnez-vous à cette liste si vous comptez développer ou tester NetSurf</dd>
 
 <dt><a href="develop">Information sur le développement</a></dt>
 <dd>Pour les développeurs et les contributeurs</dd>
@@ -65,4 +68,3 @@ alt="SourceForge.net"></a> -
 
 </body>
 </html>
-
