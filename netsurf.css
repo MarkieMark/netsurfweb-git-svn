@@ -1,6 +1,6 @@
 html, body { margin: 0; padding: 0; }
 h1, h2, h3, .breadcrumbs { font-family: sans-serif; }
-h1, h2, h3, h4, p, dl, table, ul, pre, address { margin: 5mm; }
+h1, h2, h3, h4, p, dl, table, ul, ol, pre, address { margin: 0 5mm 5mm 5mm; }
 h2, .breadcrumbs, .thanks { padding-top: 5mm; border-top: thin solid black; }
 img { border: none; }
 div { display: table-cell; }
@@ -13,17 +13,17 @@ ul ul { margin: 0; }
 .screenshot { text-align: center; font-size: small; }
 .links { border-left: thin solid black; }
 .thanks img { vertical-align: middle; }
-.footer { font-size: small; }
+.footer { font-size: small; text-align: right; margin-top: 5mm; font-style: italic; }
 .icon { float: left; padding: 1mm; }
-.languages { margin: -4mm 5mm; text-align: right; }
-.updated { margin: -4mm 5mm; text-align: right; }
+.languages { margin: -4mm 5mm 3mm 5mm; text-align: right; }
+.updated { margin: -4mm 5mm 1mm 5mm; text-align: right; }
 .iconinfo { clear: left; }
 .headnote { color: #777; font-style: italic; }
 
 th { font-weight: bold; padding: 3px; text-align: left; }
 td { padding: 3px; }
 
-.progress, .screenshots  { width: 90%; border-spacing: 1px; margin-left: auto; margin-right: auto; }
+.progress, .screenshots  { width: 90%; border-spacing: 2px; margin-left: auto; margin-right: auto; }
 
 .notplanned { background-color: #eee; color: #333; font-style: italic; }
 .notstarted { background-color: #f8d1d1; }
