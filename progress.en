@@ -76,13 +76,13 @@
 
 <table class="progress">
 <tr><th>Title</th><th>Status</th><th>Notes</th></tr>
-<tr class="notstarted"><td>Bookmarks</td><td>Not started</td><td></td></tr>
 <tr class="inprogress"><td>Configuration</td><td>In progress</td><td></td></tr>
 <tr class="notstarted"><td>Disc Cache</td><td>Not started</td><td></td></tr>
 <tr class="complete"><td>Dithering</td><td>Complete</td><td>Dithering to give improved rendering in sub true colour screen modes.</td></tr>
 <tr class="inprogress"><td>Documentation</td><td>In progress</td><td></td></tr>
 <tr class="nearlydone"><td>Drawfile Export</td><td>Nearly done</td><td>Embedded drawfiles aren't exported when saving page as Draw.</td></tr>
 <tr class="nearlydone"><td>History Tree</td><td>Nearly done</td><td></td></tr>
+<tr class="notstarted"><td>Hotlist</td><td>Not started</td><td></td></tr>
 <tr class="inprogress"><td>Interactive Help</td><td>In progress</td><td></td></tr>
 <tr class="complete"><td>Memory Cache</td><td>Complete</td><td>Fixed at 1MB.</td></tr>
 <tr class="notstarted"><td>Printing</td><td>Not started</td><td></td></tr>
