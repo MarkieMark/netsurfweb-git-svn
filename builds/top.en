@@ -42,26 +42,26 @@ tr { border-bottom: thin solid #bbb; }
 <strong>They are likely to be unstable and may crash your machine.</strong></p>
 
 <table>
-<tr><th><a href="netsurf.zip"><img src="netsurf.png" alt=""><br>NetSurf</a></th>
+<tr><th><a href="dl/netsurf.zip"><img src="netsurf.png" alt=""><br>NetSurf</a></th>
 <td>SIZE_NETSURF</td>
 <td>DATE_NETSURF</td>
 <td>NetSurf browser for RISC OS, full version.
 <strong>Recommended for most users.</strong></td></tr>
 
-<tr><th><a href="unetsurf.zip"><img src="unetsurf.png" alt=""><br>Small NetSurf</a></th>
+<tr><th><a href="dl/unetsurf.zip"><img src="unetsurf.png" alt=""><br>Small NetSurf</a></th>
 <td>SIZE_UNETSURF</td>
 <td>DATE_UNETSURF</td>
 <td>Small NetSurf browser for RISC OS. This has support for http: and file: only
 (no https:, ftp:, etc.). It is more suitable for machines with small amounts of
 RAM (8MB or less).</td></tr>
 
-<tr><th><a href="ncnetsurf.zip"><img src="ncnetsurf.png" alt=""><br>NCNetSurf</a></th>
+<tr><th><a href="dl/ncnetsurf.zip"><img src="ncnetsurf.png" alt=""><br>NCNetSurf</a></th>
 <td>SIZE_NC</td>
 <td>DATE_NC</td>
 <td>NetSurf with a modified interface for the Network Computer (NC) running
 NCOS.</td></tr>
 
-<tr><th><a href="nstheme.zip"><img src="nstheme.png" alt=""><br>NSTheme</a></th>
+<tr><th><a href="dl/nstheme.zip"><img src="nstheme.png" alt=""><br>NSTheme</a></th>
 <td>SIZE_NSTHEME</td>
 <td>DATE_NSTHEME</td>
 <td>Theme packager for NetSurf. Required by theme designers only.</td></tr>
