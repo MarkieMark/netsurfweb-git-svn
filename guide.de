@@ -313,7 +313,6 @@
 <tr><th class="menutitle" colspan="2">Bilder</th></tr>
 <tr><td><a href="#BrowserWindowMenuDisplayImagesForeground">Vordergrundbilder</a></td><td class="menuarrow"></td></tr>
 <tr><td><a href="#BrowserWindowMenuDisplayImagesBackground">Hintergrundbilder</a></td><td class="menuarrow"></td></tr>
-<tr><td><a href="#BrowserWindowMenuDisplayImagesAnimations">Animationen</a></td><td class="menuarrow"></td></tr>
 </table>
 
 <p class="menupath" id="BrowserWindowMenuDisplayImagesForeground">Anzeige &gt; Bilder &gt; Vordergrundbilder</p>
@@ -321,9 +320,6 @@
 
 <p class="menupath" id="BrowserWindowMenuDisplayImagesBackground">Anzeige &gt; Bilder &gt; Hintergrundbilder</p>
 <p class="menuitem">Erlaubt das Ausblenden der Hintergrundbilder. Sind Hintergrundbilder zugelassen, wird der Menüpunkt mit einem Häkchen markiert. Bei ausgeschalteten Hintergrundbildern wird der Hintergrund farbig so eingefärbt, wie es in der Seite definiert ist.</p>
-
-<p class="menupath" id="BrowserWindowMenuDisplayImagesAnimations">Anzeige &gt; Bilder &gt; Animationen</p>
-<p class="menuitem">Läßt die Animation von Bildern zu oder schaltet sie ab. Ein Häkchen am Menüeintrag bedeutet Aktivität. Ist die Darstellung von Hintergrundbildern abgeschaltet, wird von animierten Bildern nur das erste Teilbild angezeigt.</p>
 
 <p class="menupath" id="BrowserWindowMenuDisplayToolbars">Anzeige &gt; Anzeigen und Leisten</p>
 <p class="menuitem">Erlaubt das Ab- oder Zuschalten der Informations- und Aktionsleisten im aktuellen Browserfenster.</p>
@@ -536,7 +532,6 @@
 <table class="menu">
 <tr><th class="menutitle" colspan="2">Hotlist</th></tr>
 <tr><td><a href="#HotlistMenuHotlistNew">Neu</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="#HotlistMenuHotlistSave">Speichern</a></td><td></td></tr>
 <tr><td><a href="#HotlistMenuHotlistExport">Exportieren</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td class="menusplit"><a href="#HotlistMenuHotlistExpand">Expandieren</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="#HotlistMenuHotlistCollapse">Zusammenfalten</a></td><td class="menuarrow">&gt;</td></tr>
@@ -556,9 +551,6 @@
 
 <p class="menupath" id="HotlistMenuHotlistNewEntry">Hotlist &gt; Neu &gt; Eintrag</p>
 <p class="menuitem">Erlaubt die Erstellung eines neuen Eintrages am Ende der Hotlist. Name und URL müssen angegeben werden. Der Eintrag kann später <a href="#HotlistMenuSelectionEdit">bearbeitet</a> und per Drag & Drop in der Hotlist bewegt werden. Die Funktion ist auch über die Hotlist <a href="#HotlistToolbar">Symbolleiste</a> abrufbar.</p>
-
-<p class="menupath" id="HotlistMenuHotlistSave">Hotlist &gt; Speichern</p>
-<p class="menuitem">Erlaubt das manuelle Speichern der Hotlist. Die Hotlist wird als HTML Datei in <em>Choices:WWW.NetSurf</em> abgelegt. Automatisch wird sie immer beim  <a href="#IconbarMenuQuit">Beenden</a> von NetSurf gespeichert.</p>
 
 <p class="menupath" id="HotlistMenuHotlistExport">Hotlist &gt; Exportieren</p>
 <p class="menuitem">Exportiert die Hotlist als HTML Datei. Dabei wird die Verzeichnisstruktur durch Einrückungen wiedergegeben. Einträge werden als Links dargestellt.</p>
@@ -607,31 +599,11 @@
 
 <table class="menu">
 <tr><th class="menutitle" colspan="2">Auswahl</th></tr>
-<tr><td><a href="#HotlistMenuSelectionSave">Speichern</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="#HotlistMenuSelectionEdit">Bearbeiten</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="#HotlistMenuSelectionLaunch">Öffnen</a></td><td></td></tr>
 <tr><td><a href="#HotlistMenuSelectionDelete">Löschen</a></td><td></td></tr>
 <tr><td><a href="#HotlistMenuSelectionResetStatistics">Statistik zurücksetzen</a></td><td></td></tr>
 </table>
-
-<p class="menupath" id="HotlistMenuSelectionSave">Auswahl &gt; Speichern</p>
-<p class="menuitem">Erlaubt das Abspeichern von Daten der selektierten Einträge und Verzeichnisse. Verschiedene Optionen sind verfügbar, in Abhängigkeit davon, was selektiert wurde.</p>
-
-<table class="menu">
-<tr><th class="menutitle" colspan="2">Speichern</th></tr>
-<tr><td><a href="#HotlistMenuSelectionSaveAcorn">Acorn URI</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="#HotlistMenuSelectionSaveAnt">Ant URL</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="#HotlistMenuSelectionSaveHTML">HTML</a></td><td class="menuarrow">&gt;</td></tr>
-</table>
-
-<p class="menupath" id="HotlistMenuSelectionSaveAcorn">Auswahl &gt; Speichern &gt; Acorn URI</p>
-<p class="menuitem">Speichert die Adresse des markierten Eintrages im Acorn URI Format. Ist nur verfügbar, wenn ein einzelner Eintrag markiert wurde.</p>
-
-<p class="menupath" id="HotlistMenuSelectionSaveAnt">Auswahl &gt; Speichern &gt; Ant URL</p>
-<p class="menuitem">Speichert die Adresse des markierten Eintrages im Ant URL Format. Ist nur verfügbar, wenn ein einzelner Eintrag markiert wurde.</p>
-
-<p class="menupath" id="HotlistMenuSelectionSaveHTML">Auswahl &gt; Speichern &gt; HTML</p>
-<p class="menuitem">Speichert die markierten Einträge und Verzeichnisse im HTML Format. Unterverzeichnisse werden eingerückt dargestellt, Einträge werden als anklickbare Links angezeigt.</p>
 
 <p class="menupath" id="HotlistMenuSelectionEdit">Auswahl &gt; Bearbeiten</p>
 <p class="menuitem">Erlaubt das Bearbeiten der Namen in der Hotlist und bei Einträgen zusätzlich das der gespeicherten Adressen. Ist nur verfügbar, wenn ein einzelner Eintrag oder ein einzelnes Verzeichnis markiert wurde.</p>
