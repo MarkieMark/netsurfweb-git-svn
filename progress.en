@@ -20,6 +20,8 @@
 <li><a href="progress#ROUI">RISC OS user interface</a>
 </ul>
 
+<p class="updated">Last updated 12 April 2004</p>
+
 <h2 id="web">Web standards</h2>
 
 <table class="progress">
@@ -40,11 +42,11 @@
 <tr><th>Title</th><th>Status</th><th>Notes</th></tr>
 <tr class="notstarted"><td>Background Images</td><td>Not started</td><td></td></tr>
 <tr class="nearlydone"><td>Borders / Margins / Padding</td><td>Nearly done</td><td></td></tr>
-<tr class="inprogress"><td>BR Tag</td><td>In progress</td><td>Not properly implemented.<br>Multiple BRs don't work.</td></tr>
+<tr class="juststarted"><td>BR Tag</td><td>Just started</td><td>Not properly implemented.<br>Multiple BRs don't work.</td></tr>
 <tr class="nearlydone"><td>Forms</td><td>Nearly done</td><td>Doesn't work fully with Scale View.<br>Textarea needs much improvement.</td></tr>
-<tr class="inprogress"><td>Frames</td><td>In progress</td><td>Experimental Frames implementation is far from complete.</td></tr>
+<tr class="juststarted"><td>Frames</td><td>Just started</td><td>Experimental Frames implementation is far from complete.</td></tr>
 <tr class="complete"><td>Image Maps</td><td>Complete</td><td></td></tr>
-<tr class="inprogress"><td>Lists</td><td>In progress</td><td>Lists aren't handled properly.</td></tr>
+<tr class="juststarted"><td>Lists</td><td>Just started</td><td>Lists aren't handled properly.</td></tr>
 <tr class="nearlydone"><td>Tables</td><td>Nearly done</td><td>Cellpadding, cellspacing and table borders not implemented.<br>Extra space is divided equally among columns instead of in proportion with content width.</td></tr>
 <tr class="notstarted"><td>Vertical Alignment</td><td>Not started</td><td></td></tr>
 </table>
@@ -56,6 +58,7 @@
 <tr class="complete"><td>Drawfile</td><td>Complete</td><td></td></tr>
 <tr class="nearlydone"><td>GIF</td><td>Nearly done</td><td>Animations flicker</td></tr>
 <tr class="complete"><td>JPEG</td><td>Complete</td><td></td></tr>
+<tr class="notstarted"><td>MNG</td><td>Not started</td><td></td></tr>
 <tr class="complete"><td>PNG</td><td>Complete</td><td>Doesn't cope with broken files.</td></tr>
 <tr class="complete"><td>Sprite</td><td>Complete</td><td></td></tr>
 </table>
@@ -66,14 +69,14 @@
 <tr><th>Title</th><th>Status</th><th>Notes</th></tr>
 <tr class="complete"><td>Acorn URI Protocol</td><td>Complete</td><td></td></tr>
 <tr class="complete"><td>Ant URL Protocol</td><td>Complete</td><td></td></tr>
-<tr class="inprogress"><td>Plugin Protocol</td><td>In progress</td><td></td></tr>
+<tr class="inprogress"><td>Plugin Protocol</td><td>In progress</td><td>Incomplete implementation and various problems.</td></tr>
 </table>
 
 <h2 id="ROUI">RISC OS user interface</h2>
 
 <table class="progress">
 <tr><th>Title</th><th>Status</th><th>Notes</th></tr>
-<tr class="notstarted"><td>Bookmarks / Favourites</td><td>Not started</td><td></td></tr>
+<tr class="notstarted"><td>Bookmarks</td><td>Not started</td><td></td></tr>
 <tr class="inprogress"><td>Configuration</td><td>In progress</td><td></td></tr>
 <tr class="notstarted"><td>Disc Cache</td><td>Not started</td><td></td></tr>
 <tr class="complete"><td>Dithering</td><td>Complete</td><td>Dithering to give improved rendering in sub true colour screen modes.</td></tr>
@@ -88,12 +91,11 @@
 <tr class="inprogress"><td>Save as Text</td><td>In progress</td><td>Some issues with spacing out of text.</td></tr>
 <tr class="inprogress"><td>Scale View</td><td>In progress</td><td>Following links at anything other than 100% causes the new page to be laid out at the wrong width.<br>Doesn't work with textual input form elements.</td></tr>
 <tr class="notstarted"><td>Stop Fetch</td><td>Not started</td><td></td></tr>
+<tr class="notstarted"><td>Text Selection</td><td>Not started</td><td></td></tr>
 <tr class="complete"><td>View Source</td><td>Complete</td><td>Press F8</td></tr>
 </table>
 
 <p class="breadcrumbs"><a href="/">NetSurf</a> » <a href="docs">Documentation</a> » Progress</p>
-
-<p class="updated">Last updated 11 April 2004</p>
 
 </body>
 </html>

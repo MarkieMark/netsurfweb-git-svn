@@ -24,8 +24,9 @@ td { padding: 3px; }
 .progress   { width: 90%; border-spacing: 1px;
               margin-left: auto; margin-right: auto; }
 
-.notplanned { background-color: #eeeeee; color: #333; font-style: italic; }
-.notstarted { background-color: #ffcccc; }
-.inprogress { background-color: #f3e2cc; }
-.nearlydone { background-color: #e2f3cc; }
-.complete   { background-color: #ccffcc; }
+.notplanned  { background-color: #eee; color: #333; font-style: italic; }
+.notstarted  { background-color: #f8d1d1; }
+.juststarted { background-color: #f4e0cb; }
+.inprogress  { background-color: #f0f0c5; }
+.nearlydone  { background-color: #e0f4cb; }
+.complete    { background-color: #d1f8d1; }
