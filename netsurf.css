@@ -5,6 +5,7 @@ h2, .breadcrumbs, .thanks { padding-top: 5mm; border-top: thin solid black; }
 img { border: none; }
 div { display: table-cell; }
 dd { margin-bottom: 0.5em; }
+ul ul { margin: 0; }
 .banner { margin: 0 0 5mm 0; padding: 0; border-bottom: medium solid black;
 	background-color: #94adff; color: black;
 	text-align: left; }
@@ -14,4 +15,5 @@ dd { margin-bottom: 0.5em; }
 .thanks img { vertical-align: middle; }
 .footer { font-size: small; }
 .icon { float: left; padding: 1mm; }
+.languages { margin: -4mm 5mm; text-align: right; }
 
