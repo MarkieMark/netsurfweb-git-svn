@@ -37,6 +37,11 @@
 <td><p><a href="http://www.cube-europe.com/">GameCube Europe</a></p><p>Here, the toolbar has been switched off completly, giving more screen space to the page.  Also, the status bar, at the bottom of the window, is being resized.</p></td>
 </tr>
 <tr>
+<tr>
+<td class="screenshot"><a href="yahoocojp.png"><img src="yahoocojps.png" alt=""></a></td>
+<td><p><a href="http://www.yahoo.co.jp/">Yahoo! Japan</a></p><p>NetSurf's unicode capabilities allow it to display non latin alphabets.</p></td>
+</tr>
+<tr>
 <td class="screenshot"><a href="amazon.png"><img src="amazons.png" alt=""></a></td>
 <td><p><a href="http://www.amazon.co.uk/">Amazon.co.uk</a></p><p>Supporting HTTPS, NetSurf allows you to purchase from many online retailers.</p></td>
 </tr>
