@@ -93,8 +93,8 @@
 <tr class="nearlydone"><td>Save Complete</td><td>Nearly done</td><td>Save pages with CSS files and images. Doesn't rewrite URLs for CSS background images.</td></tr>
 <tr class="complete"><td>Save Location</td><td>Complete</td><td>Save the location of the current page / object in Acorn URI, Ant URL or plain text formats.</td></tr>
 <tr class="inprogress"><td>Save as Text</td><td>In progress</td><td>Some issues with spacing out of text.</td></tr>
-<tr class="nearlydone"><td>Scale View</td><td>Nearly done</td><td>Following links at anything other than 100% causes the new page to be laid out at the wrong width.</td></tr>
-<tr class="notstarted"><td>Search Text</td><td>Not started</td><td></td></tr>
+<tr class="nearlydone"><td>Scale View</td><td>Nearly done</td><td>Images don't get scaled unless embedded in HTML pages.</td></tr>
+<tr class="complete"><td>Search Text</td><td>Complete</td><td>Press F4</td></tr>
 <tr class="complete"><td>Stop Fetch</td><td>Complete</td><td></td></tr>
 <tr class="notstarted"><td>Text Selection</td><td>Not started</td><td></td></tr>
 <tr class="complete"><td>View Source</td><td>Complete</td><td>Press F8 or <i>Page &gt; View source</i> on main menu.</td></tr>
