@@ -90,7 +90,7 @@
 <tr class="notstarted"><td>Printing</td><td>Not started</td><td></td></tr>
 <tr class="inprogress"><td>Proxy Support</td><td>In progress</td><td>Protocols other than HTTP are incorrectly proxied.</td></tr>
 <tr class="complete"><td>Reload</td><td>Complete</td><td>Select clicking on the reload button will reload the web page alone. Adjust clicking reloads the web page and other objects such as CSS files and images.</td></tr>
-<tr class="nearlydone"><td>Save Complete</td><td>Nearly done</td><td>Save pages with CSS files and images. Doesn't rewrite CSS background URLs.</td></tr>
+<tr class="nearlydone"><td>Save Complete</td><td>Nearly done</td><td>Save pages with CSS files and images. Doesn't rewrite URLs for CSS background images.</td></tr>
 <tr class="complete"><td>Save Location</td><td>Complete</td><td>Save the location of the current page / object in Acorn URI, Ant URL or plain text formats.</td></tr>
 <tr class="inprogress"><td>Save as Text</td><td>In progress</td><td>Some issues with spacing out of text.</td></tr>
 <tr class="nearlydone"><td>Scale View</td><td>Nearly done</td><td>Following links at anything other than 100% causes the new page to be laid out at the wrong width.</td></tr>
