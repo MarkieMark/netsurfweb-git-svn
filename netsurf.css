@@ -1,6 +1,6 @@
 html, body { margin: 0; padding: 0; }
-h1, h2, h3, .breadcrumbs { font-family: sans-serif; }
-h1, h2, h3, h4, h5, p, dl, table, ul, ol, pre, address { margin: 0 5mm 5mm 5mm; }
+h1, h2, h3, h4, h5, .breadcrumbs { font-family: sans-serif; }
+h1, h2, h3, h4, h5, p, dl, table, ul, ol, pre, address, .breadcrumbs { margin: 0 5mm 5mm 5mm; }
 h2, .breadcrumbs, .thanks { padding-top: 5mm; border-top: thin solid black; }
 img { border: none; }
 dl { display: block; padding-left: 0em; }
@@ -12,8 +12,10 @@ ul ul { margin: 0; }
 div.main { display: table-cell; }
 div.links { display: table-cell; border-left: thin solid black; }
 .screenshot { text-align: center; font-size: small; }
-.thanks { margin-top: 5mm; }
+.thanks { margin-top: 5mm; text-align: right; }
 .thanks img { vertical-align: middle; }
+.sourceforge { padding: 0; margin: -5mm 0 0 0; text-align: right; }
+.breadcrumbs { padding-right: 94px; }
 .footer { font-size: small; text-align: right; margin-top: 5mm; font-style: italic; }
 .icon { float: left; padding: 1mm; }
 .languages { margin: -4mm 5mm 3mm 5mm; text-align: right; }
@@ -50,8 +52,9 @@ td { padding: 3px; }
 
 .download tr { border-bottom: thin solid #bbb; }
 
-.changelog p { margin-top: 0.2em; margin-bottom: 0.2em; }
-.msg { border-bottom: thin solid #bbb; padding-left: 5em; }
+.changelog p { margin-top: 0.2em; margin-bottom: 0em; }
+.entry + .entry .meta { border-top: thin solid #bbb; padding-top: 0.2em;  }
+.msg { padding-left: 5em; }
 .date { font-weight: normal; }
 .author { color: #005; }
 .files, .files a { color: #888; }
