@@ -44,7 +44,7 @@ Die Installation von &quot;NCNetSurf&quot; ist noch nicht dokumentiert.</p>
 <dl>
 <dt><a href="http://sudden.recoil.org/others/">Acorn URI</a></dt>
 <dd>Das Acorn URI Modul kontrolliert und steuert die Übermittlung von URIs (zum Beispiel URL-Adressen) zwischen Applikationen.</dd>
-<dt><a href="http://www.chocky.org/unix/usage.html">SharedUnixLibrary</a></dt>
+<dt><a href="http://www.riscos.info/unix/usage.html">SharedUnixLibrary</a></dt>
 <dd>Dies ist ein Zusatzmodul für Programme, die unter Verwendung der UnixLib Library kompiliert wurden.</dd>
 <dt><a href="http://www.tinct.net/tinct.asp">Tinct</a></dt>
 <dd>Tinct wird zur Bilddarstellung benötigt. Es unterstützt die Ausgabe von Sprites mit Alpha-Channels.</dd>
@@ -59,7 +59,7 @@ Die Installation von &quot;NCNetSurf&quot; ist noch nicht dokumentiert.</p>
 <p>Die folgenden Dateien werden von NetSurf nicht unbedingt benötigt. Aber sie erweitern die Möglichkeiten und Funktionen des Programmes.</p>
 
 <dl>
-<dt><a href="http://moose.mine.nu:6888/iconv002.zip">Iconv</a></dt>
+<dt><a href="http://moose.mine.nu:6888/iconv_latest.zip">Iconv</a></dt>
 <dd>Dieses Modul bietet eine verbesserte Unterstützung bei der Zeichencodierung.</dd>
 <dt><a href="http://www.ecs.soton.ac.uk/~jmb202/">Flash Plugin</a></dt>
 <dd>Dieses Plugin ermöglicht die Anzeige von Flash Dateien auf Web-Seiten.</dd>
