@@ -36,7 +36,7 @@
 <li><a href="#Keys">Keyboard shortcuts</a></li>
 </ul>
 
-<p class="updated">Last updated 4 November 2004</p>
+<p class="updated">Last updated 15 December 2004</p>
 
 <h2 id="UsingNetSurf">Using NetSurf</h2>
 
@@ -495,19 +495,21 @@
 
 <h2 id="Hotlist">Hotlist Management Window</h2>
 
-<p>While browsing the World Wide Web, you may come across pages that you wish to return to. NetSurf's hotlist provides a convenient way of storing these addresses (URLs) so that you can return to the page without having to remember the URL or how you first came across the page. Hotlists are made up from &quot;entries&quot; and &quot;directories&quot;. There can be as many of each of these as you like.</p>
+<p>While browsing the World Wide Web, you may come across pages that you wish to return to. NetSurf's hotlist provides a convenient way of storing these addresses (URLs) so that you can return to the page without having to remember the URL or how you first came across the page. To open the hotlist management window, you can adjust click on NetSurf's iconbar icon or select click on the Hotlist toolbar button in a <a href="#BrowserWindow">browser window</a>. Hotlists are made up from &quot;addresses&quot; and &quot;directories&quot;. There can be as many of each of these as you like.</p>
 
-<p>An entry consists of a name and a URL. Hotlist entries can point to any kind of file and double clicking on one will launch the URL in NetSurf. The name can be anything you want and, for web pages, is set to the page title by default. Entries also store other usage information, such as the date the entry was added to the hotlist, when it was last visited and how many times it has been visited in total.</p>
+<p>An address consists of a name and a URL. Hotlist addresses can point to any kind of file and double clicking on one will launch the URL in NetSurf. The name can be anything but, for web pages, it is set to the page title by default. The simplest way to add an address to the hotlist is to adjust click on the Hotlist <a href="#BrowserWindowToolbar">toolbar button</a> in a browser window. This adds the URL of the current page to the hotlist. Additionally, files on your hard disc can be added by dragging them to the hotlist from a filer window. Addresses also store other usage information, such as the date the address was added to the hotlist, when it was last visited and how many times it has been visited in total.</p>
 
-<p>Directories are used to group related entries to allow for easy location of the entry you want. They can be nested and contain a mixture of entries and other directories.</p>
+<p>Directories are used to group related addresses to allow for easy location of the address you want. They can be nested and contain a mixture of addresses and other directories.</p>
 
-<p>To open the hotlist management window, you can adjust click on NetSurf's iconbar icon or select click on the Hotlist toolbar button on a <a href="#BrowserWindow">browser window</a>. The area at the top of the hotlist management window is the hotlist toolbar and the main section below that is the hotlist display.</p>
+<p>The hotlist display works in a similar way to a filer window, although there are some important differences. Directories are not opened in new windows. Instead, the whole hotlist is displayed in one window and directories represented by branches in a tree diagram. Double clicking on a closed directory will open it, displaying its contents as a new branch. Double clicking on an open directory will close it. When addresses are double clicked on, their URL is launched by NetSurf.</p>
 
-<p>The hotlist display works in a similar way to a filer window, although there are some important differences. Directories are not opened in new windows. Instead, the whole hotlist is displayed in one window and directories represented by branches in a tree diagram. Double clicking on a closed directory will open it, displaying its contents as a new branch. Double clicking on an open directory will close it. When entries are double clicked on, their URL is launched by NetSurf. Next to the entry and directory icons there are toggle boxes, which can be used to expand and collapse branches in the hotlist tree. Clicking on the branch toggle boxes next to directories has exactly the same effect as double clicking on a directory. Expanding an entry with the branch toggle box displays the other information it contains, such as the URL and it's usage statistics. The space bar can also be used to expand or collapse selected entries.</p>
+<p>Next to the address and directory icons there are toggle boxes, which can be used to expand and collapse branches in the hotlist tree. Clicking on the branch toggle boxes next to directories has exactly the same effect as double clicking on a directory. Expanding an address with the branch toggle box displays the other information it contains, such as the URL and it's usage statistics. The space bar can also be used to expand or collapse selected addresses.</p>
 
-<p>As with filer windows, selections can be made by dragging selection boxes and adjust clicking can be used to add or remove items from the selection. Selections can then be dragged and dropped within the hotlist management window to move them around and you can drop a selection over a closed directory by releasing it there.</p>
+<p>As with filer windows, selections can be made by dragging selection boxes and adjust clicking can be used to add or remove items from the selection. Selections can then be dragged and dropped within the hotlist management window to move them around. It is possible to drop a selection into a closed directory by releasing it over the bottom half of the target directory. Dropping the selection over the top half of a directory or address will insert the selection above that item. Finally, dropping a selection over the lower half of an address will move it below the address.</p>
 
-<p>NetSurf's hotlist is stored as an HTML file which can be found in <em>Choices:WWW.NetSurf</em>. This means the hotlist file can be loaded into a NetSurf browser window and used as a links page or set to your default home page. The hotlist file is saved when you quit NetSurf and a save can be forced from the hotlist management window <a href="#HotlistMenuHotlistSave">menu</a>.</p>
+<p>Renaming of addresses and directories can by achieved by clicking on an item with the <em>Alt</em> key held down. The URLs within expanded address entries can also be altered in this way. Selected items can be deleted from the <a href="#HotlistToolbar">toolbar</a>, <a href="#HotlistMenuSelectionDelete">menus</a> or with Ctrl+X</p>
+
+<p>NetSurf's hotlist is stored as an HTML file which can be found in <em>Choices:WWW.NetSurf</em>. This means the hotlist file can be loaded into a NetSurf browser window and used as a links page or set to your default home page. The hotlist file is saved when you quit NetSurf.</p>
 
 <h3 id="HotlistToolbar">Toolbar</h3>
 
@@ -538,22 +540,22 @@
 </table>
 
 <p class="menupath" id="HotlistMenuHotlistNew">Hotlist &gt; New</p>
-<p class="menuitem">This option allows the creation of new entries or directories.</p>
+<p class="menuitem">This option allows the creation of new addresses or directories.</p>
 
 <table class="menu">
 <tr><th class="menutitle" colspan="2">New</th></tr>
 <tr><td><a href="#HotlistMenuHotlistNewDirectory">Directory</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="#HotlistMenuHotlistNewEntry">Entry</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="#HotlistMenuHotlistNewAddress">Address</a></td><td class="menuarrow">&gt;</td></tr>
 </table>
 
 <p class="menupath" id="HotlistMenuHotlistNewDirectory">Hotlist &gt; New &gt; Directory</p>
 <p class="menuitem">This option allows you to create a new directory, which is added to the bottom of the hotlist. The name of the directory can be set and once created, it can be dragged to a different location in the hotlist and <a href="#HotlistMenuSelectionEdit">renamed</a>. Directories can be nested and there is no limit to the number of sub directories. This option is also available on the hotlist management window <a href="#HotlistToolbar">toolbar</a>.</p>
 
-<p class="menupath" id="HotlistMenuHotlistNewEntry">Hotlist &gt; New &gt; Entry</p>
-<p class="menuitem">This option allows you to create a new entry. Its name and URL must be set before it is added to the bottom of the hotlist. The entry can later be moved around in the hotlist and <a href="#HotlistMenuSelectionEdit">edited</a>. This option is also available on the hotlist management window <a href="#HotlistToolbar">toolbar</a>.</p>
+<p class="menupath" id="HotlistMenuHotlistNewAddress">Hotlist &gt; New &gt; Address</p>
+<p class="menuitem">This option allows you to create a new address. Its name and URL must be set before it is added to the bottom of the hotlist. The address can later be moved around in the hotlist and <a href="#HotlistMenuSelectionEdit">edited</a>. This option is also available on the hotlist management window <a href="#HotlistToolbar">toolbar</a>.</p>
 
 <p class="menupath" id="HotlistMenuHotlistExport">Hotlist &gt; Export</p>
-<p class="menuitem">This option allows you to export the hotlist as an HTML file. The directory structure is represented by nested unordered lists and entries are converted to clickable links.</p>
+<p class="menuitem">This option allows you to export the hotlist as an HTML file. The directory structure is represented by nested unordered lists and addresses are converted to clickable links.</p>
 
 <p class="menupath" id="HotlistMenuHotlistExpand">Hotlist &gt; Expand</p>
 <p class="menuitem">This option allows various parts of the hotlist to be shown.</p>
@@ -562,17 +564,17 @@
 <tr><th class="menutitle" colspan="2">Expand</th></tr>
 <tr><td><a href="#HotlistMenuHotlistExpandAll">All</a></td><td class="menuarrow"></td></tr>
 <tr><td><a href="#HotlistMenuHotlistExpandDirectories">Directories</a></td><td class="menuarrow"></td></tr>
-<tr><td><a href="#HotlistMenuHotlistEdpandEntries">Entries</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="#HotlistMenuHotlistEdpandAddresses">Addresses</a></td><td class="menuarrow"></td></tr>
 </table>
 
 <p class="menupath" id="HotlistMenuHotlistExpandAll">Hotlist &gt; Expand &gt; All</p>
-<p class="menuitem">This option opens all directories and expands all entries in the hotlist, making the entire directory structure and all entry information visible.</p>
+<p class="menuitem">This option opens all directories and expands all addresses in the hotlist, making the entire directory structure and all address information visible.</p>
 
 <p class="menupath" id="HotlistMenuHotlistExpandDirectories">Hotlist &gt; Expand &gt; Directories</p>
 <p class="menuitem">This option opens all of the directories in the hotlist, making the entire directory structure visible.</p>
 
-<p class="menupath" id="HotlistMenuHotlistExpandEntries">Hotlist &gt; Expand &gt; Entries</p>
-<p class="menuitem">This option expands all of the entries which are presently being displayed in the hotlist. Their URLs and additional usage information are made visible.</p>
+<p class="menupath" id="HotlistMenuHotlistExpandAddresses">Hotlist &gt; Expand &gt; Addresses</p>
+<p class="menuitem">This option expands all of the addresses which are presently being displayed in the hotlist. Their URLs and additional usage information are made visible.</p>
 
 <p class="menupath" id="HotlistMenuHotlistCollapse">Hotlist &gt; Collapse</p>
 <p class="menuitem">This option allows various parts of the hotlist to be hidden.</p>
@@ -581,17 +583,17 @@
 <tr><th class="menutitle" colspan="2">Collapse</th></tr>
 <tr><td><a href="#HotlistMenuHotlistCollapseAll">All</a></td><td class="menuarrow"></td></tr>
 <tr><td><a href="#HotlistMenuHotlistCollapseDirectories">Directories</a></td><td class="menuarrow"></td></tr>
-<tr><td><a href="#HotlistMenuHotlistCollapseEntries">Entries</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="#HotlistMenuHotlistCollapseAddresses">Addresses</a></td><td class="menuarrow"></td></tr>
 </table>
 
 <p class="menupath" id="HotlistMenuHotlistCollapseAll">Hotlist &gt; Collapse &gt; All</p>
-<p class="menuitem">This option closes all directories and collapses all entries in the hotlist, reducing the display to the contents of the hotlist root directory.</p>
+<p class="menuitem">This option closes all directories and collapses all addresses in the hotlist, reducing the display to the contents of the hotlist root directory.</p>
 
 <p class="menupath" id="HotlistMenuHotlistCollapseDirectories">Hotlist &gt; Collapse &gt; Directories</p>
 <p class="menuitem">This option closes all of the directories in the hotlist, hiding the directory structure.</p>
 
-<p class="menupath" id="HotlistMenuHotlistCollapseEntries">Hotlist &gt; Collapse &gt; Entries</p>
-<p class="menuitem">This option reduces all of the hotlist entries to just their name, hiding their URLs and additional usage information.</p>
+<p class="menupath" id="HotlistMenuHotlistCollapseAddresses">Hotlist &gt; Collapse &gt; Addresses</p>
+<p class="menuitem">This option reduces all of the hotlist addresses to just their name, hiding their URLs and additional usage information.</p>
 
 <h4 id="HotlistMenuSelection" class="submenu">Selection Submenu</h4>
 
@@ -606,21 +608,21 @@
 </table>
 
 <p class="menupath" id="HotlistMenuSelectionEdit">Selection &gt; Edit</p>
-<p class="menuitem">This option allows you to edit the currently selected item and is only available when either one directory or one item is selected. The names of directories can entries can be altered. Entries' URLs can also be changed.</p>
+<p class="menuitem">This option allows you to edit the currently selected item and is only available when either one directory or one item is selected. The names of directories can addresses can be altered. Addresses' URLs can also be changed.</p>
 
-<p>Entries added to the hotlist from a NetSurf browser window have a default name set. For HTML files, this is the page title.</p>
+<p>Addresses added to the hotlist from a NetSurf browser window have a default name set. For HTML files, this is the page title.</p>
 
 <p class="menupath" id="HotlistMenuSelectionLaunch">Selection &gt; Launch</p>
-<p class="menuitem">This option allows you to launch all of the selected entries in separate NetSurf browser windows. This option is also available on the hotlist management window <a href="#HotlistToolbar">toolbar</a>.</p>
+<p class="menuitem">This option allows you to launch all of the selected addresses in separate NetSurf browser windows. This option is also available on the hotlist management window <a href="#HotlistToolbar">toolbar</a>.</p>
 
 <p class="menupath" id="HotlistMenuSelectionDelete">Selection &gt; Delete</p>
 <p class="menuitem">This option deletes the current selection from the hotlist. This option is also available on the hotlist management window <a href="#HotlistToolbar">toolbar</a>.</p>
 
 <p class="menupath" id="HotlistMenuSelectionResetStatistics">Selection &gt; Reset statistics</p>
-<p class="menuitem">This option resets the usage information for all selected entries. The hotlist's last visited record and total visit counter are removed. The URL and the date the entry was added to the hotlist are left untouched.</p>
+<p class="menuitem">This option resets the usage information for all selected addresses. The hotlist's last visited record and total visit counter are removed. The URL and the date the address was added to the hotlist are left untouched.</p>
 
 <p class="menupath" id="HotlistMenuSelectAll">Select all</p>
-<p class="menuitem">This option allows you to select all the entries and directories in the hotlist.</p>
+<p class="menuitem">This option allows you to select all the addresses and directories in the hotlist.</p>
 
 <p class="menupath" id="HotlistMenuClearSelection">Clear selection</p>
 <p class="menuitem">This option allows you to deselect any selected items.</p>

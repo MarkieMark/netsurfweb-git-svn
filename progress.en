@@ -21,7 +21,7 @@
 <li><a href="#NSF">NetSurf features</a>
 </ul>
 
-<p class="updated">Last updated 4 November 2004</p>
+<p class="updated">Last updated 15 December 2004</p>
 
 <h2 id="Web">Web standards</h2>
 
@@ -61,7 +61,7 @@
 <tr class="complete"><td>JNG</td><td>Complete</td><td></td></tr>
 <tr class="complete"><td>JPEG</td><td>Complete</td><td></td></tr>
 <tr class="nearlydone"><td>MNG</td><td>Nearly done</td><td>Interactive features aren't supported.</td></tr>
-<tr class="inprogress"><td>PNG</td><td>In progress</td><td>Fetching PNGs from remote hosts can cause machine freeze on some systems.<br>Gamma correction is not correct for PNGs with alpha channels.</td></tr>
+<tr class="nearlydone"><td>PNG</td><td>Nearly done</td><td>Gamma correction is not correct for PNGs with alpha channels.</td></tr>
 <tr class="complete"><td>Sprite</td><td>Complete</td><td></td></tr>
 </table>
 
