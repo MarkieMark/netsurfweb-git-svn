@@ -36,7 +36,7 @@
 <li><a href="#Keys">Keyboard shortcuts</a></li>
 </ul>
 
-<p class="updated">Last updated 4 February 2005</p>
+<p class="updated">Last updated 8 February 2005</p>
 
 <h2 id="UsingNetSurf">Using NetSurf</h2>
 
@@ -119,6 +119,8 @@
 <h3 id="BrowserWindowURLBar">URL Bar</h3>
 
 <p>The white writable icon on the toolbar is called the URL Bar and it shows the location of the current page. Here, you can enter the address of the page you want to view next.</p>
+
+<p>Next to the URL bar is a pop-up menu button which opens a list of URLs previously typed into the URL bar. Clicking on one of the URLs opens the page.</p>
 
 <h4 id="BrowserWindowURLCompletion">URL Completion</h4>
 
