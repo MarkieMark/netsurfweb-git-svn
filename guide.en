@@ -24,7 +24,7 @@
 <li><a href="guide#conf">Configuration</a></li>
 </ul>
 
-<p class="updated">Last updated 17 May 2004</p>
+<p class="updated">Last updated 11 June 2004</p>
 
 <h2 id="using">Using NetSurf</h2>
 
@@ -322,6 +322,7 @@
 <tr><td><a href="guide#MenuHelpContents">Contents</a></td><td class="menuarrow"></td></tr>
 <tr><td><a href="guide#MenuHelpGuide">User guide</a></td><td class="menuarrow"></td></tr>
 <tr><td><a href="guide#MenuHelpInfo">User information</a></td><td class="menuarrow"></td></tr>
+<tr><td class="menusplit"><a href="guide#MenuHelpAbout">About NetSurf</a></td></tr>
 <tr><td class="menusplit"><a href="guide#MenuHelpInteractive">Interactive help</a></td></tr>
 </table>
 
@@ -333,6 +334,9 @@
 
 <p class="menupath" id="MenuHelpInfo">Help &gt; User information</p>
 <p class="menuitem">This option opens the <a href="info">user information page</a> in a new window.</p>
+
+<p class="menupath" id="MenuHelpAbout">Help &gt; About NetSurf</p>
+<p class="menuitem">This opens NetSurf's about page in a new window.</p>
 
 <p class="menupath" id="MenuHelpInteractive">Help &gt; Interactive help</p>
 <p class="menuitem">This option loads Help, if it hasn't already been loaded, to display interactive help messages.</p>
@@ -357,6 +361,8 @@
 <tr><td>Ctrl+Cursor Down</td><td>Go to bottom of page</td></tr>
 <tr><td>Cursor Up</td><td>Scroll up one line</td></tr>
 <tr><td>Ctrl+Cursor Up</td><td>Go to top of page</td></tr>
+<tr><td>Ctrl+Q</td><td>Reduce scale of view by 10%</td></tr>
+<tr><td>Ctrl+W</td><td>Increase scale of view by 10%</td></tr>
 <tr><td>F1</td><td>Open the documentation contents page in a new window</td></tr>
 <tr><td>F2</td><td>Move the caret to URL bar and clear it to &quot;www.&quot;</td></tr>
 <tr><td>Ctrl+F2</td><td>Close the window</td></tr>
