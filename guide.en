@@ -122,7 +122,7 @@
 <tr><td><a href="guide#MenuPageSaveLocation">Save location</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="guide#MenuPagePrint">Print...</a></td><td></td></tr>
 <tr><td class="menusplit"><a href="guide#MenuPageNewwindow">New window</a></td><td class="menusplit"></td></tr>
-<tr><td><a href="guide#MenuPageViewSource">View source...</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#MenuPageViewSource">View source...</a></td><td class="menuarrow"></td></tr>
 </table>
 
 <p class="menupath" id="MenuPageInfo">Page &gt; Info</p>
@@ -187,6 +187,7 @@
 <tr><td><a href="guide#MenuObjectSave">Save</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="guide#MenuObjectExport">Export</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="guide#MenuObjectSaveLocation">Save location</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td class="menusplit"><a href="guide#MenuObjectReload">Reload</a></td><td class="menusplit"></td></tr>
 </table>
 
 <p class="menupath" id="MenuObjectInfo">Object &gt; Info</p>
@@ -225,6 +226,9 @@
 <p class="menupath" id="MenuObjectSaveLocationText">Object &gt; Save location &gt; Text</p>
 <p class="menuitem">This option opens a save dialogue box, allowing the address of the current object to be saved to disc in plain text format.</p>
 
+<p class="menupath" id="MenuObjectReload">Object &gt; Reload</p>
+<p class="menuitem">This option reloads the current page and any objects that the page contains.</p>
+
 <h4 id="MenuNavigate" class="submenu">Navigate Submenu</h4>
 
 <p>The Navigate submenu contains the following options, useful for navigating the web.</p>
@@ -262,6 +266,7 @@
 <tr><td><a href="guide#MenuDisplayScale">Scale view</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="guide#MenuDisplayImages">Images</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="guide#MenuDisplayToolbars">Toolbars</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#MenuDisplayRender">Render</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td class="menusplit"><a href="guide#MenuDisplaySetDefault">Set as default</a></td></tr>
 </table>
 
@@ -320,6 +325,25 @@
 <p class="menupath" id="MenuDisplayToolbarsStatus">Display &gt; Toolbars &gt; Status bar</p>
 <p class="menuitem">This option toggles the display of the status bar at the bottom of the NetSurf window. When the status bar is turned off, the horizontal scroll bar stretches to the full width of the window.</p>
 
+<p class="menupath" id="MenuDisplayRender">Display &gt; Render</p>
+<p class="menuitem">The Render submenu allows you to control the way NetSurf draws content to the screen.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Render</th></tr>
+<tr><td><a href="guide#MenuDisplayRenderBlend">Blend text to background</a></td><td class="menuarrow"></td></tr>
+<tr><td class="menusplit"><a href="guide#MenuDisplayRenderBufferAnim">Buffer animations</a></td></tr>
+<tr><td><a href="guide#MenuDisplayRenderBufferAll">Buffer all rendering</a></td><td class="menuarrow"></td></tr>
+</table>
+
+<p class="menupath" id="MenuDisplayRenderBlend">Display &gt; Render &gt; Blend text to background</p>
+<p class="menuitem">This option improves the edges of any text that is rendered over a background image.  This facility is only available on RISC OS 3.7 or later.</p>
+
+<p class="menupath" id="MenuDisplayRenderBufferAnim">Display &gt; Render &gt; Buffer animations</p>
+<p class="menuitem">This option stops all animations from flickering.</p>
+
+<p class="menupath" id="MenuDisplayRenderBufferAll">Display &gt; Render &gt; Buffer all rendering</p>
+<p class="menuitem">This option can stop text areas from flickering and improve the display of pages that make heavy use of background images. With this option enabled, actions such as scrolling will become slightly slower.</p>
+
 <p class="menupath" id="MenuDisplaySetDefault">Display &gt; Set as default</p>
 <p class="menuitem">This option makes NetSurf use the display options you have set up for the current window as the default options.</p>
 
@@ -329,12 +353,24 @@
 
 <table class="menu">
 <tr><th class="menutitle" colspan="2">Utilities</th></tr>
-<tr><td><a href="guide#MenuUtilitiesHotlist">Hotlist</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#MenuUtilitiesHotlist">Hotlist</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="guide#MenuUtilitiesHistory">History</a></td><td class="menuarrow"></td></tr>
 <tr><td><a href="guide#MenuUtilitiesWindow">Window</a></td><td class="menuarrow">&gt;</td></tr>
 </table>
 
 <p class="menupath" id="MenuUtilitiesHotlist">Utilities &gt; Hotlist</p>
+<p class="menuitem">The Hotlist submenu allows you to manage the hotlist.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Hotlist</th></tr>
+<tr><td><a href="guide#MenuUtilitiesHotlistAdd">Add to hotlist</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#MenuUtilitiesHotlistShow">Show hotlist</a></td><td class="menuarrow"></td></tr>
+</table>
+
+<p class="menupath" id="MenuUtilitiesHotlistAdd">Utilities &gt; Hotlist &gt; Add to hotlist</p>
+<p class="menuitem">This option adds the current page to the bottom of your hotlist.</p>
+
+<p class="menupath" id="MenuUtilitiesHotlistShow">Utilities &gt; Hotlist &gt; Show hotlist</p>
 <p class="menuitem">This option opens the <a href="#hotlist">hotlist management window</a>. The same function is available on the <a href="#toolbar">toolbar</a>.</p>
 
 <p class="menupath" id="MenuUtilitiesHistory">Utilities &gt; History</p>
