@@ -21,7 +21,7 @@
 <li><a href="#NSF">NetSurf features</a>
 </ul>
 
-<p class="updated">Last updated 14 March 2005</p>
+<p class="updated">Last updated 21 March 2005</p>
 
 <h2 id="Web">Web standards</h2>
 
@@ -99,6 +99,7 @@
 <tr class="complete"><td>Scale View</td><td>Complete</td><td>Web pages and images can be scaled up and down.</td></tr>
 <tr class="notstarted"><td>Text Selection</td><td>Not started</td><td></td></tr>
 <tr class="nearlydone"><td>Themes</td><td>Nearly done</td><td>Themes are available from the <a href="http://netsurf.sourceforge.net/themes/">NetSurf themes page</a>.</td></tr>
+<tr class="complete"><td>Toolbar Customization</td><td>Complete</td><td>Toolbars can be customized to show the icons you want, in the order you want.</td></tr>
 <tr class="inprogress"><td>Unicode Font Support</td><td>In progress</td><td></td></tr>
 <tr class="complete"><td>URL Completion</td><td>Complete</td><td>When typing a URL into the URL bar, NetSurf will display suggestions for the full address.</td></tr>
 <tr class="complete"><td>View Source</td><td>Complete</td><td>Press F8 or <i>Page &gt; View source</i> on main menu.</td></tr>
