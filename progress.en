@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>NetSurf | Progress</title>
+<link rel="stylesheet" type="text/css" href="netsurf.css">
+</head>
+<body>
+<p class="banner"><a href="/"><img src="netsurf.png" alt="NetSurf"></a></p>
+
+<h1>NetSurf Progress</h1>
+
+<p>This pages has been constructed to give users an indication as to which features have been implemented and what is being worked on.  Features are split up as follows:</p>
+
+<ul>
+<li><a href="progress#web">Web standards</a>
+<li><a href="progress#CSSandHTML">Important CSS and HTML features</a>
+<li><a href="progress#ROStandards">RISC OS specific standards</a>
+<li><a href="progress#ROUI">RISC OS user interface</a>
+</ul>
+
+<h2 id="web">Web standards</h2>
+
+<table class="progress">
+<tr><th>Title</th><th>Status</th><th>Notes</th></tr>
+<tr class="nearlydone"><td>CSS 1</td><td>Nearly done</td><td>See the <a href="http://cvs.semichrome.net/netsurf/Docs/TODO-CSS?rev=HEAD&amp;content-type=text/vnd.viewcvs-markup">TODO list</a>.</td></tr>
+<tr class="inprogress"><td>CSS 2</td><td>In progress</td><td>Hardly started; very little implemented.</td></tr>
+<tr class="nearlydone"><td>HTML 4</td><td>Nearly done</td><td></td></tr>
+<tr class="notplanned"><td>JavaScript</td><td>Not planned</td><td></td></tr>
+</table>
+
+<h2 id="CSSandHTML">Important CSS and HTML features</h2>
+
+<table class="progress">
+<tr><th>Title</th><th>Status</th><th>Notes</th></tr>
+<tr class="notstarted"><td>Background Images</td><td>Not started</td><td></td></tr>
+<tr class="nearlydone"><td>Borders / Margins / Padding</td><td>Nearly done</td><td></td></tr>
+<tr class="inprogress"><td>BR tag</td><td>In progress</td><td>Not properly implemented.<br>Multiple BRs don't work.</td></tr>
+<tr class="inprogress"><td>Frames</td><td>In progress</td><td>Experimental Frames implementation is far from complete.</td></tr>
+<tr class="inprogress"><td>Lists</td><td>In progress</td><td>Lists aren't handled properly.</td></tr>
+<tr class="notstarted"><td>Vertical Alignment</td><td>Not started</td><td></td></tr>
+</table>
+
+<h2 id="ROStandards">RISC OS specific standards</h2>
+
+<table class="progress">
+<tr><th>Title</th><th>Status</th><th>Notes</th></tr>
+<tr class="complete"><td>Acorn URI Protocol</td><td>Complete</td><td></td></tr>
+<tr class="complete"><td>Ant URL Protocol</td><td>Complete</td><td></td></tr>
+<tr class="inprogress"><td>Plugin Protocol</td><td>In progress</td><td></td></tr>
+</table>
+
+<h2 id="ROUI">RISC OS user interface</h2>
+
+<table class="progress">
+<tr><th>Title</th><th>Status</th><th>Notes</th></tr>
+<tr class="notstarted"><td>Bookmarks / Favourites</td><td>Not started</td><td></td></tr>
+<tr class="notstarted"><td>Printing</td><td>Not started</td><td></td></tr>
+<tr class="notstarted"><td>Reload button</td><td>Not started</td><td></td></tr>
+<tr class="notstarted"><td>Stop button</td><td>Not started</td><td></td></tr>
+<tr class="complete"><td>View Source</td><td>Complete</td><td>Press F8</td></tr>
+</table>
+
+<p class="breadcrumbs"><a href="/">NetSurf</a> » <a href="docs">Documentation</a> » Progress</p>
+
+</body>
+</html>
