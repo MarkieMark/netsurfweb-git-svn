@@ -10,7 +10,7 @@
 <p class="banner"><a href="/"><img src="netsurf.png" alt="NetSurf"></a></p>
 <p class="languages">Deutsch · <a href="guide.en">English</a></p>
 
-<p class="headnote">Achtung ! Obwohl die NetSurf Entwicklung rasch voranschreitet, befindet sich das Gesamtprojekt noch in einer frühen Phase. Darum sind die unten beschriebenen Funktionen einem ständigen Wandel unterworfen.</p>
+<p class="headnote">Achtung ! NetSurf befindet sich in ständiger Entwicklung. Darum sind die unten beschriebenen Funktionen einem Wandel unterworfen, der ohne Vorankündigung erfolgen kann.</p>
 
 <h1>Handbuch</h1>
 
@@ -36,11 +36,11 @@
 <li><a href="#Keys">Tastaturkürzel (Shortcuts)</a></li>
 </ul>
 
-<p class="updated">aktualisiert am 15. Dezember 2004</p>
+<p class="updated">aktualisiert am 4. Februar 2005</p>
 
 <h2 id="UsingNetSurf">NetSurf starten</h2>
 
-<p><em>NetSurf</em> wird durch Doppelklick auf die !NetSurf Applikation gestartet. Es erscheint das NetSurf Symbol auf der Iconbar. Anklicken des Symboles mit Auswahl öffnet ein  <a href="#BrowserWindow">Browserfenster</a>.  Anklicken mit der Spezial Maustaste öffnet das <a href="#Hotlist">Hotlist</a> Fenster.</p>
+<p><em>NetSurf</em> wird durch Doppelklick auf die !NetSurf Applikation gestartet. Es erscheint das NetSurf Symbol auf der Iconbar. Anklicken des Symboles mit AUSWAHL öffnet ein  <a href="#BrowserWindow">Browserfenster</a>.  Anklicken mit der SPEZIAL Maustaste öffnet das <a href="#Hotlist">Hotlist</a> Fenster.</p>
 
 <h3>Das Iconbar Menü</h3>
 
@@ -80,7 +80,7 @@
 
 <p>Am oberen Rand eines Fensters werden verschiedene <a href="#BrowserWindowToolbar">Anzeigen und Leisten</a> dargestellt. Am unteren Rand nimmt der horizontale Schiebebalken nicht die gesamte Fensterbreite ein. Stattdessen wird hier eine <a href="#BrowserWindowStatusBar">Statusanzeige</a> eingeblendet. Die Fensterfläche in der Mitte ist der wichtigste Teil, hier werden die Seiteninhalte angezeigt.</p>
 
-<p>Solche Inhalte können Web Seiten oder anderes Material, z.B. Bilder, sein. Web Seiten enthalten Hyperlinks (Verweise; meist einfach 'Links' genannt), die auf einen anderen Teil der angezeigten Seite, eine neue Web Seite oder eine Datei verweisen können. Wenn ein Link auf einen in NetSurf unbekannten Dateityp zeigt, wird nach dem Anklicken ein <a href="#DownloadWindow">Download Fenster</a> geöffnet. Beim Bewegen des Mauszeigers auf einen Link, ändert der Mauspfeil seine Form und wird als 'klickende Hand' dargestellt. </p>
+<p>Solche Inhalte können Web-Seiten oder anderes Material, z.B. Bilder, sein. Web-Seiten enthalten Hyperlinks (Verweise; meist einfach 'Links' genannt), die auf einen anderen Teil der angezeigten Seite, eine neue Web-Seite oder eine Datei verweisen können. Wenn ein Link auf einen in NetSurf unbekannten Dateityp zeigt, wird nach dem Anklicken ein <a href="#DownloadWindow">Download Fenster</a> geöffnet. Beim Bewegen des Mauszeigers auf einen Link, ändert der Mauspfeil seine Form und wird als 'klickende Hand' dargestellt. </p>
 
 <h3 id="BrowserWindowToolbar">Anzeigen und Leisten</h3>
 
@@ -88,31 +88,29 @@
 
 <h3>Schaltknöpfe</h3>
 
-<p>Da sich NetSurf noch in der Entwicklung befindet, funktionieren einige dieser Knöpfe momentan nicht richtig. Der folgende Abschnitt beschreibt, was über den jeweiligen Schaltknopf ausgelöst wird, wenn seine Funktion bereits implementiert ist.</p>
+<p class="iconinfo"><strong><img src="images/back" alt="Back" title="Back Button" class="icon"></strong> Nach Anklicken wird die zuvor dargestellte Seite wieder aufgerufen. Klick mit AUSWAHL stellt diese im aktuellen Fenster dar, beim Klicken mit SPEZIAL wird ein neues Fenster verwendet. Die Seite wird dabei nicht aktualisiert.</p>
 
-<p class="iconinfo"><strong><img src="images/back" alt="Back" title="Back Button" class="icon"></strong> Nach Anklicken wird die zuvor dargestellte Seite wieder aufgerufen. Klick mit Auswahl stellt diese im aktuellen Fenster dar, beim Klicken mit Spezial wird ein neues Fenster verwendet. Die Seite wird dabei nicht aktualisiert.</p>
-
-<p class="iconinfo"><strong><img src="images/forward" class="icon" alt="Forward" title="Forward Button"></strong> Anklicken führt vorwärts in der lokalen Liste aufgerufener Seiten. Auswahl Klick öffnet die Seite im aktuellen Fenster, Spezial öffnet ein neues Fenster zur Darstellung. Die Seite wird nicht aktualisiert.</p>
+<p class="iconinfo"><strong><img src="images/forward" class="icon" alt="Forward" title="Forward Button"></strong> Anklicken führt vorwärts in der lokalen Liste aufgerufener Seiten. Klicken mit AUSWAHL öffnet die Seite dabei im aktuellen Fenster, SPEZIAL öffnet ein neues Fenster zur Darstellung. Die Seite wird nicht aktualisiert.</p>
 
 <p class="iconinfo"><strong><img src="images/history" class="icon" alt="History" title="History Button"></strong> Anklicken öffnet ein Fenster mit einer Darstellung bereits besuchter Seiten. Klick auf ein Symbolbild führt zur angewählten Seite. Weitere Informationen hierzu sind im <a href="#HistoryWindow">History</a> Abschnitt zu finden.</p>
 
 <p class="iconinfo"><strong><img src="images/home" class="icon" alt="Home" title="Home Button"></strong> Anklicken führt zur voreingestellten Homepage.</p>
 
-<p class="iconinfo"><strong><img src="images/hotlist" class="icon" alt="Hotlist" title="Hotlist Button"></strong> Anklicken mit Auswahl öffnet das Hotlist Fenster. Klicken mit Spezial fügt die aktuelle Seite als Bookmark in die Hotlist ein.</p>
+<p class="iconinfo"><strong><img src="images/hotlist" class="icon" alt="Hotlist" title="Hotlist Button"></strong> Anklicken mit AUSWAHL öffnet das Hotlist Fenster. Klicken mit SPEZIAL fügt die aktuelle Seite als Bookmark in die Hotlist ein.</p>
 
 <p class="iconinfo"><strong><img src="images/print" class="icon" alt="Print" title="Print Button"></strong> Klick auf diesen Schaltknopf öffnet den 'Drucken' Dialog.</p>
 
-<p class="iconinfo"><strong><img src="images/reload" class="icon" alt="reload" title="Reload Button"></strong> Anklicken mit Auswahl lädt die aktuelle Seite erneut und zeichnet den Fensterinhalt neu. Anklicken mit Spezial aktualisiert sowohl die Seite als auch jedes eingebettete Objekt, wie Bilder oder StyleSheets.</p>
+<p class="iconinfo"><strong><img src="images/reload" class="icon" alt="reload" title="Reload Button"></strong> Anklicken mit AUSWAHL lädt die aktuelle Seite erneut und zeichnet den Fensterinhalt neu. Anklicken mit SPEZIAL aktualisiert sowohl die Seite als auch jedes eingebettete Objekt, wie Bilder oder StyleSheets.</p>
 
 <p class="iconinfo"><strong><img src="images/save" class="icon" alt="Save" title="Save Button"></strong> Anklicken öffnet ein Fenster, aus dem heraus die aktuelle Seite abgespeichert werden kann.</p>
 
 <p class="iconinfo"><strong><img src="images/scale" class="icon" alt="Scale" title="Scale Button"></strong> Anklicken öffnet den Vergrößerungsdialog. Hier kann die Skalierung eingestellt werden. Diese betrifft Text ebenso wie Bilder.</p>
 
-<p class="iconinfo"><strong><img src="images/search" class="icon" alt="Search" title="Search Button"></strong> Anklicken öffnet das Fenster Textsuche. Damit kann eine beliebige Buchstabenfolge im Text der dargestellten Web Seite gefunden werden.</p>
+<p class="iconinfo"><strong><img src="images/search" class="icon" alt="Search" title="Search Button"></strong> Anklicken öffnet das Fenster Textsuche. Damit kann eine beliebige Buchstabenfolge im Text der dargestellten Web-Seite gefunden werden.</p>
 
 <p class="iconinfo"><strong><img src="images/stop" class="icon" alt="Stop" title="Stop Button"></strong> Anklicken stoppt den im Browserfenster laufenden Prozess.</p>
 
-<p class="iconinfo"><strong><img src="images/up" class="icon" alt="Up" title="Up Button"></strong> Anklicken ruft die im Dateipfad übergeordnete Struktur auf. Wenn die aktuelle Seite <em>http://www.domain.com/directory/page.html</em> ist, führt einfaches Klicken nach <em>http://www.domain.com/directory/</em> und ein weiterer Klick nach <em>http://www.domain.com/</em>.</p>
+<!-- <p class="iconinfo"><strong><img src="images/up" class="icon" alt="Up" title="Up Button"></strong> Anklicken ruft die im Dateipfad übergeordnete Struktur auf. Wenn die aktuelle Seite <em>http://www.domain.com/directory/page.html</em> ist, führt einfaches Klicken nach <em>http://www.domain.com/directory/</em> und ein weiterer Klick nach <em>http://www.domain.com/</em>.</p> -->
 
 <p>Schaltknöpfe, die blaß dargestellt werden, haben momentan keine Funktion. So werden zum Beispiel beim ersten Öffnen eines Browserfenster die Schaltknöpfe für Vorwärts und Zurück inaktiviert, da es in diesem Fall ja keine vorherige oder folgende Seite gibt.</p>
 
@@ -120,7 +118,11 @@
 
 <h3 id="BrowserWindowURLBar">Adressleiste</h3>
 
-<p>Die lange, weiße, beschreibbare Leiste am oberen Fensterrand ist die Adressleiste. Sie zeigt die Lokalisation (URL) der aktuellen Seite. Auch erlaubt sie die Eingabe der Adresse einer Web Seite, die als nächste angezeigt werden soll.</p>
+<p>Die lange, weiße, beschreibbare Leiste am oberen Fensterrand ist die Adressleiste. Sie zeigt die Lokalisation (URL) der aktuellen Seite. Auch erlaubt sie die Eingabe der Adresse einer Web-Seite, die als nächste angezeigt werden soll.</p>
+
+<h3 id="BrowserWindowURLCompletion">URL Vervollständigung</h3>
+
+<p>Beim Eingeben einer Adresse in die Adressleiste öffnet NetSurf ein Fenster direkt unterhalb der Leiste. Darin werden Vorschläge zur Adressvervollständigung angezeigt. Wird die einzugebende Adresse nicht mit angezeigt, kann das Fenster ignoriert werden. Wird sie aber angezeigt, kann der Eintrag durch Anklicken der richtigen Adresse mit AUSWAHL automatisch vervollständigt und die Seite geladen werden. Ein Anklicken mit SPEZIAL vervollständigt den vorzunehmenden Eintrag ohne die Seite automatisch zu laden. Die Pfeiltasten auf/ab können ebenfalls zur Anwahl der richtigen Adresse verwendet werden. Drücken der Returntaste lädt die zugehörige Seite. Mit der Taste Escape kann das Fenster geschlossen werden. Die Funktion anderer Tasten innerhalb der Adressleiste, z.B. Pfeiltasten links/rechts, bleibt unverändert erhalten.</p>
 
 <h3 id="BrowserWindowStatusBar">Statusanzeige</h3>
 
@@ -260,7 +262,7 @@
 <p class="menuitem">Speichern der Adresse des Objektes im Text Format.</p>
 
 <p class="menupath" id="BrowserWindowMenuObjectReload">Objekt &gt; erneut laden</p>
-<p class="menuitem">Lädt die aktuelle Webseite und alle enthaltenen Objekte neu.</p>
+<p class="menuitem">Lädt die aktuelle Web-Seite und alle enthaltenen Objekte neu.</p>
 
 <h4 id="BrowserWindowMenuNavigate" class="submenu">Untermenü Navigieren</h4>
 
@@ -363,7 +365,7 @@
 <p class="menuitem">Erlaubt das Zwischenspeichern aller Objekte, die von NetSurf regelmäßig nachgezeichnet werden müssen. Dies sind zum Beispiel Textbereiche, die nach Texteingaben nachgezeichnet werden, aber auch animierte Bilder. Durch das Puffern dieser Objekte wird Flackern vermieden.</p>
 
 <p class="menupath" id="BrowserWindowMenuDisplayRenderBufferAll">Anzeige &gt; Rendern &gt; Alles zwischenspeichern</p>
-<p class="menuitem">Diese Funktion puffert alles, was von NetSurf auf der aktuellen Seite dargestellt wird. Vorteilhaft ist dies bei Web-Seiten, deren Inhalt aus vielen sich überlappenden Bereichen mit unterschiedlichen Hintergrundfarben besteht. Die Seite wird dann nur einmal aufgebaut und nicht bei jeder Verschiebung in mehreren sich überlappenden Schichten neu gezeichnet. Auch die Anzeige von Web-Seiten, die massiv Hintergrundbilder einsetzen, wird beschleunigt. Standardmäßig ist die Option ausgeschaltet, da sie den Aufbau von und damit das Scrollen in 'normalen' Web-Seiten verlangsamt.</p>
+<p class="menuitem">Diese Funktion ist sehr vorteilhaft bei hochkomplexen Seiten, weil die Seite dann nur einmal aufgebaut werden muß, anstelle sie in mehreren Schichten jeweils erneut zu zeichnen. Beim Benutzen zeigt sich der Effekt insbesondere in der Verringerung des Flickerns beim teilweisen Neuaufbau einer Seite, z.B. nach dem Scrollen im Browserfenster oder bei dessen Größenveränderung. Per Voreinstellung ist die Funktion ausgeschaltet, da sie am ehesten auf schneller Hardware zügig funktioniert, beispielsweise auf einem Iyonix.</p>
 
 <p class="menupath" id="BrowserWindowMenuDisplaySetDefault">Anzeige &gt; als Standardeinstellung</p>
 <p class="menuitem">Beim Anklicken werden die im Menü Anzeige getroffenen Einstellungen als globale, für alle nachfolgend geöffnete Fenster geltende Standardwerte übernommen.</p>
@@ -416,7 +418,7 @@
 <p class="menuitem">Ist diese Funktion aktiviert, werden neu zu öffnende Fenster untereinander leicht versetzt angeordnet. Dies vereinfacht den Zugriff auf die zuerst geöffneten, wenn mehrere neue Fenster aufgerufen werden. Die Funktion ist nur verfügbar, wenn bereits eine Standardposition vom Nutzer festgelegt wurde.</p>
 
 <p class="menupath" id="BrowserWindowMenuUtilitiesWindowMaintainsize">Werkzeuge &gt; Fenster &gt; Fenstergröße beibehalten</p>
-<p class="menuitem">Ist diese Funktion aktiviert, werden neue Fenster, die aus anderen Browserfenstern heraus aufgerufen wurden (z.B. durch Anklicken eines Links mit Spezial), in gleicher Größe und an der Position des Ursprungsfensters geöffnet. Ist die Funktion inaktiv, verhält sich NetSurf hier wie alle anderen RISC OS Browser - neue Fenster werden dann an der Standardposition in Standardgröße geöffnet.</p>
+<p class="menuitem">Ist diese Funktion aktiviert, werden neue Fenster, die aus anderen Browserfenstern heraus aufgerufen wurden (z.B. durch Anklicken eines Links mit SPEZIAL), in gleicher Größe und an der Position des Ursprungsfensters geöffnet. Ist die Funktion inaktiv, verhält sich NetSurf hier wie alle anderen RISC OS Browser - neue Fenster werden dann an der Standardposition in Standardgröße geöffnet.</p>
 
 <p class="menupath" id="BrowserWindowMenuUtilitiesWindowResetdefault">Werkzeuge &gt; Fenster &gt; Fensterposition zurücksetzen</p>
 <p class="menuitem">Diese Option löscht alle vom Nutzer festgelegten Positions- und Größenvorgaben für Fenster. Sie ist nur anwählbar, wenn solche Vorgaben vorhanden sind.</p>
@@ -454,18 +456,22 @@
 
 <h2 id="FileTypes">Dateitypen</h2>
 
-<p>Wenn NetSurf eine Datei mit vom Programm nicht erkanntem Dateityp findet, wird ein <a href="#DownloadWindow">Downloadfenster</a> geöffnet. Die von NetSurf erkannten Dateitypen werden nachfolgend zusammen mit ihrer zugehörigen RISC OS Typnummer und dem jeweilgen MIME Eintrag aufgelistet.</p>
+<p>Wenn NetSurf eine Datei mit vom Programm nicht erkanntem Dateityp findet, wird ein <a href="#DownloadWindow">Downloadfenster</a> geöffnet. Dies ermöglicht das Abspeichern der Datei auf einen Datenträger. (Beachte: NetSurf ignoriert lokale Dateien unbekannten Dateityps.) Die von NetSurf erkannten Dateitypen werden nachfolgend zusammen mit ihrer zugehörigen RISC OS Typnummer und dem jeweilgen MIME Eintrag aufgelistet.</p>
 
 <table>
 <tr><th>Name</th><th>RISC OS Typ</th><th>MIME(s)</th></tr>
+<tr><td>Acorn URI</td><td>&amp;f91</td><td><abbr title="Not Applicable">N/A</abbr></td></tr>
+<tr><td>Acorn URL</td><td>&amp;b28</td><td><abbr title="Not Applicable">N/A</abbr></td></tr>
 <tr><td>CSS</td><td>&amp;f79</td><td>text/css</td></tr>
 <tr><td>Drawfile</td><td>&amp;aff</td><td>application/drawfile<br>application/x-drawfile<br>image/drawfile<br>image/x-drawfile</td></tr>
 <tr><td>Flash</td><td>&amp;188</td><td>application/x-shockwave-flash</td></tr>
 <tr><td>GIF</td><td>&amp;695</td><td>image/gif</td></tr>
 <tr><td>HTML</td><td>&amp;faf</td><td>text/html</td></tr>
+<tr><td>IEURL</td><td>&amp;1ba</td><td><abbr title="Not Applicable">N/A</abbr></td></tr>
 <tr><td>JNG</td><td>&amp;f78</td><td>image/jng<br>image/x-jng</td></tr>
 <tr><td>JPEG</td><td>&amp;c85</td><td>image/jpeg<br>image/pjpeg</td></tr>
 <tr><td>MNG</td><td>&amp;f83</td><td>image/mng<br>image/x-mng<br>video/mng<br>video/x-mng</td></tr>
+<tr><td>NetSurf Theme</td><td><abbr title="Not Applicable">N/A</abbr></td><td>application/x-netsurf-theme</td></tr>
 <tr><td>PNG</td><td>&amp;b60</td><td>image/png</td></tr>
 <tr><td>Sprite</td><td>&amp;ff9</td><td>image/x-riscos-sprite</td></tr>
 <tr><td>Text</td><td>&amp;fff</td><td>text/plain</td></tr>
@@ -513,7 +519,21 @@
 
 <h3 id="HotlistToolbar">Symbolleiste</h3>
 
-<p>Noch nicht geschrieben.</p>
+<p>Die Symbolleiste der Hotlist erlaubt den schnellen Zugriff auf häufig verwendete Funktionen. Weitere Funktionen sind über die <a href="#HotlistMenus">Menüs</a> erreichbar.</p>
+
+<h3>Symbole</h3>
+
+<p class="iconinfo"><strong><img src="images/create" alt="Create Directory" title="Create Directory Button" class="icon"></strong> Anklicken fügt ein neues Verzeichnis am Ende der Hotlist an. Der Cursor wird auf dem Namen des Verzeichnisses plaziert. Drücken von Ctrl-U löscht den Namen und erlaubt die Eingabe einer neuen Bezeichnung. Return schließt die Namenseingabe ab.</p>
+
+<p class="iconinfo"><strong><img src="images/delete" class="icon" alt="Delete Selection" title="Delete Selection Button"></strong> Anklicken löscht alle markierten Verzeichnisse und Einträge aus der Hotlist.</p>
+
+<p class="iconinfo"><strong><img src="images/expand" class="icon" alt="Expand Addresses" title="Expand Addresses Button"></strong> Anklicken mit AUSWAHL expandiert alle angezeigten Adressen und zeigt so die zusätzlichen Informationen an. Anklicken des Symboles mit SPEZIAL versteckt die Zusatzinformationen expandierter Adressen.</p>
+
+<p class="iconinfo"><strong><img src="images/launch" class="icon" alt="Launch Selection" title="Launch Selection Button"></strong> Anklicken des Symboles öffnet die Webseiten markierter Adressen in jeweils einem eigenen <a href="#BrowserWindow">Browserfenster</a>. Ist ein Verzeichnis markiert, werden alle in ihm enthaltenen Adressen behandelt, als wären sie markiert.</p>
+
+<p class="iconinfo"><strong><img src="images/open" class="icon" alt="Open Directories" title="Open Directories Button"></strong> Anklicken mit AUSWAHL öffnet alle Verzeichnisse in der Hotlist. Anklicken mit SPEZIAL schließt alle in der Hotlist geöffneten Verzeichnisse.</p>
+
+<p>Symbole die in hellem Grau dargestellt werden, zeigen an, daß die Funktion momentan nicht zur Verfügung steht.</p>
 
 <h3 id="HotlistMenus">Menüs</h3>
 

@@ -26,7 +26,7 @@
 <li><a href="#JavaScript">JavaScript</a></li>
 </ul>
 
-<p class="updated">aktualisiert am 15. Dezember 2004</p>
+<p class="updated">aktualisiert am 4. Februar 2005</p>
 
 <h2 id="GettingStarted">Einfach beginnen</h2>
 
@@ -67,7 +67,7 @@ Die Installation von &quot;NCNetSurf&quot; ist noch nicht dokumentiert.</p>
 
 <h2 id="Upgrading">NetSurf upgraden</h2>
 
-<p>Um ein Upgrade von einer älteren Version vorzunehmen, sollte NetSurf beendet und die alte Version gelöscht werden. Anschließend wird einfach die neue !NetSurf Applikation an den gewünschten Zielort kopiert. NetSurf speichert alle Einstellungen, Cookies und die Hotlist in <em>Choices:WWW.NetSurf</em>. Darum kann die alte !NetSurf Applikation gelöscht werden, ohne daß Konfigurationsdateien oder Hotlisteinträge verloren gehen.</p>
+<p>Um ein Upgrade von einer älteren Version vorzunehmen, sollte NetSurf beendet und die alte Version gelöscht werden. Anschließend wird einfach die neue !NetSurf Applikation an den gewünschten Zielort kopiert. NetSurf speichert alle Einstellungen, Cookies, die Hotlist und die Themen in <em>Choices:WWW.NetSurf</em>. Darum kann die alte !NetSurf Applikation gelöscht werden, ohne daß Konfigurationsdateien, Hotlisteinträge oder Themen verloren gehen.</p>
 
 <p>Prinzipiell ist es auch möglich die neue Version über die alte !Netsurf Applikation zu kopieren. Allerdings können dabei alte Dateien erhalten bleiben, die nicht länger benötigt werden. Diese belegen dann Platz auf dem Speichermedium, stören jedoch nicht den Betrieb von NetSurf.</p>
 
