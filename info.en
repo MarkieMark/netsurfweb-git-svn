@@ -16,6 +16,8 @@
 <li><a href="#bugs">Reporting bugs</a></li>
 </ul>
 
+<p class="updated">Last updated 29 June 2004</p>
+
 <h2 id="devel">Contacting the developers</h2>
 <p>Bug reports and questions about NetSurf can be raised in the
 following forums.</p>
@@ -38,20 +40,31 @@ tracker</a>.</p>
 developers on the Mailing List or on IRC.</p>
 
 <h2 id="bugs">Reporting bugs</h2>
-<p>We are very much open to bug reports.  Following these simple guidelines saves time for everybody:</p>
+<p>The NetSurf developers are very much open to bug reports. Please follow these simple guidelines.</p>
+
+<p>Before submitting a bug report, please:</p>
 
 <ol>
-<li>Check that the bug exhibits itself in the latest version 
+<li>check that the bug exhibits itself in the latest version 
 <a href="http://netsurf.strcprstskrzkrk.co.uk/">available for download</a> at
 the time.</li>
-<li>Try to find a reproducible way of triggering the bug.</li>
-<li>If a specific site is failing, give the full URL.</li>
-<li>If you can narrow a bug down to a minimal test-case, then that's great.
-Please provide it as it's likely to speed up a fix. (Don't worry if you
-can't.)</li>
-<li>Check the <a href="progress">progress</a> page and the
+<li>try to find a reproducible way of triggering the bug.</li>
+<li>check the <a href="progress">progress</a> page and the
 <a href="http://cvs.semichrome.net/netsurf/Docs/">TODO lists</a> to check
 that something has actually been implemented.</li>
+</ol>
+
+<p>When reporting bugs, please:</p>
+
+<ol>
+<li>state the version of NetSurf you are using.</li>
+<li>say what hardware and operating system you are using.</li>
+<li>explain clearly and concisely the precise nature of the problem. (eg. does the computer hang, does NetSurf crash or report an error or is there a layout problem on a particular site? If it is a layout problem, please explain what is wrong.)</li>
+<li>if a specific site is failing, give the full URL.</li>
+<li>list the exact steps required to reproduce the bug.</li>
+<li>if you can narrow a bug down to a minimal test-case, then that's great.
+Please provide it as it's likely to speed up a fix. (Don't worry if you
+can't.)</li>
 </ol>
 
 <p class="breadcrumbs"><a href="/">NetSurf</a> » 

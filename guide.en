@@ -9,7 +9,7 @@
 <body>
 <p class="banner"><a href="/"><img src="netsurf.png" alt="NetSurf"></a></p>
 
-<p class="headnote">NetSurf is progressing quickly and is still at a very early stage of development. As such, the features described below are subject to change without warning.</p>
+<p class="headnote">NetSurf is progressing quickly but is still at an early stage of development. As such, the features described below are subject to change without warning.</p>
 
 <h1>User Guide</h1>
 
@@ -20,11 +20,12 @@
 <li><a href="guide#menus">Menus</a></li>
 <li><a href="guide#download">Download window</a></li>
 <li><a href="guide#history">History window</a></li>
+<li><a href="guide#hotlist">Hotlist management window</a></li>
 <li><a href="guide#keys">Keyboard shortcuts</a></li>
 <li><a href="guide#conf">Configuration</a></li>
 </ul>
 
-<p class="updated">Last updated 22 June 2004</p>
+<p class="updated">Last updated 29 June 2004</p>
 
 <h2 id="using">Using NetSurf</h2>
 
@@ -32,15 +33,15 @@
 
 <p class="screenshot"><img src="images/bwin.en" title="Browser Window" alt=""></p>
 
-<p>The area at the top is called the <a href="guide#toolbar">toolbar</a>. At the bottom, you will see that the horizontal scroll bar does not cover the full width of the window. Next to the horizontal scroll bar, is the <a href="guide#status">status bar</a>. The main section in the middle of the window is the most important part, the content area.</p>
+<p>The area at the top is called the <a href="guide#toolbar">toolbar</a>. At the bottom, it can be seen that the horizontal scroll bar does not cover the full width of the window. Next to the horizontal scroll bar, is the <a href="guide#status">status bar</a>. The main section in the middle of the window is the most important part, the content area.</p>
 
-<p>The content area displays web pages and other material, such as images. Web pages contain hyperlinks (often just called 'links') which can point to another part of the page, to a different page or to any other type of file. Links pointing to types of files that NetSurf doesn't recognise will open a <a href="guide#download">download window</a>. Placing the pointer over a link changes the pointer to a 'clicking hand', to indicate that you can click on that part of the page.</p>
+<p>The content area displays web pages and other material, such as images. Web pages contain hyperlinks (often just called 'links') which can point to another part of the page, to a different page or to any other type of file. Links pointing to types of files that NetSurf doesn't recognise will open a <a href="guide#download">download window</a>. Placing the pointer over a link changes the pointer to a 'clicking hand', to indicate that the item can be clicked on.</p>
 
 <h2 id="help">Interactive Help</h2>
 
-<p>While using NetSurf, you might like to know what a button or menu item does. Instant help is available throughout the software, in the form of interactive help. This offers quick help information, in bullet point format, about the item under the pointer.</p>
+<p>Instant on-line help is available throughout the software, in the form of interactive help. This offers quick help information, in bullet point format, about the item under the pointer.</p>
 
-<p>To use interactive help you must have suitable software running. The program 'Help' is shipped with all RISC OS computers and you can run it from NetSurf's <a href="guide#MenuHelpInteractive">Help &gt; Interactive help</a> menu.</p>
+<p>To use interactive help suitable software must be running. The program 'Help' is shipped with all RISC OS computers and it can be run from NetSurf's <a href="guide#MenuHelpInteractive">Help &gt; Interactive help</a> menu item.</p>
 
 <h2 id="toolbar">The Toolbar</h2>
 
@@ -58,7 +59,7 @@
 
 <p class="iconinfo"><strong><img src="images/home" class="icon" alt="Home" title="Home Button"></strong> Clicking on this button returns to the configured home page.</p>
 
-<p class="iconinfo"><strong><img src="images/hotlist" class="icon" alt="Hotlist" title="Hotlist Button"></strong> Select clicking on this button adds the current location to the hotlist. Adjust clicking opens the bookmarks window.</p>
+<p class="iconinfo"><strong><img src="images/hotlist" class="icon" alt="Hotlist" title="Hotlist Button"></strong> Select clicking on this button adds the current location to the hotlist. Adjust clicking opens the hotlist management window.</p>
 
 <p class="iconinfo"><strong><img src="images/print" class="icon" alt="Print" title="Print Button"></strong> Clicking on this button will open the print dialogue box.</p>
 
@@ -74,7 +75,7 @@
 
 <p class="iconinfo"><strong><img src="images/up" class="icon" alt="Up" title="Up Button"></strong> Clicking on this button moves up the directory tree. For example, if you are looking at <em>http://www.domain.com/directory/page.html</em>, clicking on the up icon takes you to <em>http://www.domain.com/directory/</em> and a further click would result in a location of <em>http://www.domain.com/</em>.</p>
 
-<p>Icons that are greyed out indicate that their function is unavailable. This happens when you open a new browser window. Since the window will be displaying its first page, there would be no previous page and the back button is grayed out. Also, as this is the first page, the forward button is also grayed out.</p>
+<p>Icons that are greyed out indicate that their function is unavailable. This happens when a new browser window is first opened. Since the window will be displaying its first page, there would be no previous page and the back button is grayed out. Also, as this is the first page, the forward button is also grayed out.</p>
 
 <p><strong>URL Bar:</strong> The white writable icon on the toolbar is called the URL Bar and it shows the location of the current page. Here, you can enter the address of the page you want to view next.</p>
 
@@ -104,6 +105,7 @@
 <tr><td><a href="guide#MenuObject">Object</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="guide#MenuNavigate">Navigate</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="guide#MenuDisplay">Display</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#MenuUtilities">Utilities</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="guide#MenuHelp">Help</a></td><td class="menuarrow">&gt;</td></tr>
 </table>
 
@@ -119,7 +121,8 @@
 <tr><td><a href="guide#MenuPageExport">Export</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="guide#MenuPageSaveLocation">Save location</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="guide#MenuPagePrint">Print...</a></td><td></td></tr>
-<tr><td class="menusplit"><a href="guide#MenuPageViewSource">View source...</a></td><td class="menusplit"></td></tr>
+<tr><td class="menusplit"><a href="guide#MenuPageNewwindow">New window</a></td><td class="menusplit"></td></tr>
+<tr><td><a href="guide#MenuPageViewSource">View source...</a></td><td class="menuarrow">&gt;</td></tr>
 </table>
 
 <p class="menupath" id="MenuPageInfo">Page &gt; Info</p>
@@ -167,6 +170,9 @@
 
 <p class="menupath" id="MenuPagePrint">Page &gt; Print...</p>
 <p class="menuitem">This option opens a print dialogue box.</p>
+
+<p class="menupath" id="MenuPagePrint">Page &gt; New window</p>
+<p class="menuitem">This option opens the current page in a new window.</p>
 
 <p class="menupath" id="MenuPageViewSource">Page &gt; View source...</p>
 <p class="menuitem">This option opens the source code of the current page in a text editor window.</p>
@@ -229,6 +235,7 @@
 <tr><td><a href="guide#MenuNavigateBack">Back one page</a></td><td class="menuarrow"></td></tr>
 <tr><td><a href="guide#MenuNavigateForward">Forward one page</a></td><td class="menuarrow"></td></tr>
 <tr><td class="menusplit"><a href="guide#MenuNavigateReload">Reload this page</a></td></tr>
+<tr><td><a href="guide#MenuNavigateStop">Stop loading this page</a></td><td class="menuarrow"></td></tr>
 </table>
 
 <p class="menupath" id="MenuNavigateHome">Navigate &gt; Home page</p>
@@ -243,6 +250,9 @@
 <p class="menupath" id="MenuNavigateReload">Navigate &gt; Reload this page</p>
 <p class="menuitem"> This fetches and displays the current page again. Any copy of the page that exists in the local cache will be overwritten. The same function is available on the <a href="#toolbar">toolbar</a>.</p>
 
+<p class="menupath" id="MenuNavigateReload">Navigate &gt; Stop loading this page</p>
+<p class="menuitem"> This stops the current page from continuing to load. The same function is available on the <a href="#toolbar">toolbar</a>.</p>
+
 <h4 id="MenuDisplay" class="submenu">Display Submenu</h4>
 
 <p>The Display submenu contains the following options which affect the rendering of the current window.</p>
@@ -252,6 +262,7 @@
 <tr><td><a href="guide#MenuDisplayScale">Scale view</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="guide#MenuDisplayImages">Images</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="guide#MenuDisplayToolbars">Toolbars</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="guide#MenuDisplayWindow">Window</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td class="menusplit"><a href="guide#MenuDisplaySetDefault">Set as default</a></td></tr>
 </table>
 
@@ -286,7 +297,7 @@
 <p class="menuitem">This option allows you to toggle image smoothing. When smoothing is enabled, a tick appears to the left of the menu entry. Image smoothing uses bi-linear filtering to give an improved display of scaled images.</p>
 
 <p class="menupath" id="MenuDisplayToolbars">Display &gt; Toolbars</p>
-<p class="menuitem">The Toolbars submenu allows you to control the way NetSurf's toolbars are displayed. The options available here only affect the local browser window,</p>
+<p class="menuitem">The Toolbars submenu allows you to control the way NetSurf's toolbars are displayed. The options available here only affect the local browser window.</p>
 
 <table class="menu">
 <tr><th class="menutitle" colspan="2">Toolbars</th></tr>
@@ -312,6 +323,46 @@
 
 <p class="menupath" id="MenuDisplaySetDefault">Display &gt; Set as default</p>
 <p class="menuitem">This option makes NetSurf use the display options you have set up for the current window as the default options.</p>
+
+<h4 id="MenuUtilities" class="submenu">Utilities Submenu</h4>
+
+<p>The Utilities submenu contains access to some of NetSurf's extra features.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Utilities</th></tr>
+<tr><td><a href="guide#MenuUtilitiesHotlist">Hotlist</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#MenuUtilitiesHistory">History</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#MenuUtilitiesWindow">Window</a></td><td class="menuarrow">&gt;</td></tr>
+</table>
+
+<p class="menupath" id="MenuUtilitiesHotlist">Utilities &gt; Hotlist</p>
+<p class="menuitem">This option opens the <a href="#hotlist">hotlist management window</a>. The same function is available on the <a href="#toolbar">toolbar</a>.</p>
+
+<p class="menupath" id="MenuUtilitiesHistory">Utilities &gt; History</p>
+<p class="menuitem">This option opens the <a href="#history">local history window</a>. The same function is available on the <a href="#toolbar">toolbar</a>.</p>
+
+<p class="menupath" id="MenuUtilitiesWindow">Utilities &gt; Window</p>
+<p class="menuitem">The Window submenu allows you to control the size and positioning of new windows.</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Window</th></tr>
+<tr><td><a href="guide#MenuUtilitiesWindowSetdefault">Set as default position</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#MenuUtilitiesWindowStagger">Stagger window position</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="guide#MenuUtilitiesWindowMaintainsize">Maintain window size</a></td><td class="menuarrow"></td></tr>
+<tr><td class="menusplit"><a href="guide#MenuUtilitiesWindowResetdefault">Reset default position</a></td></tr>
+</table>
+
+<p class="menupath" id="MenuUtilitiesWindowSetdefault">Utilities &gt; Window &gt; Set as default position</p>
+<p class="menuitem">This option sets the position of the current window to be the default position for new windows.</p>
+
+<p class="menupath" id="MenuUtilitiesWindowStagger">Utilities &gt; Window &gt; Stagger window position</p>
+<p class="menuitem">This option toggles staggered window opening positions for new windows. When turned on, this option means that new windows will open with a small offset from the position of the previously opened window. This option is only available when a user defined default window position has been set.</p>
+
+<p class="menupath" id="MenuUtilitiesWindowMaintainsize">Utilities &gt; Window &gt; Maintain window size</p>
+<p class="menuitem">This option toggles the maintain window size feature. When the feature is turned off, NetSurf behaves in the same manner as other RISC OS browsers - newly opened windows all open at the same size in the default position. With this feature enabled, browser windows opened from other browser windows (eg. by adjust clicking on a link), will inherit the size of the first window and open above the first window, rather than at the default position.</p>
+
+<p class="menupath" id="MenuUtilitiesWindowResetdefault">Utilities &gt; Window &gt; Reset default position</p>
+<p class="menuitem">This option removes any user defined default window position. The option is only available when a user defined default window position has been set.</p>
 
 <h4 id="MenuHelp" class="submenu">Help Submenu</h4>
 
@@ -343,9 +394,21 @@
 
 <h2 id="download">Download Window</h2>
 
-<p>Not written yet.</p>
+<p>Whenever you follow a link to a file that NetSurf doesn't know how to handle, NetSurf opens the download window. This allows you to save a local copy of the file. The download window is shown below.</p>
+<p class="screenshot"><img src="images/dwnld.en" title="Download Window" alt=""></p>
+<p>As soon as the download window opens, NetSurf starts downloading the file to your Scrap directory. At any time, either as the file downloads or after it has finished, it is possible drag the file icon at the top of the window to the directory where you wish to keep the file. This action causes the file to be moved to your desired location from Scrap and if the download is incomplete, the remainder of the file will also go to the new location.</p>
+
+<p>The Source field indicates the location of the file being downloaded.</p>
+
+<p>Initially, the Destination field allows the local filename of the file being downloaded to be set. Once the local destination of the file has been set, by dragging the icon to a filer window, the local path is shown here. Clicking on it will open the associated directory.</p>
+
+<p>The bottom part of the download window displays information about the download's progress. On the left, the amount already downloaded and the total size are displayed. In the middle, the download speed is indicated and that the right, and estimated time remaining is shown. A beige progress bar indicates the download's progress visually.</p>
 
 <h2 id="history">History Window</h2>
+
+<p>Not written yet.</p>
+
+<h2 id="hotlist">Hotlist Management Window</h2>
 
 <p>Not written yet.</p>
 
@@ -353,27 +416,48 @@
 
 <p>NetSurf supports keyboard shortcuts, which allow quick access to features and make NetSurf easier to use. The supported keypresses and corresponding functions are listed below.</p>
 
+<h3>Content</h3>
+
+<table>
+<tr><th>Shortcut</th><th>Function</th></tr>
+<tr><td>Ctrl+N</td><td>Open the current page in a new window</td></tr>
+<tr><td>F3</td><td>Save the page source</td></tr>
+<tr><td>Ctrl+F3</td><td>Save the page as text</td></tr>
+<tr><td>Shift+F3</td><td>Full save of the web page, including images etc</td></tr>
+<tr><td>Ctrl+Shift+F3</td><td>Save the page as a Drawfile</td></tr>
+<tr><td>F8</td><td>View the page source code in a text editor</td></tr>
+</table>
+
+<h3>Display</h3>
+
 <table>
 <tr><th>Shortcut</th><th>Function</th></tr>
 <tr><td>Page Down</td><td>Scroll down by one page</td></tr>
 <tr><td>Page Up</td><td>Scroll up by one page</td></tr>
 <tr><td>Cursor Down</td><td>Scroll down one line</td></tr>
-<tr><td>Ctrl+Cursor Down</td><td>Go to bottom of page</td></tr>
+<tr><td>Ctrl+Cursor Down</td><td>Go to the bottom of the page</td></tr>
 <tr><td>Cursor Up</td><td>Scroll up one line</td></tr>
-<tr><td>Ctrl+Cursor Up</td><td>Go to top of page</td></tr>
+<tr><td>Ctrl+Cursor Up</td><td>Go to the top of the page</td></tr>
 <tr><td>Ctrl+Q</td><td>Reduce scale of view by 10%</td></tr>
-<tr><td>Ctrl+R</td><td>Reload the current page.</td></tr>
 <tr><td>Ctrl+W</td><td>Increase scale of view by 10%</td></tr>
-<tr><td>Esc</td><td>Stop current page loading.</td></tr>
-<tr><td>F1</td><td>Open the documentation contents page in a new window</td></tr>
-<tr><td>F2</td><td>Move caret to URL bar and clear it to &quot;www.&quot;</td></tr>
-<tr><td>Ctrl+F2</td><td>Close the window</td></tr>
-<tr><td>F3</td><td>Save page source</td></tr>
-<tr><td>Ctrl+F3</td><td>Save page as text</td></tr>
-<tr><td>Shift+F3</td><td>Full save of the web page, including images etc</td></tr>
-<tr><td>Ctrl+Shift+F3</td><td>Save page as Drawfile</td></tr>
-<tr><td>F8</td><td>View webpage source</td></tr>
 <tr><td>F11</td><td>View box outlines. This may be useful if you are creating your own webpage. Cyan marks the content's edge, magenta marks the padding's edge and yellow marks the margin's edge.</td></tr>
+</table>
+
+<h3>Navigation</h3>
+
+<table>
+<tr><th>Shortcut</th><th>Function</th></tr>
+<tr><td>Ctrl+R</td><td>Reload the current page.</td></tr>
+<tr><td>Esc</td><td>Stop the current page loading.</td></tr>
+</table>
+
+<h3>General</h3>
+
+<table>
+<tr><td>F1</td><td>Open the <a href="docs">documentation contents page</a> in a new window</td></tr>
+<tr><td>F2</td><td>Move the caret to URL bar and clear it to &quot;www.&quot;</td></tr>
+<tr><td>F6</td><td>Open the hotlist management window</td></tr>
+<tr><td>Ctrl+F2</td><td>Close the window</td></tr>
 </table>
 
 <h2 id="conf">Configuring NetSurf</h2>
