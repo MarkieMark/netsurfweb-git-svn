@@ -2,15 +2,15 @@
         "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
-<title>NetSurf | Test-Versionen</title>
+<title>NetSurf | Testversionen</title>
 <link rel="stylesheet" type="text/css" href="/netsurf.css">
 </head>
 
 <body>
 <p class="banner"><a href="/"><img src="/netsurf.png" alt="NetSurf"></a></p>
-<p class="languages">Deutsch · <a href="index.en">English</a> · <a href="index.fr">Français</a></p>
+<p class="languages">Deutsch · <a href="index.en">English</a></p>
 
-<h1>NetSurf Test-Versionen</h1>
+<h1>NetSurf Testversionen</h1>
 
 <p>Diese Dateien werden automatisch aus dem CVS Quellcode erzeugt.
 <strong>Sie sind als instabil anzusehen und können jederzeit zum Absturz des Computers führen.</strong></p>
@@ -19,7 +19,7 @@
 <tr><th><a href="dl/netsurf.zip"><img src="netsurf.png" alt=""><br>NetSurf</a></th>
 <td>SIZE_NETSURF</td>
 <td>DATE_NETSURF</td>
-<td>NetSurf Browser für RISC OS, Vollversion.
+<td>NetSurf Browser für RISC OS, die Vollversion.
 <strong>Empfohlen für die meisten Nutzer.</strong></td></tr>
 
 <tr><th><a href="dl/unetsurf.zip"><img src="unetsurf.png" alt=""><br>Small NetSurf</a></th>
@@ -35,14 +35,14 @@
 <tr><th><a href="dl/nstheme.zip"><img src="nstheme.png" alt=""><br>NSTheme</a></th>
 <td>SIZE_NSTHEME</td>
 <td>DATE_NSTHEME</td>
-<td>Zum Erstellen von Themen für NetSurf. Wird nur von Designern neuer Themen benötigt.</td></tr>
+<td>Zum Erstellen von Themen für NetSurf. Wird nur von Designern neuer Themen benötigt.</tr>
 </table>
 
 <p>Eine <a href="http://www.riscpkg.org/">RiscPkg</a> Paketversion von NetSurf ist verfügbar. Um sie zu verwenden, muß die Zeile <code>pkg http://netsurf.sourceforge.net/builds/packages</code> in die Datei <code>!RiscPkg.Resources.Sources</code> eingefügt werden. Näheres dazu steht in der RiscPkg Dokumentation.</p>
 
 <p><a href="netsurf.log">Logfile des letzten Builderlaufes</a> (nur für Entwickler von Interesse).</p>
 
-<h2>Zusätzlich wird Folgendes benötigt:</h2>
+<h2>Zusätzlich wird benötigt:</h2>
 
 <ul>
 <li>WindowManager 3.80 (oder höher). Ist ab RISC OS 4 Betriebssystembestandteil, für Systeme mit RISC OS 3 sollte die <a href="http://acorn.riscos.com/riscos/releases/UniBoot/">Universal Boot Sequence</a> installiert werden.</li>
@@ -51,7 +51,7 @@
 <li><a href="http://www.tinct.net/tinct.asp">Tinct</a>.</li>
 </ul>
 
-<p><strong>Optional:</strong> install <a href="http://moose.mine.nu:6888/iconv_latest.zip">iconv</a> to get improved character encoding support.</p>
+<p><strong>Optional:</strong> Installieren von <a href="http://moose.mine.nu:6888/iconv_latest.zip">iconv</a> ermöglicht verbesserte Unterstützung von Zeichencodierungen.</p>
 
 <!-- <p><strong>Optional:</strong> download and install the <a href="nsfonts.zip">fonts (360k)</a> to get improved font-family and font-variant support.</p> -->
 
