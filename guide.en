@@ -86,7 +86,7 @@
 
 <p class="iconinfo"><strong><img src="images/scale" class="icon" alt="Scale" title="Scale Button"></strong> Clicking on this button will open the scale view window. It allows you to scale documents, affecting both text and pictures.</p>
 
-<p class="iconinfo"><strong><img src="images/search" class="icon" alt="Search" title="Search Button"></strong> Clicking on this button opens the text search window. It allows you to search for a string of text within a document.</p>
+<p class="iconinfo"><strong><img src="images/search" class="icon" alt="Search" title="Search Button"></strong> Clicking on this button opens the find text window. It allows you to search for a string of text within a document.</p>
 
 <p class="iconinfo"><strong><img src="images/stop" class="icon" alt="Stop" title="Stop Button"></strong> Clicking on this button stops whatever process the window is doing.</p>
 

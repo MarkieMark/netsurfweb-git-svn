@@ -82,6 +82,7 @@
 <tr class="complete"><td>Dithering</td><td>Complete</td><td>Gives improved rendering in sub true colour screen modes.</td></tr>
 <tr class="inprogress"><td>Documentation</td><td>In progress</td><td></td></tr>
 <tr class="nearlydone"><td>Drawfile Export</td><td>Nearly done</td><td>Embedded drawfiles aren't exported when saving page as Draw.</td></tr>
+<tr class="complete"><td>Find Text</td><td>Complete</td><td>Press F4</td></tr>
 <tr class="nearlydone"><td>History Tree</td><td>Nearly done</td><td></td></tr>
 <tr class="nearlydone"><td>Hotlist</td><td>Nearly done</td><td></td></tr>
 <tr class="inprogress"><td>Interactive Help</td><td>In progress</td><td></td></tr>
@@ -94,7 +95,6 @@
 <tr class="complete"><td>Save Location</td><td>Complete</td><td>Save the location of the current page / object in Acorn URI, Ant URL or plain text formats.</td></tr>
 <tr class="inprogress"><td>Save as Text</td><td>In progress</td><td>Some issues with spacing out of text.</td></tr>
 <tr class="nearlydone"><td>Scale View</td><td>Nearly done</td><td>Images don't get scaled unless embedded in HTML pages.</td></tr>
-<tr class="complete"><td>Search Text</td><td>Complete</td><td>Press F4</td></tr>
 <tr class="complete"><td>Stop Fetch</td><td>Complete</td><td></td></tr>
 <tr class="notstarted"><td>Text Selection</td><td>Not started</td><td></td></tr>
 <tr class="complete"><td>View Source</td><td>Complete</td><td>Press F8 or <i>Page &gt; View source</i> on main menu.</td></tr>
