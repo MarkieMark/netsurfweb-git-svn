@@ -77,7 +77,7 @@
 <p>La liste de diffusion <a href="http://lists.sourceforge.net/lists/listinfo/netsurf-develop">netsurf-develop</a> permet de discuter de NetSurf. Si le développement de NetSurf vous intéresse, abonnez-vous à cette liste SVP. Notez bien que tout message posté sur la liste de diffusion est lu et pris en compte par l'équipe de développement, même si nous ne répondons pas.</p>
 
 <h3>Canal IRC</h3>
-<p>La canal IRC #netsurf-develop sur le réseau IRCnet est utilisé pour discuter du développement de NetSurf.</p>
+<p>La canal IRC #netsurf sur le réseau <a href="http://freenode.net/">Freenode</a> est utilisé pour discuter du développement de NetSurf.</p>
 
 <h3>Traqueur de bogues</h3>
 <p>Envoyez tout signalement de bogue au <a href="http://sourceforge.net/tracker/?group_id=51719&amp;atid=464312">traqueur de bogues</a>.</p>
