@@ -218,7 +218,7 @@
 <p class="menupath" id="MenuObjectSaveLocationAnt">Object &gt; Save location &gt; Ant URL</p>
 <p class="menuitem">This option opens a save dialogue box, allowing the address of the current object to be saved to disc in Ant URL format.</p>
 
-<p class="menupath" id="ObjectSaveLocationText">Object &gt; Save location &gt; Text</p>
+<p class="menupath" id="MenuObjectSaveLocationText">Object &gt; Save location &gt; Text</p>
 <p class="menuitem">This option opens a save dialogue box, allowing the address of the current object to be saved to disc in plain text format.</p>
 
 <h4 id="MenuNavigate" class="submenu">Navigate Submenu</h4>
