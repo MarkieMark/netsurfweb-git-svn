@@ -1,14 +1,17 @@
 html, body { margin: 0; padding: 0; }
-h1 { margin: 0 0 5mm 0; padding: 0; background-color: #94adff;
-	border-bottom: medium solid black;
-	color: black; text-align: left; }
-h1 img { vertical-align: middle; }
-h1, h2, h3 { font-family: sans-serif; }
-h2, h3, p, dl { margin: 5mm; }
-h2, .thanks { padding-top: 5mm; border-top: thin solid black; }
-.screenshot { text-align: center; }
+h1, h2, h3, .breadcrumbs { font-family: sans-serif; }
+h1, h2, h3, p, dl, table { margin: 5mm; }
+h2, .breadcrumbs, .thanks { padding-top: 5mm; border-top: thin solid black; }
 img { border: none; }
 div { display: table-cell; }
-.links { border-left: thin solid black; }
 dd { margin-bottom: 0.5em; }
+.banner { margin: 0 0 5mm 0; padding: 0; border-bottom: medium solid black;
+	background-color: #94adff; color: black;
+	text-align: left; }
+.banner img { vertical-align: middle; }
+.screenshot { text-align: center; font-size: small; }
+.links { border-left: thin solid black; }
 .thanks img { vertical-align: middle; }
+.footer { font-size: small; }
+.icon { float: left; padding: 1mm; }
+
