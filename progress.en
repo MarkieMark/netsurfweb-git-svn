@@ -20,7 +20,7 @@
 <li><a href="progress#NSF">NetSurf features</a>
 </ul>
 
-<p class="updated">Last updated 2 June 2004</p>
+<p class="updated">Last updated 10 June 2004</p>
 
 <h2 id="web">Web standards</h2>
 
@@ -40,13 +40,14 @@
 
 <table class="progress">
 <tr><th>Title</th><th>Status</th><th>Notes</th></tr>
-<tr class="notstarted"><td>Background Images</td><td>Not started</td><td></td></tr>
+<tr class="inprogress"><td>Background Images</td><td>In progress</td><td>Some redraw issues.<br>Background-attachment and background-position need more work.</td></tr>
 <tr class="nearlydone"><td>Borders / Margins / Padding</td><td>Nearly done</td><td></td></tr>
 <tr class="nearlydone"><td>BR Tag</td><td>Nearly done</td><td>Clear is not implemented.</td></tr>
 <tr class="nearlydone"><td>Forms</td><td>Nearly done</td><td>Doesn't work fully with Scale View.<br>Textarea needs much improvement.</td></tr>
-<tr class="juststarted"><td>Frames</td><td>Just started</td><td>Experimental Frames implementation is far from complete.</td></tr>
+<tr class="juststarted"><td>Frames</td><td>Just started</td><td>Experimental frames implementation is far from complete.</td></tr>
 <tr class="complete"><td>Image Maps</td><td>Complete</td><td></td></tr>
 <tr class="juststarted"><td>Lists</td><td>Just started</td><td>Lists aren't handled properly.</td></tr>
+<tr class="notstarted"><td>Position (CSS2 attribute)</td><td>Not started</td><td></td></tr>
 <tr class="nearlydone"><td>Tables</td><td>Nearly done</td><td>Cellpadding, cellspacing and table borders not implemented.<br>Extra space is divided equally among columns instead of in proportion with content width.</td></tr>
 <tr class="notstarted"><td>Vertical Alignment</td><td>Not started</td><td></td></tr>
 </table>
