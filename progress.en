@@ -21,7 +21,7 @@
 <li><a href="progress#NSF">NetSurf features</a>
 </ul>
 
-<p class="updated">Last updated 12 April 2004</p>
+<p class="updated">Last updated 18 April 2004</p>
 
 <h2 id="web">Web standards</h2>
 
@@ -30,7 +30,7 @@
 <tr class="inprogress"><td>Cookies</td><td>In progress</td><td>Don't get expired.</td></tr>
 <tr class="nearlydone"><td>CSS 1</td><td>Nearly done</td><td>See the <a href="http://cvs.semichrome.net/netsurf/Docs/TODO-CSS?rev=HEAD&amp;content-type=text/vnd.viewcvs-markup">TODO list</a>.</td></tr>
 <tr class="inprogress"><td>CSS 2</td><td>In progress</td><td></td></tr>
-<tr class="nearlydone"><td>HTML 4</td><td>Nearly done</td><td></td></tr>
+<tr class="nearlydone"><td>HTML 4</td><td>Nearly done</td><td>See the <a href="http://cvs.semichrome.net/netsurf/Docs/TODO-HTML?rev=HEAD&content-type=text/vnd.viewcvs-markup">TODO list</a>.</td></tr>
 <tr class="complete"><td>HTTP 1.1</td><td>Complete</td><td></td></tr>
 <tr class="inprogress"><td>HTTP Authentication</td><td>In progress</td><td></td></tr>
 <tr class="nearlydone"><td>HTTPS</td><td>Nearly done</td><td>Doesn't handle invalid certificates well.</td></tr>
@@ -81,6 +81,7 @@
 <tr class="inprogress"><td>Configuration</td><td>In progress</td><td></td></tr>
 <tr class="notstarted"><td>Disc Cache</td><td>Not started</td><td></td></tr>
 <tr class="complete"><td>Dithering</td><td>Complete</td><td>Dithering to give improved rendering in sub true colour screen modes.</td></tr>
+<tr class="inprogress"><td>Documentation</td><td>In progress</td><td></td></tr>
 <tr class="nearlydone"><td>Drawfile Export</td><td>Nearly done</td><td>Embedded drawfiles aren't exported when saving page as Draw.</td></tr>
 <tr class="nearlydone"><td>History Tree</td><td>Nearly done</td><td></td></tr>
 <tr class="notstarted"><td>Interactive Help</td><td>Not started</td><td></td></tr>

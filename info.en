@@ -4,6 +4,7 @@
 <head>
 <title>NetSurf | User Information</title>
 <link rel="stylesheet" type="text/css" href="netsurf.css">
+<META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 </head>
 
 <body>
@@ -13,28 +14,46 @@
 <h1>User Information</h1>
 
 <ul><li><a href="#devel">Contacting the developers</a></li>
+<li><a href="#bugs">Reporting bugs</a></li>
 </ul>
 
-<h2 id="devel">Contacting the Developers</h2>
+<h2 id="devel">Contacting the developers</h2>
 <p>Bug reports and questions about NetSurf can be raised in the
 following forums.</p>
 
-<h3>Mailing List</h3>
+<h3>Mailing list</h3>
 <p>The <a href="http://lists.sourceforge.net/lists/listinfo/netsurf-develop">netsurf-develop</a>
 mailing list is for discussion of NetSurf. If you are interested in NetSurf's
 development, please subscribe to this list.</p>
 
-<h3>IRC Channel</h3>
+<h3>IRC channel</h3>
 <p>The #netsurf-develop IRC channel on the IRCNet network is also for
 discussion of NetSurf.</p>
 
-<h3>Bug Tracker</h3>
+<h3>Bug tracker</h3>
 <p>Please submit any bugs to the
 <a href="http://sourceforge.net/tracker/?group_id=51719&amp;atid=464312">bug
 tracker</a>.</p>
 
 <p>If you want to contribute to the NetSurf project, please contact the
 developers on the Mailing List or on IRC.</p>
+
+<h2 id="bugs">Reporting bugs</h2>
+<p>We are very much open to bug reports.  Following these simple guidelines saves time for everybody:</p>
+
+<ol>
+<li>Check that the bug exhibits itself in the latest version 
+<a href="http://netsurf.strcprstskrzkrk.co.uk/">available for download</a> at
+the time.</li>
+<li>Try to find a reproducible way of triggering the bug.</li>
+<li>If a specific site is failing, give the full URL.</li>
+<li>If you can narrow a bug down to a minimal test-case, then that's great.
+Please provide it as it's likely to speed up a fix. (Don't worry if you
+can't.)</li>
+<li>Check the <a href="progress">progress</a> page and the
+<a href="http://cvs.semichrome.net/netsurf/Docs/">TODO lists</a> to check
+that something has actually been implemented.</li>
+</ol>
 
 <p class="breadcrumbs"><a href="/">NetSurf</a> » 
 <a href="docs">Documentation</a> » User Information</p>
