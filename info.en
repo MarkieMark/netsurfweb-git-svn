@@ -15,8 +15,8 @@
 <ul>
 <li><a href="info#GettingStarted">Getting started</a>
 <ul>
-<li><a href="info#GettingStartedRequirements">Requirements</a></li>
 <li><a href="info#GettingStartedInstallation">Installation</a></li>
+<li><a href="info#GettingStartedRequirements">Requirements</a></li>
 </ul></li>
 <li><a href="info#Upgrading">Upgrading NetSurf</a></li>
 <li><a href="info#Devel">Contacting the developers</a></li>
@@ -29,24 +29,28 @@
 
 <h2 id="GettingStarted">Getting started</h2>
 
+<h3 id="GettingStartedInstallation">Installation</h3>
+
+<p>NetSurf requires RISC OS 3 or later and builds are available from the project's <a href="http://netsurf.sourceforge.net">website</a>. There are three builds available. For most users, the &quot;NetSurf&quot; build is recommended. The &quot;NetSurf small build&quot; lacks some features of the main build and is intended for systems with little memory. The &quot;NCNetSurf&quot; build is intended only for users of NetComputers (NCs).</p>
+
+<p>To install the &quot;NetSurf&quot; or Small &quot;NetSurf&quot; builds, simply drag the !NetSurf application directory out of the archive, to your desired location and run it from there. &quot;NCNetSurf&quot; installation is not yet documented.</p>
+
 <h3 id="GettingStartedRequirements">Requirements</h3>
 
-<p>In order to run, NetSurf requires the following to be present on your system.</p>
+<p>When NetSurf is run, it will look for all the resources it needs to function correctly and if anything is not found, it displays an error message, indicating the resource it could not locate on your system. If such a message appears, NetSurf is likely to be requesting one of the following resources.</p>
 
 <dl>
 <dt><a href="http://sudden.recoil.org/others/">Acorn URI</a></dt>
-<dd></dd>
+<dd>The Acorn URI module is used to pass URIs (of which URLs are an example) back and forth between different applications.</dd>
 <dt><a href="http://www.chocky.org/unix/usage.html">SharedUnixLibrary</a></dt>
 <dd>This is a support module for programs compiled using UnixLib.</dd>
 <dt><a href="http://www.tinct.net/">Tinct</a></dt>
 <dd>Tinct is used for image plotting. It provides support for plotting sprites with alpha channels.</dd>
-<dt>Universal Boot Sequence</dt>
-<dd></dd>
+<dt>Window Manager 3.80 or later</dt>
+<dd>NetSurf uses the Nested Wimp, which is part of the Window Manager. This comes with RISC OS 4 or later, RISC OS 3 users should install the <a href="http://acorn.riscos.com/riscos/releases/UniBoot/">Universal Boot Sequence</a></dd>
 </dl>
 
-<h3 id="GettingStartedInstallation">Installation</h3>
-
-<p>Not written yet.</p>
+<p>If NetSurf starts without a problem, there is no need to upgrade any resources on your system.</p>
 
 <h2 id="Upgrading">Upgrading</h2>
 
@@ -75,7 +79,7 @@
 
 <ol>
 <li>check that the bug exhibits itself in the latest version <a href="http://netsurf.strcprstskrzkrk.co.uk/">available for download</a> at the time.</li>
-<li>try to find a reproducable way of triggering the bug.</li>
+<li>try to find a reproducible way of triggering the bug.</li>
 <li>check the <a href="progress">progress</a> page and the <a href="http://cvs.semichrome.net/netsurf/Docs/">TODO lists</a> to check that something has actually been implemented.</li>
 </ol>
 

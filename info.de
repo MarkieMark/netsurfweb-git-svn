@@ -15,8 +15,8 @@
 <ul>
 <li><a href="info#GettingStarted">Einfach beginnen</a>
 <ul>
-<li><a href="info#GettingStartedRequirements">Systemvoraussetzungen</a></li>
 <li><a href="info#GettingStartedInstallation">Installation</a></li>
+<li><a href="info#GettingStartedRequirements">Systemvoraussetzungen</a></li>
 </ul></li>
 <li><a href="info#Upgrading">NetSurf upgraden</a></li>
 <li><a href="info#Devel">Entwickler kontaktieren</a></li>
@@ -29,11 +29,11 @@
 
 <h2 id="GettingStarted">Einfach beginnen</h2>
 
-<h3 id="GettingStartedRequirements">Systemvoraussetzungen</h3>
+<h3 id="GettingStartedInstallation">Installation</h3>
 
 <p>Noch nicht geschrieben.</p>
 
-<h3 id="GettingStartedInstallation">Installation</h3>
+<h3 id="GettingStartedRequirements">Systemvoraussetzungen</h3>
 
 <p>Noch nicht geschrieben.</p>
 

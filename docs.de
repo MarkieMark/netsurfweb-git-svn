@@ -19,8 +19,8 @@
 <ul>
 <li><a href="info#GettingStarted">Einfach beginnen</a>
 <ul>
-<li><a href="info#GettingStartedRequirements">Systemvoraussetzungen</a></li>
 <li><a href="info#GettingStartedInstallation">Installation</a></li>
+<li><a href="info#GettingStartedRequirements">Systemvoraussetzungen</a></li>
 </ul></li>
 <li><a href="info#Upgrading">NetSurf upgraden</a></li>
 <li><a href="info#Devel">Entwickler kontaktieren</a></li>

@@ -19,8 +19,8 @@
 <ul>
 <li><a href="info#GettingStarted">Getting started</a>
 <ul>
-<li><a href="info#GettingStartedRequirements">Requirements</a></li>
 <li><a href="info#GettingStartedInstallation">Installation</a></li>
+<li><a href="info#GettingStartedRequirements">Requirements</a></li>
 </ul></li>
 <li><a href="info#Upgrading">Upgrading NetSurf</a></li>
 <li><a href="info#Devel">Contacting the developers</a></li>
