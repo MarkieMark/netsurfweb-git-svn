@@ -2,4 +2,6 @@ Options MultiViews
 AddDefaultCharset on
 AddCharset iso-8859-1 .css
 DirectoryIndex index
+AddType text/html .en
+AddType text/html .fr
 
