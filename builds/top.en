@@ -15,8 +15,12 @@
 <p>These archives are built automatically from CVS.
 <strong>They are likely to be unstable and may crash your machine.</strong></p>
 
+<p id="newtonetsurf"><strong>New to NetSurf?</strong> Get
+<span class="highlight">NetSurf</span> from this section, and the
+<span class="highlight">four required items below</span>.</p>
+
 <table class="download">
-<tr><th><a href="dl/netsurf.zip"><img src="netsurf.png" alt=""><br>NetSurf</a></th>
+<tr><th><a href="dl/netsurf.zip" class="highlight"><img src="netsurf.png" alt=""><br>NetSurf</a></th>
 <td>SIZE_NETSURF</td>
 <td>DATE_NETSURF</td>
 <td>NetSurf browser for RISC OS, full version.
@@ -45,10 +49,13 @@
 <h2>You will also require the following to use these builds:</h2>
 
 <ul>
-<li>WindowManager 3.80 or later. This comes with RISC OS 4 or later, RISC OS 3 users should install the <a href="http://acorn.riscos.com/riscos/releases/UniBoot/">Universal Boot Sequence</a>.</li>
-<li><a href="http://www.riscos.info/unix/usage.html">SharedUnixLibrary</a>.</li>
-<li><a href="http://sudden.recoil.org/others/">AcornURI</a>.</li>
-<li><a href="http://www.tinct.net/tinct.asp">Tinct</a>.</li>
+<li>WindowManager 3.80 or later. This comes with RISC OS 4 or later, RISC OS 3
+users should install the <a href="http://acorn.riscos.com/riscos/releases/UniBoot/" class="highlight">Universal Boot Sequence</a>.</li>
+<li><a href="http://www.riscos.info/unix/usage.html"
+class="highlight">SharedUnixLibrary</a>.</li>
+<li><a href="http://sudden.recoil.org/others/"
+class="highlight">AcornURI</a>.</li>
+<li><a href="http://www.tinct.net/tinct.asp" class="highlight">Tinct</a>.</li>
 </ul>
 
 <p><strong>Optional:</strong> install <a href="http://moose.mine.nu:6888/iconv_latest.zip">iconv</a> to get improved character encoding support.</p>
