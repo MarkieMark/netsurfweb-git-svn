@@ -14,15 +14,13 @@
 
 <ul><li><a href="#devel">Contacting the developers</a></li>
 <li><a href="#features">Current features &amp; limitations</a></li>
-<li><a href="#known">Known bugs</a></li>
 </ul>
 
 <h2 id="devel">Contacting the Developers</h2>
-<p>If you want to contribute to the NetSurf project, please see the
-<a href="dev">Developer Information</a>. Before submitting a bug report,
-please check that you have the latest version and check to see if the bug has
-<a href="#known">already been discovered</a>. Bug reports and questions about
-NetSurf can be raised in the following forms.</p>
+<p>Before submitting a bug report, please check that you have the latest
+version and check to see if the bug has <a href="#known">already been
+discovered</a>. Bug reports and questions about NetSurf can be raised in the
+following forums.</p>
 
 <h3>Mailing List</h3>
 <p>The <a href="http://lists.sourceforge.net/lists/listinfo/netsurf-develop">netsurf-develop</a>
@@ -38,6 +36,9 @@ discussion of NetSurf.</p>
 <a href="http://sourceforge.net/tracker/?group_id=51719&amp;atid=464312">bug
 tracker</a>.</p>
 
+<p>If you want to contribute to the NetSurf project, please contact the
+developers on the Mailing List or on IRC.</p>
+
 <h2 id="features">Current Features &amp; Limitations</h2>
 <p>The following features have been implemented:</p>
 <ul>
@@ -52,15 +53,21 @@ tracker</a>.</p>
 <li>Browser authentication</li>
 <li>Redirects</li>
 <li>Memory cache</li>
-<li>Plugin System</li>
-<li>View Source (Press F8)</li>
-<li>Save as Drawfile (Press Ctrl+Shift+F3)</li>
-<li>Support for Acorn URI Protocol and URI files</li>
+<li>Plugin system</li>
+<li>View source (Press F8)</li>
+<li>Save source
+<li>Save as Drawfile</li>
+<li>Support for Acorn URI protocol and URI files</li>
+<li>Support for Ant URL files</li>
+<li>PNG support</li>
+<li>GIF support</li>
+<li>JPEG support</li>
+<li>Dithering to &lt; 32bpp</li>
 </ul>
 <p>The following is in progress:</p>
 <ul>
 <li>GUI</li>
-<li>PNG Support</li>
+<li>CSS borders, margins and padding</li>
 <li>JPEG Support</li>
 <li>GIF Support</li>
 <li>File downloads (eg. zip files)</li>
@@ -69,15 +76,7 @@ tracker</a>.</p>
 <p>To see what remains to be done in more detail, please see the
 <a href="http://cvs.semichrome.net/netsurf/Docs/">TODO lists</a>.</p>
 
-<h2 id="known">Known Bugs</h2>
-<ul>
-<li>No way to re-download a webpage, if it has been updated, without quitting
-NetSurf.</li>
-<li>PNGs with transparency don't display correctly unless you have Select.</li>
-<li>NetSurf quits when it runs out of memory</li>
-</ul>
-
-<p class="breadcrumbs"><a href="/">NetSurf</a> »
+<p class="breadcrumbs"><a href="/">NetSurf</a> » 
 <a href="docs">Documentation</a> » User Information</p>
 
 </body>
