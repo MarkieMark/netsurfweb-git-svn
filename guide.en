@@ -380,10 +380,10 @@
 <p class="menuitem">This option adds the current page to the bottom of your hotlist.</p>
 
 <p class="menupath" id="BrowserWindowMenuUtilitiesHotlistShow">Utilities &gt; Hotlist &gt; Show hotlist</p>
-<p class="menuitem">This option opens the <a href="HotlistWindow">hotlist management window</a>. The same function is available on the <a href="#BrowserWindowToolbar">toolbar</a>.</p>
+<p class="menuitem">This option opens the <a href="guide#HotlistWindow">hotlist management window</a>. The same function is available on the <a href="guide#BrowserWindowToolbar">toolbar</a>.</p>
 
 <p class="menupath" id="BrowserWindowMenuUtilitiesHistory">Utilities &gt; History</p>
-<p class="menuitem">This option opens the <a href="#HistoryWindow">local history window</a>. The same function is available on the <a href="#BrowserWindowToolbar">toolbar</a>.</p>
+<p class="menuitem">This option opens the <a href="guide#HistoryWindow">local history window</a>. The same function is available on the <a href="guide#BrowserWindowToolbar">toolbar</a>.</p>
 
 <p class="menupath" id="BrowserWindowMenuUtilitiesWindow">Utilities &gt; Window</p>
 <p class="menuitem">The Window submenu allows you to control the size and positioning of new windows.</p>
