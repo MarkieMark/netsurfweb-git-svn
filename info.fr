@@ -19,7 +19,7 @@
 <li><a href="#GettingStartedRequirements">Configuration logicielle nécessaire</a></li>
 </ul></li>
 <li><a href="#Upgrading">Mise à jour de NetSurf</a></li>
-<li><a href="#Devel">Contacter les développeurs</a></li>
+<li><a href="#ContactDevelopers">Contacter les développeurs</a></li>
 <li><a href="#Bugs">Signalement des bogues</a></li>
 <li><a href="#FeatureRequests">Demandes de fonctionnalités nouvelles</a></li>
 <li><a href="#JavaScript">JavaScript</a></li>
@@ -58,7 +58,7 @@
 
 <p>Il est possible de copier la nouvelle version de NetSurf par-dessus votre ancienne version pour accomplir la mise à jour. Toutefois, cela pourrait laisser des fichiers inutiles dans votre copie de NetSurf même si en pratique cela ne devrait pas poser de problèmes.</p>
 
-<h2 id="Devel">Contacter les développeurs</h2>
+<h2 id="ContactDevelopers">Contacter les développeurs</h2>
 <p>Tout signalement de bogues ou question sur NetSurf peut être adressé aux forums suivants.</p>
 
 <h3>Liste de diffusion</h3>

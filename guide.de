@@ -20,12 +20,13 @@
 <li><a href="#BrowserWindow">Das Browserfenster</a>
 <ul>
 <li><a href="#BrowserWindowToolbar">Anzeigen und Leisten</a></li>
+<li><a href="#BrowserWindowURLBar">Adressleiste</a></li>
 <li><a href="#BrowserWindowStatusBar">Statusanzeige</a></li>
 <li><a href="#BrowserWindowMenus">Menüs</a></li>
 </ul></li>
-<li><a href="#BrowserWindowFileTypes">Dateitypen</a></li>
+<li><a href="#FileTypes">Dateitypen</a></li>
 <li><a href="#DownloadWindow">Download von Dateien</a></li>
-<li><a href="#HistoryWindow">History window</a></li>
+<li><a href="#History">History</a></li>
 <li><a href="#Hotlist">Die Hotlist</a>
 <ul>
 <li><a href="#HotlistToolbar">Symbolleiste</a></li>
@@ -73,7 +74,7 @@
 
 <h2 id="BrowserWindow">Das Browserfenster</h2>
 
-<p>Das Browserfenster erlaubt das Laden und Anzeigen von Web-Seiten und anderen Inhalten des World Wide Web. Ebenso können Dateien dargestellt werden, die lokal auf dem Computer gespeichert sind. Die von NetSurf unterstützten <a href="#BrowserWindowFileTypes">Dateitypen</a> beinhalten HTML, CSS und verschiedene Bildformate.</p>
+<p>Das Browserfenster erlaubt das Laden und Anzeigen von Web-Seiten und anderen Inhalten des World Wide Web. Ebenso können Dateien dargestellt werden, die lokal auf dem Computer gespeichert sind. Die von NetSurf unterstützten <a href="#FileTypes">Dateitypen</a> beinhalten HTML, CSS und verschiedene Bildformate.</p>
 
 <p class="screenshot"><img src="images/bwin.de" title="Das Browserfenster" alt=""></p>
 
@@ -115,9 +116,11 @@
 
 <p>Schaltknöpfe, die blaß dargestellt werden, haben momentan keine Funktion. So werden zum Beispiel beim ersten Öffnen eines Browserfenster die Schaltknöpfe für Vorwärts und Zurück inaktiviert, da es in diesem Fall ja keine vorherige oder folgende Seite gibt.</p>
 
-<p><strong>Adressleiste:</strong> Die lange, weiße, beschreibbare Leiste am oberen Fensterrand ist die Adressleiste. Sie zeigt die Lokalisation (URL) der aktuellen Seite. Auch erlaubt sie die Eingabe der Adresse einer Web Seite, die als nächste angezeigt werden soll.</p>
-
 <p><strong>Ladeaktivität:</strong> Das NetSurf Logo wird animiert während die Daten einer Seite laden oder die Seite aufbereitet wird. Ein animiertes Logo bedeutet : NetSurf tut etwas.</p>
+
+<h3 id="BrowserWindowURLBar">Adressleiste</h3>
+
+<p>Die lange, weiße, beschreibbare Leiste am oberen Fensterrand ist die Adressleiste. Sie zeigt die Lokalisation (URL) der aktuellen Seite. Auch erlaubt sie die Eingabe der Adresse einer Web Seite, die als nächste angezeigt werden soll.</p>
 
 <h3 id="BrowserWindowStatusBar">Statusanzeige</h3>
 
@@ -453,7 +456,7 @@
 <p class="menupath" id="BrowserWindowMenuHelpInteractive">Hilfe &gt; interactive Hilfe</p>
 <p class="menuitem">Wenn nicht bereits geladen, kann von hier aus die interaktive Hilfe gestartet werden.</p>
 
-<h2 id="BrowserWindowFileTypes">Dateitypen</h2>
+<h2 id="FileTypes">Dateitypen</h2>
 
 <p>Wenn NetSurf eine Datei mit vom Programm nicht erkanntem Dateityp findet, wird ein <a href="#DownloadWindow">Downloadfenster</a> geöffnet. Die von NetSurf erkannten Dateitypen werden nachfolgend zusammen mit ihrer zugehörigen RISC OS Typnummer und dem jeweilgen MIME Eintrag aufgelistet.</p>
 
@@ -472,7 +475,7 @@
 <tr><td>Text</td><td>&amp;fff</td><td>text/plain</td></tr>
 </table>
 
-<p>Flash Dateien werden nicht von NetSurf selbst verarbeitet sondern erfordern ein <a href="info#GettingStartedRequirements">externes Plugin</a> zur Darstellung.</p>
+<p>Flash Dateien werden nicht von NetSurf selbst verarbeitet sondern erfordern ein <a href="info#GettingStartedAdditionalResources">externes Plugin</a> zur Darstellung.</p>
 
 <p>NetSurf ermittelt den Typ einer Datei anhand ihrer RISC OS Typnummer bei lokalen Dateien und anhand des Dateikopfes (Header) bei aus dem Internet geladenen Dateien. Dateitypen werden NICHT über Namenserweiterungen (etwa '.txt') oder über den Dateiinhalt erkannt. Dies bedeutet, daß zur korrekten Darstellung der Server so konfiguriert sein muß, daß der richtige Header gesendet wird. Bei lokalen Dateien muß der richtige RISC OS Dateityp gesetzt sein.</p>
 
@@ -490,7 +493,7 @@
 
 <p>Im unteren Teil des Fensters werden Informationen über den Fortschritt des Downloads ausgegeben. Links werden die Größe des bereits heruntergeladenen Dateiteiles sowie die Gesamtgröße des Downloads angezeigt. In der Mitte ist die Geschwindigkeit der Verbindung dargestellt. Rechts findet sich eine Abschätzung der noch benötigten Zeit bis zum Ende des Downloads. Ein beiger Balken stellt den Fortschritt visuell dar.</p>
 
-<h2 id="HistoryWindow">History Window</h2>
+<h2 id="History">History</h2>
 
 <p>Noch nicht geschrieben.</p>
 

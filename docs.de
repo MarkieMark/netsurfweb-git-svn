@@ -23,7 +23,7 @@
 <li><a href="info#GettingStartedRequirements">Systemvoraussetzungen</a></li>
 </ul></li>
 <li><a href="info#Upgrading">NetSurf upgraden</a></li>
-<li><a href="info#Devel">Entwickler kontaktieren</a></li>
+<li><a href="info#ContactDevelopers">Entwickler kontaktieren</a></li>
 <li><a href="info#Bugs">Fehler und Probleme melden</a></li>
 <li><a href="info#FeatureRequests">Vorschläge für neue Features</a></li>
 <li><a href="info#JavaScript">JavaScript</a></li>
@@ -36,12 +36,13 @@
 <li><a href="guide#BrowserWindow">Das Browserfenster</a>
 <ul>
 <li><a href="guide#BrowserWindowToolbar">Anzeigen und Leisten</a></li>
+<li><a href="guide#BrowserWindowURLBar">Adressleiste</a></li>
 <li><a href="guide#BrowserWindowStatusBar">Statusanzeige</a></li>
 <li><a href="guide#BrowserWindowMenus">Menüs</a></li>
 </ul></li>
-<li><a href="guide#BrowserWindowFileTypes">Dateitypen</a></li>
+<li><a href="guide#FileTypes">Dateitypen</a></li>
 <li><a href="guide#DownloadWindow">Download von Dateien</a></li>
-<li><a href="guide#HistoryWindow">History window</a></li>
+<li><a href="guide#History">History</a></li>
 <li><a href="guide#Hotlist">Die Hotlist</a>
 <ul>
 <li><a href="guide#HotlistToolbar">Symbolleiste</a></li>

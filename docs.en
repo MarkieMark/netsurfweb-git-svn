@@ -23,7 +23,7 @@
 <li><a href="info#GettingStartedRequirements">Requirements</a></li>
 </ul></li>
 <li><a href="info#Upgrading">Upgrading NetSurf</a></li>
-<li><a href="info#Devel">Contacting the developers</a></li>
+<li><a href="info#ContactDevelopers">Contacting the developers</a></li>
 <li><a href="info#Bugs">Reporting bugs</a></li>
 <li><a href="info#FeatureRequests">Feature requests</a></li>
 <li><a href="info#JavaScript">JavaScript</a></li>
@@ -36,12 +36,13 @@
 <li><a href="guide#BrowserWindow">Browser window</a>
 <ul>
 <li><a href="guide#BrowserWindowToolbar">Toolbar</a></li>
+<li><a href="guide#BrowserWindowURLBar">URL bar</a></li>
 <li><a href="guide#BrowserWindowStatusBar">Status bar</a></li>
 <li><a href="guide#BrowserWindowMenus">Menus</a></li>
 </ul></li>
-<li><a href="guide#BrowserWindowFileTypes">File types</a></li>
+<li><a href="guide#FileTypes">File types</a></li>
 <li><a href="guide#DownloadWindow">Download window</a></li>
-<li><a href="guide#HistoryWindow">History window</a></li>
+<li><a href="guide#History">History</a></li>
 <li><a href="guide#Hotlist">Hotlist management window</a>
 <ul>
 <li><a href="guide#HotlistToolbar">Toolbar</a></li>

@@ -23,7 +23,7 @@
 <li><a href="info#GettingStartedRequirements">Configuration logicielle nécessaire</a></li>
 </ul></li>
 <li><a href="info#Upgrading">Mise à jour de NetSurf</a></li>
-<li><a href="info#Devel">Contacter les développeurs</a></li>
+<li><a href="info#ContactDevelopers">Contacter les développeurs</a></li>
 <li><a href="info#Bugs">Signalement des bogues</a></li>
 <li><a href="info#FeatureRequests">Demandes de fonctionnalités nouvelles</a></li>
 <li><a href="info#JavaScript">JavaScript</a></li>
@@ -39,9 +39,9 @@
 <li><a href="guide#BrowserWindowStatusBar">Barre d'état de la fenêtre</a></li>
 <li><a href="guide#BrowserWindowMenus">Menus</a></li>
 </ul></li>
-<li><a href="guide#BrowserWindowFiletypes">Types de fichiers</a></li>
+<li><a href="guide#FileTypes">Types de fichiers</a></li>
 <li><a href="guide#DownloadWindow">Fenêtre de téléchargement</a></li>
-<li><a href="guide#HistoryWindow">Fenêtre d'historique</a></li>
+<li><a href="guide#History">Historique</a></li>
 <li><a href="guide#Hotlist">Fenêtre de gestion des favoris</a>
 <ul>
 <li><a href="guide#HotlistToolbar">Barre d'outils</a></li>

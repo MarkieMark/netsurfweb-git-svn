@@ -20,12 +20,13 @@
 <li><a href="#BrowserWindow">Browser window</a>
 <ul>
 <li><a href="#BrowserWindowToolbar">Toolbar</a></li>
+<li><a href="#BrowserWindowURLBar">URL bar</a></li>
 <li><a href="#BrowserWindowStatusBar">Status bar</a></li>
 <li><a href="#BrowserWindowMenus">Menus</a></li>
 </ul></li>
-<li><a href="#BrowserWindowFileTypes">File types</a></li>
+<li><a href="#FileTypes">File types</a></li>
 <li><a href="#DownloadWindow">Download window</a></li>
-<li><a href="#HistoryWindow">History window</a></li>
+<li><a href="#History">History</a></li>
 <li><a href="#Hotlist">Hotlist management window</a>
 <ul>
 <li><a href="#HotlistToolbar">Toolbar</a></li>
@@ -73,7 +74,7 @@
 
 <h2 id="BrowserWindow">Browser Window</h2>
 
-<p>The browser window is used to fetch and display web pages and other content available on the World Wide Web. It can also display files that are stored locally on your computer. The <a href="#BrowserWindowFileTypes">file types</a> that NetSurf can handle include HTML, CSS and various image formats.</p>
+<p>The browser window is used to fetch and display web pages and other content available on the World Wide Web. It can also display files that are stored locally on your computer. The <a href="#FileTypes">file types</a> that NetSurf can handle include HTML, CSS and various image formats.</p>
 
 <p class="screenshot"><img src="images/bwin.en" title="Browser Window" alt=""></p>
 
@@ -115,9 +116,11 @@
 
 <p>Icons that are greyed out indicate that their function is unavailable. This happens when a new browser window is first opened. Since the window will be displaying its first page, there would be no previous page and the back button is grayed out. Also, as this is the first page, the forward button is also grayed out.</p>
 
-<p><strong>URL Bar:</strong> The white writable icon on the toolbar is called the URL Bar and it shows the location of the current page. Here, you can enter the address of the page you want to view next.</p>
-
 <p><strong>Throbber:</strong> This NetSurf logo animates while a page is downloading or rendering. It indicates that NetSurf is doing something.</p>
+
+<h3 id="BrowserWindowURLBar">URL Bar</h3>
+
+<p>The white writable icon on the toolbar is called the URL Bar and it shows the location of the current page. Here, you can enter the address of the page you want to view next.</p>
 
 <h3 id="BrowserWindowStatusBar">Status Bar</h3>
 
@@ -310,7 +313,6 @@
 <tr><th class="menutitle" colspan="2">Images</th></tr>
 <tr><td><a href="#BrowserWindowMenuDisplayImagesForeground">Foreground images</a></td><td class="menuarrow"></td></tr>
 <tr><td><a href="#BrowserWindowMenuDisplayImagesBackground">Background images</a></td><td class="menuarrow"></td></tr>
-<tr><td><a href="#BrowserWindowMenuDisplayImagesAnimations">Animations</a></td><td class="menuarrow"></td></tr>
 </table>
 
 <p class="menupath" id="BrowserWindowMenuDisplayImagesForeground">Display &gt; Images &gt; Foreground images</p>
@@ -318,9 +320,6 @@
 
 <p class="menupath" id="BrowserWindowMenuDisplayImagesBackground">Display &gt; Images &gt; Background images</p>
 <p class="menuitem">This option allows you to toggle the display of background images. When background images are enabled, a tick appears to the left of the menu entry. If background images are disabled, any background colour specified by the document will be used instead.</p>
-
-<p class="menupath" id="BrowserWindowMenuDisplayImagesAnimations">Display &gt; Images &gt; Animations</p>
-<p class="menuitem">This option allows you to toggle the display of animations images. When animations are enabled, a tick appears to the left of the menu entry. If background images are disabled, the first frame of the animation will be shown as a static image.</p>
 
 <p class="menupath" id="BrowserWindowMenuDisplayToolbars">Display &gt; Toolbars</p>
 <p class="menuitem">The Toolbars submenu allows you to control the way NetSurf's toolbars are displayed. The options available here only affect the local browser window.</p>
@@ -453,7 +452,7 @@
 <p class="menupath" id="BrowserWindowMenuHelpInteractive">Help &gt; Interactive help</p>
 <p class="menuitem">This option loads Help, if it hasn't already been loaded, to display interactive help messages.</p>
 
-<h2 id="BrowserWindowFileTypes">File Types</h2>
+<h2 id="FileTypes">File Types</h2>
 
 <p>When NetSurf encounters a file type it does not recognise, it opens a <a href="#DownloadWindow">download window</a> to allow the file to be saved to disc. The file types that NetSurf understands are listed below, with their RISC OS file type and MIME type(s).</p>
 
@@ -472,7 +471,7 @@
 <tr><td>Text</td><td>&amp;fff</td><td>text/plain</td></tr>
 </table>
 
-<p>Flash files are not handled by NetSurf directly and are displayed by an <a href="info#GettingStartedRequirements">external plugin</a>.</p>
+<p>Flash files are not handled by NetSurf directly and are displayed by an <a href="info#GettingStartedAdditionalResources">external plugin</a>.</p>
 
 <p>NetSurf recognises different file types by their RISC OS file type for local files and by their content-type header for files sourced from the internet. Files are not identified by their extension or content. This means that for a file to be displayed, servers must be configured to send the correct content-type header and local files must have the correct RISC OS file type set.</p>
 
@@ -490,7 +489,7 @@
 
 <p>The bottom part of the download window displays information about the download's progress. On the left, the amount already downloaded and the total size are displayed. In the middle, the download speed is indicated and that the right, and estimated time remaining is shown. A beige progress bar indicates the download's progress visually.</p>
 
-<h2 id="HistoryWindow">History Window</h2>
+<h2 id="History">History</h2>
 
 <p>Not written yet.</p>
 
@@ -533,7 +532,6 @@
 <table class="menu">
 <tr><th class="menutitle" colspan="2">Hotlist</th></tr>
 <tr><td><a href="#HotlistMenuHotlistNew">New</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="#HotlistMenuHotlistSave">Save</a></td><td></td></tr>
 <tr><td><a href="#HotlistMenuHotlistExport">Export</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td class="menusplit"><a href="#HotlistMenuHotlistExpand">Expand</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="#HotlistMenuHotlistCollapse">Collapse</a></td><td class="menuarrow">&gt;</td></tr>
@@ -553,9 +551,6 @@
 
 <p class="menupath" id="HotlistMenuHotlistNewEntry">Hotlist &gt; New &gt; Entry</p>
 <p class="menuitem">This option allows you to create a new entry. Its name and URL must be set before it is added to the bottom of the hotlist. The entry can later be moved around in the hotlist and <a href="#HotlistMenuSelectionEdit">edited</a>. This option is also available on the hotlist management window <a href="#HotlistToolbar">toolbar</a>.</p>
-
-<p class="menupath" id="HotlistMenuHotlistSave">Hotlist &gt; Save</p>
-<p class="menuitem">This option allows you to save the hotlist. The hotlist is also saved automatically when NetSurf is <a href="#IconbarMenuQuit">quitted</a>.</p>
 
 <p class="menupath" id="HotlistMenuHotlistExport">Hotlist &gt; Export</p>
 <p class="menuitem">This option allows you to export the hotlist as an HTML file. The directory structure is represented by nested unordered lists and entries are converted to clickable links.</p>
@@ -604,31 +599,11 @@
 
 <table class="menu">
 <tr><th class="menutitle" colspan="2">Selection</th></tr>
-<tr><td><a href="#HotlistMenuSelectionSave">Save</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="#HotlistMenuSelectionEdit">Edit</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="#HotlistMenuSelectionLaunch">Launch</a></td><td></td></tr>
 <tr><td><a href="#HotlistMenuSelectionDelete">Delete</a></td><td></td></tr>
 <tr><td><a href="#HotlistMenuSelectionResetStatistics">Reset statistics</a></td><td></td></tr>
 </table>
-
-<p class="menupath" id="HotlistMenuSelectionSave">Selection &gt; Save</p>
-<p class="menuitem">This option allows you to save the current selection. Different options are available depending on what has been selected.</p>
-
-<table class="menu">
-<tr><th class="menutitle" colspan="2">Save</th></tr>
-<tr><td><a href="#HotlistMenuSelectionSaveAcorn">Acorn URI</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="#HotlistMenuSelectionSaveAnt">Ant URL</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="#HotlistMenuSelectionSaveHTML">HTML</a></td><td class="menuarrow">&gt;</td></tr>
-</table>
-
-<p class="menupath" id="HotlistMenuSelectionSaveAcorn">Selection &gt; Save &gt; Acorn URI</p>
-<p class="menuitem">This option allows you to save the address of the selected entry in Acorn URI format. This option is only available when one entry is selected.</p>
-
-<p class="menupath" id="HotlistMenuSelectionSaveAnt">Selection &gt; Save &gt; Ant URL</p>
-<p class="menuitem">This option allows you to save the address of the selected entry in Ant URL format. This option is only available when one entry is selected.</p>
-
-<p class="menupath" id="HotlistMenuSelectionSaveHTML">Selection &gt; Save &gt; HTML</p>
-<p class="menuitem">This option allows you to save the current selection in HTML format. Any directories are represented by nested unordered lists while entries are converted to clickable links.</p>
 
 <p class="menupath" id="HotlistMenuSelectionEdit">Selection &gt; Edit</p>
 <p class="menuitem">This option allows you to edit the currently selected item and is only available when either one directory or one item is selected. The names of directories can entries can be altered. Entries' URLs can also be changed.</p>
@@ -680,7 +655,7 @@
 <dt>Block advertisements</dt>
 <dd>When this option is enabled NetSurf tries to remove adverts from web pages. This can be desirable as adverts can be distracting.</dd>
 <dt>Don't start plugins</dt>
-<dd>Disable this option if you wish to use plugins with NetSurf. Plugins are external applications that handle certain filetypes.</dd>
+<dd>Disable this option if you wish to use plugins with NetSurf. Plugins are external applications that handle certain file types.</dd>
 </dl>
 
 <h3 id="ConfigurationNetwork">Network</h3>

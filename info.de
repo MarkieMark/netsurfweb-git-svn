@@ -19,7 +19,7 @@
 <li><a href="#GettingStartedRequirements">Systemvoraussetzungen</a></li>
 </ul></li>
 <li><a href="#Upgrading">NetSurf upgraden</a></li>
-<li><a href="#Devel">Entwickler kontaktieren</a></li>
+<li><a href="#ContactDevelopers">Entwickler kontaktieren</a></li>
 <li><a href="#Bugs">Fehler und Probleme melden</a></li>
 <li><a href="#FeatureRequests">Vorschläge für neue Features</a></li>
 <li><a href="#JavaScript">JavaScript</a></li>
@@ -59,7 +59,7 @@ Die Installation von &quot;NCNetSurf&quot; ist noch nicht dokumentiert.</p>
 
 <p>Prinzipiell ist es auch möglich die neue Version über die alte !Netsurf Applikation zu kopieren. Allerdings können dabei alte Dateien erhalten bleiben, die nicht länger benötigt werden. Diese belegen dann Platz auf dem Speichermedium, stören jedoch nicht den Betrieb von NetSurf.</p>
 
-<h2 id="Devel">Entwickler kontaktieren</h2>
+<h2 id="ContactDevelopers">Entwickler kontaktieren</h2>
 <p>Fehlerberichte und Fragen zu NetSurf können in folgenden Foren übermittelt werden.</p>
 
 <h3>Mailing-Liste</h3>
