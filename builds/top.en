@@ -51,7 +51,7 @@
 <ul>
 <li>WindowManager 3.80 or later. This comes with RISC OS 4 or later, RISC OS 3
 users should install the <a href="http://acorn.riscos.com/riscos/releases/UniBoot/" class="highlight">Universal Boot Sequence</a>.</li>
-<li><a href="http://www.riscos.info/unix/usage.html"
+<li><a href="http://gccsdk.riscos.info/#SUL"
 class="highlight">SharedUnixLibrary</a>.</li>
 <li><a href="http://sudden.recoil.org/others/"
 class="highlight">AcornURI</a>.</li>
