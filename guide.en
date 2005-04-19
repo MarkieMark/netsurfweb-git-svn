@@ -901,8 +901,6 @@
 <dd>This sets the minimum text size used when displaying web pages. It should be set to the smallest size you feel comfortable with.</dd>
 </dl>
 </dd>
-<dt>Use ufont technology</dt>
-<dd>Ufont provides unicode font support for computers without the unicode font manager. This requires Ufont and a composite font which provides suitable glyphs.</dd>
 </dl>
 
 <h4 id="ConfigurationGlobalImages">Images</h4>
