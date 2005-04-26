@@ -36,6 +36,8 @@ td { padding: 3px; }
 .nearlydone { background-color: #e0f4cb; }
 .complete { background-color: #d1f8d1; }
 
+.action { font-family: monospace; color: #600; }
+
 .submenu { border-bottom: thin solid #ddd; }
 .menupath { margin-bottom: 0; font-weight: bold; color: #555; }
 .menuitem { margin-top: 0; }

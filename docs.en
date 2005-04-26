@@ -39,6 +39,7 @@
 <li><a href="guide#BrowserWindowToolbar">Toolbar</a></li>
 <li><a href="guide#BrowserWindowURLBar">URL bar</a></li>
 <li><a href="guide#BrowserWindowStatusBar">Status bar</a></li>
+<li><a href="guide#BrowserWindowContent">Content area</a></li>
 <li><a href="guide#BrowserWindowMenus">Menus</a></li>
 </ul></li>
 <li><a href="guide#FileTypes">File types</a></li>

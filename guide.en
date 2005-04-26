@@ -22,6 +22,7 @@
 <li><a href="#BrowserWindowToolbar">Toolbar</a></li>
 <li><a href="#BrowserWindowURLBar">URL bar</a></li>
 <li><a href="#BrowserWindowStatusBar">Status bar</a></li>
+<li><a href="#BrowserWindowContent">Content area</a></li>
 <li><a href="#BrowserWindowMenus">Menus</a></li>
 </ul></li>
 <li><a href="#FileTypes">File types</a></li>
@@ -48,7 +49,7 @@
 <li><a href="#Keys">Keyboard shortcuts</a></li>
 </ul>
 
-<p class="updated">Last updated 21 March 2005</p>
+<p class="updated">Last updated 26 April 2005</p>
 
 <h2 id="UsingNetSurf">Using NetSurf</h2>
 
@@ -62,6 +63,7 @@
 <tr><th class="menutitle" colspan="2">NetSurf</th></tr>
 <tr><td><a href="#IconbarMenuInfo">Info</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="#IconbarMenuHelp">Help</a></td><td></td></tr>
+<tr><td><a href="#IconbarMenuOpen">Open</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="#IconbarMenuChoices">Choices</a></td><td></td></tr>
 <tr><td><a href="#IconbarMenuQuit">Quit</a></td><td></td></tr>
 </table>
@@ -72,11 +74,30 @@
 <p class="menupath" id="IconbarMenuHelp">NetSurf &gt; Help</p>
 <p class="menuitem">This option opens the <a href="docs">documentation contents page</a> in a new window.</p>
 
+<p class="menupath" id="IconbarMenuOpen">NetSurf &gt; Open</p>
+<p class="menuitem">This option allows various windows to be opened. The options available are:</p>
+
+<table class="menu">
+<tr><th class="menutitle" colspan="2">Open</th></tr>
+<tr><td><a href="#IconbarMenuOpenURL">Open URL</a></td><td class="menuarrow">&gt;</td></tr>
+<tr><td><a href="#IconbarMenuOpenHotlist">Show hotlist</a></td><td></td></tr>
+<tr><td><a href="#IconbarMenuOpenHistory">Show global history</a></td><td></td></tr>
+</table>
+
+<p class="menupath" id="IconbarMenuOpenURL">NetSurf &gt; Open &gt; Open URL</p>
+<p class="menuitem">This option opens a dialogue box, allowing an address (URL) to be entered and visited.</p>
+
+<p class="menupath" id="IconbarMenuOpenHotlist">NetSurf &gt; Open &gt; Show hotlist</p>
+<p class="menuitem">This option opens the <a href="#Hotlist">hotlist management window</a>.</p>
+
+<p class="menupath" id="IconbarMenuOpenHistory">NetSurf &gt; Open &gt; Show global history</p>
+<p class="menuitem">This option opens the <a href="#HistoryGlobal">global history window</a>.</p>
+
 <p class="menupath" id="IconbarMenuChoices">NetSurf &gt; Choices</p>
 <p class="menuitem">This option opens NetSurf's <a href="#Configuration">configuration</a> window.</p>
 
 <p class="menupath" id="IconbarMenuQuit">NetSurf &gt; Quit</p>
-<p class="menuitem">This option will exit the program, closing all browser windows and terminating any downloads. NetSurf provides no facility for continuing unfinished or aborted downloads. When NetSurf is quitted, any changes to the <a href="#Hotlist">hotlist</a> are saved.</p>
+<p class="menuitem">This option will exit the program and close all browser windows. NetSurf will prompt for confirmation if there are any active or unsaved downloads. NetSurf provides no facility for continuing unfinished or aborted downloads. When NetSurf is quitted the <a href="#HistoryGlobal">global history</a> and <a href="#BrowserWindowURLCompletion">URL complete</a> records are saved.</p>
 
 <h2 id="Help">Interactive Help</h2>
 
@@ -92,7 +113,7 @@
 
 <p>The area at the top of the browser window is called the <a href="#BrowserWindowToolbar">toolbar</a>. At the bottom, it can be seen that the horizontal scroll bar does not cover the full width of the window. Next to the horizontal scroll bar, is the <a href="#BrowserWindowStatusBar">status bar</a>. The main section in the middle of the window is the most important part, the content area.</p>
 
-<p>The content area displays web pages and other material, such as images. Web pages contain hyperlinks (often just called 'links') which can point to another part of the page, to a different page or to any other type of file. Links pointing to types of files that NetSurf doesn't recognise will open a <a href="#DownloadWindow">download window</a>. Placing the pointer over a link changes the pointer to a 'clicking hand', to indicate that the item can be clicked on.</p>
+<p>The <a href="#BrowserWindowContent">content area</a> displays web pages and other material, such as images. Web pages contain hyperlinks (often just called 'links') which can point to another part of the page, to a different page or to any other type of file. Links pointing to types of files that NetSurf doesn't recognise will open a <a href="#DownloadWindow">download window</a>. Placing the pointer over a link changes the pointer to a 'clicking hand', to indicate that the item can be clicked on.</p>
 
 <h3 id="BrowserWindowToolbar">Toolbar</h3>
 
@@ -132,7 +153,7 @@
 
 <h3 id="BrowserWindowURLBar">URL Bar</h3>
 
-<p>The white writable icon on the toolbar is called the URL Bar and it shows the location of the current page. Here, you can enter the address of the page you want to view next.</p>
+<p>The white writable icon on the toolbar is called the URL Bar and it shows the location of the current page. Here, you can enter the address of the page you want to view next. Text files dropped onto the URL bar are treated as URLs.</p>
 
 <p>Next to the URL bar is a pop-up menu button which opens a list of URLs previously typed into the URL bar. Clicking on one of the URLs opens the page.</p>
 
@@ -145,6 +166,108 @@
 <p>The status bar, at the bottom of the window, displays information to the user. When you move the pointer over a link, the status bar will display the URL that the link points to. The status bar also displays information about NetSurf's progress while retrieving a page.</p>
 
 <p>Between the status bar and the horizontal scroll bar is the status bar resizer. Over this widget, the pointer changes to a double headed arrow and you can drag the status bar resizer to set the width of the status bar.</p>
+
+<h3 id="BrowserWindowContent">Content Area</h3>
+
+<p>The content area is the main part of the browser window; it displays documents and images. Various types of action can be performed in the content area, including:</p>
+
+<ul>
+<li><a href="#BrowserWindowContentTextSelection">Text selection</a></li>
+<li><a href="#BrowserWindowContentDragScrolling">Drag scrolling</a></li>
+<li><a href="#BrowserWindowContentLinkHandling">Link handling</a></li>
+<li><a href="#BrowserWindowContentDragSaving">Drag saving</a></li>
+<li><a href="#BrowserWindowContentFormCompletion">Form completion</a></li>
+</ul>
+
+<p>Some operations, such as a dragging and clicking will behave differently depending on the content over which the action is carried out. For example, dragging over text initiates text selection whereas dragging over non-textual content will drag-scroll the page.</p>
+
+<p>Further options are available through the <a href="#BrowserWindowMenus">menu</a>, some of which are only available when menu is clicked over certain types of content. For example the <a href="#BrowserWindowMenuObject">Object</a> submenu is available only when menu is clicked over an object, such as an image.</p>
+
+<h4 id="BrowserWindowContentTextSelection">Text Selection</h4>
+
+<p>Textual content on pages can be selected and copied. Text in <a href="#BrowserWindowContentFormCompletionTextArea">text areas</a> can be selected and then cut or copied to the global clipboard. The global clipboard contents can also be pasted into text areas.</p>
+
+<ul>
+<li><span class="action">Select click</span> clears previous selections.</li>
+<li><span class="action">Select drag</span> over text clears previous selection and creates new selection.</li>
+<li><span class="action">Adjust click</span> adds to selection. If Adjust was clicked outside the selection the nearest end of the selection is moved to where adjust was clicked. If Adjust was clicked inside the current selection, the second (last) end of the selection is moved to where Adjust was clicked. If Adjust is clicked on a link, the selection is not modified and <a href="#BrowserWindowContentLinkHandling">link handling</a> behaviour is followed.</li>
+<li><span class="action">Adjust drag</span> over text dynamically does the same as repeatedly doing an <span class="action">Adjust click</span> as you move the mouse, except, <span class="action">Adjust drag</span> over links modifies the selection and does not follow the link.</li>
+</ul>
+
+<p><span class="action">Ctrl+C</span> copies selected text to the global clipboard. <span class="action">Ctrl+A</span> selects all text, while <span class="action">Ctrl+Z</span> clears the selection.</p>
+
+<h4 id="BrowserWindowContentDragScrolling">Drag Scrolling</h4>
+
+<p>The page can be scrolled by dragging non-textual areas up and down. During a drag scroll action, the pointer changes to a hand.</p>
+
+<ul>
+<li><span class="action">Select drag</span> on any non textual area of the page (except plugin areas and <code>overflow: scroll</code> scrollbars) drags the page.</li>
+<li><span class="action">Adjust drag</span> on any part of the page, including text, provided there is no selection drags the page. Page drag scrolling is not possible over plugin areas or scrollbars, such as those for <a href="#BrowserWindowContentFormCompletionTextArea">text areas</a> or <code>overflow: scroll</code>.</li>
+</ul>
+
+<h4 id="BrowserWindowContentLinkHandling">Link Handling</h4>
+
+<p>Links are not followed until <span class="action">click release</span>, so link actions can be avoided if a drag operation is started. This allows initiation of <a href="#BrowserWindowContentTextSelection">text selection</a> in link text and <a href="#BrowserWindowContentDragScrolling">page drag scrolling</a> from link images.</p>
+
+<ul>
+<li><span class="action">Select click</span> on a link follows the link in current window.</li>
+<li><span class="action">Adjust click</span> on a link opens the link in new window.</li>
+<li><span class="action">Shift+Select click</span> on a link opens a <a href="#DownloadWindow">download dialogue box</a> for the link target.</li>
+<li><span class="action">Shift+Adjust click</span> on a link opens a save box for saving link the target address as a URL file.</li>
+<!--<li><span class="action">Shift+Select drag</span> from a link to a filer window or another application opens a <a href="#DownloadWindow">download dialogue box</a> with the local destination automatically set.</li>
+<li><span class="action">Shift+Adjust drag</span> from a link to a filer window or another app saves the link target address as a URL file.</li> -->
+</ul>
+
+<h4 id="BrowserWindowContentDragSaving">Drag Saving</h4>
+
+<p>Content can be dragged directly from the page to a filer window with the <span class="action">Ctrl</span> key.</p>
+
+<ul>
+<li><span class="action">Ctrl+Select drag</span> saves the item under the pointer to a filer window or another application. The item is saved in its original format.</li>
+<li><span class="action">Ctrl+Adjust drag</span> saves the item under the pointer to a filer window or another application. Generally it saves it in the most applicable RISC OS format.</li>
+</ul>
+
+<p>Different items are treated as follows.</p>
+
+<ul>
+<li>If the content drag save is initiated on a <em>bitmap image</em>, it is saved in its original format with <span class="action">Select</span>. With <span class="action">Adjust</span> it is saved as a sprite.</li>
+<!-- <li>If the content drag save is initiated on a <em>vector image</em>, it is saved in its original format with <span class="action">Select</span>. With <span class="action">Adjust</span> it is saved as a drawfile if possible, otherwise in the original format.</li> -->
+<li>If the content drag save is initiated on a <a href="#BrowserWindowContentTextSelection">text selection</a>, it is saved as text, whether it comes from an HTML page, CSS file or whatever. <span class="action">Select</span> / <span class="action">Adjust</span> usage makes no difference.</li>
+<li>If the content drag save is initiated on a part of a <em>web page</em> that is neither image or selection, the page is saved as a &quot;full save&quot; with <span class="action">Select</span>. With <span class="action">Adjust</span>, the HTML is saved only.</li>
+<!-- <li>If the content drag save is initiated on a displayed <em><code>text/css</code></em> document, it is saved as CSS with <span class="action">Select</span>. With <span class="action">Adjust</span> it is saved as text.</li> -->
+<li><em><code>text/plain</code></em> is always saved as text.</li>
+</ul>
+
+<!-- <p>Content drag saving for links is covered in the <a href="#BrowserWindowContentLinkHandling">link handling</a> section.</p> -->
+
+<h4 id="BrowserWindowContentFormCompletion">Form Completion</h4>
+
+<p>Forms allow information to be entered and submitted to an agent such as a web server or mail server. Some form controls can be styled by web pages, so they may look quite different from one page to the next. Some common form controls are described below.</p>
+
+<dl>
+<dt id="BrowserWindowContentFormCompletionButtons">Buttons</dt>
+<dd>Buttons trigger some action when selected. Common button actions are to <em>submit</em> or <em>reset</em> the form.</dd>
+
+<dt id="BrowserWindowContentFormCompletionCheckboxes">Checkboxes</dt>
+<dd>Checkboxes are on/off switches that can be toggled. Checkboxes containing a red square are &quot;on&quot;.</dd>
+
+<dt id="BrowserWindowContentFormCompletionRadioButtons">Radio Buttons</dt>
+<dd>Radio buttons are like checkboxes except that groups of radio buttons are mutually exclusive: when one is switched &quot;on&quot;, all others with the same name are switched &quot;off&quot;. Radio buttons containing a red circle are &quot;on&quot;.</dd>
+
+<dt id="BrowserWindowContentFormCompletionSelectionMenus">Selection Menus</dt>
+<dd>Selection menus open a menu, from which an item, or in some cases several items, can be selected. Selected items are displayed with a tick (&#10003;) next to them. The pointer changes to indicate a pop-up menu is available over selection menu controls.</dd>
+
+<dt id="BrowserWindowContentFormCompletionText Input">TextInput</dt>
+<dd>A text input allows a single line of text to be entered and edited. Pressing <span class="action">Return</span> in a text input will submit the form.</dd>
+
+<dt id="BrowserWindowContentFormCompletionFileInput">File Input</dt>
+<dd>File inputs say &quot;Drop file here&quot; and allow local files to be submitted. Dragging a file to them sets the path to the file.</dd>
+
+<dt id="BrowserWindowContentFormCompletionTextArea">Text Area</dt>
+<dd>Text areas are similar to text inputs but they allow multiple lines to be edited. Pressing <span class="action">Return</span> in a text area moves the caret to the next line.</dd>
+</dl>
+
+<p><span class="action">Tab</span> can be used to move the caret to the next text input or text area control. <span class="action">Shift+Tab</span> moves input focus back to the previous text box.</p>
 
 <h3 id="BrowserWindowMenus">Menus</h3>
 
@@ -171,9 +294,9 @@
 <tr><td><a href="#BrowserWindowMenuPageFullSave">Full save</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="#BrowserWindowMenuPageExport">Export</a></td><td class="menuarrow">&gt;</td></tr>
 <tr><td><a href="#BrowserWindowMenuPageSaveLocation">Save location</a></td><td class="menuarrow">&gt;</td></tr>
-<tr><td><a href="#BrowserWindowMenuPagePrint">Print...</a></td><td></td></tr>
+<tr><td><a href="#BrowserWindowMenuPagePrint">Print</a></td><td></td></tr>
 <tr><td class="menusplit"><a href="#BrowserWindowMenuPageNewwindow">New window</a></td><td class="menusplit"></td></tr>
-<tr><td><a href="#BrowserWindowMenuPageViewSource">View source...</a></td><td class="menuarrow"></td></tr>
+<tr><td><a href="#BrowserWindowMenuPageViewSource">View source</a></td><td class="menuarrow"></td></tr>
 </table>
 
 <p class="menupath" id="BrowserWindowMenuPageInfo">Page &gt; Info</p>
@@ -219,13 +342,13 @@
 <p class="menupath" id="BrowserWindowMenuPageSaveLocationText">Page &gt; Save location &gt; Text</p>
 <p class="menuitem">This option opens a save dialogue box, allowing the address of the current page to be saved to disc in plain text format.</p>
 
-<p class="menupath" id="BrowserWindowMenuPagePrint">Page &gt; Print...</p>
+<p class="menupath" id="BrowserWindowMenuPagePrint">Page &gt; Print</p>
 <p class="menuitem">This option opens a print dialogue box.</p>
 
 <p class="menupath" id="BrowserWindowMenuPageNewwindow">Page &gt; New window</p>
 <p class="menuitem">This option opens the current page in a new window.</p>
 
-<p class="menupath" id="BrowserWindowMenuPageViewSource">Page &gt; View source...</p>
+<p class="menupath" id="BrowserWindowMenuPageViewSource">Page &gt; View source</p>
 <p class="menuitem">This option opens the source code of the current page in a text editor window.</p>
 
 <h4 id="BrowserWindowMenuObject" class="submenu">Object Submenu</h4>
