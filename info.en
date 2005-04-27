@@ -23,10 +23,15 @@
 <li><a href="#ContactDevelopers">Contacting the developers</a></li>
 <li><a href="#Bugs">Reporting bugs</a></li>
 <li><a href="#FeatureRequests">Feature requests</a></li>
+<li><a href="#Unicode">Fonts in NetSurf</a>
+<ul>
+<li><a href="#UnicodeInstallingFonts">Installing more fonts</a></li>
+<li><a href="#UnicodeProblems">Problems and unimplemented features</a></li>
+</ul></li>
 <li><a href="#JavaScript">JavaScript</a></li>
 </ul>
 
-<p class="updated">Last updated 4 February 2005</p>
+<p class="updated">Last updated 26 April 2005</p>
 
 <h2 id="GettingStarted">Getting started</h2>
 
@@ -110,7 +115,38 @@
 
 <h2 id="FeatureRequests">Feature requests</h2>
 
-<p>The NetSurf team welcome feature requests and innovative ideas for improving the browsing experience. Before making suggestions, please look at the <a href="progress">progress</a> page and <a href="http://cvs.semichrome.net/netsurf/Docs/">TODO lists</a> to check that the feature isn't already planned. Suggestions can be made on the <a href="#Devel">mailing list</a>. Please note that all such posts to the mailing list are read and retained by the NetSurf developers, even if you don't get a reply.</p>
+<p>The NetSurf team welcome feature requests and innovative ideas for improving the browsing experience. Before making suggestions, please look at the <a href="progress">progress</a> page and <a href="http://cvs.semichrome.net/netsurf/Docs/">TODO lists</a> to check that the feature isn't already planned. Suggestions can be made on the <a href="#ContactDevelopers">mailing list</a>. Please note that all such posts to the mailing list are read and retained by the NetSurf developers, even if you don't get a reply.</p>
+
+<h2 id="Unicode">Fonts in NetSurf</h2>
+
+<p>NetSurf has support for displaying pages containing Unicode characters that aren't normally available on RISC OS, for example accented Latin letters, Greek, Cyrillic, Japanese, and various symbols.</p>
+
+<p>The <a href="guide#ConfigurationGlobalFonts">font choices</a> let you pick a font for each of the five standard families available to web authors (in CSS). The choices specify the preferred font to use. If a character is not available in the chosen font, but it's present in some other font that you have installed, then NetSurf will automatically use it. There's no need to change the font choices to view pages with characters that are not available in the chosen font.</p>
+
+<p>Note that you can only choose a font family. NetSurf will automatically use weights from the family for bold and slanted text, if available.</p>
+
+<h3 id="UnicodeInstallingFonts">Installing More Fonts</h3>
+
+<p>The fonts that come with RISC OS cover Latin (Homerton, Trinity, Corpus), Greek (Sidney), and various symbols (Selwyn, Sidney). (On RISC OS 3-4, only the &quot;Latin 1&quot; characters from the standard fonts, which cover Western European languages, can be used by NetSurf).</p>
+
+<p>If you want to display pages with other characters correctly, you'll need to install fonts containing them. When a character is not present in any available font, the Unicode character code will be displayed.</p>
+
+<p>If you see the codes 0091, 0092, 0096, or others starting 009, that indicates that the page is not specifying the character set that it is using correctly. Installing fonts won't help. We haven't yet decided what the best way to work around this problem is.</p>
+
+<p>Any font supplied with a correctly designed &quot;Encoding&quot; file should work. In practice, native fonts covering anything other than Latin 1 are rare. The solution is to convert TrueType fonts using <a href="http://moose.mine.nu:6888/ttf2f2.zip">TTF2f</a> (this currently produces fonts suitable for RISC OS 5 only).</p>
+
+<p>After installing new fonts, NetSurf will need restarting so that it detects them.</p>
+
+<h3 id="UnicodeProblems">Problems and Unimplemented Features</h3>
+
+<ul>
+<li>The default font is always the sans-serif one.</li>
+<li>Printing on RISC OS 5 doesn't work, due to lack of support in the Font Manager and printer drivers. Printing to Postscript printers on RISC OS 3-4 is not correctly implemented in NetSurf.</li>
+<li>Substituted characters are taken from the first font that contains them, even if a character which matches the weight or slant better is available.</li>
+<li>Only two weights (regular and bold) are supported, even if a family contains other weights. The algorithm that finds weights needs improving, for example using the heuristics given in <a href="http://www.w3.org/TR/CSS21/">CSS 2.1</a>, section <a href="http://www.w3.org/TR/CSS21/fonts.html#font-boldness">15.6</a>.</li>
+<li>Drawfile export is broken.</li>
+<li>Right-to-left text (Hebrew, Arabic) is not implemented.</li>
+</ul>
 
 <h2 id="JavaScript">JavaScript</h2>
 

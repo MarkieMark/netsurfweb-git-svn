@@ -27,6 +27,11 @@
 <li><a href="info#ContactDevelopers">Contacting the developers</a></li>
 <li><a href="info#Bugs">Reporting bugs</a></li>
 <li><a href="info#FeatureRequests">Feature requests</a></li>
+<li><a href="info#Unicode">Fonts in NetSurf</a>
+<ul>
+<li><a href="info#UnicodeInstallingFonts">Installing more fonts</a></li>
+<li><a href="info#UnicodeProblems">Problems and unimplemented features</a></li>
+</ul></li>
 <li><a href="info#JavaScript">JavaScript</a></li>
 </ul></li>
 

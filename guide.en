@@ -1008,7 +1008,7 @@
 
 <h4 id="ConfigurationGlobalFonts">Fonts</h4>
 
-<p>The font configuration section allows you to alter the fonts NetSurf uses to display web pages.</p>
+<p>The font configuration section allows you to alter the fonts NetSurf uses to display web pages. To get the best out of NetSurf's font handling capabilities, please read the <a href="info#Unicode">Fonts in NetSurf</a> section of the <a href="info">User Information</a> page.</p>
 
 <dl>
 <dt>Font faces</dt>
