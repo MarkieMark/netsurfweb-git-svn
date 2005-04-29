@@ -15,8 +15,10 @@
 <p>Diese Dateien werden automatisch aus dem CVS Quellcode erzeugt.
 <strong>Sie sind als instabil anzusehen und können jederzeit zum Absturz des Computers führen.</strong></p>
 
+<p id="newtonetsurf"><strong>Ganz neu bei NetSurf ?</strong> Lade <span class="highlight">NetSurf</span> von hier und dazu die <span class="highlight">fünf unten aufgeführten Dateien</span>.</p>
+
 <table class="download">
-<tr><th><a href="dl/netsurf.zip"><img src="netsurf.png" alt=""><br>NetSurf</a></th>
+<tr><th><a href="dl/netsurf.zip" class="highlight"><img src="netsurf.png" alt=""><br>NetSurf</a></th>
 <td>SIZE_NETSURF</td>
 <td>DATE_NETSURF</td>
 <td>NetSurf Browser für RISC OS, die Vollversion.
@@ -45,13 +47,16 @@
 <h2>Zusätzlich wird benötigt:</h2>
 
 <ul>
-<li>WindowManager 3.80 (oder höher). Ist ab RISC OS 4 Betriebssystembestandteil, für Systeme mit RISC OS 3 sollte die <a href="http://acorn.riscos.com/riscos/releases/UniBoot/">Universal Boot Sequence</a> installiert werden.</li>
-<li><a href="http://gccsdk.riscos.info/#SUL">SharedUnixLibrary</a>.</li>
-<li><a href="http://sudden.recoil.org/others/">AcornURI</a>.</li>
-<li><a href="http://www.tinct.net/tinct.asp">Tinct</a>.</li>
+<li>WindowManager 3.80 (oder höher). Ist ab RISC OS 4 Betriebssystembestandteil, für Systeme mit RISC OS 3 sollte die <a href="http://acorn.riscos.com/riscos/releases/UniBoot/" class="highlight">Universal Boot Sequence</a> installiert werden.</li>
+<li><a href="http://gccsdk.riscos.info/#SUL"
+ class="highlight">SharedUnixLibrary</a>.</li>
+<li><a href="http://sudden.recoil.org/others/"
+ class="highlight">AcornURI</a>.</li>
+<li><a href="http://moose.mine.nu:6888/iconv_latest.zip"
+ class="highlight">Iconv</a>.</li>
+<li><a href="http://www.tinct.net/tinct.asp"
+ class="highlight">Tinct</a>.</li>
 </ul>
-
-<p><strong>Optional:</strong> Installieren von <a href="http://moose.mine.nu:6888/iconv_latest.zip">iconv</a> ermöglicht verbesserte Unterstützung von Zeichencodierungen.</p>
 
 <!-- <p><strong>Optional:</strong> download and install the <a href="nsfonts.zip">fonts (360k)</a> to get improved font-family and font-variant support.</p> -->
 
