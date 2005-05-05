@@ -257,7 +257,7 @@
 <dt id="BrowserWindowContentFormCompletionSelectionMenus">Selection Menus</dt>
 <dd>Selection menus open a menu, from which an item, or in some cases several items, can be selected. Selected items are displayed with a tick (&#10003;) next to them. The pointer changes to indicate a pop-up menu is available over selection menu controls.</dd>
 
-<dt id="BrowserWindowContentFormCompletionText Input">TextInput</dt>
+<dt id="BrowserWindowContentFormCompletionTextInput">TextInput</dt>
 <dd>A text input allows a single line of text to be entered and edited. Pressing <span class="action">Return</span> in a text input will submit the form.</dd>
 
 <dt id="BrowserWindowContentFormCompletionFileInput">File Input</dt>

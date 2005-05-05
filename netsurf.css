@@ -29,6 +29,8 @@ td { padding: 3px; }
 
 .progress, .screenshots { width: 90%; border-spacing: 2px; margin-left: auto; margin-right: auto; }
 
+.docsections > li { margin-bottom: 1em; }
+
 .notplanned { background-color: #eee; color: #333; font-style: italic; }
 .notstarted { background-color: #f8d1d1; }
 .juststarted { background-color: #f4e0cb; }

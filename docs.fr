@@ -14,7 +14,7 @@
 
 <p>La documentation est divisée de la façon suivante.</p>
 
-<ul>
+<ul class="docsections">
 <li><strong><a href="info">Information Utilisateur</a></strong>
 <ul>
 <li><a href="info#GettingStarted">Premier contact</a>
