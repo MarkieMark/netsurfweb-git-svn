@@ -23,10 +23,15 @@
 <li><a href="#ContactDevelopers">Entwickler kontaktieren</a></li>
 <li><a href="#Bugs">Fehler und Probleme melden</a></li>
 <li><a href="#FeatureRequests">Vorschläge für neue Features</a></li>
+<li><a href="#Unicode">Schriftarten in NetSurf</a>
+<ul>
+<li><a href="#UnicodeInstallingFonts">Weitere Schriften installieren</a></li>
+<li><a href="#UnicodeProblems">Probleme und nicht implementierte Funktionen</a></li>
+</ul></li>
 <li><a href="#JavaScript">JavaScript</a></li>
 </ul>
 
-<p class="updated">aktualisiert am 4. Februar 2005</p>
+<p class="updated">aktualisiert am 26. April 2005</p>
 
 <h2 id="GettingStarted">Einfach beginnen</h2>
 
@@ -44,6 +49,8 @@ Die Installation von &quot;NCNetSurf&quot; ist noch nicht dokumentiert.</p>
 <dl>
 <dt><a href="http://sudden.recoil.org/others/">Acorn URI</a></dt>
 <dd>Das Acorn URI Modul kontrolliert und steuert die Übermittlung von URIs (zum Beispiel URL-Adressen) zwischen Applikationen.</dd>
+<dt><a href="http://moose.mine.nu:6888/iconv_latest.zip">Iconv</a></dt>
+<dd>Dieses Modul bietet eine verbesserte Unterstützung bei der Zeichencodierung.</dd>
 <dt><a href="http://gccsdk.riscos.info/#SUL">SharedUnixLibrary</a></dt>
 <dd>Dies ist ein Zusatzmodul für Programme, die unter Verwendung der UnixLib Library kompiliert wurden.</dd>
 <dt><a href="http://www.tinct.net/tinct.asp">Tinct</a></dt>
@@ -59,8 +66,6 @@ Die Installation von &quot;NCNetSurf&quot; ist noch nicht dokumentiert.</p>
 <p>Die folgenden Dateien werden von NetSurf nicht unbedingt benötigt. Aber sie erweitern die Möglichkeiten und Funktionen des Programmes.</p>
 
 <dl>
-<dt><a href="http://moose.mine.nu:6888/iconv_latest.zip">Iconv</a></dt>
-<dd>Dieses Modul bietet eine verbesserte Unterstützung bei der Zeichencodierung.</dd>
 <dt><a href="http://www.ecs.soton.ac.uk/~jmb202/">Flash Plugin</a></dt>
 <dd>Dieses Plugin ermöglicht die Anzeige von Flash Dateien auf Web-Seiten.</dd>
 </dl>
@@ -86,14 +91,14 @@ Die Installation von &quot;NCNetSurf&quot; ist noch nicht dokumentiert.</p>
 <p>Wenn Du zum NetSurf Projekt beitragen willst, kontaktiere bitte die Entwickler über die Mailing-Liste oder auf IRC.</p>
 
 <h2 id="Bugs">Fehler und Probleme melden</h2>
-<p>Die NetSurf Entwickler sind sehr an Fehlerberichten interessiert. Es sind aber einige einfache Richtlinien einzuhalten.</p>
+<p>Die NetSurf-Entwickler sind sehr an Fehlerberichten interessiert. Es sind dabei einige einfache Richtlinien einzuhalten.</p>
 
 <p>Vor dem Versenden einer Fehlermitteilung, bitte</p>
 
 <ol>
 <li>überprüfe, ob sich dieser Fehler auch in der <a href="http://netsurf.sourceforge.net/builds/">aktuellsten</a> NetSurf Version findet.</li>
 <li>versuche einen reproduzierbaren Weg zu finden, um den Fehler auszulösen.</li>
-<li>überprüfe die Seite <a href="progress">'Stand der Entwicklung'</a> und die <a href="http://cvs.semichrome.net/netsurf/Docs/">TODO Listen</a>, ob nicht bereits eine Behebung des Fehlers oder die Implementation einer vermißten Funktion erfolgt ist.</li>
+<li>überprüfe die Seite <a href="progress">Stand der Entwicklung</a> und die <a href="http://cvs.semichrome.net/netsurf/Docs/">TODO Listen</a>, ob nicht bereits eine Behebung des Fehlers oder die Implementation einer vermißten Funktion erfolgt ist.</li>
 </ol>
 
 <p>Beim Versenden einer Fehlermitteilung, bitte</p>
@@ -104,20 +109,51 @@ Die Installation von &quot;NCNetSurf&quot; ist noch nicht dokumentiert.</p>
 <li>erkläre klar und schlüssig die genaue Art des Problemes (z.B. ob der Computer hing, NetSurf isoliert abgestürzt ist oder eine Fehlermeldung ausgegeben hat, ob eine bestimmte Web-Seite nicht korrekt dargestellt wird; bei Darstellungsproblemen bitte auch eine Beschreibung, was falsch angezeigt wird).</li>
 <li>gib die exakte URL an, wenn eine einzelne Web-Seite zu Problemen führt.</li>
 <li>führe die genaue Reihenfolge der Schritte auf, mit denen sich der Fehler reproduzieren läßt.</li>
-<li>wenn Du einen gut funktionierenden Vorschlag zur Behebung eines Problems finden konntest, ist das prima. Sende ihn mit, soetwas beschleunigt das Bugfixing deutlich.</li>
+<li>wenn Du einen gut funktionierenden Vorschlag zur Behebung eines Problems finden konntest, ist das prima (wenn nicht - auch kein Problem). Sende ihn mit, soetwas beschleunigt das Bugfixing deutlich.</li>
 </ol>
 
-<p>Das Befolgen dieser Richtlinien ermöglicht eine Verringerung des Zeitaufwandes zur Auswertung der Fehlerberichte und spart so Zeit, die der weiteren NetSurf Entwicklung zugute kommt.</p>
+<p>Das Befolgen dieser Richtlinien ermöglicht eine Verringerung des Zeitaufwandes zur Auswertung der Fehlerberichte und spart so Zeit, die der weiteren NetSurf-Entwicklung zugute kommt.</p>
 
 <h2 id="FeatureRequests">Vorschläge für neue Features</h2>
 
-<p>Das NetSurf Team begrüßt immer Vorschläge und innovative Ideen, die ein verbessertes Browsen ermöglichen. Bitte überprüfe vor dem Absenden die Seite <a href="progress">'Stand der Entwicklung'</a> und die <a href="http://cvs.semichrome.net/netsurf/Docs/">TODO Listen</a> daraufhin, ob das Feature nicht bereits geplant ist. Vorschläge können über die <a href="#Devel">Mailing-Liste</a> gesendet werden. Jede hier eingehende Nachricht wird vom Entwickler Team gelesen, auch wenn keine direkte Antwort erfolgt.</p>
+<p>Das NetSurf-Team begrüßt immer Vorschläge und innovative Ideen, die ein verbessertes Browsen ermöglichen. Bitte überprüfe vor dem Absenden die Seite <a href="progress">Stand der Entwicklung</a> und die <a href="http://cvs.semichrome.net/netsurf/Docs/">TODO Listen</a> daraufhin, ob das Feature nicht bereits geplant ist. Vorschläge können über die <a href="#ContactDevelopers">Mailing-Liste</a> gesendet werden. Jede hier eingehende Nachricht wird vom Entwickler-Team gelesen, auch wenn keine direkte Antwort erfolgt.</p>
+
+<h2 id="Unicode">Schriftarten in NetSurf</h2>
+
+<p>NetSurf unterstützt die Darstellung von Seiten, welche Unicode-Zeichen enthalten, die normalerweise unter RISC OS nicht verfügbar sind. Dazu gehören zum Beispiel lateinische Buchstaben mit Accent, griechische Zeichen, kyrillisch, japanisch und verschiedene Symbole.</p>
+
+<p>In der <a href="guide#ConfigurationFonts">Schriftartenwahl</a> kann für jede der fünf unter CSS verfügbaren Schriftfamilien eine Schriftart eingestellt werden. Die Einstellungen legen den vorrangig zu verwendenden Zeichensatz fest. Ist ein bestimmter anzuzeigender Buchstabe oder ein Zeichen in der gewählten Schriftart nicht enthalten aber in einer der anderen installierten Schriften vorhanden, wird NetSurf diese automatisch verwenden. Es ist also nicht notwendig, zur Anzeige von Seiten, die in der ausgewählten Schriftart nicht vorhandene Zeichen einsetzen, die Schriftart manuell umzustellen.</p>
+
+<p>Zu beachten ist, daß nur die Schriftfamilie gewählt werden kann. NetSurf wird automatisch die benötigte Schriftform (normal, fett, schräg) nutzen, sofern sie existiert.</p>
+
+<h3 id="UnicodeInstallingFonts">Weitere Schriften installieren</h3>
+
+<p>Die Zeichensäze, die bei RISC OS standardmäßig vorhanden sind, decken das lateinische Alphabet (Homerton, Trinity, Corpus), griechisch (Sidney) und verschiedene Symbole und Sonderzeichen (Selwyn, Sidney) ab. (In RISC OS 3-4 können nur die &quot;Latin 1&quot; Zeichen dieser Standardschriften von NetSurf genutzt werden.)</p>
+
+<p>Sollen Web-Seiten mit anderen Zeichen richtig dargestellt werden, müssen Schriftarten nachinstalliert werden, die diese Zeichen enthalten. Ist ein bestimmtes Zeichen in keiner der verfügbaren Schriftarten enthalten, wird der Unicode-Zeichencode angezeigt.</p>
+
+<p>Werden die Codes 0091, 0092, 0096 oder andere mit 009 beginnende Codes angezeigt, bedeutet dies, daß die Web-Seite die verwendete Schriftform nicht ordentlich festlegt. Neue Zeichensätze zu installieren, hilft in diesem Fall nicht. Wir haben bisher noch nicht entschieden, wie wir dieses Problem sinnvoll umgehen.</p>
+
+<p>Jeder Zeichensatz mit einer korrekten &quot;Encoding&quot;-Datei sollte funktionieren. In der Praxis sind allerdings Zeichensätze rar, die über die Latin-1 Codierung hinaus Zeichen enthalten. Als Lösung bietet sich an, TrueType-Fonts mittels <a href="http://moose.mine.nu:6888/ttf2f2.zip">TTF2f</a> zu konvertieren (zur Zeit funktioniert das leider nur für RISC OS 5).</p>
+
+<p>Nach dem Installieren neuer Schriftarten muß, um diese zu erkennen, NetSurf neu gestartet werden.</p>
+
+<h3 id="UnicodeProblems">Probleme und nicht implementierte Funktionen</h3>
+
+<ul>
+<li>Die Standardschriftart ist immer Sans-Serif.</li>
+<li>Drucken unter RISC OS 5 funktioniert nicht, wegen fehlender Unterstützung im Font-Manager und den Druckertreibern. Drucken per Postscript unter RISC-OS 3-4 ist nicht korrekt in NetSurf implementiert.</li>
+<li>Einzusetzende Zeichen werden aus dem ersten Zeichensatz, der sie enthält, genommen - auch dann, wenn evtl. ein anderer Zeichensatz vorhanden ist, der für die Darstellung geeigneter wäre.</li>
+<li>Nur zwei Schriftformen (normal und fett) werden unterstützt - auch wenn die Schriftfamilie noch andere Formen enthält. Der Algorithmus, der die nötige Schriftform festlegt, muß noch verbessert werden, z.B. mittels der Vorschläge unter <a href="http://www.w3.org/TR/CSS21/">CSS 2.1</a>, section <a href="http://www.w3.org/TR/CSS21/fonts.html#font-boldness">15.6</a>.</li>
+<li>Exportieren als Drawfile funktioniert nicht mehr.</li>
+<li>Textverlauf Rechts-nach-Links (Hebräisch, Arabisch) wurde nicht implementiert.</li>
+</ul>
 
 <h2 id="JavaScript">JavaScript</h2>
 
 <p>Im Augenblick wird JavaScript von NetSurf nicht unterstützt. Auch ohne eine JavaScript Implementation ist NetSurf in der Lage die meisten Seiten des World Wide Web darzustellen. Allerdings werden einige Seiten nicht korrekt dargestellt oder sind nicht nutzbar, wenn sie diesen Standard massiv einsetzen.</p>
 
-<p>Wie auf der Seite <a href="progress">'Stand der Entwicklung'</a> nachgelesen werden kann, ist die Implementation von JavaScript zur Zeit &quot;nicht geplant&quot;. Dies liegt vor allem an der großen Menge an Arbeit, die damit verbunden wäre und der begrenzten Freizeit der NetSurf Entwickler. Sollte sich aber jemand finden, der Zeit, Können und Motivation besitzt JavaScript zu implementieren, kann dieser natürlich mit der vollen Unterstützung des gesamten derzeitigen NetSurf Entwickler-Teams rechnen.</p>
+<p>Wie auf der Seite <a href="progress">Stand der Entwicklung</a> nachgelesen werden kann, ist die Implementation von JavaScript zur Zeit &quot;nicht geplant&quot;. Dies liegt vor allem an der großen Menge an Arbeit, die damit verbunden wäre und der begrenzten Freizeit der NetSurf Entwickler. Sollte sich aber jemand finden, der Zeit, Können und Motivation besitzt JavaScript zu implementieren, kann dieser natürlich mit der vollen Unterstützung des gesamten derzeitigen NetSurf Entwickler-Teams rechnen.</p>
 
 <p class="breadcrumbs"><a href="/">NetSurf</a> »
 <a href="docs">Dokumentation</a> » Allgemeine Informationen</p>

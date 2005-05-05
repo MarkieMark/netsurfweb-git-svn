@@ -27,8 +27,15 @@
 <li><a href="info#ContactDevelopers">Entwickler kontaktieren</a></li>
 <li><a href="info#Bugs">Fehler und Probleme melden</a></li>
 <li><a href="info#FeatureRequests">Vorschläge für neue Features</a></li>
+<li><a href="info#Unicode">Schriftarten in NetSurf</a>
+<ul>
+<li><a href="info#UnicodeInstallingFonts">Weitere Schriften installieren</a></li>
+<li><a href="info#UnicodeProblems">Probleme und nicht implementierte Funktionen</a></li>
+</ul></li>
 <li><a href="info#JavaScript">JavaScript</a></li>
 </ul></li>
+
+<br>
 
 <li><strong><a href="guide">Handbuch</a></strong>
 <ul>
@@ -52,6 +59,8 @@
 <li><a href="guide#Configuration">NetSurf konfigurieren</a></li>
 <li><a href="guide#Keys">Tastaturkürzel (Shortcuts)</a></li>
 </ul></li>
+
+<br>
 
 <li><strong><a href="progress">Stand der Entwicklung</a></strong>
 <ul>
