@@ -50,7 +50,7 @@
 <dd>The Acorn URI module is used to pass URIs (of which URLs are an example) back and forth between different applications.</dd>
 <dt><a href="http://moose.mine.nu:6888/iconv_latest.zip">Iconv</a></dt>
 <dd>This module provides improved character encoding support.</dd>
-<dt><a href="http://gccsdk.riscos.info/#SUL">SharedUnixLibrary</a></dt>
+<dt><a href="http://gccsdk.riscos.info/downloads/sharedunixlib/">SharedUnixLibrary</a></dt>
 <dd>This is a support module for programs compiled using UnixLib.</dd>
 <dt><a href="http://www.tinct.net/tinct.asp">Tinct</a></dt>
 <dd>Tinct is used for image plotting. It provides support for plotting sprites with alpha channels.</dd>
