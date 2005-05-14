@@ -48,7 +48,7 @@
 <li>WindowManager 3.80 ou plus. Il est fourni avec RISC OS 4 ou plus, les utilisateurs de RISC OS 3 doivent installer la <a href="http://acorn.riscos.com/riscos/releases/UniBoot/">Séquence de Boot Universelle</a>.</li>
 <li><a href="http://gccsdk.riscos.info/downloads/sharedunixlib/">SharedUnixLibrary</a>.</li>
 <li><a href="http://sudden.recoil.org/others/">AcornURI</a>.</li>
-<li><a href="http://www.tinct.net/tinct.asp">Tinct</a>.</li>
+<li><a href="http://www.tinct.net/download/tinct_010.zip">Tinct</a>.</li>
 </ul>
 
 <p><strong>En option:</strong> installez <a href="http://moose.mine.nu:6888/iconv_latest.zip">iconv</a> pour obtenir un support amélioré sur l'encodage des caractères.</p>
