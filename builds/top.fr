@@ -51,7 +51,7 @@
 <li><a href="http://www.tinct.net/tinct.asp">Tinct</a>.</li>
 </ul>
 
-<p><strong>En option:</strong> installez <a href="http://moose.mine.nu:6888/iconv_latest.zip">iconv</a> pour obtenir un support amélioré sur l'encodage des caractères.</p>
+<p><strong>En option:</strong> installez <a href="http://gccsdk.riscos.info/downloads/iconv/iconv_latest.zip">iconv</a> pour obtenir un support amélioré sur l'encodage des caractères.</p>
 
 <!-- <p><strong>Optional:</strong> download and install the <a href="nsfonts.zip">fonts (360k)</a> to get improved font-family and font-variant support.</p> -->
 
