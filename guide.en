@@ -207,7 +207,7 @@
 
 <h4 id="BrowserWindowContentLinkHandling">Link Handling</h4>
 
-<p>Links are not followed until <span class="action">click release</span>, so link actions can be avoided if a drag operation is started. This allows initiation of <a href="#BrowserWindowContentTextSelection">text selection</a> in link text and <a href="#BrowserWindowContentDragScrolling">page drag scrolling</a> from link images.</p>
+<!-- <p>Links are not followed until <span class="action">click release</span>, so link actions can be avoided if a drag operation is started. This allows initiation of <a href="#BrowserWindowContentTextSelection">text selection</a> in link text and <a href="#BrowserWindowContentDragScrolling">page drag scrolling</a> from link images.</p> -->
 
 <ul>
 <li><span class="action">Select click</span> on a link follows the link in current window.</li>
