@@ -7,7 +7,7 @@
 </head>
 <body>
 <p class="banner"><a href="/"><img src="netsurf.png" alt="NetSurf"></a></p>
-<p class="languages">Deutsch · <a href="progress.en">English</a> · <a href="progress.fr">Français</a></p>
+<p class="languages">Deutsch · <a href="progress.en">English</a> · <a href="progress.fr">Français</a> · <a href="progress.nl">Nederlands</a></p>
 
 <h1>Stand der Entwicklung</h1>
 

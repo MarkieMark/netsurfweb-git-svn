@@ -8,7 +8,7 @@
 
 <body>
 <p class="banner"><a href="/"><img src="netsurf.png" alt="NetSurf"></a></p>
-<p class="languages">Deutsch · <a href="guide.en">English</a></p>
+<p class="languages">Deutsch · <a href="guide.en">English</a> · <a href="guide.nl">Nederlands</a></p>
 
 <p class="headnote">Achtung ! NetSurf befindet sich in ständiger Entwicklung. Darum sind die unten beschriebenen Funktionen einem Wandel unterworfen, der ohne Vorankündigung erfolgen kann.</p>
 

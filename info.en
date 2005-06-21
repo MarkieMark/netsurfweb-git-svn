@@ -8,7 +8,7 @@
 
 <body>
 <p class="banner"><a href="/"><img src="netsurf.png" alt="NetSurf"></a></p>
-<p class="languages"><a href="info.de">Deutsch</a> · English · <a href="info.fr">Français</a></p>
+<p class="languages"><a href="info.de">Deutsch</a> · English · <a href="info.fr">Français</a> · <a href="info.nl">Nederlands</a></p>
 
 <h1>User Information</h1>
 
