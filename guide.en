@@ -1110,7 +1110,9 @@
 <tr><td>Ctrl+F2</td><td>Close the window</td></tr>
 </table>
 
+<div class="footer">
 <p class="breadcrumbs"><a href="/">NetSurf</a> » <a href="docs">Documentation</a> » User Guide</p>
+</div>
 
 </body>
 </html>

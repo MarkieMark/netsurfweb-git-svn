@@ -896,7 +896,9 @@
 <tr><td>Venster sluiten</td><td>Ctrl+F2</td></tr>
 </table>
 
+<div class="footer">
 <p class="breadcrumbs"><a href="/">NetSurf</a> » <a href="docs">Documentatie</a> » Handleiding</p>
+</div>
 
 </body>
 </html>

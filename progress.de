@@ -106,7 +106,9 @@
 <tr class="complete"><td>Quellcode zeigen</td><td>komplett</td><td>Drücke F8 oder wähle <i>Seite &gt; Quellcode...</i> im Hauptmenü.</td></tr>
 </table>
 
+<div class="footer">
 <p class="breadcrumbs"><a href="/">NetSurf</a> » <a href="docs">Dokumentation</a> » Stand der Entwicklung</p>
+</div>
 
 </body>
 </html>

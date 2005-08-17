@@ -79,7 +79,9 @@
 </ul></li>
 </ul>
 
+<div class="footer">
 <p class="breadcrumbs"><a href="/">NetSurf</a> » Documentatie</p>
+</div>
 
 </body>
 </html>

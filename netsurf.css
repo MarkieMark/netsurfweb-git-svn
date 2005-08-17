@@ -1,7 +1,7 @@
 html, body { margin: 0; padding: 0; }
 h1, h2, h3, h4, h5, .breadcrumbs { font-family: sans-serif; }
-h1, h2, h3, h4, h5, p, dl, table, ul, ol, pre, address, .breadcrumbs { margin: 0 5mm 5mm 5mm; }
-h2, .breadcrumbs, .thanks { padding-top: 5mm; border-top: thin solid black; }
+h1, h2, h3, h4, h5, p, dl, table, ul, ol, pre, address, div.footer { margin: 0 5mm 5mm 5mm; }
+h2, div.footer, .thanks { padding-top: 5mm; border-top: thin solid black; }
 img { border: none; }
 dl { display: block; padding-left: 0em; }
 dd { display: block; padding-left: 1.5em; }
@@ -14,9 +14,9 @@ div.links { display: table-cell; border-left: thin solid black; }
 .screenshot { text-align: center; font-size: small; }
 .thanks { margin-top: 5mm; text-align: right; }
 .thanks img { vertical-align: middle; }
-.sourceforge { padding: 0; margin: -5mm 0 0 0; text-align: right; }
-.breadcrumbs { padding-right: 94px; }
-.footer { font-size: small; text-align: right; margin-top: 5mm; font-style: italic; }
+.breadcrumbs { float: left; margin: 0 }
+.sourceforge { text-align: right; margin: 0 }
+p.footer { font-size: small; text-align: right; margin-top: 5mm; font-style: italic; }
 .icon { float: left; padding: 1mm; }
 .languages { margin: -4mm 5mm 3mm 5mm; text-align: right; }
 .updated { margin: -4mm 5mm 1mm 5mm; text-align: right; }

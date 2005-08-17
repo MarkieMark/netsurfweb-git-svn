@@ -155,8 +155,10 @@ Die Installation von &quot;NCNetSurf&quot; ist noch nicht dokumentiert.</p>
 
 <p>Wie auf der Seite <a href="progress">Stand der Entwicklung</a> nachgelesen werden kann, ist die Implementation von JavaScript zur Zeit &quot;nicht geplant&quot;. Dies liegt vor allem an der großen Menge an Arbeit, die damit verbunden wäre und der begrenzten Freizeit der NetSurf Entwickler. Sollte sich aber jemand finden, der Zeit, Können und Motivation besitzt JavaScript zu implementieren, kann dieser natürlich mit der vollen Unterstützung des gesamten derzeitigen NetSurf Entwickler-Teams rechnen.</p>
 
+<div class="footer">
 <p class="breadcrumbs"><a href="/">NetSurf</a> »
 <a href="docs">Dokumentation</a> » Allgemeine Informationen</p>
+</div>
 
 </body>
 </html>

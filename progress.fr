@@ -102,7 +102,9 @@
 <tr class="complete"><td>Voir le source</td><td>Terminé</td><td>Tapez F8 ou faire <i>Page &gt; Voir le source</i> dans le menu principal.</td></tr>
 </table>
 
+<div class="footer">
 <p class="breadcrumbs"><a href="/">NetSurf</a> » <a href="docs">Documentation</a> » Avancement</p>
+</div>
 
 </body>
 </html>

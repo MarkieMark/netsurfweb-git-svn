@@ -118,8 +118,10 @@
 
 <p>Comme cela est indiqué sur la page d'<a href="progress">avancement</a> Javascript n'est pour l'instant &quot;pas prévu&quot;. Ceci est principalement dû à l'énorme quantité de travail nécessaire pour implémenter Javascript et le manque de temps libre des développeurs de NetSurf. Inutile de préciser que si un volontaire a le temps et la motivation pour implémenter Javascript, il recevra le soutien total des développeurs actuels de NetSurf.</p>
 
+<div class="footer">
 <p class="breadcrumbs"><a href="/">NetSurf</a> » 
 <a href="docs">Documentation</a> » Guide Utilisateur</p>
+</div>
 
 </body>
 </html>

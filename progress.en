@@ -105,7 +105,9 @@
 <tr class="complete"><td>View Source</td><td>Complete</td><td>Press F8 or <i>Page &gt; View source</i> on main menu.</td></tr>
 </table>
 
+<div class="footer">
 <p class="breadcrumbs"><a href="/">NetSurf</a> » <a href="docs">Documentation</a> » Progress</p>
+</div>
 
 </body>
 </html>

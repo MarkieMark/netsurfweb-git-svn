@@ -152,7 +152,9 @@
 
 <p>Zoals blijkt in het <a href="progress">voortgang</a>hoofdstuk, staat JavaScript momenteel &quot;niet gepland&quot;. Dit is hoofdzakelijk vanwege het vele werk dat daarvoor nodig zou zijn en de beperkte tijd van de ontwikkelaars. Onnodig om te zeggen, dat wanneer iemand de tijd en motivatie zou hebben om ondersteuning van JavaScript mogelijk te maken, de huidige NetSurf-ontwikkelaars alle hulp zullen geven die mogelijk is.</p>
 
+<div class="footer">
 <p class="breadcrumbs"><a href="/">NetSurf</a> » <a href="docs">Documentatie</a> » Gebruikersinformatie</p>
+</div>
 
 </body>
 </html>

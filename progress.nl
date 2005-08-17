@@ -152,7 +152,9 @@ Laatste vertaling: 17 juni 2005</p>
 <tr class="inprogress"><td>Resources.nl</td><td>Aangemaakt</td><td>Deels vertaald (27-05-'05)</td></tr>
 </table>
 
+<div class="footer">
 <p class="breadcrumbs"><a href="/">NetSurf</a> » <a href="docs">Inhoudsopgave</a> » Voortgang</p>
+</div>
 
 </body>
 </html>

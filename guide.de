@@ -806,7 +806,9 @@
 <tr><td>Strg+F2</td><td>schlieﬂt das aktuelle Fenster</td></tr>
 </table>
 
+<div class="footer">
 <p class="breadcrumbs"><a href="/">NetSurf</a> ª <a href="docs">Dokumentation</a> ª Handbuch</p>
+</div>
 
 </body>
 </html>

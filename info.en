@@ -154,8 +154,10 @@
 
 <p>As indicated on the <a href="progress">progress</a> page JavaScript is currently &quot;not planned&quot;. This is largely because of the huge amount of work that implementing JavaScript would involve and limitations on the developers' spare time. Needless to say, if someone steps forward with the time and motivation to implement JavaScript, they will receive the full support of NetSurf's current developers.</p>
 
+<div class="footer">
 <p class="breadcrumbs"><a href="/">NetSurf</a> » 
 <a href="docs">Documentation</a> » User Information</p>
+</div>
 
 </body>
 </html>
