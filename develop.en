@@ -7,7 +7,7 @@
 </head>
 
 <body>
-<p class="banner"><a href="/"><img src="netsurf.png" alt="NetSurf"></a></p>
+<p class="banner"><a href="/"><img src="netsurf.png" alt="NetSurf: Web Browser for RISC OS"></a></p>
 
 <h1>Development Information</h1>
 
@@ -57,11 +57,11 @@ access.</p>
 
 <h2>Compiling</h2>
 
-<p>The recommended compiler is
-<a href="http://gccsdk.riscos.info/">gcc</a>, either native or
-cross-compiling from Linux or Unix using gccsdk.
-<a href="http://netsurf.strcprstskrzkrk.co.uk/developer/">Pre-compiled ports</a>
-of the libraries required are available.</p>
+<p>The recommended compiler is <a href="http://gccsdk.riscos.info/">gcc</a>,
+either native or cross-compiling from Linux or Unix using gccsdk. A guide to
+<a href="robuild">building NetSurf on RISC OS</a> is available, as are
+<a href="http://netsurf.strcprstskrzkrk.co.uk/developer/">pre-compiled ports</a>
+of the required libraries.</p>
 
 <p>The <a href="http://netsurf.sourceforge.net/builds/">autobuilder</a> compiles
 NetSurf every 15 minutes if changes have been checked into CVS.</p>

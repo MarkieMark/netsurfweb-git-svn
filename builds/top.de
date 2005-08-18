@@ -18,7 +18,7 @@
 <p id="newtonetsurf"><strong>Ganz neu bei NetSurf ?</strong> Lade <span class="highlight">NetSurf</span> von hier und dazu die <span class="highlight">fünf unten aufgeführten Dateien</span>.</p>
 
 <table class="download">
-<tr><th><a href="dl/netsurf.zip" class="highlight"><img src="netsurf.png" alt=""><br>NetSurf</a></th>
+<tr><th class="highlight"><a href="dl/netsurf.zip"><img src="netsurf.png" alt=""><br>NetSurf</a></th>
 <td>SIZE_NETSURF</td>
 <td>DATE_NETSURF</td>
 <td>NetSurf Browser für RISC OS, die Vollversion.

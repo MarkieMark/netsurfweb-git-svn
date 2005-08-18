@@ -11,25 +11,38 @@
 <p class="languages"><a href="index.de">Deutsch</a> · English · <a href="index.fr">Français</a></p>
 
 <div class="main">
-<p>NetSurf is an open-source web browser for RISC OS. Its aim is to bring the
-HTML&nbsp;4 and CSS standards to the RISC OS platform.</p>
 
-<h2>Status</h2>
-<p><strong>NetSurf is currently under development.</strong> Test builds are
-<a href="http://netsurf.sourceforge.net/builds/">available for download</a>.
-See the <a href="progress">progress</a> page to get an indication of NetSurf's
-development status.</p>
+<img src="screenshots/frontscreen.png" alt="" class="screenshot">
 
-<h2>Screenshots</h2>
-<p>This is a recent development screenshot:</p>
-<p class="screenshot"><a href="screenshots/"><img src="screenshots/w3cs.png" alt=""></a></p>
-<p>More screenshots are available on the <a href="screenshots/">screenshots page</a>.</p>
+<p>NetSurf is an open-source web browser for RISC OS. Its aim is to bring the HTML&nbsp;4 and CSS standards to the RISC&nbsp;OS platform and provide a small, fast and comprehensive web browsing solution.</p>
 
-<h2>Mailing List</h2>
-<p>Development is discussed on the
-<a href="http://lists.sourceforge.net/lists/listinfo/netsurf-develop">netsurf-develop</a>
-mailing list. Please post to the list if you are interested in
-contributing.</p>
+<p>NetSurf is undergoing steady development although it has not yet seen a full release. Test builds are made available for <a href="http://netsurf.sourceforge.net/builds/">download</a>, which are built every 15 minutes from the latest source code in <a href="http://cvs.semichrome.net/netsurf/">CVS</a>.</p>
+
+<p>Please try NetSurf out regularly and <a href="info#ContactDevelopers">send us feedback</a>. The <a href="progress">progress</a> page provides an overview of NetSurf's current status.</p>
+
+<h2>News</h2>
+<div class="newsitem">
+<p>18 Apr 2005 - <em>Summary of recent changes</em></p>
+<p>Text selection, drag scrolling, drag-saving</p>
+<p class="more"><a href="http://sourceforge.net/mailarchive/message.php?msg_id=11513134">Read more...</a></p>
+</div>
+
+<div class="newsitem">
+<p>06 Feb 2005 - <em>Summary of recent changes</em></p>
+<p>URL completion, IEURL files, themes</p>
+<p class="more"><a href="http://sourceforge.net/mailarchive/message.php?msg_id=10766059">Read more...</a></p>
+</div>
+
+<div class="newsitem">
+<p>23 Jan 2005 - <em>Themes now available</em></p>
+<p>Two new themes by Richard Hallas are now available from the themes page.</p>
+<p class="more"><a href="themes/">Read more...</a></p>
+</div>
+
+<h2>Awards</h2>
+<a class="awardlogo"href="http://www.drobe.co.uk/features/artifact1249.html"><img src="da2004.png" alt=""></a>
+
+<p>NetSurf won the award for &quot;best non-commercial software&quot; in the <a href="http://www.drobe.co.uk/features/artifact1249.html">Best of 2004</a> awards, hosted by <a href="http://www.drobe.co.uk/">Drobe Launch Pad</a>. Thanks to everyone who voted for us!</p>
 </div>
 
 <div class="links">
@@ -39,26 +52,26 @@ contributing.</p>
 <dt><a href="docs">Documentation</a></dt>
 <dd>User Guide and information</dd>
 
-<dt><a href="http://sourceforge.net/projects/netsurf/">SourceForge project
-page</a></dt>
-<dd>SourceForge provides the mailing list, bug tracker, and other services</dd>
+<dt><a href="screenshots/">Screenshots</a></dt>
+<dd>Images showing NetSurf in action</dd>
 
 <dt><a href="http://netsurf.sourceforge.net/builds/">Test builds</a></dt>
 <dd>Built automatically from the latest source</dd>
 
 <dt><a href="/themes/">Themes</a></dt>
-<dd>Install themes to change the look and feel of the NetSurf interface</dd>
+<dd>Change the look and feel of NetSurf's interface</dd>
 
-<dt><a href="http://sourceforge.net/tracker/?atid=464312&amp;group_id=51719">Bug
-tracker</a></dt>
-<dd>Please submit bugs to the tracker, or report them to the mailing list</dd>
+<dt><a href="http://sourceforge.net/tracker/?atid=464312&amp;group_id=51719">Bug tracker</a></dt>
+<dd>Submit bugs to the tracker</dd>
 
-<dt><a href="http://lists.sourceforge.net/lists/listinfo/netsurf-develop">Development
-mailing list</a></dt>
-<dd>Subscribe to the list if you plan to develop or test NetSurf</dd>
+<dt><a href="http://lists.sourceforge.net/lists/listinfo/netsurf-develop">Development mailing list</a></dt>
+<dd>Subscribe if you plan to develop or test NetSurf</dd>
 
 <dt><a href="develop">Development information</a></dt>
 <dd>For developers and contributors</dd>
+
+<dt><a href="http://sourceforge.net/projects/netsurf/">SourceForge project page</a></dt>
+<dd>SourceForge provides the mailing list, bug tracker, and other services</dd>
 </dl>
 
 </div>

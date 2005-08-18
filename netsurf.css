@@ -4,14 +4,15 @@ h1, h2, h3, h4, h5, p, dl, table, ul, ol, pre, address, div.footer { margin: 0 5
 h2, div.footer, .thanks { padding-top: 5mm; border-top: thin solid black; }
 img { border: none; }
 dl { display: block; padding-left: 0em; }
-dd { display: block; padding-left: 1.5em; }
+dd { display: block; padding-left: 1.5em; margin-left: 0; }
 dd dl, dd p { margin: 3mm 0; }
 ul ul { margin: 0; }
 .banner { margin: 0 0 5mm 0; padding: 0; border-bottom: medium solid black; background-color: #94adff; color: black; text-align: left; }
 .banner img { vertical-align: middle; }
-div.main { display: table-cell; }
-div.links { display: table-cell; border-left: thin solid black; }
-.screenshot { text-align: center; font-size: small; }
+div.main { display: table-cell; vertical-align: top; }
+div.links { display: table-cell; border-left: thin solid black; vertical-align: top; }
+.screenshot { float:right; padding:0 5mm 3mm 5mm; }
+.awardlogo { float:left; padding:0 5mm 0 5mm; }
 .thanks { margin-top: 5mm; text-align: right; }
 .thanks img { vertical-align: middle; }
 .breadcrumbs { float: left; margin: 0 }
@@ -71,3 +72,10 @@ td { padding: 3px; }
 .files, .files a { color: #888; }
 #newtonetsurf { border: solid medium black; padding: 0.4em; }
 .highlight { background-color: #ffd0aa; }
+
+.newsitem { margin: 0 5mm 3mm 5mm; }
+.newsitem em { color: #005; }
+.newsitem + .newsitem { border-top: thin solid #bbb; padding-top: 0.2em; }
+.newsitem p { margin: 0; }
+.newsitem p + p { padding: 0 0 0 4em; color: #666; }
+.newsitem .more { text-align: right; font-weight: bold; }

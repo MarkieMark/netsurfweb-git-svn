@@ -7,7 +7,7 @@
 </head>
 
 <body>
-<p class="banner"><a href="/"><img src="netsurf.png" alt="NetSurf"></a></p>
+<p class="banner"><a href="/"><img src="netsurf.png" alt="NetSurf: Web Browser for RISC OS"></a></p>
 <p class="languages"><a href="guide.de">Deutsch</a> · English · <a href="guide.nl">Nederlands</a></p>
 
 <p class="headnote">As NetSurf is under constant development the features described below are subject to change without warning.</p>
@@ -563,7 +563,7 @@
 </table>
 
 <p class="menupath" id="BrowserWindowMenuUtilitiesWindowSetdefault">Utilities &gt; Window &gt; Set as default position</p>
-<p class="menuitem">This option sets the position of the current window to be the default position for new browser windows. If no default position is set, NetSurf opens new windows in the centre of the screen.</p>
+<p class="menuitem">This option sets the size and position of the current window to be the default size and position for new browser windows. If no default position is set, NetSurf opens new windows in the centre of the screen.</p>
 
 <p class="menupath" id="BrowserWindowMenuUtilitiesWindowStagger">Utilities &gt; Window &gt; Stagger window position</p>
 <p class="menuitem">This option toggles staggered window opening positions for new windows. When turned on, this option means that new windows will open with a small offset from the position of the previously opened window. This option is only available when a user defined default window position has been set.</p>

@@ -6,7 +6,7 @@
 <link rel="stylesheet" type="text/css" href="netsurf.css">
 </head>
 <body>
-<p class="banner"><a href="/"><img src="netsurf.png" alt="NetSurf"></a></p>
+<p class="banner"><a href="/"><img src="netsurf.png" alt="NetSurf: Web Browser for RISC OS"></a></p>
 <p class="languages"><a href="progress.de">Deutsch</a> · English · <a href="progress.fr">Français</a> · <a href="progress.nl">Nederlands</a></p>
 
 <h1>Development Progress</h1>
@@ -21,7 +21,7 @@
 <li><a href="#NSF">NetSurf features</a>
 </ul>
 
-<p class="updated">Last updated 21 June 2005</p>
+<p class="updated">Last updated 18 August 2005</p>
 
 <h2 id="Web">Web standards</h2>
 
@@ -47,7 +47,7 @@
 <tr class="juststarted"><td>Frames</td><td>Just started</td><td>Experimental frames implementation is far from complete.</td></tr>
 <tr class="complete"><td>Image Maps</td><td>Complete</td><td></td></tr>
 <tr class="juststarted"><td>Lists</td><td>Just started</td><td>Lists aren't handled properly.</td></tr>
-<tr class="notstarted"><td>Position (CSS2 attribute)</td><td>Not started</td><td></td></tr>
+<tr class="juststarted"><td>Position (CSS2 attribute)</td><td>Just started</td><td>Relative positioning has been implemented.<br>Absolute positioning has not been implemented.</td></tr>
 <tr class="nearlydone"><td>Tables</td><td>Nearly done</td><td>Elements col, colgroup, rowgroup and caption not implemented.<br>Extra space is divided equally among columns instead of in proportion with content width.</td></tr>
 <tr class="inprogress"><td>Vertical Alignment</td><td>In progress</td><td>Only implemented for tables.</td></tr>
 </table>
@@ -97,7 +97,7 @@
 <tr class="complete"><td>Save Location</td><td>Complete</td><td>Save the location of the current page / object in Acorn URI, Ant URL or plain text formats.</td></tr>
 <tr class="inprogress"><td>Save as Text</td><td>In progress</td><td>Some issues with spacing out of text.</td></tr>
 <tr class="complete"><td>Scale View</td><td>Complete</td><td>Web pages and images can be scaled up and down.</td></tr>
-<tr class="inprogress"><td>Text Selection</td><td>In progress</td><td></td></tr>
+<tr class="inprogress"><td>Text Selection</td><td>In progress</td><td>Text selection in text areas is incomplete.</td></tr>
 <tr class="complete"><td>Themes</td><td>Complete</td><td>Themes are available from the <a href="http://netsurf.sourceforge.net/themes/">NetSurf themes page</a>.</td></tr>
 <tr class="complete"><td>Toolbar Customization</td><td>Complete</td><td>Toolbars can be customized to show the icons you want, in the order you want.</td></tr>
 <tr class="inprogress"><td>Unicode Font Support</td><td>In progress</td><td></td></tr>

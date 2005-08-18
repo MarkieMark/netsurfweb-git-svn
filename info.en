@@ -7,7 +7,7 @@
 </head>
 
 <body>
-<p class="banner"><a href="/"><img src="netsurf.png" alt="NetSurf"></a></p>
+<p class="banner"><a href="/"><img src="netsurf.png" alt="NetSurf: Web Browser for RISC OS"></a></p>
 <p class="languages"><a href="info.de">Deutsch</a> · English · <a href="info.fr">Français</a> · <a href="info.nl">Nederlands</a></p>
 
 <h1>User Information</h1>
@@ -31,7 +31,7 @@
 <li><a href="#JavaScript">JavaScript</a></li>
 </ul>
 
-<p class="updated">Last updated 26 April 2005</p>
+<p class="updated">Last updated 8 July 2005</p>
 
 <h2 id="GettingStarted">Getting started</h2>
 
@@ -50,12 +50,14 @@
 <dd>The Acorn URI module is used to pass URIs (of which URLs are an example) back and forth between different applications.</dd>
 <dt><a href="http://moose.mine.nu:6888/iconv_latest.zip">Iconv</a></dt>
 <dd>This module provides improved character encoding support.</dd>
+<dt><a href="http://www.beebware.com/software/mappings/">MimeMap Datafile</a></dt>
+<dd>A resource containing many different MIME types and their equivalent RISC OS file types.</dd>
 <dt><a href="http://gccsdk.riscos.info/downloads/sharedunixlib/">SharedUnixLibrary</a></dt>
 <dd>This is a support module for programs compiled using UnixLib.</dd>
 <dt><a href="http://www.tinct.net/tinct.asp">Tinct</a></dt>
 <dd>Tinct is used for image plotting. It provides support for plotting sprites with alpha channels.</dd>
 <dt>Window Manager 3.80 or later</dt>
-<dd>NetSurf uses the Nested Wimp, which is part of the Window Manager. This comes with RISC OS 4 or later, RISC OS 3 users should install the <a href="http://acorn.riscos.com/riscos/releases/UniBoot/">Universal Boot Sequence</a></dd>
+<dd>NetSurf uses the Nested Wimp, which is part of the Window Manager. This comes with RISC OS 4 or later, RISC OS 3 users should install the <a href="http://acorn.riscos.com/riscos/releases/UniBoot/">Universal Boot Sequence</a>.</dd>
 </dl>
 
 <p>If NetSurf starts without a problem, there is no need to upgrade any resources on your system.</p>
@@ -81,13 +83,13 @@
 <h3>Mailing list</h3>
 <p>The <a href="http://lists.sourceforge.net/lists/listinfo/netsurf-develop">netsurf-develop</a> mailing list is for discussion of NetSurf. If you are interested in NetSurf's development, please subscribe to this list. Please note that all posts to the mailing list are read and noted by the development team, even if we don't reply.</p>
 
-<h3>IRC channel</h3>
-<p>The #netsurf IRC channel on the <a href="http://freenode.net/">Freenode</a> network is used for discussion of NetSurf development.</p>
-
 <h3>Bug tracker</h3>
 <p>Please submit any bugs to the <a href="http://sourceforge.net/tracker/?group_id=51719&amp;atid=464312">bug tracker</a>.</p>
 
-<p>If you want to contribute to the NetSurf project, please contact the developers on the Mailing List or on IRC.</p>
+<h3>IRC channel</h3>
+<p>The #netsurf IRC channel on the <a href="http://freenode.net/">Freenode</a> network is used for discussion of NetSurf development.</p>
+
+<p>If you want to contribute to the NetSurf project, please contact the developers on the mailing list or on IRC.</p>
 
 <h2 id="Bugs">Reporting bugs</h2>
 <p>The NetSurf developers are very much open to bug reports. Please follow these simple guidelines.</p>
