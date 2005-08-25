@@ -22,6 +22,12 @@
 
 <h2>News</h2>
 <div class="newsitem">
+<p>25 Aug 2005 - <em>NetSurf review</em></p>
+<p>Drobe Launchpad compare NetSurf, Firefox and Oregano2.</p>
+<p class="more"><a href="http://www.drobe.co.uk/riscos/artifact1424.html">Read more...</a></p>
+</div>
+
+<div class="newsitem">
 <p>18 Apr 2005 - <em>Summary of recent changes</em></p>
 <p>Text selection, drag scrolling, drag-saving</p>
 <p class="more"><a href="http://sourceforge.net/mailarchive/message.php?msg_id=11513134">Read more...</a></p>
