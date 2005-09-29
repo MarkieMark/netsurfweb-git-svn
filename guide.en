@@ -157,6 +157,8 @@
 
 <p>Next to the URL bar is a pop-up menu button which opens a list of URLs previously typed into the URL bar. Clicking on one of the URLs opens the page.</p>
 
+<p>The current URL can be dragged from the URL bar to be saved or dropped onto other applications. A <span class="action">Ctrl drag</span> saves the URL in Text format and a <span class="action">Shift drag</span> saves it in ANT URL format. Systems that don't support text selection in writable icons (i.e. non RISC OS Select systems) allow the URL to be dragged out in Text format without the use of either <span class="action">Ctrl</span> or <span class="action">Shift</span>.</p>
+
 <h4 id="BrowserWindowURLCompletion">URL Completion</h4>
 
 <p>When typing into the URL bar, NetSurf opens a window below displaying suggestions for the full address. If the address you want is not shown, the box can be ignored. If the intended address is shown, select clicking on it will complete the address and open the page automatically. An adjust click on a URL copies it into the URL but does not load the page. The Up and Down cursor keys can be used to select an address from the list and the Return key opens the page. Escape closes the URL completion window. The function of other keys in the URL bar, such as the Left and Right cursor keys, is unaffected by this feature.</p>
