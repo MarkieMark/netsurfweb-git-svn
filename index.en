@@ -22,6 +22,12 @@
 
 <h2>News</h2>
 <div class="newsitem">
+<p>01 Jan 2006 - <em>Best of 2005 awards</em></p>
+<p>NetSurf comes runner up in two categories.</p>
+<p class="more"><a href="#Awards">Read more...</a></p>
+</div>
+
+<div class="newsitem">
 <p>25 Aug 2005 - <em>NetSurf review</em></p>
 <p>Drobe Launchpad compare NetSurf, Firefox and Oregano2.</p>
 <p class="more"><a href="http://www.drobe.co.uk/riscos/artifact1424.html">Read more...</a></p>
@@ -45,10 +51,18 @@
 <p class="more"><a href="themes/">Read more...</a></p>
 </div>
 
-<h2>Awards</h2>
-<a class="awardlogo"href="http://www.drobe.co.uk/features/artifact1249.html"><img src="da2004.png" alt=""></a>
+<h2 id="Awards">Awards</h2>
+<div class="award">
+<a href="http://www.drobe.co.uk/riscos/artifact1517.html"><img src="da2005.jpg" alt=""></a>
+
+<p>NetSurf and the NetSurf Developers were <a href="http://www.drobe.co.uk/riscos/artifact1515.html">nominated</a> for the &quot;best non-commercial software&quot; and &quot;best general contribution&quot; awards in <a href="http://www.drobe.co.uk/">Drobe Launch Pad's</a> prestigious <a href="http://www.drobe.co.uk/riscos/artifact1517.html">annual ceremony</a>. The NetSurf entries came runner up in both categories. Thanks once again to everyone who voted for us!</p>
+</div>
+
+<div class="award">
+<a href="http://www.drobe.co.uk/features/artifact1249.html"><img src="da2004.png" alt=""></a>
 
 <p>NetSurf won the award for &quot;best non-commercial software&quot; in the <a href="http://www.drobe.co.uk/features/artifact1249.html">Best of 2004</a> awards, hosted by <a href="http://www.drobe.co.uk/">Drobe Launch Pad</a>. Thanks to everyone who voted for us!</p>
+</div>
 </div>
 
 <div class="links">
