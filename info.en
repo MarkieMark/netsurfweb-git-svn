@@ -31,7 +31,7 @@
 <li><a href="#JavaScript">JavaScript</a></li>
 </ul>
 
-<p class="updated">Last updated 8 July 2005</p>
+<p class="updated">Last updated 28 January 2006</p>
 
 <h2 id="GettingStarted">Getting started</h2>
 
@@ -143,11 +143,9 @@
 <h3 id="UnicodeProblems">Problems and Unimplemented Features</h3>
 
 <ul>
-<li>The default font is always the sans-serif one.</li>
 <li>Printing on RISC OS 5 doesn't work, due to lack of support in the Font Manager and printer drivers. Printing to Postscript printers on RISC OS 3-4 is not correctly implemented in NetSurf.</li>
 <li>Substituted characters are taken from the first font that contains them, even if a character which matches the weight or slant better is available.</li>
 <li>Only two weights (regular and bold) are supported, even if a family contains other weights. The algorithm that finds weights needs improving, for example using the heuristics given in <a href="http://www.w3.org/TR/CSS21/">CSS 2.1</a>, section <a href="http://www.w3.org/TR/CSS21/fonts.html#font-boldness">15.6</a>.</li>
-<li>Drawfile export is broken.</li>
 <li>Right-to-left text (Hebrew, Arabic) is not implemented.</li>
 </ul>
 
