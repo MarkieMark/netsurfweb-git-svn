@@ -13,7 +13,7 @@ div.main { display: table-cell; vertical-align: top; }
 div.links { display: table-cell; border-left: thin solid black; vertical-align: top; }
 .screenshot { float:right; padding:0 5mm 3mm 5mm; }
 .award { margin: 0 0 5mm 5mm; }
-.award > a, .award > p { display:table-cell; padding:0 5mm 0 0; }
+.award > a, .award > p { display: table-cell; padding: 0 5mm 0 0; vertical-align: top; }
 .thanks { margin-top: 5mm; text-align: right; }
 .thanks img { vertical-align: middle; }
 .breadcrumbs { float: left; margin: 0 }
