@@ -22,6 +22,12 @@
 
 <h2>News</h2>
 <div class="newsitem">
+<p>06 Feb 2006 - <em>Summary of recent changes</em></p>
+<p>Drag-saving, HTTP caching, Font scanning</p>
+<p class="more"><a href="http://sourceforge.net/mailarchive/forum.php?thread_id=9657735&forum_id=9009">Read more...</a></p>
+</div>
+
+<div class="newsitem">
 <p>29 Jan 2006 - <em>Summary of recent changes</em></p>
 <p>Meta refresh, GIF decoding, Fonts</p>
 <p class="more"><a href="http://sourceforge.net/mailarchive/message.php?msg_id=14634357">Read more...</a></p>
