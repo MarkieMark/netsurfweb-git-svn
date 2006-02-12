@@ -15,6 +15,10 @@
 <p>Ces archives sont créees automatiquement depuis CVS.
 <strong>Elles ont des chances d'être instables et peuvent planter votre machine.</strong></p>
 
+<p id="newtonetsurf"><strong>New to NetSurf?</strong> Get
+<span class="highlight">NetSurf</span> from this section, and the
+<span class="highlight">five required items below</span>.</p>
+
 <table class="download">
 <tr><th><a href="dl/netsurf.zip"><img src="netsurf.png" alt=""><br>NetSurf</a></th>
 <td>SIZE_NETSURF</td>
@@ -45,10 +49,15 @@
 <h2>Vous aurez également besoin des choses suivantes pour les versions test:</h2>
 
 <ul>
-<li>WindowManager 3.80 ou plus. Il est fourni avec RISC OS 4 ou plus, les utilisateurs de RISC OS 3 doivent installer la <a href="http://acorn.riscos.com/riscos/releases/UniBoot/">Séquence de Boot Universelle</a>.</li>
-<li><a href="http://gccsdk.riscos.info/downloads/sharedunixlib/">SharedUnixLibrary</a>.</li>
-<li><a href="http://sudden.recoil.org/others/">AcornURI</a>.</li>
-<li><a href="http://www.tinct.net/tinct.asp">Tinct</a>.</li>
+<li>WindowManager 3.80 ou plus. Il est fourni avec RISC OS 4 ou plus, les utilisateurs de RISC OS 3 doivent installer la <a href="http://acorn.riscos.com/riscos/releases/UniBoot/" class="highlight">Séquence de Boot Universelle</a>.</li>
+<li><a href="http://gccsdk.riscos.info/downloads/sharedunixlib/"
+class="highlight">SharedUnixLibrary</a>.</li>
+<li><a href="http://sudden.recoil.org/others/"
+class="highlight">AcornURI</a>.</li>
+<li><a href="http://netsurf.sourceforge.net/iconv/iconv_latest.zip"
+class="highlight">Iconv</a>.</li>
+<li><a href="http://www.tinct.net/tinct.asp"
+class="highlight">Tinct</a>.</li>
 </ul>
 
 <p><strong>En option:</strong> installez <a href="http://gccsdk.riscos.info/downloads/iconv/iconv_latest.zip">iconv</a> pour obtenir un support amélioré sur l'encodage des caractères.</p>
