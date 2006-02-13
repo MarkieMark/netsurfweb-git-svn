@@ -21,7 +21,7 @@
 <li><a href="#NSF">NetSurf features</a>
 </ul>
 
-<p class="updated">Last updated 28 January 2006</p>
+<p class="updated">Last updated 13 February 2006</p>
 
 <h2 id="Web">Web standards</h2>
 
@@ -86,9 +86,9 @@
 <tr class="inprogress"><td>Documentation</td><td>In progress</td><td>See the <a href="docs">contents page</a>.</td></tr>
 <tr class="nearlydone"><td>Find Text</td><td>Nearly done</td><td>Doesn't find phrases if they are split across lines.</td></tr>
 <tr class="nearlydone"><td>Full Save</td><td>Nearly done</td><td>Save pages with CSS files and images.<br>Doesn't rewrite URLs for CSS background images.</td></tr>
-<tr class="nearlydone"><td>History (Global)</td><td>Nearly done</td><td>Details in the <a href="info#History">User Guide</a>.</td></tr>
-<tr class="complete"><td>History (Local)</td><td>Complete</td><td>Local window history is not yet cloned when adjust clicking a link.<br>Details in the <a href="info#History">User Guide</a>.</td></tr>
-<tr class="nearlydone"><td>Hotlist</td><td>Nearly done</td><td>Details in the <a href="info#Hotlist">User Guide</a>.</td></tr>
+<tr class="nearlydone"><td>History (Global)</td><td>Nearly done</td><td>Details in the <a href="guide#History">User Guide</a>.</td></tr>
+<tr class="complete"><td>History (Local)</td><td>Complete</td><td>Local window history is not yet cloned when adjust clicking a link.<br>Details in the <a href="guide#History">User Guide</a>.</td></tr>
+<tr class="nearlydone"><td>Hotlist</td><td>Nearly done</td><td>Details in the <a href="guide#Hotlist">User Guide</a>.</td></tr>
 <tr class="inprogress"><td>Interactive Help</td><td>In progress</td><td></td></tr>
 <tr class="complete"><td>Memory Cache</td><td>Complete</td><td></td></tr>
 <tr class="inprogress"><td>Printing</td><td>In progress</td><td>Printing on RISC OS 5 doesn't work, due to lack of support in the Font Manager and printer drivers.<br>Printing to Postscript printers on RISC OS 3-4 is not correctly implemented in NetSurf.</td></tr>
@@ -99,7 +99,7 @@
 <tr class="complete"><td>Scale View</td><td>Complete</td><td>Web pages and images can be scaled up and down.</td></tr>
 <tr class="inprogress"><td>Text Selection</td><td>In progress</td><td>Text selection in text areas is incomplete.</td></tr>
 <tr class="complete"><td>Themes</td><td>Complete</td><td>Themes are available from the <a href="http://netsurf.sourceforge.net/themes/">NetSurf themes page</a>.</td></tr>
-<tr class="complete"><td>Toolbar Customization</td><td>Complete</td><td>Toolbars can be customized to show the icons you want, in the order you want.<br>Details in the <a href="info#ConfigurationToolbar">User Guide</a>.</td></tr>
+<tr class="complete"><td>Toolbar Customization</td><td>Complete</td><td>Toolbars can be customized to show the icons you want, in the order you want.<br>Details in the <a href="guide#ConfigurationToolbar">User Guide</a>.</td></tr>
 <tr class="inprogress"><td>Unicode Font Support</td><td>In progress</td><td>Details on the <a href="info#Unicode">User Information</a> page.</td></tr>
 <tr class="complete"><td>URL Completion</td><td>Complete</td><td>When typing a URL into the URL bar, NetSurf will display suggestions for the full address.</td></tr>
 <tr class="complete"><td>View Source</td><td>Complete</td><td>Press F8 or <i>Page &gt; View source</i> on main menu.</td></tr>
