@@ -60,8 +60,6 @@ class="highlight">Iconv</a>.</li>
 class="highlight">Tinct</a>.</li>
 </ul>
 
-<p><strong>En option:</strong> installez <a href="http://gccsdk.riscos.info/downloads/iconv/iconv_latest.zip">iconv</a> pour obtenir un support amélioré sur l'encodage des caractères.</p>
-
 <p><strong>Optional:</strong> download and install the <a href="http://www.beebware.com/software/mappings/">MimeMap datafile</a> if you don't already have one and NetSurf complains.</p>
 
 <!-- <p><strong>Optional:</strong> download and install the <a href="nsfonts.zip">fonts (360k)</a> to get improved font-family and font-variant support.</p> -->
