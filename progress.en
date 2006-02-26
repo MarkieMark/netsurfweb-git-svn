@@ -21,7 +21,7 @@
 <li><a href="#NSF">NetSurf features</a>
 </ul>
 
-<p class="updated">Last updated 13 February 2006</p>
+<p class="updated">Last updated 26 February 2006</p>
 
 <h2 id="Web">Web standards</h2>
 
@@ -56,8 +56,11 @@
 
 <table class="progress">
 <tr><th>Title</th><th>Status</th><th>Notes</th></tr>
+<tr class="complete"><td>Artworks</td><td>Complete</td><td>Requires <a href="http://www.mw-software.com/software/awmodules/awrender.html">AWRender</a>.</td></tr>
+<tr class="nearlydone"><td>BMP</td><td>Nearly done</td><td></td></tr>
 <tr class="complete"><td>Drawfile</td><td>Complete</td><td></td></tr>
 <tr class="complete"><td>GIF</td><td>Complete</td><td></td></tr>
+<tr class="nearlydone"><td>ICO</td><td>Nearly done</td><td></td></tr>
 <tr class="complete"><td>JNG</td><td>Complete</td><td></td></tr>
 <tr class="complete"><td>JPEG</td><td>Complete</td><td></td></tr>
 <tr class="nearlydone"><td>MNG</td><td>Nearly done</td><td>Interactive features aren't supported.</td></tr>
