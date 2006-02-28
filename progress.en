@@ -21,7 +21,7 @@
 <li><a href="#NSF">NetSurf features</a>
 </ul>
 
-<p class="updated">Last updated 26 February 2006</p>
+<p class="updated">Last updated 28 February 2006</p>
 
 <h2 id="Web">Web standards</h2>
 
@@ -60,7 +60,7 @@
 <tr class="complete"><td>BMP</td><td>Complete</td><td></td></tr>
 <tr class="complete"><td>Drawfile</td><td>Complete</td><td></td></tr>
 <tr class="complete"><td>GIF</td><td>Complete</td><td></td></tr>
-<tr class="nearlydone"><td>ICO</td><td>Nearly done</td><td></td></tr>
+<tr class="complete"><td>ICO</td><td>Complete</td><td></td></tr>
 <tr class="complete"><td>JNG</td><td>Complete</td><td></td></tr>
 <tr class="complete"><td>JPEG</td><td>Complete</td><td></td></tr>
 <tr class="nearlydone"><td>MNG</td><td>Nearly done</td><td>Interactive features aren't supported.</td></tr>
