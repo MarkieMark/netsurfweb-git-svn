@@ -57,7 +57,7 @@
 <table class="progress">
 <tr><th>Title</th><th>Status</th><th>Notes</th></tr>
 <tr class="complete"><td>Artworks</td><td>Complete</td><td>Requires <a href="http://www.mw-software.com/software/awmodules/awrender.html">AWRender</a>.</td></tr>
-<tr class="nearlydone"><td>BMP</td><td>Nearly done</td><td></td></tr>
+<tr class="complete"><td>BMP</td><td>Complete</td><td></td></tr>
 <tr class="complete"><td>Drawfile</td><td>Complete</td><td></td></tr>
 <tr class="complete"><td>GIF</td><td>Complete</td><td></td></tr>
 <tr class="nearlydone"><td>ICO</td><td>Nearly done</td><td></td></tr>
