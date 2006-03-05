@@ -21,7 +21,7 @@
 <li><a href="#NSF">NetSurf features</a>
 </ul>
 
-<p class="updated">Last updated 28 February 2006</p>
+<p class="updated">Last updated 5 March 2006</p>
 
 <h2 id="Web">Web standards</h2>
 
@@ -94,7 +94,7 @@
 <tr class="nearlydone"><td>Hotlist</td><td>Nearly done</td><td>Details in the <a href="guide#Hotlist">User Guide</a>.</td></tr>
 <tr class="inprogress"><td>Interactive Help</td><td>In progress</td><td></td></tr>
 <tr class="complete"><td>Memory Cache</td><td>Complete</td><td></td></tr>
-<tr class="inprogress"><td>Printing</td><td>In progress</td><td>Printing on RISC OS 5 doesn't work, due to lack of support in the Font Manager and printer drivers.<br>Printing to Postscript printers on RISC OS 3-4 is not correctly implemented in NetSurf.</td></tr>
+<tr class="inprogress"><td>Printing</td><td>In progress</td><td>Printing on RISC OS 5 doesn't work, due to lack of support in the Font Manager and printer drivers.</td></tr>
 <tr class="inprogress"><td>Proxy Support</td><td>In progress</td><td>Protocols other than HTTP are incorrectly proxied.</td></tr>
 <tr class="nearlydone"><td>Save as Drawfile</td><td>Nearly done</td><td>Embedded drawfiles aren't exported when saving page as Draw.</td></tr>
 <tr class="complete"><td>Save Location</td><td>Complete</td><td>Save the location of the current page / object in Acorn URI, Ant URL or plain text formats.</td></tr>
