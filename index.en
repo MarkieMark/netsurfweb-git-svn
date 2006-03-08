@@ -22,6 +22,12 @@
 
 <h2>News</h2>
 <div class="newsitem">
+<p>5 Mar 2006 - <em>Summary of recent changes</em></p>
+<p>BMP image improvements, URL bar, Printing on RISC OS 3 &amp; 4</p>
+<p class="more"><a href="http://permalink.gmane.org/gmane.comp.web.netsurf.devel/4939">Read more...</a></p>
+</div>
+
+<div class="newsitem">
 <p>26 Feb 2006 - <em>Summary of recent changes</em></p>
 <p>Image efficiency, SSL certificates, BMP and ICO images</p>
 <p class="more"><a href="http://sourceforge.net/mailarchive/message.php?msg_id=14929920">Read more...</a></p>
