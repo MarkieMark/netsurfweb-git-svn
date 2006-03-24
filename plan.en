@@ -12,7 +12,8 @@ div { margin:0 5mm; }
 span { margin-right:1em; font-family:monospace;}
 p {margin-bottom:0;}
 .plan { margin:1em 0; width: 100%; border-spacing: 2px; }
-.plan td, .plan th, .key td, .key th { padding:0; }
+.plan td, .plan th { padding:0; }
+.key td { padding:0 0.2em 0 0; }
 th[colspan] { padding-top:0.3em; }
 .later { background:#bfdfff; }
 .later span { background:#88bfff; }
@@ -38,7 +39,7 @@ p.footer { font-size: small; text-align: right; margin-top: 5mm; font-style: ita
 <table class="key">
 <tr>
 <td class="version1"><span>[1]</span>= Wanted in version 1.00</td>
-<td class="later"><span>[2]</span>= Later</td>
+<td class="later"><span>[2]</span>= After version 1.00</td>
 </tr>
 </table>
 <table>
