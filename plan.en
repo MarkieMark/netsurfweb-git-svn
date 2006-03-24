@@ -8,6 +8,7 @@ html, body { margin: 0; padding: 0; }
 div { margin:0 5mm; }
 .banner { margin: 0 0 5mm 0; padding: 0; border-bottom: medium solid black; background-color: #94adff; color: black; text-align: left; }
 .banner img { vertical-align: middle; }
+.updated { margin: -4mm 0 1mm 5mm; text-align: right; }
 span { margin-right:1em; font-family:monospace;}
 p {margin-bottom:0;}
 .plan { margin:1em 0; width: 100%; border-spacing: 2px; }
