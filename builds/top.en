@@ -20,26 +20,30 @@
 <span class="highlight">five required items below</span>.</p>
 
 <table class="download">
-<tr><th class="highlight"><a href="dl/netsurf.zip"><img src="netsurf.png" alt=""><br>NetSurf</a></th>
+<tr><th class="highlight"><a href="netsurf.zip"><img src="netsurf.png" alt=""><br>NetSurf</a></th>
 <td>SIZE_NETSURF</td>
 <td>DATE_NETSURF</td>
 <td>NetSurf browser for RISC OS, full version.
-<strong>Recommended for most users.</strong></td></tr>
+<strong>Recommended for most users.</strong></td>
+<td><a href="netsurf.zip">Mirror 1</a> <a href="http://netsurf.strcprstskrzkrk.co.uk/netsurf.zip">Mirror 2</a></td></tr>
 
-<tr><th><a href="dl/unetsurf.zip"><img src="unetsurf.png" alt=""><br>Small NetSurf</a></th>
+<tr><th><a href="unetsurf.zip"><img src="unetsurf.png" alt=""><br>Small NetSurf</a></th>
 <td>SIZE_UNETSURF</td>
 <td>DATE_UNETSURF</td>
-<td>Small NetSurf browser for RISC OS. This has support for http: and file: only (no https:, ftp:, etc.). It is more suitable for machines with small amounts of RAM (8MB or less).</td></tr>
+<td>Small NetSurf browser for RISC OS. This has support for http: and file: only (no https:, ftp:, etc.). It is more suitable for machines with small amounts of RAM (8MB or less).</td>
+<td><a href="unetsurf.zip">Mirror 1</a> <a href="http://netsurf.strcprstskrzkrk.co.uk/unetsurf.zip">Mirror 2</a></td></tr>
 
-<tr><th><a href="dl/ncnetsurf.zip"><img src="ncnetsurf.png" alt=""><br>NCNetSurf</a></th>
+<tr><th><a href="ncnetsurf.zip"><img src="ncnetsurf.png" alt=""><br>NCNetSurf</a></th>
 <td>SIZE_NC</td>
 <td>DATE_NC</td>
-<td>NetSurf with a modified interface for the Network Computer (NC) running NCOS.</td></tr>
+<td>NetSurf with a modified interface for the Network Computer (NC) running NCOS.</td>
+<td><a href="ncnetsurf.zip">Mirror 1</a> <a href="http://netsurf.strcprstskrzkrk.co.uk/ncnetsurf.zip">Mirror 2</a></td></tr>
 
-<tr><th><a href="dl/nstheme.zip"><img src="nstheme.png" alt=""><br>NSTheme</a></th>
+<tr><th><a href="nstheme.zip"><img src="nstheme.png" alt=""><br>NSTheme</a></th>
 <td>SIZE_NSTHEME</td>
 <td>DATE_NSTHEME</td>
-<td>Theme packager for NetSurf. Required by theme designers only.</td></tr>
+<td>Theme packager for NetSurf. Required by theme designers only.</td>
+<td><a href="nstheme.zip">Mirror 1</a> <a href="http://netsurf.strcprstskrzkrk.co.uk/nstheme.zip">Mirror 2</a></td></tr>
 </table>
 
 <p>A <a href="http://www.riscpkg.org/">RiscPkg</a> package of NetSurf is available. To use it, add the line <code>pkg http://netsurf.sourceforge.net/builds/packages</code> to <code>Choices:RiscPkg.Sources</code>. See the RiscPkg documentation for more information.</p>

@@ -20,26 +20,30 @@
 <span class="highlight">five required items below</span>.</p>
 
 <table class="download">
-<tr><th><a href="dl/netsurf.zip"><img src="netsurf.png" alt=""><br>NetSurf</a></th>
+<tr><th><a href="netsurf.zip"><img src="netsurf.png" alt=""><br>NetSurf</a></th>
 <td>SIZE_NETSURF</td>
 <td>DATE_NETSURF</td>
 <td>Le navigateur NetSurf pour RISC OS, version complète.
-<strong>Recommandé pour la plupart des utilisateurs.</strong></td></tr>
+<strong>Recommandé pour la plupart des utilisateurs.</strong></td>
+<td><a href="unetsurf.zip">Mirror 1</a> <a href="http://netsurf.strcprstskrzkrk.co.uk/unetsurf.zip">Mirror 2</a></td></tr>
 
-<tr><th><a href="dl/unetsurf.zip"><img src="unetsurf.png" alt=""><br>Petit NetSurf</a></th>
+<tr><th><a href="unetsurf.zip"><img src="unetsurf.png" alt=""><br>Petit NetSurf</a></th>
 <td>SIZE_UNETSURF</td>
 <td>DATE_UNETSURF</td>
-<td>Le navigateur Petit Netsurf pour RISC OS. Il ne supporte que les protocoles http: et file: (pas de https:, ftp:, etc). Cette version est plus appropriée pour les machines ayant peu de RAM (8MO ou moins).</td></tr>
+<td>Le navigateur Petit Netsurf pour RISC OS. Il ne supporte que les protocoles http: et file: (pas de https:, ftp:, etc). Cette version est plus appropriée pour les machines ayant peu de RAM (8MO ou moins).</td>
+<td><a href="unetsurf.zip">Mirror 1</a> <a href="http://netsurf.strcprstskrzkrk.co.uk/unetsurf.zip">Mirror 2</a></td></tr>
 
-<tr><th><a href="dl/ncnetsurf.zip"><img src="ncnetsurf.png" alt=""><br>NCNetSurf</a></th>
+<tr><th><a href="ncnetsurf.zip"><img src="ncnetsurf.png" alt=""><br>NCNetSurf</a></th>
 <td>SIZE_NC</td>
 <td>DATE_NC</td>
-<td>NetSurf avec une interface modifiée pour le Network Computer (NC) faisant tourner NCOS.</td></tr>
+<td>NetSurf avec une interface modifiée pour le Network Computer (NC) faisant tourner NCOS.</td>
+<td><a href="ncnetsurf.zip">Mirror 1</a> <a href="http://netsurf.strcprstskrzkrk.co.uk/ncnetsurf.zip">Mirror 2</a></td></tr>
 
-<tr><th><a href="dl/nstheme.zip"><img src="nstheme.png" alt=""><br>NSTheme</a></th>
+<tr><th><a href="nstheme.zip"><img src="nstheme.png" alt=""><br>NSTheme</a></th>
 <td>SIZE_NSTHEME</td>
 <td>DATE_NSTHEME</td>
-<td>Le constructeur de Thèmes pour NetSurf. Nécessaire seulement pour les créateurs de thèmes.</td></tr>
+<td>Le constructeur de Thèmes pour NetSurf. Nécessaire seulement pour les créateurs de thèmes.</td>
+<td><a href="nstheme.zip">Mirror 1</a> <a href="http://netsurf.strcprstskrzkrk.co.uk/nstheme.zip">Mirror 2</a></td></tr>
 </table>
 
 <p>Un package <a href="http://www.riscpkg.org/">RiscPkg</a> de NetSurf est disponible. Pour s'en servir, ajouter la ligne <code>pkg http://netsurf.sourceforge.net/builds/packages</code> à <code>Choices:RiscPkg.Sources</code>. Voir la documentation RiscPkg pour plus d'information.</p>
