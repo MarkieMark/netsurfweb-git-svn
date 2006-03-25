@@ -57,7 +57,7 @@ p.footer { font-size: small; text-align: right; margin-top: 5mm; font-style: ita
 </tr>
 </table>
 
-<p class="updated">Last updated 23 March 2006</p>
+<p class="updated">Last updated 25 March 2006</p>
 <table class="plan">
 <tr>
 <th><abbr title="Hyper Text Markup Language">HTML</abbr> &amp; <abbr title="Cascading Style Sheets">CSS</abbr></th>
@@ -177,7 +177,7 @@ p.footer { font-size: small; text-align: right; margin-top: 5mm; font-style: ita
 <td class="gtk"><abbr title="Not applicable">N/A</abbr></td>
 </tr>
 <tr>
-<td class="version1"><span>[1]</span>Image expiration</td>
+<td class="version1 done"><span>[1]</span>Image expiration</td>
 <td class="core">-</td>
 <td class="ro">&#x2713;</td>
 <td class="gtk"><abbr title="Not applicable">N/A</abbr></td>
@@ -203,9 +203,9 @@ p.footer { font-size: small; text-align: right; margin-top: 5mm; font-style: ita
 <td class="gtk">-</td>
 </tr>
 <tr>
-<td class="version1"><span>[1]</span>Local history improvement</td>
-<td class="core">-</td>
-<td class="ro">-</td>
+<td class="version1 done"><span>[1]</span>Local history improvement</td>
+<td class="core">&#x2713;</td>
+<td class="ro">&#x2713;</td>
 <td class="gtk">-</td>
 </tr>
 <tr>
