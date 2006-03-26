@@ -57,7 +57,7 @@ p.footer { font-size: small; text-align: right; margin-top: 5mm; font-style: ita
 </tr>
 </table>
 
-<p class="updated">Last updated 25 March 2006</p>
+<p class="updated">Last updated 27 March 2006</p>
 <table class="plan">
 <tr>
 <th><abbr title="Hyper Text Markup Language">HTML</abbr> &amp; <abbr title="Cascading Style Sheets">CSS</abbr></th>
@@ -148,7 +148,7 @@ p.footer { font-size: small; text-align: right; margin-top: 5mm; font-style: ita
 <tr><th colspan="4">Cookies</th></tr>
 <tr>
 <td class="version1"><span>[1]</span>Rewrite</td>
-<td class="core">-</td>
+<td class="core">jmb</td>
 <td class="ro">-</td>
 <td class="gtk">-</td>
 </tr>
