@@ -21,7 +21,7 @@
 <li><a href="#NSF">NetSurf features</a>
 </ul>
 
-<p class="updated">Last updated 5 March 2006</p>
+<p class="updated">Last updated 06 April 2006</p>
 
 <h2 id="Web">Web standards</h2>
 
@@ -83,7 +83,7 @@
 <tr><th>Title</th><th>Status</th><th>Notes</th></tr>
 <tr class="complete"><td>Advertisement Blocking</td><td>Complete</td><td></td></tr>
 <tr class="complete"><td>Buffered Rendering Options</td><td>Complete</td><td>Substantially improves the display of content.<br>Details in the <a href="guide#BrowserWindowMenuDisplayRender">User Guide</a>.</td></tr>
-<tr class="nearlydone"><td>Configuration</td><td>Nearly done</td><td>New configuration system is not yet fully implemented.</td></tr>
+<tr class="complete"><td>Configuration</td><td>Complete</td><td></td></tr>
 <tr class="notstarted"><td>Disc Cache</td><td>Not started</td><td></td></tr>
 <tr class="complete"><td>Dithering</td><td>Complete</td><td>Gives improved rendering in sub true colour screen modes.<br>Both simple dithering and error diffusion available.</td></tr>
 <tr class="inprogress"><td>Documentation</td><td>In progress</td><td>See the <a href="docs">contents page</a>.</td></tr>
